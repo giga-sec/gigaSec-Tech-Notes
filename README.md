@@ -15,6 +15,7 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 
 **Explanations of each tags**
+
 #fleeting
 - Basically these are drafts. Snippets from an article/video that I think are interesting.
 - Some of it are unfinished or notes that's still are waiting to be reviewed.
