@@ -16,16 +16,16 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 **Explanations of each tags**
 
-#fleeting
+`#fleeting`
 - Basically these are drafts. Snippets from an article/video that I think are interesting.
 - Some of it are unfinished or notes that are still waiting to be reviewed.
 
 
-#literature
+`#literature`
 - Polished version of #fleeting where I organize, remove or highlight words. 
 
 
-#permanent
+`#permanent`
 - Contains only one concise piece of knowledge that are most translated by my own words. 
 - It's not only summarization but rather a technique called "[Atomizing Notes](https://neuron.zettel.page/atomic#:~:text=Zettelkasten%20notes%20are%20atomic%20and,idea%20and%20one%20idea%20only.)"
 
