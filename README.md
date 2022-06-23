@@ -1,7 +1,15 @@
 Abstract:
+- Screenshots
 - Installation Process
 - Quick Guide when navigating my notes
-- Screenshots
+
+---
+## Screenshots
+Dark Mode
+![image](https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png)
+
+Light Mode
+
 
 ---
 ## Installation
@@ -9,9 +17,16 @@ Abstract:
 Use a markdown editor that supports `hyperlink` feature. I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. 
 
 **Obsidian Installation**
+`.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian.
 
+If you included `.obsidian` otherwise proceed to next step.
+There are only two plugins installed here and only used for theme customization
+1. ![Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
+2. ![Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
 
-![image](https://user-images.githubusercontent.com/105108954/175247238-e7da09b9-8b8e-49d7-bed0-bd108215af49.png)
+Click `Turn Off Safe Mode`
+<img src="https://user-images.githubusercontent.com/105108954/175248747-9a4da87d-b65d-43b9-bbb2-4d363f0478d9.png" alt="img" width="400"/>
+
 
 
 ---
@@ -38,8 +53,7 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 
 ---
-## Screenshots
-![image](https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png)
+
 
 
 If you found any typo's or grammar mistakes, feel free to roast me in pull requests and I'll make sure to review them. 
