@@ -1,0 +1,10 @@
+{
+  "baseFontSize": 16,
+  "theme": "moonstone",
+  "translucency": false,
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "Arial",
+  "monospaceFontFamily": "Consolas",
+  "enabledCssSnippets": []
+}
