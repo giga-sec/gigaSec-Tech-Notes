@@ -30,5 +30,8 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 - It's not only summarization but rather a technique called "[Atomizing Notes](https://neuron.zettel.page/atomic#:~:text=Zettelkasten%20notes%20are%20atomic%20and,idea%20and%20one%20idea%20only.)"
 
 
+### Preview
+![image](https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png)
+
 
 If you found any typo's or grammar mistakes, feel free to roast me in pull requests and I'll make sure to review them. 
