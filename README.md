@@ -1,11 +1,23 @@
-**Purpose:**
+Abstract:
+- Purpose
+- Installation Process
+-  Quick Guide when navigating my notes
+
+---
+### Purpose:
 
 This is an attempt to make my notes public and to document everything I've learned. 
 
 
-**Installation**
+### Installation
 
 Use a markdown editor that supports `hyperlink` feature. I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. 
+
+**Obsidian Installation**
+
+
+![image](https://user-images.githubusercontent.com/105108954/175247238-e7da09b9-8b8e-49d7-bed0-bd108215af49.png)
+
 
 ---
 
