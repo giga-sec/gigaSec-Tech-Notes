@@ -48,8 +48,7 @@ If you included `.obsidian` follow these, otherwise these step can be ignored.
 There are only two plugins installed here and only used for theme customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
-2. 
-3. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
 
 Click `Turn Off Safe Mode`
 
