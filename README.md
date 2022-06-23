@@ -1,6 +1,6 @@
 Abstract:
 - Screenshots
-- Quick Guide when navigating my notes
+- Quick Guide of navigating my notes
 - Installation Process
 
 ---
@@ -12,7 +12,7 @@ Light Mode
 
 
 ---
-## Quick Guide when navigating my notes
+## Quick Guide of navigating my notes
 
 My system of note taking is a combination of the principles I learned in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/) and [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6). As you navigate my system, you might see some slip-ups but my system is designed to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
 
