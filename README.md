@@ -20,11 +20,15 @@ Use a markdown editor that supports `hyperlink` feature. I recommended installin
 `.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian.
 
 If you included `.obsidian` otherwise proceed to next step.
+
 There are only two plugins installed here and only used for theme customization
+
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
-2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+2. 
+3. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
 
 Click `Turn Off Safe Mode`
+
 <img src="https://user-images.githubusercontent.com/105108954/175248747-9a4da87d-b65d-43b9-bbb2-4d363f0478d9.png" alt="img" width="400"/>
 
 
