@@ -40,9 +40,10 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
 **Obsidian Installation**
-`.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian.
 
-If you included `.obsidian` otherwise proceed to next step.
+`.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian. 
+
+If you included `.obsidian` follow these, otherwise these step can be ignored.
 
 There are only two plugins installed here and only used for theme customization
 
