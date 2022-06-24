@@ -48,6 +48,10 @@ Buffer is just a chunk of memory. Going beyond the boundaries of an array such a
 
 **Stack Overflow**
 
+if stack overlaps heap it is known as stack overflow. If heap overlaps stack it is known as heap overflow.
+
+
+
 
 **ScanF**
 format = %i, %d, %s
