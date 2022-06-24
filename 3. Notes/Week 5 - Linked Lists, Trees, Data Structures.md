@@ -11,13 +11,23 @@ With a sorted array, we have running time of O(log⁡ *n*) for search, and O(
 
 The best case running times for insert and search both have Ω(1), since we might get lucky and find our value immediately, or have free memory after our array to add a new value to.
 
+Two Types of Memory Allocation
 
-Dynamic memory allocation which uses malloc is **the process of assigning the memory space during the execution time or the run time**. Reasons and Advantage of allocating memory dynamically: When we do not know how much amount of memory would be needed for the program beforehand. It's flexible as it has the ability to grow the array if the programmer wants. 
+Static Memory Allocation
+- The memory allocated is fixed and the size can't be increased/decreased during run time. 
+- If user entered less than the fixed size, then there's a waste of memory
+- If user eneted MORE than the fixed size, program will crash
+^^ Source: https://www.youtube.com/watch?v=udfbq4M2Kfc
+
+
+Dynamic memory allocation which uses malloc is **the process of assigning the memory space during the execution time or the run time**. Reasons and Advantage of allocating memory dynamically: When we do not know how much amount of memory would be needed for the program beforehand. It's flexible as it has the ability to grow the array if the programmer wants. Heap is the segment of memory where dynamic memory allocation takes place.
+Pointers play a very imporant role in Dynamic memory Allocation. Allocated memory can only be accessed through pointers.
 
 
 
-Array's address are actually next to each other.
-Linked list can be anywhere in the memory and they can be linked to each other.
+Array's address are contiguous (rightnext to each other, like 0x136, 0x137, 0x138).
+
+Linked list can be anywhere in the memory and they can be linked to each other through the usage of nodes. For instance, we have `1` in address 0x135, then we have `2` in address 0x367
 
 
 [[How to implement a linked list in C]]
@@ -30,7 +40,6 @@ With a linked list, we have the tradeoff of needing to allocate more memory for 
 
 To go inside of a structure `.` and `*` to go to an address is combined and formed into `->`
 -   `->` to access fields in a structure pointed to by a pointer. Going to an address and looking at a field inside of it.
-
 
 `n->number = 1;`
 Go to `n`, then once you know what's on `n`. Use that to assign `number` field with a value 1.
@@ -72,12 +81,6 @@ node *list = NULL;
     ```
     
     -   Recall that we can use `sizeof` to get the size of some data type, including structs. We want to allocate enough memory for both a value and a pointer, and we’ll point to that with `n`, a pointer to a `node`.
-
-
-
-
-
-
 
 Freeing the linked list
 
