@@ -12,7 +12,7 @@ Abstract:
 
 [[Compiling explained--turning source code into `1's` and `0's`]]
 
-
+[[Strings in C]]
 
 ---
 Compile using command prompt
@@ -50,4 +50,4 @@ Linking = The translation between my own code and each of the headers code to bi
 
 
 ### References
-1. 
+1. https://cs50.harvard.edu/x/2022/notes/2/

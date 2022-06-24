@@ -1,4 +1,4 @@
-[[CS50 - Week 2]]
+[[Week 2 - Arrays, Compiling, Command Line Argument, Strings]]
 
 # Command line arguments in C--argc and argv
 Created:  [[2022-05-16]]

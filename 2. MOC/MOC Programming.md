@@ -6,17 +6,29 @@
 
 [[MOC Graph Theory]]
 
-[[CS50 - Week 1]]
-
-[[CS50 - Week 2]]
-
-[[CS50 - Week 3]]
-
-[[CS50 - Week 4]]
-
-[[CS50 - Week 5]]
-
 [[Batch Scripting]]
+## CS50
+[[Week 1 - Data Types, Imprecision and Overflows]]
+
+[[Week 2 - Arrays, Compiling, Command Line Argument, Strings]]
+
+[[Week 3 - BigO, Recursion, Data Search, Structs]]
+
+[[Week 4 - Memory, Pointers, More Overflows]]
+
+[[Week 5 - Linked Lists, Trees, Data Structures]]
+
+
+
+
+## Uncategorized
+[[C - Print Leading Zeros in C]]
+
+
+
+C file handling
+https://www.programiz.com/c-programming/c-file-input-output
+
 
 C compilers, sees code top to bottom, left to right
 

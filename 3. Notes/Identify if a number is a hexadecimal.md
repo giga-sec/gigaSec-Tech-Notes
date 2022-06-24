@@ -1,4 +1,4 @@
-[[CS50 - Week 4]]
+[[Week 4 - Memory, Pointers, More Overflows]]
 
 # Identify if a number is a hexadecimal
 Created:  [[2022-06-20]]

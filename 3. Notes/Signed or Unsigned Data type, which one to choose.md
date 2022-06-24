@@ -1,4 +1,4 @@
-[[CS50 - Week 1]]
+[[Week 1 - Data Types, Imprecision and Overflows]]
 
 # Signed or Unsigned Data type, which one to choose
 Created:  [[2022-05-13]]
@@ -27,4 +27,4 @@ Tags: #permanent
 
 
 ### References
-1. [[CS50 - Week 1]]
+1. [[Week 1 - Data Types, Imprecision and Overflows]]

@@ -1,4 +1,4 @@
-[[CS50 - Week 1]]
+[[Week 1 - Data Types, Imprecision and Overflows]]
 
 # Decimals in programming aren't precise -- Floating Point Imprecision
 Created:  [[2022-05-13]]

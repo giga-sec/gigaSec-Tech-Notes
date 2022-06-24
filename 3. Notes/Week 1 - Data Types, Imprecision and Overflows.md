@@ -50,4 +50,4 @@ This error is tricky to detect as the compiler may show a
 ### References
 [^1]: https://medium.com/@jollyfish/integer-overflow-underflow-and-floating-point-imprecision-6ba869a99033
 
-2. 
+2. https://cs50.harvard.edu/x/2022/weeks/1/

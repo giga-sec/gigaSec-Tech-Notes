@@ -12,7 +12,7 @@ Big  Ω (Omega) Notation is number of steps it will take in BEST case scenario
 Big Θ (Theta) Notation when both steps in BEST and WORST case scenario are THE SAME
 
 
-[[Strings in C]]
+
 
 
 [[Structs in C]]

@@ -1,4 +1,4 @@
-[[CS50 - Week 2]]
+[[Week 2 - Arrays, Compiling, Command Line Argument, Strings]]
 
 # The process of turning source code into `1's` and `0's` 
 Created:  [[2022-05-16]]

@@ -39,6 +39,7 @@ It translates to --> go to the address of `x` and assign an integer `42`.
 
 
 ### Types of Overflow
+[[Integer Overflow or Underflow is dangerous]]
 **Buffer Overflow**
 Buffer is just a chunk of memory. Going beyond the boundaries of an array such as using more memory than the assigned malloc value
 
@@ -62,12 +63,8 @@ heap/heap space - big chunk of memory that malloc uses to get you some spare mem
 
 stack/stack space - when you call functions, they take up the stack space
 
-[[C - Print Leading Zeros in C]]
 
 
-
-C file handling
-https://www.programiz.com/c-programming/c-file-input-output
 
 
 

@@ -5,7 +5,7 @@ Created:  [[2022-06-19]]
 Tags: #fleeting 
 
 ---
-Arrays in C are equivalent to pointers
+
 
 With a sorted array, we have running time of O(log⁡ *n*) for search, and O(*n*) for insert, or adding a new value.
 

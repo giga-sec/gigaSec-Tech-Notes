@@ -1,4 +1,4 @@
-[[CS50 - Week 2]]
+[[Week 2 - Arrays, Compiling, Command Line Argument, Strings]]
 
 # Compile using command prompt
 Created:  [[2022-05-16]]

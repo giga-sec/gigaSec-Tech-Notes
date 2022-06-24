@@ -1,4 +1,4 @@
-[[CS50 - Week 1]]
+[[Week 1 - Data Types, Imprecision and Overflows]]
 
 # Integer Overflow or Underflow is dangerous
 Created:  [[2022-05-13]]

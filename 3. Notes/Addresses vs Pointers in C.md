@@ -1,4 +1,4 @@
-[[CS50 - Week 4]]
+[[Week 4 - Memory, Pointers, More Overflows]]
 
 # Addresses vs Pointers in C
 Created:  [[2022-06-22]]

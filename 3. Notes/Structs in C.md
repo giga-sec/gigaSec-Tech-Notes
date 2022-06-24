@@ -1,4 +1,4 @@
-[[CS50 - Week 3]]
+[[Week 3 - BigO, Recursion, Data Search, Structs]]
 
 # Structs in C
 Created:  [[2022-06-12]]
