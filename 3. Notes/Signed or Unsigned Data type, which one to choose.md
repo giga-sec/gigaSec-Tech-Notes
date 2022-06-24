@@ -5,12 +5,12 @@ Created:  [[2022-05-13]]
 Tags: #permanent 
 
 ---
-`Signed Data Type` can accept negative numbers. It however accepts lower POSITIVE values compared to the same data type but `unsigned`.
----> 8-bit signed integer accepts `-128 to 127`
+`-128 to 127`     8-bit signed integer 
+**`Signed Data Type` can accept negative numbers**. It however accepts lower POSITIVE values compared to the same data type but `unsigned`.
 
 
-`Unsigned Data Type` ONLY accepts zero or positive numbers.
----> 8-bit **un**signed integer only accepts `0 to 255`
+`0 to 255`           8-bit **un**signed integer
+**`Unsigned Data Type` ONLY accepts zero or positive numbers.**
 
 
 
