@@ -1,4 +1,4 @@
-[[Week 4 - Memory, Pointers, More Overflows]]
+[[Week 4 - Memory, Malloc, Pointers, More Overflows]]
 
 # malloc
 Created:  [[2022-06-20]]

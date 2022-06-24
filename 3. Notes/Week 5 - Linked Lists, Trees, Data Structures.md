@@ -5,7 +5,7 @@ Created:  [[2022-06-19]]
 Tags: #fleeting 
 
 ---
-
+Arrays in C are equivalent to pointers
 
 With a sorted array, we have running time of O(log⁡ *n*) for search, and O(*n*) for insert, or adding a new value.
 
@@ -20,17 +20,27 @@ Array's address are actually next to each other.
 Linked list can be anywhere in the memory and they can be linked to each other.
 
 
-With a linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. (When we copy an array, we do need to allocate more memory, but we free the old array once we finish copying it.)
+[[How to implement a linked list in C]]
 
-**=="When you start using more space, you can save time"
-"When you start conserving space, you might lose time"==**
+With a linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. (When we copy an array, we do need to allocate more memory, but we free the old array once we finish copying it.)
 
 -   `struct` to create custom data types
 -   `.` to access fields, or values, in a structure. Mostly used in struct, getting that traits on a struct.
 -   `*` to go to an address in memory pointed to by a pointer
 
 To go inside of a structure `.` and `*` to go to an address is combined and formed into `->`
--   `->` to access fields in a structure pointed to by a pointer. Going to an address and looking at a field inside of it. 
+-   `->` to access fields in a structure pointed to by a pointer. Going to an address and looking at a field inside of it.
+
+
+`n->number = 1;`
+Go to `n`, then once you know what's on `n`. Use that to assign `number` field with a value 1.
+
+^  Explanation of the cryptic code above
+`(*n).number = 1;` 
+1. `(*n)` go to the address of this pointer first. The parenthesis basically acts as an order of operations. PEMDAS like that
+2. `.number` then access number and assign `1`
+
+
 
 **Linked List**
  
@@ -65,13 +75,7 @@ node *list = NULL;
 
 
 
-`n->number = 1;`
-Go to `n`, then once you know what's on `n`. Use that to assign `number` field with a value 1.
 
-^  Explanation of the cryptic code above
-`(*n).number = 1;` 
-1. `(*n)` go to the address of this pointer first. The parenthesis basically acts as an order of operations. PEMDAS like that
-2. `.number` then access number and assign `1`
 
 
 

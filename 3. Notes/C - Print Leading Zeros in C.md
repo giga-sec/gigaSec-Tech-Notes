@@ -1,4 +1,4 @@
-[[Week 4 - Memory, Pointers, More Overflows]]
+[[Week 4 - Memory, Malloc, Pointers, More Overflows]]
 
 # C - Print Leading Zeros in C
 Created:  [[2022-06-18]]

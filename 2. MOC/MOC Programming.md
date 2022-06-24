@@ -7,6 +7,7 @@
 [[MOC Graph Theory]]
 
 [[Batch Scripting]]
+
 ## CS50
 [[Week 1 - Data Types, Imprecision and Overflows]]
 
@@ -14,7 +15,7 @@
 
 [[Week 3 - BigO, Recursion, Data Search, Structs]]
 
-[[Week 4 - Memory, Pointers, More Overflows]]
+[[Week 4 - Memory, Malloc, Pointers, More Overflows]]
 
 [[Week 5 - Linked Lists, Trees, Data Structures]]
 
