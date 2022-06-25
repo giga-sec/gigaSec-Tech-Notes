@@ -10,6 +10,9 @@ Dark Mode
 
 Light Mode
 
+https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570-80bb-fac11c154f99.mp4
+
+
 
 ---
 ## Quick Guide of navigating my notes
