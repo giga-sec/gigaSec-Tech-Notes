@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+            "file": "3. Notes/Two Types of Memory Allocation.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "array",
+                "query": "tag:#permanent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+                "file": "3. Notes/Two Types of Memory Allocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+                "file": "3. Notes/Two Types of Memory Allocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +128,15 @@
   },
   "active": "61acaee48f543430",
   "lastOpenFiles": [
+    "3. Notes/Two Types of Memory Allocation.md",
     "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "3. Notes/How to implement a linked list in C.md",
-    "3. Notes/VIM.md",
     "2. MOC/MOC Programming.md",
-    "3. Notes/Week 4 - Memory, Malloc, Pointers, More Overflows.md",
-    "3. Notes/Malloc Explained.md",
-    "3. Notes/What's the use of malloc.md",
+    "3. Notes/+Home.md",
     "3. Notes/Week 3 - BigO, Recursion, Data Search, Structs.md",
-    "3. Notes/Week 2 - Arrays, Compiling, Command Line Argument, Strings.md",
-    "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md"
+    "3. Notes/Recursion Explained.md",
+    "3. Notes/How to think recursively.md",
+    "3. Notes/Why the fuck would we ever learn recursion then.md",
+    "3. Notes/Questions to ask when solving a problem.md",
+    "3. Notes/Physical Difference between PCIe and EPS.md"
   ]
 }
