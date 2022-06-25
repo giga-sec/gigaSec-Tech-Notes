@@ -4,7 +4,9 @@ Abstract:
 - Installation Process
 
 ---
-Note: Lots of grammatical errors. Some of the notes wont make sense and will only make sense to me. Understand that these notes sole purpose is to be understood by me however, I welcome any pull requests that suggests correction. 
+## Note: 
+
+Lots of grammatical errors. Some of the notes wont make sense and will only make sense to me. Understand that these notes sole purpose is to be understood by me however, I welcome any pull requests that suggests correction. 
 
 ## Screenshots
 Dark Mode
