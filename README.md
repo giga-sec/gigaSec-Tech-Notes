@@ -1,5 +1,5 @@
 Abstract:
-- Screenshots
+- Screenshots (Contains light mode media)
 - Installation Process
 - Quick Guide of navigating my notes
 - Quick Guide about using my Obsidian Vault
