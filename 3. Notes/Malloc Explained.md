@@ -8,6 +8,7 @@ Tags: #literature
 Malloc is used to dynamically allocate a single large block of [[continguous]] memory according to the size specified. 
 ?? Tf does dynamically allocate is, give me a simple word. 
 
+
 The main job of malloc is to [[allocate memory]] at run time.  Malloc doesn't have an idea of what it is pointing to nor does it have any idea of what data type it's gonna store it to. 
 
 

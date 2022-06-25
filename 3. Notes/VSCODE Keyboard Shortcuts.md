@@ -1,4 +1,4 @@
-[[MOC Technology]]
+[[+Home]]
 
 # VSCODE Keyboard Shortcuts
 Created:  [[2022-05-09]]

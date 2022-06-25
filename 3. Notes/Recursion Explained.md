@@ -9,7 +9,7 @@ The whole idea of recursion is to
 - scale bigger problems into smaller problems. 
 - To pretend that we have already solved the problem
 
-[[Why the fuck would we ever learn recursion then]]*
+[[Why the fuck would we ever learn recursion then]]
 
 **[[How to think recursively]]**
 

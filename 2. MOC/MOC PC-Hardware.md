@@ -1,4 +1,4 @@
-[[MOC Technology]]
+[[+Home]]
 
 # MOC PC-Hardware
 

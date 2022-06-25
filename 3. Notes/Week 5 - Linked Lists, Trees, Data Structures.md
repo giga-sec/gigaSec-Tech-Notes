@@ -11,27 +11,10 @@ With a sorted array, we have running time of O(log⁡ *n*) for search, and O(
 
 The best case running times for insert and search both have Ω(1), since we might get lucky and find our value immediately, or have free memory after our array to add a new value to.
 
-Two Types of Memory Allocation
-
-Static Memory Allocation
-- The memory allocated is fixed and the size can't be increased/decreased during run time. 
-- If user entered less than the fixed size, then there's a waste of memory
-- If user eneted MORE than the fixed size, program will crash
-- It uses the stack space
-^^ Source: https://www.youtube.com/watch?v=udfbq4M2Kfc
+[[Two Types of Memory Allocation]]
 
 
-[[Malloc Explained]]
-?? When to use Dynamic Memory Allocation
-- When we're not sure how much date we're gonna use during runtime
 
-Dynamic memory allocation which uses malloc is **the process of assigning the memory space during the execution time or the run time**. Reasons and Advantage of allocating memory dynamically: When we do not know how much amount of memory would be needed for the program beforehand. It's flexible as it has the ability to grow the array if the programmer wants. Heap is the segment of memory where dynamic memory allocation takes place.
-Pointers play a very imporant role in Dynamic memory Allocation. Allocated memory can only be accessed through pointers.
-- It uses the heap space
-
-^^ Source: https://www.youtube.com/watch?v=SuBch2MZpZM Visualizing Pointers in C
-
-For instance, malloc(5 * sizeof(int)). we know that sizeof(int) is 4, so it's basically allocating 20 bytes of memory in heap space. stored in there are garbage values. 
 
 
 
