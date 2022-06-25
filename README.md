@@ -1,4 +1,4 @@
-Abstract:
+# Abstract:
 - Screenshots (Contains light mode media)
 - Installation Process
 - Quick Guide of navigating my notes
