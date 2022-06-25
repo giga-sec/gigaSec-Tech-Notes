@@ -9,7 +9,6 @@ Dark Mode
 ![image](https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png)
 
 Light Mode
-
 https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570-80bb-fac11c154f99.mp4
 
 
