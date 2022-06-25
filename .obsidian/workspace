@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,14 +129,14 @@
   "active": "61acaee48f543430",
   "lastOpenFiles": [
     "3. Notes/Malloc Explained.md",
-    "3. Notes/continguous.md",
     "3. Notes/Two Types of Memory Allocation.md",
     "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "3. Notes/Static Memory Allocation.md",
-    "3. Notes/Week 4 - Memory, Malloc, Pointers, More Overflows.md",
-    "3. Notes/Dynamic memory allocation.md",
     "2. MOC/MOC Programming.md",
     "3. Notes/+Home.md",
-    "3. Notes/Week 3 - BigO, Recursion, Data Search, Structs.md"
+    "2. MOC/MOC PC-Hardware.md",
+    "3. Notes/PC - GPU.md",
+    "3. Notes/PC - CPU.md",
+    "3. Notes/PC - Motherboard.md",
+    "2. MOC/MOC Networking.md"
   ]
 }
