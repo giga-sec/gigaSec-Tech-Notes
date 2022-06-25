@@ -7,16 +7,20 @@ Tags: #fleeting
 ---
 [[Malloc in C Explained]]
 
+After arrays, the second most popular data structure is Linked List. A linked list is a linear data structure
+
+
+
 My understanding:
-Linked list can be anywhere in the memory and they can be linked to each other through the usage of nodes. For instance, we have `1` in address 0x135, then we have `2` in address 0x367
+The elements of a linked list can be anywhere in the memory and they can be linked to each other through the usage of nodes. For instance, we have `1` in address 0x135, then we have `2` in address 0x485
 
-
-[[How to implement a linked list in C]]
 
 The good and bad of Linked List:
 With linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. 
 - More memory usage
 - Spend Less time adding values
+**=="When you start using more space, you can save time"
+"When you start conserving space, you might lose time"==**
 
 
 
@@ -24,10 +28,8 @@ Symbols in C
 -   `struct` to create custom data types
 -   `.` to access fields, or values, in a structure. Mostly used in struct, getting that traits on a struct.
 -   `*` to go to an address in memory pointed to by a pointer
+- `->` Combination of, going inside of a structure `.` and `*` going to an address is. Basically from `(*n).number = 1;` to this `n->number` 
 
-
-To go inside of a structure `.` and `*` to go to an address is combined and formed into `->`
--   `->` to access fields in a structure pointed to by a pointer. Going to an address and looking at a field inside of it.
 
 `n->number = 1;`
 Go to `n`, then once you know what's on `n`. Use that to assign `number` field with a value 1.
@@ -37,6 +39,10 @@ Go to `n`, then once you know what's on `n`. Use that to assign `number` field w
 1. `(*n)` go to the address of this pointer first. The parenthesis basically acts as an order of operations. PEMDAS like that
 2. `.number` then access number and assign `1`
 
+
+Every linked list has two parts, the data section and the address section that holds the address of the next element in the list, which is called a node.
+
+The size of the linked list is not fixed, and data items can be added at any locations in the list. The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
 
 
 **Linked List**
@@ -56,6 +62,7 @@ Explanation of the code above
 - We start this struct with `typedef struct node` so that we can refer to a `struct node` inside our struct.
 - Then, we’ll have an `int` called `number`, for the value we want to store, and then a pointer to the next node with `struct node`. (We haven’t fully defined `node` yet, so the compiler needs to know it’s a custom struct still.
 - Finally, `node` at the end lets us use just `node` in the rest of our program.
+
 
 Represents an empty linked list.
 node *list = NULL;  
