@@ -7,14 +7,19 @@ Tags: #permanent
 ---
 Isn't straightforward in a way like making a new variable for pointer
 ```C
-char *s = get_string("Name: ");  
-char *t = s;  		   
+char *small_ltr = "jonathan";
+char *capital_ltr = small_ltr;
 
-t[0] = toupper(t[0])
+// Make the first letter capital
+capital_ltr[0] = toupper(capital_ltr[0]);
 ```
 
 
-Any changes we made to variable pointer `t` will also affect the variable pointer `s`. 
+The variable `small_ltr` is racist and only allows small letter. But any changes we made to pointer `capital_ltr` will also affect the  pointer `small_ltr`.  
+```C
+printf("%s", small_ltr);    // Jonathan
+printf("%s", capital_ltr);  // Jonathan
+```
 
 
 ### To make a unique copy
