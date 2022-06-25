@@ -4,6 +4,8 @@ Abstract:
 - Installation Process
 
 ---
+Note: Lots of grammatical errors. Some of the notes wont make sense and will only make sense to me. Understand that these notes sole purpose is to be understood by me however, I welcome any pull requests that suggests correction. 
+
 ## Screenshots
 Dark Mode
 ![image](https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png)
