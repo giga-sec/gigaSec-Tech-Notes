@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 [[Malloc in C Explained]]
 
-After arrays, the second most popular data structure is Linked List. A linked list is a linear data structure
+After arrays, the second most popular data structure is Linked List. A linked list is a linear data structure. It's a set of dynamically allocated nodes. 
 
 
 
@@ -16,9 +16,9 @@ The elements of a linked list can be anywhere in the memory and they can be link
 
 
 The good and bad of Linked List:
-With linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. 
+With linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. Dynamic memory allocation and pointers are required, which complicates the code and increases the risk of memory leaks and segment faults. Linked lists have a much larger overhead over arrays, since linked list items are dynamically allocated (which is less efficient in memory usage) and each item in the list also must store an additional pointer.
 - More memory usage
-- Spend Less time adding values
+- Items can be added or removed from the middle of the list
 **=="When you start using more space, you can save time"
 "When you start conserving space, you might lose time"==**
 
@@ -41,6 +41,9 @@ Go to `n`, then once you know what's on `n`. Use that to assign `number` field w
 
 
 Every linked list has two parts, the data section and the address section that holds the address of the next element in the list, which is called a node.
+Linked lists function as an array that can grow and shrink as needed, from any point in the array
+
+
 
 The size of the linked list is not fixed, and data items can be added at any locations in the list. The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
 
@@ -102,4 +105,4 @@ while (list != NULL)
 
 
 ### References
-1. 
+1. https://www.learn-c.org/en/Linked_lists
