@@ -23,9 +23,13 @@ Problems with Static Memory Allocation
 ?? When to use Dynamic Memory Allocation
 - We're not sure how much data we're gonna use during runtime
 
+[[Malloc in C Explained]]
 
 
-[[Malloc Explained]]
+Example of Dynamic Data Structure that uses [[Dynamic Memory Allocation]]
+[[Linked List]]
+
+
 
 
 

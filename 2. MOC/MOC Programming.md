@@ -25,6 +25,8 @@
 ## Uncategorized
 [[C - Print Leading Zeros in C]]
 
+[[sizeof in C]]
+
 
 
 C file handling

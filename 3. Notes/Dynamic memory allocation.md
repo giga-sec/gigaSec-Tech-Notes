@@ -16,7 +16,7 @@ Tags: #permanent
 
 
 
-[[Malloc Explained]]
+[[Malloc in C Explained]]
 
 
 

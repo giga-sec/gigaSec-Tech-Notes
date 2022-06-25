@@ -14,7 +14,7 @@ Header stdint.h
 
 
 
-[[Malloc Explained]]
+[[Malloc in C Explained]]
 
 
 

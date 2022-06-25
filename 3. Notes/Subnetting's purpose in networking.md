@@ -1,4 +1,4 @@
-[[]]
+[[Subnetting use IP address in three ways]]
 
 # What does Subnetting do?
 Created:  [[2022-04-23]]
