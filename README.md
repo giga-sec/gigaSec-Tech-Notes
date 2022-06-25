@@ -1,7 +1,7 @@
 Abstract:
 - Screenshots
-- Quick Guide of navigating my notes
 - Installation Process
+- Quick Guide of navigating my notes
 - Quick Guide about using my Obsidian Vault
 
 ---
@@ -17,6 +17,27 @@ Dark Mode
 Light Mode
 
 https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570-80bb-fac11c154f99.mp4
+
+
+---
+## Installation
+
+I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
+
+**Obsidian Installation**
+
+`.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian but I highly recommend downloading it as most functionality relies here. 
+
+If you included `.obsidian` follow these, otherwise these step can be ignored.
+
+There are only two plugins installed here and only used for theme customization
+
+1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
+2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+
+Click `Turn Off Safe Mode`
+
+<img src="https://user-images.githubusercontent.com/105108954/175248747-9a4da87d-b65d-43b9-bbb2-4d363f0478d9.png" alt="img" width="400"/>
 
 
 
@@ -44,29 +65,7 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 
 ---
-## Installation
-
-I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
-
-**Obsidian Installation**
-
-`.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian. 
-
-If you included `.obsidian` follow these, otherwise these step can be ignored.
-
-There are only two plugins installed here and only used for theme customization
-
-1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
-2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
-
-Click `Turn Off Safe Mode`
-
-<img src="https://user-images.githubusercontent.com/105108954/175248747-9a4da87d-b65d-43b9-bbb2-4d363f0478d9.png" alt="img" width="400"/>
-
-
-
----
-## Quick guide about my Obsidian Vault
+## Quick guide about using my Obsidian Vault
 
 **Note:** If you did not download the `.obsidian` folder, then I recommend not reading this section as this will not be of any use to you.
 
