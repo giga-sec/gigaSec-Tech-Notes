@@ -2,7 +2,7 @@
 
 # sizeof in C
 Created:  [[2022-06-25]]
-Tags: #fleeting 
+Tags: #literature 
 
 ---
 Char:         1
