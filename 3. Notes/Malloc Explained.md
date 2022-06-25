@@ -2,10 +2,10 @@
 
 # Malloc or Memory Allocation
 Created:  [[2022-06-20]]
-Tags: #literature  
+Tags: #fleeting   
 
 ---
-Malloc is used to [[|dynamically allocate]] a single large block of [[continguous]] memory according to the size specified. 
+Malloc is used to [[Dynamic memory allocation|dynamically allocate]] a single large block of [[continguous]] memory according to the size specified. 
 
 
 
