@@ -6,7 +6,7 @@ Abstract:
 ---
 ## Note: 
 
-Lots of grammatical errors. Some of the notes wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me however, I encourage and welcome any pull requests that suggests correction. 
+Lots of grammatical errors. Some of the notes wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me however, I encourage and welcome any pull requests that suggests correction whether that be in form of grammar or the knowledge itself. 
 
 ## Screenshots
 Dark Mode
