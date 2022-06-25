@@ -2,6 +2,7 @@ Abstract:
 - Screenshots
 - Quick Guide of navigating my notes
 - Installation Process
+- Quick Guide about using my Obsidian Vault
 
 ---
 ## Note: 
@@ -65,6 +66,23 @@ Click `Turn Off Safe Mode`
 
 
 ---
+## Quick guide about my Obsidian Vault
+
+**Note:** If you did not download the `.obsidian` folder, then I recommend not reading this section as this will not be of any use to you.
+
+1. My vault matches with the theme of the system. 
+
+- If windows is on dark mode, obsidian will be on dark mode
+- If windows is light mode, obsidian will be in light mode
+
+2. You can manually switch to dark mode or light mode
+
+- `Ctrl + Shift + D` to Dark mode
+- `Ctrl + Shift + L` to Light mode
+- Or simply press `Ctrl + Shift + P` and type `Dark Mode` or `Light Mode`  
 
 
+3. All Deleted Files goes to .trash folder which is hidden
+
+---
 If you found any typo's or grammar mistakes, feel free to roast me in pull requests and I'll make sure to review them. 
