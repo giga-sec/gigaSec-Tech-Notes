@@ -5,7 +5,6 @@ This MOC is every informations about GPU, whether that be informations or tips a
 
 ### What is
 - [[GPU Cores]]
-- [[CUDA-NVIDIA vs STREAM-AMD]]
 - [[Why GPU have more cores than CPU]]
 - [[NVIDIA DLSS - Increase your FPS using this]]
 - [[Pascal Architecture]]

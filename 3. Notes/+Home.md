@@ -11,7 +11,7 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 [[MOC Hacking]]
 
-[[VSCODE Keyboard Shortcuts]]
+
 
 
 
@@ -19,5 +19,6 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 ### Uncategorized
 
+[[VSCODE Keyboard Shortcuts]]
 
 
