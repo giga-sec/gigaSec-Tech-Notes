@@ -10,14 +10,12 @@ Abstract:
 
 
 Code Snippets
-- Adding values to a linked list
-- Removing values to a linked list
-- Printing values to a linked list
+- Creating a node or linked list
+- Adding, Removing, Printing values to a linked list
 ---
 [[Malloc in C Explained]]
 
 After arrays, the second most popular data structure is Linked List. A linked list is a linear data structure. It's a set of dynamically allocated nodes. 
-
 
 
 My understanding:
@@ -39,45 +37,11 @@ Symbols in C
 -   `*` to go to an address in memory pointed to by a pointer
 - `->` Combination of, going inside of a structure `.` and `*` going to an address is. Basically from `(*n).number = 1;` to this `n->number` 
 
-
-
-
-
 Every linked list has nodes and each node have two parts, the data section and the address section that holds the address of the next element in the list.
 
 Linked lists function as an array that can grow and shrink as needed, data items can be added at any locations in the list.
 
 The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
-
-
-
-**Linked List**
- 
-**Node**, a component of a data structure that encapsulates some information. 
-```C
-// Defining a node in C
-typedef struct node
-{
-    int number;
-    struct node *next;
-}
-node;
-```
-
-Explanation of the code above
-- We start this struct with `typedef struct node` so that we can refer to a `struct node` inside our struct.
-- Then, we’ll have an `int` called `number`, for the value we want to store, and then a pointer to the next node with `struct node`. (We haven’t fully defined `node` yet, so the compiler needs to know it’s a custom struct still.
-- Finally, `node` at the end lets us use just `node` in the rest of our program.
-
-
-Represents an empty linked list.
-node *list = NULL;  
-
--   We can build a linked list in code starting with our struct. First, we’ll want to remember an empty list, so we can use the null pointer: `node *list = NULL;`.
--   To add a node, we’ll first need to allocate some memory:
-```C
-node *n = malloc(sizeof(node));
-```
 
 
 (2)
@@ -90,6 +54,7 @@ Go to `n`, then once you know what's on `n`. Use that to assign `number` field w
 2. `.number` tells us, go to "number" field (that's created by a struct)and assign `1`. 
 
 
+
 (1)
 All of the code snippets below is checked by valgrind and are memory bug free. 
 
@@ -99,17 +64,9 @@ Headers needed
 #include <stdlib.h>
 ```
 
-Defining a node
-```C
-typedef struct node {
-    int val;
-    struct node *next;
-} 
-node;
-```
-
-
 ## Linked List Code Snippets
+
+[[C - Creating a node or linked list using struct]]
 
 [[C - Print each value of a linked list]]
 
