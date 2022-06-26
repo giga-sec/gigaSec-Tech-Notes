@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2. MOC/MOC Hacking.md",
+            "file": "3. Notes/+Home.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. MOC/MOC Hacking.md",
+                "file": "3. Notes/+Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. MOC/MOC Hacking.md",
+                "file": "3. Notes/+Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +127,15 @@
   },
   "active": "61acaee48f543430",
   "lastOpenFiles": [
-    "2. MOC/MOC Hacking.md",
-    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "2. MOC/MOC Programming.md",
-    "2. MOC/MOC Graph Theory.md",
-    "3. Notes/How to think in Graphs.md",
     "3. Notes/+Home.md",
-    "3. Notes/Tropic Trooper as a cyberespionage threat group.md",
+    "2. MOC/MOC PC-Hardware.md",
+    "3. Notes/PC - GPU.md",
+    "3. Notes/Vocabulary on GPU.md",
+    "3. Notes/PC - CPU.md",
+    "3. Notes/CPU vs GPU (To summarize yet).md",
+    "3. Notes/VSCODE Keyboard Shortcuts.md",
+    "2. MOC/MOC Hacking.md",
     "3. Notes/Swim Swap.md",
-    "3. Notes/Linked List.md",
-    "3. Notes/C - Freeing a linked list.md"
+    "3. Notes/Tropic Trooper as a cyberespionage threat group.md"
   ]
 }
