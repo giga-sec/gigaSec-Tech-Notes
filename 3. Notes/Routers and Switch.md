@@ -1,4 +1,4 @@
-[[]]
+
 
 # Routers and Switch
 Created:  [[2022-04-23]]

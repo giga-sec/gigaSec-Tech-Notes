@@ -5,11 +5,9 @@
 
 - [[The OSI Model]]
 - [[Firewalls 101]]
-- [[Topology and its different designs]]
 - [[VLAN (Virtual Local Area Network)]]
 - [[Subnetting]]
 
-- [[Public-Private-IP_Address]]
 - [[Routers and Switch]]
 - [[Three Way Handshake]]
 

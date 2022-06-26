@@ -7,9 +7,9 @@ Tags: #fleeting
 ---
 Arrays in C are equivalent to pointers
 
-With a sorted array, we have running time of O(log⁡ *n*) for search, and O(*n*) for insert, or adding a new value.
+With a sorted array, we have running time of O(log⁡ *n*) for search, and O(*n*) for insert (adding a new value).
 
-The best case running times for insert and search both have Ω(1), since we might get lucky and find our value immediately, or have free memory after our array to add a new value to.
+The best case running times for insert and search both have Ω(1), since we might get lucky and find our value immediately.
 
 [[Two Types of Memory Allocation]]
 

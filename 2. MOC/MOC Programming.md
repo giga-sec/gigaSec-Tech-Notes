@@ -25,7 +25,7 @@
 ## Uncategorized
 [[C - Print Leading Zeros in C]]
 
-[[sizeof in C]]
+[[sizeof values in each data type of C]]
 
 
 

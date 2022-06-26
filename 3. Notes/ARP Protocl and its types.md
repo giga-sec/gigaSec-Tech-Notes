@@ -1,4 +1,4 @@
-[[]]
+[[TryHackMe - Intro to Lan]]
 
 # ARP Protocl and its types
 Created:  [[2022-05-08]]
