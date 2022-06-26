@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Linked List.md",
+            "file": "3. Notes/Malloc in C Explained.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "contiguous",
+                "query": "free linked list",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Linked List.md",
+                "file": "3. Notes/Malloc in C Explained.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Linked List.md",
+                "file": "3. Notes/Malloc in C Explained.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "61acaee48f543430",
   "lastOpenFiles": [
-    "3. Notes/Linked List.md",
-    "3. Notes/How to implement a linked list in C.md",
-    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "3. Notes/Strings are contiguous or connected to each other.md",
     "3. Notes/Malloc in C Explained.md",
+    "3. Notes/C - Memory or NULL check of malloc.md",
+    "3. Notes/C - Freeing a linked list.md",
+    "3. Notes/sizeof values in each data type of C.md",
     "2. MOC/MOC Programming.md",
-    "3. Notes/Week 4 - Memory, Malloc, Pointers, More Overflows.md",
     "3. Notes/Two Types of Memory Allocation.md",
-    "3. Notes/+Home.md",
-    "2. MOC/MOC PC-Hardware.md"
+    "3. Notes/Dynamic memory allocation.md",
+    "3. Notes/Linked List.md",
+    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+    "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md"
   ]
 }
