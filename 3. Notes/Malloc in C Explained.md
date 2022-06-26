@@ -6,9 +6,10 @@ Tags: #fleeting
 
 ---
 Abstract:
-- 
+- What does malloc returns
 - Typecast the returned `void pointer` of malloc
 - Explanation about how `free()` works
+
 
 Code Snippets
 - [[C - Freeing a linked list]]
