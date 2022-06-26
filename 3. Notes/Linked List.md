@@ -21,7 +21,7 @@ After arrays, the second most popular data structure is Linked List. A linked l
 
 
 My understanding:
-The elements of a linked list can be anywhere in the memory and they can be linked to each other through the usage of nodes. For instance, we have `1` in address 0x135, then we have `2` in address 0x485
+The elements of a linked list can be anywhere in the memory and they can be linked to each other through the usage of pointers. For instance, we have `1` in address 0x135, then we have `2` in address 0x485
 
 
 The good and bad of Linked List:
@@ -44,11 +44,11 @@ Symbols in C
 
 
 Every linked list has nodes and each node have two parts, the data section and the address section that holds the address of the next element in the list.
-Linked lists function as an array that can grow and shrink as needed, from any point in the array
 
+Linked lists function as an array that can grow and shrink as needed, data items can be added at any locations in the list.
 
+The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
 
-The size of the linked list is not fixed, and data items can be added at any locations in the list. The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
 
 
 **Linked List**
@@ -103,7 +103,7 @@ Defining a node
 ```C
 typedef struct node {
     int val;
-    struct node * next;
+    struct node *next;
 } 
 node;
 ```
@@ -121,16 +121,17 @@ node;
 
 
 ### Remove nodes of a linked list
-[[C - Removes the FIRST node and remembers what the value of it]]
+
+[[C - Removes FIRST node and remembers what the value of it]]
 
 
-[[C - Removes the LAST node and remembers what the value of it]]
+[[C - Removes LAST node and remembers what the value of it]]
 
 
-[[C - Remove by INDEX of linked list and remembers what the value of it]]
+[[C - Remove node by INDEX of linked list and remembers what the value of it]]
 
 
-[[C - Removes by VALUE and remembers what the value of it]]
+[[C - Removes node by VALUE and also remembers what the value of it]]
 
 
 
