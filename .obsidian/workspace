@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Linked List.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Linked List.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Linked List.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +127,7 @@
   },
   "active": "61acaee48f543430",
   "lastOpenFiles": [
+    "README.md",
     "3. Notes/Linked List.md",
     "3. Notes/C - Print each value of a linked list.md",
     "3. Notes/C - Creating a node or linked list using struct.md",
@@ -135,7 +136,6 @@
     "2. MOC/MOC Programming.md",
     "3. Notes/C - Removes node by VALUE and also remembers what the value of it.md",
     "3. Notes/C - Remove node by INDEX of linked list and remembers what the value of it.md",
-    "3. Notes/C - Removes LAST node and remembers what the value of it.md",
-    "3. Notes/C - Removes FIRST node and remembers what the value of it.md"
+    "3. Notes/C - Removes LAST node and remembers what the value of it.md"
   ]
 }
