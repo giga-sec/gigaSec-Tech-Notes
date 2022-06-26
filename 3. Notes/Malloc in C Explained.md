@@ -8,11 +8,11 @@ Tags: #fleeting
 Abstract:
 - 
 - Typecast the returned `void pointer` of malloc
-- free()
+- Explanation about how `free()` works
 
 Code Snippets
 - [[C - Freeing a linked list]]
-
+- [[C - Memory or NULL check of malloc]]
 ---
 Malloc is used to create a single large block of [[continguous]] memory according to the size specified. The whole idea of it is to [[allocate memory]] during run time. 
 
@@ -52,7 +52,7 @@ Basically `sizeof(int)` is saying **I have 1 int**. Since I want three integers,
 
 
 
-`free(list);`  basically turns into this `int list;`  int is used as an example only. When we free list, the variable is still there but it no longer have any value attached to it. Basically, we're only deleting the values in it, not the variable itself. 
+`free(num);`  basically turns into this `int num;` . When we free `num`, the variable `num` is still there but it no longer have any value attached to it. Basically, `free()` only deletes values, not the variable itself. 
 
 
 [[C - Freeing a linked list]]
