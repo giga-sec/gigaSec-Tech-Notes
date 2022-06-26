@@ -18,6 +18,17 @@ Header stdint.h
 
 
 
+### Hexadecimal
+It's **helpful to express four bits into hexadecimal** because 
+==**four 1's or 0's bits equates to one hexadecimal**==
+The **addresses for memory uses hexadecimal**, specifically 16 digits. 
+
+[[Identify if a number is a hexadecimal]]
+
+
+
+
+
 ### Valgrind
 Sometimes bugs in your code that you don't see visually like possible memory leaks exists. 
 ```C
