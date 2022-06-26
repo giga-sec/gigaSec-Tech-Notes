@@ -129,14 +129,14 @@
   "active": "61acaee48f543430",
   "lastOpenFiles": [
     "3. Notes/Linked List.md",
+    "3. Notes/C - Creating a node or linked list using struct.md",
+    "3. Notes/C - Removes node by VALUE and also remembers what the value of it.md",
+    "3. Notes/C - Print each value of a linked list.md",
     "3. Notes/C - Remove node by INDEX of linked list and remembers what the value of it.md",
     "3. Notes/C - Removes LAST node and remembers what the value of it.md",
     "3. Notes/C - Removes FIRST node and remembers what the value of it.md",
-    "3. Notes/C - Removes node by VALUE and also remembers what the value of it.md",
-    "3. Notes/C - Print each value of a linked list.md",
     "3. Notes/C - Add an item to the BEGINNING of the linked list.md",
     "3. Notes/C - Add an item to the END of linked list.md",
-    "3. Notes/2022-06-26.md",
-    "3. Notes/C - Freeing a linked list.md"
+    "3. Notes/2022-06-26.md"
   ]
 }
