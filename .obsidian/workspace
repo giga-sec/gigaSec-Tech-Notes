@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pop_first",
+                "query": "malloc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -129,14 +129,14 @@
   "active": "61acaee48f543430",
   "lastOpenFiles": [
     "3. Notes/Linked List.md",
-    "3. Notes/C - Creating a node or linked list using struct.md",
-    "3. Notes/C - Removes node by VALUE and also remembers what the value of it.md",
     "3. Notes/C - Print each value of a linked list.md",
+    "3. Notes/C - Creating a node or linked list using struct.md",
+    "3. Notes/Malloc in C Explained.md",
+    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+    "2. MOC/MOC Programming.md",
+    "3. Notes/C - Removes node by VALUE and also remembers what the value of it.md",
     "3. Notes/C - Remove node by INDEX of linked list and remembers what the value of it.md",
     "3. Notes/C - Removes LAST node and remembers what the value of it.md",
-    "3. Notes/C - Removes FIRST node and remembers what the value of it.md",
-    "3. Notes/C - Add an item to the BEGINNING of the linked list.md",
-    "3. Notes/C - Add an item to the END of linked list.md",
-    "3. Notes/2022-06-26.md"
+    "3. Notes/C - Removes FIRST node and remembers what the value of it.md"
   ]
 }
