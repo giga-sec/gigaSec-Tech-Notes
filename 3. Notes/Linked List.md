@@ -31,13 +31,14 @@ Symbols in C
 - `->` Combination of, going inside of a structure `.` and `*` going to an address is. Basically from `(*n).number = 1;` to this `n->number` 
 
 
+? I don't understand this note ;-; 
 `n->number = 1;`
 Go to `n`, then once you know what's on `n`. Use that to assign `number` field with a value 1.
 
 ^  Explanation of the cryptic code above
 `(*n).number = 1;` 
 1. `(*n)` go to the address of this pointer first. The parenthesis basically acts as an order of operations. PEMDAS like that
-2. `.number` then access number and assign `1`
+2. `.number` tells us, go to "number" field (that's created by a struct)and assign `1`. 
 
 
 Every linked list has two parts, the data section and the address section that holds the address of the next element in the list, which is called a node.
@@ -80,16 +81,8 @@ node *list = NULL;
     
     -   Recall that we can use `sizeof` to get the size of some data type, including structs. We want to allocate enough memory for both a value and a pointer, and we’ll point to that with `n`, a pointer to a `node`.
 
-Freeing the linked list
 
-```C
-while (list != NULL)
-{
-    node *tmp = list->next;
-    free(list);
-    list = tmp;
-}
-```
+[[C - Freeing a linked list]]
 
 
 
