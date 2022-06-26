@@ -9,6 +9,10 @@ Abstract:
 https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 
 ---
+You put it so well. I always think people are missing the point about the efficiency and shortcuts in vim. It's not about the productivity. It's about relying as much as much on muscle memory instead of user attention in order to preserve the flow of thought. When you are going through the GUI editors, it constantly disrupts your flow of thought. But in vim everything is muscle memory.
+
+Wait, so that means learning vim is sort of like learning a new languange?
+
 ### Your problem with **Vim** is that you don't grok **vi**.
 
 You mention cutting with `yy` and complain that you almost never want to cut whole lines. In fact programmers, editing source code, very often want to work on whole lines, ranges of lines and blocks of code. However, `yy` is only one of many way to yank text into the anonymous copy buffer (or "register" as it's called in **vi**).
