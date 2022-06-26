@@ -13,9 +13,7 @@ char *capital_ltr = small_ltr;
 // Make the first letter capital
 capital_ltr[0] = toupper(capital_ltr[0]);
 ```
-
-
-The variable `small_ltr` is racist and only allows small letter. But any changes we made to pointer `capital_ltr` will also affect the  pointer `small_ltr`.  
+The pointer `small_ltr` is racist and only allows small letter. But any changes we made to pointer `capital_ltr` will also affect the  pointer `small_ltr`.  
 ```C
 printf("%s", small_ltr);    // Jonathan
 printf("%s", capital_ltr);  // Jonathan
