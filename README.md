@@ -5,7 +5,7 @@
 - Quick Guide about using my Obsidian Vault
 
 ---
-Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me however, I encourage and welcome any pull requests that suggests any correction
+Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me. However, I encourage and welcome pull requests that suggests any correction
 
 
 ## Screenshots (!Warning! Light Mode media below)
