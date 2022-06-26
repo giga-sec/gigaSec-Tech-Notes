@@ -32,5 +32,4 @@ whenever you see a tree (even if it is an apple tree, lemon tree or binary searc
 
 
 ### References
-1. https://www.freecodecamp.org/news/i-dont-understand-graph-theory-1c96572a1401/
 2. https://www.youtube.com/watch?v=amaH38_mXK4  Graph Types Directed and Undirected Graph
