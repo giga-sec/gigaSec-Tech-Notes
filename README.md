@@ -26,10 +26,6 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 **Obsidian Installation**
 
-`.obsidian` is where Obsidian themes, settings and plugins are stored. It can be skipped and will perfectly work fine without it even if you use obsidian but I highly recommend downloading it as most functionality relies here. 
-
-If you included `.obsidian` follow these, otherwise these step can be ignored.
-
 There are only two plugins installed here and only used for theme customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
@@ -64,8 +60,6 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 ---
 ## Quick guide about using my Obsidian Vault
-
-**Note:** If you did not download the `.obsidian` folder, then I recommend not reading this section as this will not be of any use to you.
 
 1. My vault matches with the theme of the system. 
 
