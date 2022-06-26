@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+            "file": "2. MOC/MOC Hacking.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "free linked list",
+                "query": "Moc hacking",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+                "file": "2. MOC/MOC Hacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+                "file": "2. MOC/MOC Hacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,12 +127,12 @@
   },
   "active": "61acaee48f543430",
   "lastOpenFiles": [
+    "2. MOC/MOC Hacking.md",
     "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
     "2. MOC/MOC Programming.md",
     "2. MOC/MOC Graph Theory.md",
     "3. Notes/How to think in Graphs.md",
     "3. Notes/+Home.md",
-    "3. Notes/MOC Hacking.md",
     "3. Notes/Tropic Trooper as a cyberespionage threat group.md",
     "3. Notes/Swim Swap.md",
     "3. Notes/Linked List.md",
