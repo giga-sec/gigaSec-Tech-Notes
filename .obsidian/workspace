@@ -129,14 +129,14 @@
   "active": "61acaee48f543430",
   "lastOpenFiles": [
     "3. Notes/Malloc in C Explained.md",
+    "3. Notes/Week 4 - Memory, Malloc, Pointers, More Overflows.md",
+    "3. Notes/Addresses vs Pointers in C.md",
+    "2. MOC/MOC Programming.md",
     "3. Notes/C - Memory or NULL check of malloc.md",
     "3. Notes/C - Freeing a linked list.md",
     "3. Notes/sizeof values in each data type of C.md",
-    "2. MOC/MOC Programming.md",
     "3. Notes/Two Types of Memory Allocation.md",
     "3. Notes/Dynamic memory allocation.md",
-    "3. Notes/Linked List.md",
-    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md"
+    "3. Notes/Linked List.md"
   ]
 }
