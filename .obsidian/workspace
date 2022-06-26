@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Linked List.md",
+            "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
             "mode": "source",
             "source": false
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Linked List.md",
+                "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Linked List.md",
+                "file": "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +127,15 @@
   },
   "active": "61acaee48f543430",
   "lastOpenFiles": [
-    "3. Notes/Linked List.md",
-    "3. Notes/C - Freeing a linked list.md",
-    "3. Notes/Malloc in C Explained.md",
     "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
     "2. MOC/MOC Programming.md",
-    "3. Notes/Week 4 - Memory, Malloc, Pointers, More Overflows.md",
-    "3. Notes/Addresses vs Pointers in C.md",
-    "3. Notes/C - Memory or NULL check of malloc.md",
-    "3. Notes/sizeof values in each data type of C.md",
-    "3. Notes/Two Types of Memory Allocation.md"
+    "2. MOC/MOC Graph Theory.md",
+    "3. Notes/How to think in Graphs.md",
+    "3. Notes/+Home.md",
+    "3. Notes/MOC Hacking.md",
+    "3. Notes/Tropic Trooper as a cyberespionage threat group.md",
+    "3. Notes/Swim Swap.md",
+    "3. Notes/Linked List.md",
+    "3. Notes/C - Freeing a linked list.md"
   ]
 }
