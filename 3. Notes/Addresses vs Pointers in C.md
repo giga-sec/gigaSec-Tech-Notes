@@ -5,15 +5,13 @@ Created:  [[2022-06-22]]
 Tags: #literature  
 
 ---
-### Hexadecimal
-It's **helpful to express four bits into hexadecimal** because 
-==**four 1's or 0's bits equates to one hexadecimal**==
-The **addresses for memory uses hexadecimal**, specifically 16 digits. 
-
-[[Identify if a number is a hexadecimal]]
+Abstract:
 
 
+Code Snippet
+- Pointers as parameters in a function
 
+---
 ### Addresses
 In C Languange
 And = && 
@@ -30,13 +28,13 @@ Conclusion: `&` is figuring out where the address is and the `*` is going into t
 
 ### Pointer
 It's a variable that stores the address of some value.
-`int *p = &n`
+`int *p = n`
 
 Pointers tend to take up 8 bytes
 
 When using pointers as parameters in a function
 ```C
-void swap(int *c, int *d) // When called, it should be given with an address. 
+void swap(int *c, int *d)
 {
     int *temp = c;
     *c = *d;
