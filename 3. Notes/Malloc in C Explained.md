@@ -33,6 +33,7 @@ Malloc is used to create a single large block of [[continguous]] memory accordin
 Malloc doesn't have an idea of what it is pointing to nor the data type it's gonna store it to. Therefore it's important to assign a data type by typecasting it. We can write `(int *)` in front of `malloc()` 
 ```c
 person *myperson = (person *) malloc(sizeof(person));
+// person here is name of the struct
 ```
 
 
