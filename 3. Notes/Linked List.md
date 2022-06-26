@@ -5,6 +5,15 @@ Created:  [[2022-06-25]]
 Tags: #fleeting 
 
 ---
+Abstract:
+
+
+
+Code Snippets
+- Adding values to a linked list
+- Removing values to a linked list
+- Printing values to a linked list
+---
 [[Malloc in C Explained]]
 
 After arrays, the second most popular data structure is Linked List. A linked list is a linear data structure. It's a set of dynamically allocated nodes. 
@@ -100,15 +109,18 @@ node;
 ```
 
 
+## Linked List Code Snippets
+
 [[C - Print each value of a linked list]]
 
+### Add values to a linked list
 
 [[C - Add an item to the BEGINNING of the linked list]]
-
 
 [[C - Add an item to the END of linked list]]
 
 
+### Remove nodes of a linked list
 [[C - Removes the FIRST node and remembers what the value of it]]
 
 
