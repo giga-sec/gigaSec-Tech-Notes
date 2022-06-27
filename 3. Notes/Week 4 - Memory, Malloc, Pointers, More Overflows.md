@@ -34,11 +34,11 @@ Sometimes bugs in your code that you don't see visually like possible memory lea
 ```C
 int main(void)
 {
-	char *s = malloc(3);  // <- 4 bits should be the value here
+	char *s = malloc(3);  // Only accepts 3 bytes of char 
 	s[0] = 'H';
 	s[1] = 'I';
 	s[2] = '!';
-	s[3] = '\0';
+	s[3] = '\0';  // Oh n
 }
 // This code will still run despite it having possible memory leak. 
 ```
@@ -59,9 +59,13 @@ Buffer is just a chunk of memory. Going beyond the boundaries of an array such a
 
 **Stack Overflow**
 
-if stack overlaps heap it is known as stack overflow. If heap overlaps stack it is known as heap overflow.
+if "stack" overlaps heap it is known as stack overflow. 
+If "heap" overlaps stack it is known as heap overflow.
 
 
+heap/heap space - big chunk of memory that malloc uses to get you some spare memory,
+
+stack/stack space - when you call functions, they take up the stack space
 
 
 **ScanF**
@@ -69,14 +73,7 @@ format = %i, %d, %s
 address of the variable = &var
 ```C
 scanf(format, address of the variable)
-
-
 ```
-
-
-heap/heap space - big chunk of memory that malloc uses to get you some spare memory,
-
-stack/stack space - when you call functions, they take up the stack space
 
 
 

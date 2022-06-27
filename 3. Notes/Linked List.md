@@ -15,7 +15,15 @@ Code Snippets
 ---
 [[Malloc in C Explained]]
 
-After arrays, the second most popular data structure is Linked List. A linked list is a linear data structure. It's a set of dynamically allocated nodes. 
+[[Dynamic memory allocation]]
+
+A linked list is a linear data structure. It's a set of dynamically allocated nodes. 
+
+Array's placeholder of values are called "elements"
+and it's location as "index"
+
+Now here, in linked list, we call the placeholder of values "node"
+and the locations as "position"
 
 
 My understanding:
@@ -28,6 +36,17 @@ With linked list, we have the tradeoff of needing to allocate more memory for ea
 - Items can be added or removed from the middle of the list
 **=="When you start using more space, you can save time"
 "When you start conserving space, you might lose time"==**
+
+
+
+The first and last node of a linked list usually are called the head and tail of the list, respectively. Thus, we can traverse the list starting at the head and ending at the tail. The tail node is a special node, where the next pointer is always pointing or linking to a null reference, indicating the end of the list.
+
+However, since we do not keep track of any index numbers for the nodes in a linked list, we cannot tell just by examining a node if it is the second, or fifth node in the list.
+
+Have a while loop that scans until the NULL, then that's where you add the next node or somethin. Then go to next for loop again
+
+[https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm](https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm)
+
 
 
 
@@ -52,7 +71,7 @@ Go to `n`, then once you know what's on `n`. Use that to assign `number` field w
 `(*n).number = 1;` 
 1. `(*n)` go to the address of this pointer first. The parenthesis basically acts as an order of operations. PEMDAS like that
 2. `.number` tells us, go to "number" field (that's created by a struct)and assign `1`. 
-
+https://overiq.com/c-programming-101/pointer-to-a-structure-in-c/
 
 
 (1)
@@ -70,7 +89,7 @@ Headers needed
 
 [[C - Print each value of a linked list]]
 
-### Add values to a linked list
+### Add nodes to a linked list
 
 [[C - Add an item to the BEGINNING of the linked list]]
 

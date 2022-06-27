@@ -25,7 +25,7 @@ A BETTER WAY TO define struct
 typedef struct StructureName{
       // code here
 }
-structureName
+variableName  // This will be our variable for our structure
 ```
 
 

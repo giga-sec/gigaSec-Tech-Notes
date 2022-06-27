@@ -15,6 +15,9 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 
 
+Track an event of launching a certain program (process) in Windows and perform
+http://woshub.com/run-script-when-app-opens-closes/
+
 
 
 ### Uncategorized
