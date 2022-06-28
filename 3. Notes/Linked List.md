@@ -26,6 +26,24 @@ Now here, in linked list, we call the placeholder of values "node"
 and the locations as "position"
 
 
+The first and last node of a linked list are called the head and tail of the list, respectively. 
+
+Thus, we can traverse the list starting at the head and ending at the tail. 
+
+The tail node is a special node, where the next pointer is always pointing or linking to a null reference, indicating the end of the list.
+
+However, since we don't keep track of any index numbers for the nodes in a linked list, we cannot tell just by examining a node if it is the second, or fifth node in the list. 
+
+[https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm](https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm)
+
+### Inserting values into array vs linked list
+When inserting into array, we typically have to shift values.  
+
+
+Linked list is better as we don't have to shift individual values. We just have to change where we point the pointers.
+
+
+
 My understanding:
 The elements of a linked list can be anywhere in the memory and they can be linked to each other through the usage of pointers. For instance, we have `1` in address 0x135, then we have `2` in address 0x485
 
@@ -37,15 +55,6 @@ With linked list, we have the tradeoff of needing to allocate more memory for ea
 **=="When you start using more space, you can save time"
 "When you start conserving space, you might lose time"==**
 
-
-
-The first and last node of a linked list usually are called the head and tail of the list, respectively. Thus, we can traverse the list starting at the head and ending at the tail. The tail node is a special node, where the next pointer is always pointing or linking to a null reference, indicating the end of the list.
-
-However, since we do not keep track of any index numbers for the nodes in a linked list, we cannot tell just by examining a node if it is the second, or fifth node in the list.
-
-Have a while loop that scans until the NULL, then that's where you add the next node or somethin. Then go to next for loop again
-
-[https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm](https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm)
 
 
 
