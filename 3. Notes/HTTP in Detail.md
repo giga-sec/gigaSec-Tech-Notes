@@ -86,12 +86,12 @@ Accept-Encoding: Tells what compression method is used
 Set-Cookie: Allows server to remember client's information
 
 
-Common response 
+Common headers that are responses by the web servers
 Set-Cookie: 
 Cache-Control: how to store cache before it requests again
 Content-Length: It helps us verify if there's no missing data. Basically, it tells us how long the response is.
 
-Content-Type Header
+Content-Type:
 This tells us what information is being sent, (pdf, html, txt and etc)
 
 
