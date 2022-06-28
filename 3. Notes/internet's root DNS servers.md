@@ -2,7 +2,7 @@
 
 # internet's root DNS servers
 Created:  [[2022-06-22]]
-Tags: #literature  
+Tags: #permanent 
 
 ---
 `1.1.1`  For example, you request `www.tryhackme.com`, **the root server will recognize the Top Level Domain** and refer you to the correct [[TLD server]] that deals with `.com` addresses.

@@ -2,7 +2,7 @@
 
 # TLD server
 Created:  [[2022-06-22]]
-Tags: #literature  
+Tags: #permanent  
 
 ---
 `1.1.2`   The TLD server holds records for where to find the [[authoritative server]] to answer the DNS request. 

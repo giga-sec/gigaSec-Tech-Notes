@@ -2,7 +2,7 @@
 
 # Request to Recursive DNS Server
 Created:  [[2022-06-22]]
-Tags: #literature  
+Tags: #permanent   
 
 ---
 `1.1`   This server has a local cache of recently looked up domain names. If a result is found locally, this is sent back to your computer, and your request ends here. Usually provided by ISP
