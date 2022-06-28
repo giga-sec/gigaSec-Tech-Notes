@@ -12,6 +12,7 @@ Abstract:
 Code Snippets
 - Creating a node or linked list
 - Adding, Removing, Printing values to a linked list
+- Freeing Multiple Nodes of a linked list
 ---
 [[Malloc in C Explained]]
 
@@ -103,6 +104,8 @@ All of the code snippets below is checked by valgrind and are memory bug free.  
 [[C - Add an item to the BEGINNING of the linked list]]
 
 [[C - Add an item to the END of linked list]]
+
+[[C - Iteratively add nodes of linked list]]
 
 
 ### Remove nodes of a linked list
