@@ -128,14 +128,14 @@
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
     "3. Notes/HTTP in Detail.md",
+    "2. MOC/MOC Networking.md",
+    "3. Notes/Requesting a domain name.md",
+    "3. Notes/Recursive DNS Server.md",
+    "3. Notes/internet's root DNS servers.md",
+    "3. Notes/TLD server.md",
+    "3. Notes/authoritative server.md",
     "3. Notes/Web server and different ways we make request to it.md",
     "3. Notes/+Home.md",
-    "2. MOC/MOC Networking.md",
-    "3. Notes/C - Iteratively add nodes of linked list.md",
-    "3. Notes/Linked List.md",
-    "3. Notes/Addresses vs Pointers in C.md",
-    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "2. MOC/MOC Programming.md",
-    "3. Notes/Week 4 - Memory, Malloc, Pointers, More Overflows.md"
+    "3. Notes/C - Iteratively add nodes of linked list.md"
   ]
 }
