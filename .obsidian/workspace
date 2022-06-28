@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/URL or Uniform Resource Locator.md",
+            "file": "3. Notes/HTTP in Detail.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/URL or Uniform Resource Locator.md",
+                "file": "3. Notes/HTTP in Detail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/URL or Uniform Resource Locator.md",
+                "file": "3. Notes/HTTP in Detail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +127,8 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
+    "3. Notes/HTTP in Detail.md",
+    "3. Notes/Web server and different ways we make request to it.md",
     "3. Notes/URL or Uniform Resource Locator.md",
     "3. Notes/Host-Domain.md",
     "3. Notes/Fragment.md",
@@ -134,8 +136,6 @@
     "3. Notes/Path.md",
     "3. Notes/User.md",
     "3. Notes/Port.md",
-    "3. Notes/Scheme.md",
-    "3. Notes/HTTP in Detail.md",
-    "3. Notes/What is an IP Address.md"
+    "3. Notes/Scheme.md"
   ]
 }
