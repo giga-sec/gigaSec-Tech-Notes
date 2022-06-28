@@ -13,5 +13,6 @@
   "legacyEditor": false,
   "livePreview": true,
   "showFrontmatter": true,
-  "newFileFolderPath": "3. Notes"
+  "newFileFolderPath": "3. Notes",
+  "showLineNumber": false
 }
