@@ -12,6 +12,7 @@ Tags: #permanent
    - What  information is relevant & necessary for solving the problem.
 
 
+[[Advice I found in reddit when doing some programming]]
 
 
 
