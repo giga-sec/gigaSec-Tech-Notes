@@ -83,14 +83,14 @@ Go to `n`, then once you know what's on `n`. Use that to assign `number` field w
 https://overiq.com/c-programming-101/pointer-to-a-structure-in-c/
 
 
-(1)
-All of the code snippets below is checked by valgrind and are memory bug free. 
 
 Headers needed
 ```C
 #include <stdio.h>
 #include <stdlib.h>
 ```
+
+All of the code snippets below is checked by valgrind and are memory bug free.  Source of codes -> (1)
 
 ## Linked List Code Snippets
 
@@ -117,6 +117,20 @@ Headers needed
 
 
 [[C - Removes node by VALUE and also remembers what the value of it]]
+
+### Freeing the linked list
+ITS IMPORTANT TO FREE ALL NODES!
+Don't simply do this `free(linked_list_name)`. That will only free one block of memory!! 
+
+Do this instead:
+```C
+while (linked_list_name != NULL)
+    {
+        node *tmp = linked_list_name->next;
+        free(linked_list_name);
+        linked_list_name = tmp;
+    }
+```
 
 
 
