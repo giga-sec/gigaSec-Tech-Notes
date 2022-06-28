@@ -12,6 +12,9 @@ An IP address looks like  `104.26.10.229`
 **Four sets of digits** ranging from 0 - 255 
 
 
+[[IP Address and how its used in communication between devices]]
+
+
 
 
 
