@@ -5,7 +5,7 @@ Created:  [[2022-06-26]]
 Tags: #literature  
 
 ---
-Uses social engineering convincing the sim phone carrier to reset or activate their sim card onto a new phone.
+Uses social engineering convincing the sim phone carrier to reset or activate the victim's sim card onto the hacker's phone.
 
 Basically, any calls or texts will no longer be received to your sim but instead to the hackers sim. 
 
