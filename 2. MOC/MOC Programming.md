@@ -27,7 +27,7 @@
 
 [[sizeof values in each data type of C]]
 
-[[Advice I found in reddit when doing some programming]]
+[[Advice I found in reddit about programming]]
 
 
 C file handling

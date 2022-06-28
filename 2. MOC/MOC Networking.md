@@ -21,7 +21,6 @@
 
 [[TryHackMe - DNS in detail]]
 
-[[TryHackMe - HTTP in detail]]
 [[HTTP in Detail]]
 
 [[VIM]]
