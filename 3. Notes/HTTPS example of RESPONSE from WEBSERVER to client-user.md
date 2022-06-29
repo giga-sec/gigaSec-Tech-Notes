@@ -1,4 +1,4 @@
-[[HEADER REQUEST by CLIENT to web servers]]
+[[How communication happens between webserver and client-user]]
 
 # Response from the webserver to client-user
 Created:  [[2022-06-29]]
