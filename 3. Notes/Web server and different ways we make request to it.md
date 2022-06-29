@@ -1,4 +1,4 @@
-[[HTTP in Detail]]
+[[How communication happens between webserver and client-user]]
 
 # Web server and different ways we make request to it
 Created:  [[2022-06-10]]
@@ -15,6 +15,8 @@ PUT Request - Submitting data to UPDATE an info
 
 DELETE Request - Deleting data to a web sever
 
+
+[[HTTPS example of REQUEST by CLIENT to webserver]]
 
 
 
