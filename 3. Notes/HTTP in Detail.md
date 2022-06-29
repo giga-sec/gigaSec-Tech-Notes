@@ -5,9 +5,13 @@ Created:  [[2022-04-17]]
 Tags: #fleeting 
 
 ---
-[[Web server and different ways we make request to it]]
+
+
 
 [[URL or Uniform Resource Locator]]
+
+
+[[How communication happens between webserver and client-user]]
 
 ---
 HTTP is the **set of rules** used for **==communicating with [[Web server and different ways we make request to it|web servers]] for the sending of webpage data==, whether that is HTML, Images, Videos, etc**.
