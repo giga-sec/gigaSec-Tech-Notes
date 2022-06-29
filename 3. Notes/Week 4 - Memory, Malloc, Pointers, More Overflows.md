@@ -10,7 +10,7 @@ Header stdint.h
 
 
 
-[[Addresses vs Pointers in C]]
+[[Address vs Pointers in C]]
 
 
 
