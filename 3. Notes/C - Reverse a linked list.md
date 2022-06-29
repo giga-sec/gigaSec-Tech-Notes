@@ -2,10 +2,12 @@
 
 # C - Reverse a linked list
 Created:  [[2022-06-29]]
-Tags: #permanent 
+Tags: #literature  
 
 ---
-Note:
+### Note
+![[Reversing a linked list.mp4]]
+
 
 ### Parameters
 - `**head` so that we can edit the real linked_list inside of the function
