@@ -43,11 +43,6 @@ person *myperson = (person *) malloc(sizeof(person));
 
 
 
-
-
-
-
-
 [[sizeof values in each data type of C]]
 `malloc(sizeof(int))`
 Basically `sizeof(int)` is saying **I have 1 int**. Since I want three integers, **give me three pieces of int** -> `3 * sizeof(int)`. (1)
@@ -60,6 +55,10 @@ Basically `sizeof(int)` is saying **I have 1 int**. Since I want three integers,
 
 
 [[C - Freeing a linked list]]
+
+
+
+
 
 
 
