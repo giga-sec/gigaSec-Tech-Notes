@@ -85,13 +85,9 @@ https://overiq.com/c-programming-101/pointer-to-a-structure-in-c/
 
 
 
-Headers needed
-```C
-#include <stdio.h>
-#include <stdlib.h>
-```
 
-All of the code snippets below is checked by valgrind and are memory bug free.  Source of codes -> (1)
+
+
 
 ## [[Linked List Code Snippets]]
 

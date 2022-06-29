@@ -9,12 +9,24 @@ Abstract
 - ADDING nodes to a linked list
 - REMOVING nodes of a linked list
 - FREEING the linked list
-
+- 
+All codes are checked by valgrind and are memory bug free. 
 ---
+### Headers needed
+```C
+#include <stdio.h>
+#include <stdlib.h>
+```
+
+
 [[C - Creating a node or linked list using struct]]
 
 
 [[C - Print each value of a linked list]]
+
+
+[[C - Reverse a linked list]]
+
 
 ### Add nodes to a linked list
 
@@ -29,6 +41,8 @@ Abstract
 
 [[C - Iteratively add nodes to the end of an EXISTING linked list]]
 
+
+
 ### Remove nodes of a linked list
 
 [[C - Removes FIRST node and remembers what the value of it]]
@@ -41,6 +55,7 @@ Abstract
 
 
 [[C - Removes node by VALUE and also remembers what the value of it]]
+
 
 
 ### Freeing the linked list
