@@ -22,6 +22,12 @@ Explanation of the code above
 
 ```C
 node *n = malloc(sizeof(node));
+if (n == NULL) 
+{
+    // I'm just going to clean up and quit
+    free(n);
+    return 1;
+}
 ```
 
 
