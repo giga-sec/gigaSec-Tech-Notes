@@ -11,7 +11,7 @@ For instance 2## means 200-299
 2## = Request Succesful
 3## = Redirect clients request to another location
 4## = Error Request
-5## = Server Side Errors (Exists only on server-sides?)
+5## = Server Side Errors 
 
 ---
 ### 2##    Request Successful
