@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # C - Remove by index of linked list and remembers what the value of it 
 Created:  [[2022-06-26]]

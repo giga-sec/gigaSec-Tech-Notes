@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # Printing each value of a node
 Created:  [[2022-06-26]]

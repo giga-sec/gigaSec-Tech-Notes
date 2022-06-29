@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # C - Adding an item to the END of linked list
 Created:  [[2022-06-26]]

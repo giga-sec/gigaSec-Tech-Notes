@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # C - Iteratively add nodes of a new linked list
 Created:  [[2022-06-28]]
@@ -51,6 +51,7 @@ void create_nodes_iteratively(node *head, int len)
 ```
 
 
+[[C - Iteratively add nodes to the end of an EXISTING linked list]]
 
 
 

@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # Adding an item to the BEGINNING of the linked list
 Created:  [[2022-06-26]]

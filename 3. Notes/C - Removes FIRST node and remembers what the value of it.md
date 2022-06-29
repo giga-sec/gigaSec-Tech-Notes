@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # C - Removes the first node and remembers what the value of it in linked list
 Created:  [[2022-06-26]]

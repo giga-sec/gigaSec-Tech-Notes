@@ -1,4 +1,4 @@
-[[Linked List]]
+[[Linked List Code Snippets]]
 
 # C - Removes by value specified in the argument in linked list
 Created:  [[2022-06-26]]
