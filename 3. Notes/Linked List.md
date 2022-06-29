@@ -105,8 +105,9 @@ All of the code snippets below is checked by valgrind and are memory bug free.  
 
 [[C - Add an item to the END of linked list]]
 
-[[C - Iteratively add nodes of linked list]]
+[[C - Iteratively add nodes of a NEW linked list]]
 
+[[C - Iteratively add nodes of an EXISTING linked list]]
 
 ### Remove nodes of a linked list
 
