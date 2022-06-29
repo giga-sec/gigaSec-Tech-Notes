@@ -1,6 +1,6 @@
-[[URL or Uniform Resource Locator]]
+[[Communication between webserver and the client-user]]
 
-# request
+# Request sent by client to webserver
 Created:  [[2022-06-28]]
 Tags: #fleeting 
 
@@ -14,8 +14,9 @@ Referer: https://tryhackme.com/
 
 ```
 
-These requests, you are basically sending data to the web server.  
+Requests is you basically sending data to the web server.  
 
+### Explanation of the request code
 Line 1. This request is sending the Get Method, then telling the web server we are using HTTP Protocol version 1.1
 
 Host. We tell the web server we want the website tryhackme.com
