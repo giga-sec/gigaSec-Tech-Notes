@@ -6,7 +6,7 @@ Tags: #fleeting
 
 ---
 Abstract:
-- Parts of a URL (Doesn't need to use all of its parts for url to work)
+- Parts of a URL
 - Making request to a webserver
 - The response of a webserver to the  
 
@@ -26,10 +26,9 @@ These are all the features of a url. Note that it doesn't need to use all of the
 
 
 [[Communication between webserver and the client-user]]
-To access a website, you give a [[request]] to the webserver and the webserver will give a [[response]] to you, if the reply is Ok, the files that's required to display the website will be sent to your computer. 
+To access a website, you give a [[HTTPS example of REQUEST by CLIENT to webserver]] to the webserver and the webserver will give a [[3. Notes/# Response from the webserver to client-user]] to you, if the reply is Ok, the files that's required to display the website will be sent to your computer. 
 
-
-![[line.png|350]]
+![[line.png|300]]
 
 
 
