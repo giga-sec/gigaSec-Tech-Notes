@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Communication between webserver and the client-user.md",
+            "file": "3. Notes/HTTP Status Codes.md",
             "mode": "source",
             "source": false
           }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Communication between webserver and the client-user.md",
+                "file": "3. Notes/HTTP Status Codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Communication between webserver and the client-user.md",
+                "file": "3. Notes/HTTP Status Codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
-    "3. Notes/Communication between webserver and the client-user.md",
+    "3. Notes/HTTP Status Codes.md",
     "3. Notes/HTTPS example of RESPONSE from WEBSERVER to client-user.md",
-    "3. Notes/HTTPS example of REQUEST by CLIENT to webserver.md",
+    "3. Notes/Communication between webserver and the client-user.md",
     "3. Notes/What are headers and how is it used in HTTPS.md",
     "3. Notes/HEADER REQUEST by CLIENT to web servers.md",
+    "3. Notes/HTTPS example of REQUEST by CLIENT to webserver.md",
     "3. Notes/HEADER RESPONSE by WEB-SERVER to client.md",
     "3. Notes/URL or Uniform Resource Locator.md",
     "3. Notes/HTTP in Detail.md",
-    "3. Notes/HTTP Status Codes.md",
     "2. MOC/MOC Networking.md"
   ]
 }
