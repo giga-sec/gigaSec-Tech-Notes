@@ -9,7 +9,7 @@ Abstract:
 
 
 
-Code Snippets
+[[Linked List Code Snippets]]
 - Creating a node or linked list
 - Adding, Removing, Printing values to a linked list
 - Freeing Multiple Nodes of a linked list
