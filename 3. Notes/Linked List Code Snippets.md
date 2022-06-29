@@ -28,7 +28,7 @@ All codes are checked by valgrind and are memory bug free.
 [[C - Reverse a linked list]]
 
 
-### Add nodes to a linked list
+## Add nodes to a linked list
 
 [[C - Add an item to the BEGINNING of the linked list]]
 
@@ -43,7 +43,7 @@ All codes are checked by valgrind and are memory bug free.
 
 
 
-### Remove nodes of a linked list
+## Remove nodes of a linked list
 
 [[C - Removes FIRST node and remembers what the value of it]]
 
@@ -58,7 +58,7 @@ All codes are checked by valgrind and are memory bug free.
 
 
 
-### Freeing the linked list
+## Freeing the linked list
 ITS IMPORTANT TO FREE ALL NODES!
 Don't simply do this `free(linked_list_name)`. That will only free one block of memory!! 
 
