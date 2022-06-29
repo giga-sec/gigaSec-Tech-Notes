@@ -23,8 +23,9 @@ Content-Length: 98
 </html>
 ```
 
-
-Line 1: HTTP 1.1 is the version of the HTTP protocol the server is using and then followed by the HTTP Status Code, "200 Ok" which tells us the request has completed successfully.
+### Explanation of the RESPONSE code above
+Line 1: HTTP 1.1 is the version of the HTTP protocol the server is using
+Followed by the [[HTTP Status Codes]], "200 Ok" which tells us the request has completed successfully.
 
 Server: The web server software and version number
 
