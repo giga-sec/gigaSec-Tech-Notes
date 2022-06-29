@@ -1,5 +1,5 @@
 # MOC Technology
-This MOC is dedicated to things that relate to technology especially computers, softwares, robots and A.I.
+This MOC is dedicated to things that relate to technology especially computers, softwares, or hacking.
 
 [[MOC Programming]]
 
