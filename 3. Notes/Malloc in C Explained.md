@@ -5,16 +5,19 @@ Created:  [[2022-06-20]]
 Tags: #fleeting   
 
 ---
-Abstract:
+#### Abstract:
 - What does malloc returns
 - Typecast the returned `void pointer` of malloc
 - Explanation about how `free()` works
 
 
-Code Snippets
+#### Code Snippets
 - [[C - Freeing a linked list]]
+
+##### Always check if malloc can't give memory anymore
 - [[C - Memory or NULL check of malloc]]
 ---
+
 Malloc is used to create a single large block of [[continguous]] memory according to the size specified. The whole idea of it is to [[allocate memory]] during run time. 
 
 **Explanation of Syntax**
@@ -38,8 +41,7 @@ person *myperson = (person *) malloc(sizeof(person));
 
 
 
-Always check if malloc can't give any memory anymore
-[[C - Memory or NULL check of malloc]]
+
 
 
 
