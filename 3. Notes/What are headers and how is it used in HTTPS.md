@@ -1,4 +1,4 @@
-[[Communication between webserver and the client-user]]
+[[How communication happens between webserver and client-user]]
 
 # Headers and how is it used in HTTPS
 Created:  [[2022-06-29]]
