@@ -1,4 +1,4 @@
-[[HEADER REQUEST by CLIENT to web servers]]
+[[How communication happens between webserver and client-user]]
 
 # Request sent by client to webserver
 Created:  [[2022-06-28]]
@@ -37,6 +37,8 @@ Blank Line. Requests always leave a blank line in the end, kinda like a period i
 
 
 
+###### Could probably interest you
+[[Web server and different ways we make request to it]]
 
 
 
