@@ -1,12 +1,8 @@
-
+[[MOC Networking]]
 
 # THE OSI MODEL
 Created:  [[2022-06-30]]
-Tags: #fleeting 
-
----
-Abstract:
-
+Tags: #literature 
 
 ---
 The OSI (**O**pen **S**ystems **I**nterconnection) Model is a standardised model which we **use to demonstrate the theory behind computer networking**. In practice, **it's actually the more compact TCP/IP model that real-world networking is based off**
