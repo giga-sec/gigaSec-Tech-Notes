@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # Processes 101
 Created:  [[2022-06-22]]

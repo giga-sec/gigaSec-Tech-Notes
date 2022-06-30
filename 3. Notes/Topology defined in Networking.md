@@ -1,4 +1,4 @@
-[[TryHackMe - Intro to Lan]]
+[[Intro to Lan]]
 
 # Topology in Networking
 Created:  [[2022-04-23]]
@@ -19,4 +19,4 @@ Topology is the design of how networks are connected
 
 
 ### References
-1. [[TryHackMe - Intro to Lan]]
+1. [[Intro to Lan]]

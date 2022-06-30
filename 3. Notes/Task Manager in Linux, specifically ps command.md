@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # Task Manager in Linux, specifically ps command
 Created:  [[2022-06-21]]

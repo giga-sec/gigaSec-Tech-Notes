@@ -1,4 +1,4 @@
-[[TryHackMe - What is Networking]]
+[[What is Networking]]
 
 # IP Address and how its used in communication between devices
 Created:  [[2022-04-21]]
@@ -23,4 +23,4 @@ While, the communication between devices is possible because of PRIVATE IP Addre
 
 
 ### References
-1. [[TryHackMe - What is Networking]]
+1. [[What is Networking]]

@@ -22,4 +22,4 @@ Default Gateway,
 
 
 ### References
-1. [[TryHackMe - Intro to Lan]]
+1. [[Intro to Lan]]

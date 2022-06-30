@@ -1,4 +1,4 @@
-[[TryHackMe - DNS in detail]]
+[[DNS in detail]]
 
 # What is an IP Address
 Created:  [[2022-06-22]]

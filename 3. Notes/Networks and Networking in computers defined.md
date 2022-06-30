@@ -1,4 +1,4 @@
-[[TryHackMe - What is Networking]]
+[[What is Networking]]
 
 # Computer Networking and Networks and their definition
 Created:  [[2022-04-21]]
@@ -21,4 +21,4 @@ Network
 
 
 ### References
-1. [[TryHackMe - What is Networking]]
+1. [[What is Networking]]

@@ -1,4 +1,4 @@
-[[TryHackMe - DNS in detail]]
+[[DNS in detail]]
 
 # Requesting a domain name
 Created:  [[2022-06-22]]

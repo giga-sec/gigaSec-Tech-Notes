@@ -1,4 +1,4 @@
-[[TryHackMe - DNS in detail]]
+[[DNS in detail]]
 
 # More DNS Record Types
 Created:  [[2022-06-22]]

@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # Software Repos and Packages
 Created:  [[2022-06-22]]

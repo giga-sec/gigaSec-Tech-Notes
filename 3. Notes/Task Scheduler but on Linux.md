@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # Task Scheduler on Linux
 Created:  [[2022-06-22]]

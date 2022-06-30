@@ -1,4 +1,4 @@
-[[TryHackMe - DNS in detail]]
+[[DNS in detail]]
 
 # Parts of a DNS Website
 Created:  [[2022-06-22]]

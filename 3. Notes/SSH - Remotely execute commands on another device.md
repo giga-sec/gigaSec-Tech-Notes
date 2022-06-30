@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # SSH - Remotely execute commands on another device
 Created:  [[2022-06-16]]

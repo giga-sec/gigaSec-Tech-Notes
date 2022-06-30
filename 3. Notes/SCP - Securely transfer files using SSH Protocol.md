@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # SCP - Securely transfer files using SSH Protocol
 Created:  [[2022-06-30]]
