@@ -63,15 +63,19 @@ Useful Commands
 ``wget``
 Allows us to download files from the web via HTTP
 
+[[SCP - Securely transfer files using SSH Protocol]]
 
-``scp`` basically means secure copy
-- allows you to transfer files between two computers using SSH protocol.
 
--   Copy files & directories from your current system to a remote system\
--> `scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt`
 
--   Copy files & directories from a remote system to your current system
--> `scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt`
+
+
+https://stackoverflow.com/questions/53343801/how-do-i-get-the-man-command
+`apt update` to update the local package lists followed by `apt install man-db` to install the actual package.
+
+
+https://averagelinuxuser.com/how-to-install-and-use-ssh-on-linux/#configure-ssh-on-a-local-computer
+Install SSH on computer
+
 
 
 
