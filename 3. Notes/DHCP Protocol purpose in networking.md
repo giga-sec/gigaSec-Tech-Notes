@@ -1,4 +1,4 @@
-[[TryHackMe - Intro to Lan]]
+[[Intro to Lan]]
 
 # DHCP Protocol purpose in networking
 Created:  [[2022-04-23]]
