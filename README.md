@@ -79,7 +79,7 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 3. All Deleted Files goes to .trash folder which is hidden
 
 ---
-# Quick guide about the topics
+## Quick guide about the topics I'm taking note with
 
 MOC Networking
 - Everything about how computers are connected or how they communicate to each other.
