@@ -1,4 +1,4 @@
-[[TryHackMe - Intro to Lan]]
+[[Intro to Lan]]
 
 # ARP Protocol and how it works
 Created:  [[2022-05-08]]
@@ -20,4 +20,4 @@ The ARP Protocol broadcasts connected networks and ask each of them which one ha
 
 
 ### References
-1. [[TryHackMe - Intro to Lan]]
+1. [[Intro to Lan]]
