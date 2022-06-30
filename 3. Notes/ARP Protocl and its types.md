@@ -1,4 +1,4 @@
-[[TryHackMe - Intro to Lan]]
+[[Intro to Lan]]
 
 # ARP Protocl and its types
 Created:  [[2022-05-08]]
@@ -24,4 +24,4 @@ Types of ARP Packets
 
 
 ### References
-1. [[TryHackMe - Intro to Lan]]
+1. [[Intro to Lan]]
