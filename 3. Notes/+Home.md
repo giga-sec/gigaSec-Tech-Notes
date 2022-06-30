@@ -13,9 +13,11 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 
 
+[[Windows Fundamentals]]
 
+[[Linux Fundamentals]]
 
-
+[[VIM]]
 
 
 
