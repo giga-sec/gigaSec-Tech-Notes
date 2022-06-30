@@ -3,6 +3,7 @@
 - Installation Process
 - Quick Guide of navigating my notes
 - Quick Guide about using my Obsidian Vault
+- Quick Guide about the topics I'm taking notes with
 
 ---
 Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me. However, I encourage and welcome pull requests that suggests any correction
@@ -40,6 +41,8 @@ Click `Turn Off Safe Mode`
 
 My system of note taking is a combination of the principles I learned in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/) and [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6). As you navigate my system, you might see some slip-ups but I designed to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
 
+However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes.
+
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
 **Explanations of each tags**
@@ -74,6 +77,25 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 
 3. All Deleted Files goes to .trash folder which is hidden
+
+---
+# Quick guide about the topics
+
+MOC Networking
+- Everything about how computers are connected or how they communicate to each other.
+
+MOC Hacking
+- This is for hacking techniques, groups or practices to defend an organization from attacks
+
+MOC Programming
+- Everything about programming
+
+MOC Git
+- Git, everything about git
+
+MOC Hardware
+- Basically contains all aspects in hardware such as GPU, CPU or smnth.
+- I haven't touched this area for so long. 
 
 ---
 If you found any typo's or grammar mistakes, feel free to roast me in pull requests and I'll make sure to review them. 
