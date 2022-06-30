@@ -18,4 +18,4 @@ It allows devices to identify themselves on a network.
 
 
 ### References
-1. [[TryHackMe - Intro to Lan]]
+1. [[Intro to Lan]]
