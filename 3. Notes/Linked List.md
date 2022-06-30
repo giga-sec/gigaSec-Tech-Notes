@@ -20,19 +20,14 @@ Abstract:
 
 A linked list is a linear data structure. It's a set of dynamically allocated nodes. 
 
+---
+## Linked list vs Array
+
 Array's placeholder of values are called "elements"
 and it's location as "index"
 
 Now here, in linked list, we call the placeholder of values "node"
 and the locations as "position"
-
-
-
-
-
-
-
-[https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm](https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm)
 
 ### Inserting values into ARRAY
 ![[Inserting Values in an array.mp4]]
@@ -47,6 +42,7 @@ Linked list is an alternative as we don't have to shift individual values. When 
 
 The problem with linked list is we do not keep track of the position of nodes, thus computers can't automatically tell if its a 5th, 6th or last node. Thus in oder to add a node AT THE END OF THE LINKED LIST, we have to traverse each node from beginning until the NULL is found, thus we declare that it's the end of the linked list. 
 
+----
 
 
 
@@ -116,4 +112,4 @@ https://overiq.com/c-programming-101/pointer-to-a-structure-in-c/
 ### References
 1. https://www.learn-c.org/en/Linked_lists
 2. https://cs50.harvard.edu/x/2022/notes/5/#linked-lists
-3. 
+3. [https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm](https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm)
