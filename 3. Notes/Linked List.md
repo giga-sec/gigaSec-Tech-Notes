@@ -27,21 +27,26 @@ Now here, in linked list, we call the placeholder of values "node"
 and the locations as "position"
 
 
-The first and last node of a linked list are called the head and tail of the list, respectively. 
 
-Thus, we can traverse the list starting at the head and ending at the tail. 
 
-The tail node is a special node, where the next pointer is always pointing or linking to a null reference, indicating the end of the list.
 
-However, since we don't keep track of any index numbers for the nodes in a linked list, we cannot tell just by examining a node if it is the second, or fifth node in the list. 
+
 
 [https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm](https://www.cpp.edu/~ftang/courses/CS240/lectures/slist.htm)
 
-### Inserting values into array vs linked list
-When inserting into array, we typically have to shift values.  
+### Inserting values into ARRAY
+![[Inserting Values in an array.mp4]]
+When inserting into array, we typically have to shift values.  When scenarios such as inserting array into the beginning of an array, we are gonna have to shift every index. 
+
+However, adding values to the end of the array is faster compared to linked list. As we don't have to traverse each index. 
 
 
-Linked list is better as we don't have to shift individual values. We just have to change where we point the pointers.
+### Inserting values into LINKED LIST
+![[Inserting Values in Linked List.mp4]]
+Linked list is an alternative as we don't have to shift individual values. When we insert a node into the beginning of a linked list, we just have to change where we point the pointer.
+
+The problem with linked list is we do not keep track of the position of nodes, thus computers can't automatically tell if its a 5th, 6th or last node. Thus in oder to add a node at the end of the linked list, we have to traverse each node from beginning until the NULL is found, thus we declare that it's the end of the linked list. 
+
 
 
 
@@ -50,14 +55,11 @@ The elements of a linked list can be anywhere in the memory and they can be link
 
 
 The good and bad of Linked List:
-With linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. Dynamic memory allocation and pointers are required, which complicates the code and increases the risk of memory leaks and segment faults. Linked lists have a much larger overhead over arrays, since linked list items are dynamically allocated (which is less efficient in memory usage) and each item in the list also must store an additional pointer.
+With linked list, we have the tradeoff of needing to allocate more memory for each value and pointer, in order to spend less time adding values. Dynamic memory allocation and pointers are required, which complicates the code and increases the risk of memory leaks and segment faults. Linked lists have a much larger overhead over arrays, since linked list items are dynamically allocated (which is less efficient in memory usage) and each item in the list also must store an additional pointer. However, since we don't keep track of any index numbers for the nodes in a linked list, we cannot tell just by examining a node if it is the second, or fifth node in the list. Linked lists function as an array that can grow and shrink as needed, data items can be added at any locations in the list.The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
 - More memory usage
 - Items can be added or removed from the middle of the list
 **=="When you start using more space, you can save time"
 "When you start conserving space, you might lose time"==**
-
-
-
 
 
 Symbols in C
@@ -66,11 +68,8 @@ Symbols in C
 -   `*` to go to an address in memory pointed to by a pointer
 - `->` Combination of, going inside of a structure `.` and `*` going to an address is. Basically from `(*n).number = 1;` to this `n->number` 
 
-Every linked list has nodes and each node have two parts, the data section and the address section that holds the address of the next element in the list.
+Every linked list has nodes and each node have two parts, the data section and the address section that holds the address of the next element in the list. The first and last node of a linked list are called the head and tail of the list, respectively. The tail node is a special node, where the next pointer is always pointing or linking to a null reference, indicating the end of the list.
 
-Linked lists function as an array that can grow and shrink as needed, data items can be added at any locations in the list.
-
-The disadvantage is that to get to a node, we must traverse to all the way from the first node to the node that we require. 
 
 
 (2)
