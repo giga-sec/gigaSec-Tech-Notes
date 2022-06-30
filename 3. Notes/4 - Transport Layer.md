@@ -9,6 +9,7 @@ Tags: #permanent
 It chooses the protocol to use for the data to be transmitted. And divides the transmission of data to make it easier to transmit data. 
 
 
+
 #### A protocol will be selected  
 - TCP (**T**ransmission **C**ontrol **P**rotocol)
 A TCP connection allows **two computers to remain in constant communication**. It ensures that data sent is at an acceptable speed, and **==any lost data is re-sent==**.
@@ -18,6 +19,8 @@ With UDP, packets of data are essentially thrown at the receiving computer, **==
 (e.g. a pixelated skype call)
 
 #### [[TCP vs UDP, Which protocol to choose in Transport Layer]]
+
+
 
 
 #### When a protocol is now selected 

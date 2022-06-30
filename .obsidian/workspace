@@ -131,12 +131,12 @@
     "3. Notes/THE OSI MODEL.md",
     "3. Notes/1 - Physical Layer.md",
     "3. Notes/2 - Data Link Layer.md",
+    "3. Notes/MAC address.md",
     "3. Notes/3 - Network Layer.md",
     "3. Notes/4 - Transport Layer.md",
     "3. Notes/5 - Session Layer.md",
     "3. Notes/6 - Presentation Layer.md",
-    "3. Notes/TCP vs UDP, Which protocol to choose in Transport Layer.md",
     "3. Notes/7- Application Layer.md",
-    "3. Notes/MAC Address and the meaning of its numbers.md"
+    "3. Notes/TCP vs UDP, Which protocol to choose in Transport Layer.md"
   ]
 }

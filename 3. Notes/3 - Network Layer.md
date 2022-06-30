@@ -21,6 +21,7 @@ Most common form of logical addressing is the
 - IPV4 format, (i.e 192.168.1.1 common address for home router).
 
 
+
 ### [[2 - Data Link Layer]]
 
 

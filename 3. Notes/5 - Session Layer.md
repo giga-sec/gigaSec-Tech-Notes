@@ -19,9 +19,8 @@ It will also **co-operate with session layer of remote computer** in **order ==t
 The session layer is particularly important as the session that it creates is unique to the communication in question. This is what allows you to make multiple requests to different endpoints simultaneously without all the data getting mixed up (think about opening two tabs in a web browser at the same time)!
 
 
-When the session layer has successfully logged a connection between the host and remote computer the data is passed down to transport layer
 
-
+When session layer has successfully logged a connection between the host and remote computer, the data is passed down to transport layer
 ### [[4 - Transport Layer]]
 
 
