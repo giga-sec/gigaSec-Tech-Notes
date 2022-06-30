@@ -1,4 +1,4 @@
-[[URL or Uniform Resource Locator]]
+[[HTTP in Detail]]
 
 # Communication between webserver and the client-user
 Created:  [[2022-06-29]]
