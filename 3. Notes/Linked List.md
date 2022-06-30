@@ -45,7 +45,7 @@ However, adding values to the end of the array is faster compared to linked list
 ![[Inserting Values in Linked List.mp4]]
 Linked list is an alternative as we don't have to shift individual values. When we insert a node into the beginning of a linked list, we just have to change where we point the pointer.
 
-The problem with linked list is we do not keep track of the position of nodes, thus computers can't automatically tell if its a 5th, 6th or last node. Thus in oder to add a node at the end of the linked list, we have to traverse each node from beginning until the NULL is found, thus we declare that it's the end of the linked list. 
+The problem with linked list is we do not keep track of the position of nodes, thus computers can't automatically tell if its a 5th, 6th or last node. Thus in oder to add a node AT THE END OF THE LINKED LIST, we have to traverse each node from beginning until the NULL is found, thus we declare that it's the end of the linked list. 
 
 
 
