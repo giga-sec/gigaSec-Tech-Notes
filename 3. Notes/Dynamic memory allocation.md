@@ -13,7 +13,7 @@ Tags: #permanent
 ?? When to use Dynamic Memory Allocation
 - We're not sure how much data we're gonna use during runtime
 
-
+[[Linked List]]
 
 
 [[Malloc in C Explained]]
