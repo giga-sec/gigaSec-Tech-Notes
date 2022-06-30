@@ -1,4 +1,4 @@
-[[TryHackMe - What is Networking]]
+[[What is Networking]]
 
 # MAC Address and the meaning of its numbers
 Created:  [[2022-04-21]]
@@ -21,4 +21,4 @@ The LAST six numbers are unique random numbers.
 
 
 ### References
-1. [[TryHackMe - What is Networking]]
+1. [[What is Networking]]
