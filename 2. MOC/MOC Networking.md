@@ -13,6 +13,3 @@
 [[THE OSI MODEL]]
 
 
-
-### Meme
-- [[TCP VS UDP]]

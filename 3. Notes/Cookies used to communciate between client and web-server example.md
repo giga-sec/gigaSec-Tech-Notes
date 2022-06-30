@@ -1,0 +1,25 @@
+[[Why are cookies used in HTTP]]
+
+# Cookies used to communciate between client and web-server
+Created:  [[2022-06-30]]
+Tags: #permanent 
+
+---
+Cookies are saved when you receive a `set-cookie header` from a web-server. From then on, any request sent to that web-server, you'll send the cookie data back to web-server. 
+
+![[cookie_flow.png|500]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+### References
+1. 
