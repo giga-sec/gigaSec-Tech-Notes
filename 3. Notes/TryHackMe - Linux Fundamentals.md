@@ -16,6 +16,9 @@ Tags: #fleeting
 [[SSH - Remotely execute commands on another device]]
 
 
+[[SCP - Securely transfer files using SSH Protocol]]
+
+
 [[Software Repos and Packages]]
 
 
@@ -24,6 +27,8 @@ Tags: #fleeting
 
 [[Processes on Linux]]
 [[Killing Processes on linux and more options we can add]]
+
+
 
 
 
@@ -39,11 +44,11 @@ Tags: #fleeting
 
 
 
-
+``wget``
+Allows us to download files from the web via HTTP
 
 
 The Operating System (OS) uses namespaces to ultimately split up the resources available on the computer to (such as CPU, RAM and priority) processes. Namespaces are great for security as it is a way of isolating processes from another -- only those that are in the same namespace will be able to see each other.
-
 
 `systemctl <option> <service>`
 This command allows us to interact with the **systemd** process/daemon. Basically doing some things with the boot-up system
@@ -59,11 +64,7 @@ Disable
 
 
 
-Useful Commands
-``wget``
-Allows us to download files from the web via HTTP
 
-[[SCP - Securely transfer files using SSH Protocol]]
 
 
 
