@@ -1,4 +1,4 @@
-[[TryHackMe - Linux Fundamentals]]
+[[Linux Fundamentals]]
 
 # Arguments in linux are called flags or switches
 Created:  [[2022-06-21]]
