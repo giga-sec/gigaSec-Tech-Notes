@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/THE OSI MODEL.md",
+            "file": "2. MOC/MOC Networking.md",
             "mode": "source",
             "source": false
           }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/THE OSI MODEL.md",
+                "file": "2. MOC/MOC Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/THE OSI MODEL.md",
+                "file": "2. MOC/MOC Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
-    "3. Notes/THE OSI MODEL.md",
-    "3. Notes/1 - Physical Layer.md",
-    "3. Notes/2 - Data Link Layer.md",
-    "3. Notes/MAC address.md",
-    "3. Notes/3 - Network Layer.md",
-    "3. Notes/4 - Transport Layer.md",
-    "3. Notes/5 - Session Layer.md",
-    "3. Notes/6 - Presentation Layer.md",
-    "3. Notes/7- Application Layer.md",
-    "3. Notes/TCP vs UDP, Which protocol to choose in Transport Layer.md"
+    "2. MOC/MOC Networking.md",
+    "3. Notes/Windows Fundamentals.md",
+    "3. Notes/+Home.md",
+    "3. Notes/HTTP in Detail.md",
+    "3. Notes/How communication happens between webserver and client-user.md",
+    "3. Notes/HTTPS REQUEST by CLIENT to webserver example.md",
+    "3. Notes/HTTPS RESPONSE from WEBSERVER to client-user example.md",
+    "3. Notes/Why are cookies used in HTTP.md",
+    "3. Notes/How are cookies saved on your computer.md",
+    "3. Notes/Cookies used to communciate between client and web-server example.md"
   ]
 }
