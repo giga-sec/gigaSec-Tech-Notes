@@ -2,19 +2,15 @@
 
 # MOC Networking
 
-[[TryHackMe - What is Networking]]
+[[What is Networking]]
 
-[[TryHackMe - Intro to Lan]]
+[[Intro to Lan]]
 
-[[TryHackMe - Windows Fundamentals]]
-
-[[TryHackMe - Linux Fundamentals]]
-
-[[TryHackMe - DNS in detail]]
+[[DNS in detail]]
 
 [[HTTP in Detail]]
 
-[[VIM]]
+[[THE OSI MODEL]]
 
 
 
