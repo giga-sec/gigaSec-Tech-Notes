@@ -19,25 +19,26 @@ The OSI Model has seven layers
 
 
 ### [[7- Application Layer]] 
-
+- Gives networking options to programs running on a computer
 
 ### [[6 - Presentation Layer]]
-
+- Translates data received from application layer to standardised format 
+- Handles encryption, compression etc..
 
 ### [[5 - Session Layer]]
-
+- Set-ups a connection between other computer across network
 
 ### [[4 - Transport Layer]]
-
+- Chooses the protocol on how data will be delievered
 
 ### [[3 - Network Layer]]
-
+- Locates the destination of your request
 
 ### [[2 - Data Link Layer]]
-
+- Receives packet from network layer and adds in MAC Address at endpoint
 
 ### [[1 - Physical Layer]]
-
+- Converst electrical pulses into binary data and vice versa
 
 
 

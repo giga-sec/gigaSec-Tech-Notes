@@ -9,6 +9,7 @@ Tags: #permanent
 The network layer is 
 - responsible for locating the destination of your request. 
 
+
 When you want to request information from a webpage, 
 It's the network layer that takes the IP address for the page and figures out the best route to take.
 
