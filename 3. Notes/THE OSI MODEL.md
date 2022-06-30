@@ -29,7 +29,8 @@ The OSI Model has seven layers
 - Set-ups a connection between other computer across network
 
 ### [[4 - Transport Layer]]
-- **Chooses the protoco**l on how data will be delievered
+- **Chooses the protoco**l on how data will be delievered. 
+- These is where TCP and UDP happens.
 
 ### [[3 - Network Layer]]
 - Locates the destination of your request
