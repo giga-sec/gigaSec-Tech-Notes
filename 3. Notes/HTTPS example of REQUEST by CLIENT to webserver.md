@@ -31,14 +31,17 @@ Blank Line. Requests always leave a blank line in the end, kinda like a period i
 
 
 
+#### There's also different ways we can make request to a web server
+[[Web server and different ways we make request to it]]
+
+
+
 ##### More details about headers being used in this Request Code
 [[HEADER REQUEST by CLIENT to web servers]]
 
 
 
 
-###### Could probably interest you
-[[Web server and different ways we make request to it]]
 
 
 
