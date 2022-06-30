@@ -9,6 +9,7 @@ Tags: #permanent
 
 Cookies are **also used for website authentication**, so that users no longer need to type their username and password out. 
 
+[[How are cookies saved on your computer]]
 
 ### [[Cookies used to communciate between client and web-server example]].
 

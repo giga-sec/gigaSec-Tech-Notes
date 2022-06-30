@@ -11,17 +11,18 @@ Abstract:
 - [[Web server and different ways we make request to it]]
 ---
 To access a website, 
-- You, the client, give a [[HTTPS example of REQUEST by CLIENT to webserver|request]] to the webserver  
-- The webserver will give a [[HTTPS example of RESPONSE from WEBSERVER to client-user|response]] to your computer, if the response is `Ok`, the files required to display the website will be sent to your computer. 
+- You, the client, give a [[HTTPS REQUEST by CLIENT to webserver example|request]] to the webserver  
+- The webserver will give a [[HTTPS RESPONSE from WEBSERVER to client-user example|response]] to your computer, if the response is `Ok`, the files required to display the website will be sent to your computer. 
+- [[Web server and different ways we make request to it]]
 
 
 ## [[What are headers and how is it used in HTTPS]]
 
-- [[HTTPS example of REQUEST by CLIENT to webserver]]
-- [[HTTPS example of RESPONSE from WEBSERVER to client-user]]
+- [[HTTPS REQUEST by CLIENT to webserver example]]
+- [[HTTPS RESPONSE from WEBSERVER to client-user example]]
 
 
-[[Web server and different ways we make request to it]]
+
 
 
 

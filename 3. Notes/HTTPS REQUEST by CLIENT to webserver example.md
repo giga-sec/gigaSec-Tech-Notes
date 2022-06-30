@@ -27,7 +27,7 @@ Referer. It's the referer, that's it.
 Blank Line. Requests always leave a blank line in the end, kinda like a period in english where it signifies the end of the sentence. Here it signifies to the web server that the request has finished. 
 
 #### The web-server will then send a response to the client.  
-[[HTTPS example of RESPONSE from WEBSERVER to client-user]]
+[[HTTPS RESPONSE from WEBSERVER to client-user example]]
 
 
 

@@ -16,7 +16,7 @@ PUT Request - Submitting data to UPDATE an info
 DELETE Request - Deleting data to a web sever
 
 
-[[HTTPS example of REQUEST by CLIENT to webserver]]
+[[HTTPS REQUEST by CLIENT to webserver example]]
 
 
 

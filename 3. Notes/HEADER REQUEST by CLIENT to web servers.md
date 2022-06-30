@@ -30,7 +30,7 @@ Abstract:
 - Allows server to remember client's information
 
 
-[[HTTPS example of REQUEST by CLIENT to webserver]]
+[[HTTPS REQUEST by CLIENT to webserver example]]
 
 
 

@@ -40,7 +40,7 @@ Blank Line: HTTP response contains a blank line to confirm the end of the HTTP 
 Line 7-14: The info itself is now displayed
 
 #### In order to get the response above, the client must request first. Here is an example
-[[HTTPS example of REQUEST by CLIENT to webserver]]
+[[HTTPS REQUEST by CLIENT to webserver example]]
 
 
 ##### More details about header response in web-server

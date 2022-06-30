@@ -16,11 +16,11 @@ Tags: #fleeting
 ---
 HTTP is the **set of rules** used for **==communicating with [[Web server and different ways we make request to it|web servers]] for the sending of webpage data==, whether that is HTML, Images, Videos, etc**. 
 
-HTTP is stateless (doesn't keep track of previous requests) therefore can't remember who you are, thus [[Why are cookies used in HTTP|cookies]] are used to remember you .
+HTTP is **stateless (doesn't keep track of previous requests)** therefore can't remember who you are, thus [[Why are cookies used in HTTP|cookies]] are used to remember you .
 
 
 ### [[How communication happens between webserver and client-user]]
-To access a website, you send a [[HTTPS example of REQUEST by CLIENT to webserver|request]] to the webserver. It will give a [[HTTPS example of RESPONSE from WEBSERVER to client-user|response]] to you and if the response is Ok, the files that's required to display the website will be sent to your computer. 
+To access a website, you send a [[HTTPS REQUEST by CLIENT to webserver example|request]] to the webserver. It will give a [[HTTPS RESPONSE from WEBSERVER to client-user example|response]] to you and if the response is Ok, the files that's required to display the website will be sent to your computer. 
 
 
 

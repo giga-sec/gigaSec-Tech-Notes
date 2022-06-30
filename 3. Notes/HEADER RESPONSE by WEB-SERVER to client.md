@@ -29,7 +29,7 @@ Abstract:
 - Method that is used to compress the data 
 
 
-[[HTTPS example of RESPONSE from WEBSERVER to client-user]]
+[[HTTPS RESPONSE from WEBSERVER to client-user example]]
 
 
 
