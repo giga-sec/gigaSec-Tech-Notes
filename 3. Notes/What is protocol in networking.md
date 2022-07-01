@@ -5,11 +5,12 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
-These are sets of rules that define how an action is to be carried out
+"**Protocol**" are sets of rules that define how an action is to be carried out
 
 
 [[TCP - Transmission Control Protocol]]
 
+[[UDP - User Datagram Protocol]]
 
 [[IP - Internet Protocol]]
 
