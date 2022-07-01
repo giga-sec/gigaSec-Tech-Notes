@@ -52,6 +52,9 @@ The OSI Model has seven layers
 
 
 
+[[Layers often name their data differently]].
+
+
 
 
 
