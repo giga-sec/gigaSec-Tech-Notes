@@ -26,16 +26,19 @@ Processes of encapsulation and de-encapsulation in TCP-IP Model
 ### **OSI Model** is mainly used for learning 
 ### **TCP/IP model** is standard of what modern networking is based at.
 
+
 [[Why bother learning OSI Model then]]
 Your question is justified about why we bother with OSI model if **it's not even actually used for anything in the real-world**
+
+
 
 
 ### Similarities between OSI and TCP/IP Model
 
  OSI MODEL                        TCP/IP Model
-7 Application                     \
-6 Presentation                   |-> Application
-5 Session                           /
+7 Application                      \
+6 Presentation                    |-> Application
+5 Session                            /
 
 
 4 Transport                       ->  Transport 
@@ -43,14 +46,14 @@ Your question is justified about why we bother with OSI model if **it's not even
 
 
 2 Data Link                         |---  Network Interface
-1  Physical                          |--------^
+1 Physical                           |--------^
 
 
 
 
 
 
-[[What is protocol in networking]]
+
 
 
 
