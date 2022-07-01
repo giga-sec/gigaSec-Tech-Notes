@@ -129,14 +129,14 @@
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
     "3. Notes/Encapsulation.md",
-    "3. Notes/2 - Data Link Layer.md",
     "2. MOC/MOC Networking.md",
+    "3. Notes/TCP-IP Model.md",
     "3. Notes/OSI Model.md",
-    "3. Notes/+Home.md",
-    "3. Notes/C - Iteratively add nodes of a NEW linked list.md",
-    "3. Notes/Linked List Code Snippets.md",
-    "3. Notes/Linked List.md",
-    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
-    "2. MOC/MOC Programming.md"
+    "3. Notes/7- Application Layer.md",
+    "3. Notes/6 - Presentation Layer.md",
+    "3. Notes/5 - Session Layer.md",
+    "3. Notes/4 - Transport Layer.md",
+    "3. Notes/3 - Network Layer.md",
+    "3. Notes/2 - Data Link Layer.md"
   ]
 }

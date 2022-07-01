@@ -16,6 +16,8 @@ It also checks the received information to make sure that it hasn't been corrupt
 
 The data link layer also adds a piece of data at the _end_ of the transmission, which is used to verify that the data has not been corrupted.
 
+Adds a _trailer_ during encapsulation
+
 ### [[1 - Physical Layer]]
 
 

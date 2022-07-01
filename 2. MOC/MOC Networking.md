@@ -12,6 +12,8 @@
 
 [[OSI Model]]
 
+[[TCP-IP Model]]
+
 [[Encapsulation]]
 
 
