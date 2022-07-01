@@ -31,6 +31,7 @@ There are only two plugins installed here and only used for theme customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
 2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
 ... Still working this part here
 Click `Turn Off Safe Mode`
