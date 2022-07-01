@@ -130,13 +130,13 @@
   "lastOpenFiles": [
     "3. Notes/+Home.md",
     "2. MOC/MOC Networking.md",
-    "3. Notes/Encapsulation.md",
     "3. Notes/OSI Model.md",
-    "3. Notes/TCP-IP Model.md",
+    "3. Notes/Layers often name their data differently.md",
     "3. Notes/What is protocol in networking.md",
-    "3. Notes/TCP - Transmission Control Protocol.md",
-    "3. Notes/4 - Transport Layer.md",
-    "3. Notes/UDP - User Datagram Protocol.md",
-    "3. Notes/IP - Internet Protocol.md"
+    "3. Notes/Encapsulation.md",
+    "3. Notes/TCP-IP Model.md",
+    "2. MOC/MOC GIT.md",
+    "2. MOC/MOC Programming.md",
+    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md"
   ]
 }
