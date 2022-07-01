@@ -33,7 +33,7 @@ The OSI Model has seven layers
 
 ### [[4 - Transport Layer]]
 - **Chooses the protoco**l on how data will be delievered. 
-- These is where TCP and UDP happens.
+- These is where [[TCP - Transmission Control Protocol|TCP]] and [[UDP - User Datagram Protocol|UDP]] happens.
 
 
 ### [[3 - Network Layer]]
