@@ -11,10 +11,10 @@ It chooses the protocol to use for the data to be transmitted. And divides the t
 
 
 #### A protocol will be selected  
-- TCP (**T**ransmission **C**ontrol **P**rotocol)
+- [[TCP - Transmission Control Protocol]]
 A TCP connection allows **two computers to remain in constant communication**. It ensures that data sent is at an acceptable speed, and **==any lost data is re-sent==**.
 
-- UDP (**U**ser **D**atagram **P**rotocol)
+- [[UDP - User Datagram Protocol]]
 With UDP, packets of data are essentially thrown at the receiving computer, **==if the receiving computer can't keep up then that's not his problem==** 
 (e.g. a pixelated skype call)
 
