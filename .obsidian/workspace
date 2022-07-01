@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2. MOC/MOC Networking.md",
+            "file": "3. Notes/+Home.md",
             "mode": "source",
             "source": false
           }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. MOC/MOC Networking.md",
+                "file": "3. Notes/+Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. MOC/MOC Networking.md",
+                "file": "3. Notes/+Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
-    "2. MOC/MOC Networking.md",
-    "3. Notes/TCP-IP Model.md",
     "3. Notes/+Home.md",
+    "2. MOC/MOC Networking.md",
+    "3. Notes/Encapsulation.md",
+    "3. Notes/OSI Model.md",
+    "3. Notes/TCP-IP Model.md",
     "3. Notes/What is protocol in networking.md",
-    "3. Notes/IP - Internet Protocol.md",
-    "3. Notes/When is Three-way handshake used in networking.md",
-    "3. Notes/The steps of Three-Way Handshake.md",
     "3. Notes/TCP - Transmission Control Protocol.md",
-    "3. Notes/Why bother learning OSI Model then.md",
-    "3. Notes/Encapsulation.md"
+    "3. Notes/4 - Transport Layer.md",
+    "3. Notes/UDP - User Datagram Protocol.md",
+    "3. Notes/IP - Internet Protocol.md"
   ]
 }
