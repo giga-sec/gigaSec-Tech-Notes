@@ -1,4 +1,4 @@
-### [[THE OSI MODEL]]
+### [[OSI Model]]
 
 # 7- Application Layer
 Created:  [[2022-06-30]]

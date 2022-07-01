@@ -12,7 +12,7 @@ This is where electrical pulses that make up data transfer over a network are se
 Physical layer **converts the binary data of the transmission into signals** and transmit them across the network, as well as **receiving incoming signals and converting them back into binary data**.
 
 
-### [[THE OSI MODEL]]
+### [[OSI Model]]
 
 
 

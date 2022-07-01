@@ -10,6 +10,8 @@
 
 [[HTTP in Detail]]
 
-[[THE OSI MODEL]]
+[[OSI Model]]
+
+[[Encapsulation]]
 
 

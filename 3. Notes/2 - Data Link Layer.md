@@ -14,6 +14,8 @@ Data will be formatted in preparation for transmission.
 
 It also checks the received information to make sure that it hasn't been corrupted during transmission, which could well happen when the data is transmitted by layer 1.
 
+The data link layer also adds a piece of data at the _end_ of the transmission, which is used to verify that the data has not been corrupted.
+
 ### [[1 - Physical Layer]]
 
 

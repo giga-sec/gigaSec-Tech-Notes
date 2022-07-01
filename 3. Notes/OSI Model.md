@@ -5,7 +5,7 @@ Created:  [[2022-06-30]]
 Tags: #literature 
 
 ---
-The OSI (**O**pen **S**ystems **I**nterconnection) Model is a standardised model which we **use to demonstrate the theory behind computer networking**. In practice, **it's actually the ==more compact TCP/IP model that real-world networking is based off**==
+The **OSI Model** (**O**pen **S**ystems **I**nterconnection) is a standardised model which we **use to demonstrate the theory behind computer networking**. In practice, **it's actually the ==more compact TCP/IP model that real-world networking is based off**==
 
 
 The OSI Model has seven layers

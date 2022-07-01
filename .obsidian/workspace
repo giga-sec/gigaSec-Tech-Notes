@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2. MOC/MOC Networking.md",
+            "file": "3. Notes/Encapsulation.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "everything",
+                "query": "data link layer]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. MOC/MOC Networking.md",
+                "file": "3. Notes/Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. MOC/MOC Networking.md",
+                "file": "3. Notes/Encapsulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
+    "3. Notes/Encapsulation.md",
+    "3. Notes/2 - Data Link Layer.md",
     "2. MOC/MOC Networking.md",
-    "3. Notes/Windows Fundamentals.md",
+    "3. Notes/OSI Model.md",
     "3. Notes/+Home.md",
-    "3. Notes/HTTP in Detail.md",
-    "3. Notes/How communication happens between webserver and client-user.md",
-    "3. Notes/HTTPS REQUEST by CLIENT to webserver example.md",
-    "3. Notes/HTTPS RESPONSE from WEBSERVER to client-user example.md",
-    "3. Notes/Why are cookies used in HTTP.md",
-    "3. Notes/How are cookies saved on your computer.md",
-    "3. Notes/Cookies used to communciate between client and web-server example.md"
+    "3. Notes/C - Iteratively add nodes of a NEW linked list.md",
+    "3. Notes/Linked List Code Snippets.md",
+    "3. Notes/Linked List.md",
+    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+    "2. MOC/MOC Programming.md"
   ]
 }
