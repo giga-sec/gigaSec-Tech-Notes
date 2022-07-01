@@ -8,7 +8,7 @@ Tags: #fleeting
 Abstract:
 - Encapsulation
 - De-encapsulation
-- Name of data of each layers
+- Name of the data of each layers
 - Why Encapsulation and De-encapsulation are important
 
 ---
@@ -38,6 +38,7 @@ By the time it's transmitted across a network the frame has been broken down int
 
 ### De-encapsulation happens when receiving a message
 When the message is received by the second computer, it reverses the process -- starting at the physical layer and working up until it reaches the application layer, stripping off the added information as it goes. This is referred to as _de-encapsulation_. 
+
 
 
 It happens when receiving a message.  At each layer, a header is added during encapsulation, and removed during de-encapsulation.
