@@ -13,7 +13,9 @@ Abstract:
 [[Requesting a domain name]]
 
 ---
-DNS is a **simple way for us to ==communicate with devices on the internet== without remembering complex numbers.** When you want to visit a website, **it's not convenient to remember `104.26.10.299` so we remember `tryhackme.com` instead.**
+DNS is a **way for us to ==communicate with devices on the internet== without remembering complex numbers.** 
+When visiting a website, **it's unconvenient to remember `104.26.10.299` thus we remember `tryhackme.com` instead** and DNS allows us to do that. 
+
 
 
 **DNS isn't just for websites though, and ==multiple types of DNS record exist**==. 
