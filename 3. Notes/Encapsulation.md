@@ -2,7 +2,7 @@
 
 # Encapsulation
 Created:  [[2022-07-01]]
-Tags: #fleeting 
+Tags: #literature  
 
 ---
 Abstract:
