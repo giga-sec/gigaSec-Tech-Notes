@@ -25,3 +25,6 @@
 
 [[Traceroute]]
 
+[[WHOIS]]
+
+[[Dig]]
