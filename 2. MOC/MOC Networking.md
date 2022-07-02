@@ -21,9 +21,9 @@
 
 
 ### Networking Tools
-[[Ping]]
+[[Ping command for testing a connection to a remote resource]]
 
-[[Traceroute]]
+[[Traceroute in Linux - Tracert in Windows]]
 
 [[WHOIS]]
 

@@ -18,13 +18,16 @@ Internet
 Network Interface
 
 
-Processes of encapsulation and de-encapsulation in TCP-IP Model
-- At each layer of the TCP/IP model, a header is added during encapsulation, and removed during de-encapsulation.
+TCP-IP Model
+Processes of encapsulation and de-encapsulation
+- At **==each layer of TCP/IP model==**, 
+- a **header is ADDED during encapsulation**
+-  a **header is REMOVED during DE-encapsulation**.
 
 
 ## Difference between OSI Model and TCP/IP Model
-### **OSI Model** is mainly used for learning 
-### **TCP/IP model** is standard of what modern networking is based at.
+#### **OSI Model** is mainly used for learning 
+#### **TCP/IP model** is standard of what modern networking is based at.
 
 
 [[Why bother learning OSI Model then]]
