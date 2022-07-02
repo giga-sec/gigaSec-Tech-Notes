@@ -21,5 +21,7 @@
 
 
 ### Networking Tools
+[[Ping]]
 
+[[Traceroute]]
 

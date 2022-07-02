@@ -20,6 +20,12 @@
 [[Week 5 - Linked Lists, Trees, Data Structures]]
 
 
+## Tools
+Visualize your algorithms
+https://algoviz.io
+
+Translate your code to english
+https://denigma.app
 
 
 ## Uncategorized

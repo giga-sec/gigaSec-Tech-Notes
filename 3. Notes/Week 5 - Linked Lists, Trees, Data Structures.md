@@ -42,6 +42,8 @@ bool search(node *tree, int number)
 }
 ```
 
+[[Binary Trees]]
+
 
 
 [[Trees in Programming]]

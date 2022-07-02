@@ -23,4 +23,5 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 
 ### Extras:
 
-
+Guides of Hackings here
+https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/

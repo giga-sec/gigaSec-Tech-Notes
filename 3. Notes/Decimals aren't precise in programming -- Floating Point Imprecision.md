@@ -26,3 +26,4 @@ Possible Alternative:
 ### References
 1. [^1]: https://medium.com/@jollyfish/integer-overflow-underflow-and-floating-point-imprecision-6ba869a99033
 2. https://stackoverflow.com/questions/1074474/should-i-use-double-or-float
+3. https://0.30000000000000004.com
