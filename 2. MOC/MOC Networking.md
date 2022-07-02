@@ -21,10 +21,10 @@
 
 
 ### Networking Tools
-[[Ping command for testing a connection to a remote resource]]
+[[Ping command for testing a connection]]
 
-[[Traceroute in Linux - Tracert in Windows]]
+[[Linux - Traceroute command  OR  Windows - Tracert command]]
 
-[[WHOIS]]
+[[WHOIS command to know more information about a domain]]
 
-[[Dig]]
+[[Dig command to manually query Recursive DNS Server]]

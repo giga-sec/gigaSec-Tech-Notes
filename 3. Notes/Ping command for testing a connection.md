@@ -5,7 +5,9 @@ Created:  [[2022-07-02]]
 Tags: #permanent  
 
 ---
-`ping <target>` like `ping google.com`
+`ping <target>`  
+`ping google.com`
+
 
 The ping command is used 
 - to test whether a connection to a remote resource is possible like a website, or home network. 

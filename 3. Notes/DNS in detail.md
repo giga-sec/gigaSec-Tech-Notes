@@ -1,6 +1,6 @@
 [[MOC Networking]]
 
-# TryHackMe - DNS in detail
+# DNS (Domain Name System)
 Created:  [[2022-06-22]]
 Tags: #literature  
 

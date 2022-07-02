@@ -5,12 +5,16 @@ Created:  [[2022-07-02]]
 Tags: #fleeting 
 
 ---
-Dig allows us to manually query [[Recursive DNS Server]] of our choice for information about domains. Incredibly helpful when troubleshooting networks.
+Dig allows us to **manually query [[Recursive DNS Server]]** of our choice for information about domains. Incredibly helpful when troubleshooting networks.
 `dig <domain> @<dns-server-ip>`
 
 
+
+
 ### Useful info Dig gives
-Dig gives the [[What is TTL in Networking|TTL (Time To Live)]] of the queried DNS record. When your computer queries a domain name, it stores the results in its local cache and gives a TTL to it. 
+Dig gives [[What is TTL in Networking|TTL (Time To Live)]] of the queried DNS record. When your computer queries a domain name, it stores the results in its local cache and gives a TTL to it. 
+
+
 
 
 ### Where can TTL be found in Dig
