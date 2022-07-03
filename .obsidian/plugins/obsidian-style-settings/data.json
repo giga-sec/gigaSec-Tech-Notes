@@ -34,5 +34,6 @@
   "minimal-style@@h5-variant": "normal",
   "minimal-style@@h5": "1",
   "minimal-style@@h6": "1",
-  "minimal-style@@h6-variant": "normal"
+  "minimal-style@@h6-variant": "normal",
+  "minimal-style@@h5-color@@dark": "#2FBBFF"
 }
