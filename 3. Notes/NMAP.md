@@ -13,12 +13,12 @@ Abstract:
 ---
 [[PORTS 101]]
 
-### How Nmap works
+## How Nmap works
 Nmap will connect to each port of the target in turn. Depending on how the port responds, it can be determined as being open, closed, or filtered (usually by a firewall)
 Once we know which ports are open, we can then look at enumerating which services are running on each port.
 
 
-### Switches of NMAP
+## Switches of NMAP
 `-O` determines the operating system that's running on the host
 
 `-sV` detect the version of the services running on the target
@@ -53,7 +53,7 @@ Activate ALL scripts in vuln CATEGORY
 More categories -> https://nmap.org/book/nse-usage.html#nse-categories. 
 
 
-### Saving the output of scans
+## Saving the output of scans
 This means that we only need to run the scan once (reducing network traffic and thus chance of detection)
 
 `-oA` save scan results in normal, XML and grepable formats at once.
@@ -63,7 +63,7 @@ This means that we only need to run the scan once (reducing network traffic and 
 `-oG` saving scan results into greppable format
 
 
-### Port Scanning with NMAP
+## Port Scanning with NMAP
 When port scanning with Nmap, there are three basic scan types. These are:
 -   TCP Connect Scans (`-sT`)
 -   SYN "Half-open" Scans (`-sS`)
@@ -78,7 +78,7 @@ Additionally there are several less common port scan types.
 Most of these (with the exception of UDP scans) are used for very similar purposes, however, the way that they work differs between each scan. This means that, whilst one of the first three scans are likely to be your go-to in most situations, it's worth bearing in mind that other scan types exist.
 
 
-### How TCP Connect Scan Works (-sT)
+## How TCP Connect Scan Works (-sT)
 By ==**performing the [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
 Nmap tries to connect to each specified TCP port, and determines whether the service is open by the response it receives.
 
@@ -97,61 +97,70 @@ No reply for when port is behind firewall
 
 
 
-### Port is closed
-**Nmap sends a TCP request w/ _SYN_ flag** to a specified port in the target server.
+### Nmap sends a TCP request w/ SYN flag 
+to a specified port in the target server.
 
-#### If its a closed port 
+#### If a CLOSED port 
 The target server 
 - responds **TCP packet with ==RST flag set==**. 
 - Nmap then marks the port as **closed**.
 ![[Pasted image 20220703150554.png|150]]
 RST means ReSeT
 
-#### If it's an open port
-The target server will respond a TCP packet with SYN/ACK flags set. 
-Completes the handshake by sending back a TCP packet with ACK set.
+#### If an OPEN port
+Basically, it will act as if doing a [[The steps of Three-Way Handshake|three-way handshake]]
+
+The target server will respond a TCP packet w/ SYN/ACK flags set. 
+Completes the handshake by sending back a TCP packet w/ ACK set.
 Nmap then marks this port as being **open**. 
 
 
-#### If behind Firewall
-What if the port is open, but hidden behind a firewall?
+#### If behind FIREWALL
+What if port is open, but hidden behind a firewall?
 Many **firewalls are configured to ==drop incoming packets==**. 
 
 -> Nmap sends a TCP SYN request, 
 -> Receives nothing back. 
 This indicates that the port is being protected by a firewall
-Thus the port is considered to be **filtered**.
+Thus the port is considered to be ==**filtered**==.
 
 ##### The PROBLEM if pocket is behind FIREWALL
-For example, in IPtables for Linux, if we run this command: 
+In IPtables for Linux, if we run this command: 
 `iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset`
 
-The command allows the firewall to 
-act as if it's an open port with no firewall behind it.
-
-Because when the command is executed,  
-any requests of ports behind the firewall will respond `RST TCP packet`. 
+When the command is executed,  
+**any requests of ports behind the ==firewall will respond `RST TCP packet`**==. 
+In other words, the command allows the firewall 
+- **==to act as if it's an open port with no firewall behind it==**.
 
 This can make it extremely difficult (if not impossible) to get an accurate reading of the target(s).
 
 
 
 ### How SYN Scan works (-sS)
-SYN scans (`-sS`) are used to scan the TCP port-range of a target or targets; however, the two scan types work slightly differently. 
-SYN scans are sometimes referred to as "_Half-open"_ scans, or "Stealth" scans.
+It is used to scan the TCP port-range of a target
+Sometimes SYN scan is referred to as 
+- "_Half-open"_ scans 
+- "Stealth" scans.
 
 
-Where TCP scans perform a full three-way handshake with the target, 
-SYN scans sends back a RST TCP packet after receiving a SYN/ACK from the server (this prevents the server from repeatedly trying to make the request). In other words, the sequence for scanning an **open** port looks like this:
+When receiving a closed port or behind the firewall
+- Basically the same as how TCP w/ SYN flag request
+
+
+When receiving an open port
+-> After receiving a SYN/ACK from the server
+-> SYN scans sends back a RST TCP packet 
+(This prevents the server from repeatedly trying to make the request). 
 ![[Pasted image 20220703152536.png|250]]
 ![[stealthscan.png]]
 This has a variety of advantages for us as hackers:
--   It can be used to bypass older Intrusion Detection systems as they are looking out for a full three way handshake. This is often no longer the case with modern IDS solutions; it is for this reason that SYN scans are still frequently referred to as "stealth" scans.
+-   Bypass older Intrusion Detection systems as they are looking out for a full three way handshake. This is often no longer the case with modern IDS solutions; it is for this reason that SYN scans are still frequently referred to as "stealth" scans.
 -   SYN scans are often not logged by applications listening on open ports, as standard practice is to log a connection once it's been fully established. Again, this plays into the idea of SYN scans being stealthy.
--   Without having to bother about completing (and disconnecting from) a three-way handshake for every port, SYN scans are significantly faster than a standard TCP Connect scan.
+-  SYN scans are significantly faster than a standard TCP Connect scan. It doesn't have to bother about completing (and disconnecting from) a three-way handshake for every port thus making it faster.
 
-There are, however, a couple of disadvantages to SYN scans, namely:
--   They require sudo permissions[1] in order to work correctly in Linux. This is because SYN scans require the ability to create raw packets (as opposed to the full TCP handshake), which is a privilege only the root user has by default. [1] SYN scans can also be made to work by giving Nmap the CAP_NET_RAW, CAP_NET_ADMIN and CAP_NET_BIND_SERVICE capabilities; however, this may not allow many of the NSE scripts to run properly.
+Disadvantages to SYN scans
+-   They require sudo permissions  in order to work correctly in Linux [1]. This is because SYN scans require the ability to create raw packets (as opposed to the full TCP handshake), which is a privilege only the root user has by default. [1] SYN scans can also be made to work by giving Nmap the CAP_NET_RAW, CAP_NET_ADMIN and CAP_NET_BIND_SERVICE capabilities; however, this may not allow many of the NSE scripts to run properly.
 -   Unstable services are sometimes brought down by SYN scans, which could prove problematic if a client has provided a production environment for the test.
 
 
