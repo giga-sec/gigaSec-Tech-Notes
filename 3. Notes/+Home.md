@@ -7,9 +7,9 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 [[MOC PC-Hardware]]
 
-[[MOC GIT]]
-
 [[MOC Hacking]]
+
+
 
 
 

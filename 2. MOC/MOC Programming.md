@@ -8,6 +8,8 @@
 
 [[Batch Scripting]]
 
+[[GIT Basics]]
+
 ## CS50
 [[Week 1 - Data Types, Imprecision and Overflows]]
 
