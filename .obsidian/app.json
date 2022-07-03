@@ -14,5 +14,6 @@
   "livePreview": true,
   "showFrontmatter": true,
   "newFileFolderPath": "3. Notes",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "vimMode": true
 }

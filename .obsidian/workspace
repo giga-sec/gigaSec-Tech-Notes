@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Ping command for testing a connection to a remote resource.md",
+            "file": "3. Notes/Binary Trees.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ICMP Protocol",
+                "query": "binary tree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Ping command for testing a connection to a remote resource.md",
+                "file": "3. Notes/Binary Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Ping command for testing a connection to a remote resource.md",
+                "file": "3. Notes/Binary Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
-    "3. Notes/Ping command for testing a connection to a remote resource.md",
-    "3. Notes/ICMP protocol.md",
+    "3. Notes/Binary Trees.md",
+    "3. Notes/Linked List Code Snippets.md",
+    "3. Notes/Linked List.md",
+    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
+    "2. MOC/MOC Programming.md",
+    "3. Notes/+Home.md",
     "2. MOC/MOC Networking.md",
-    "3. Notes/Dig.md",
-    "3. Notes/TCP-IP Model.md",
-    "3. Notes/OSI Model.md",
-    "3. Notes/Traceroute in Linux - Tracert in Windows.md",
-    "3. Notes/What is TTL in Networking.md",
-    "3. Notes/DNS in detail.md",
-    "3. Notes/Requesting a domain name.md"
+    "3. Notes/VIM 101.md",
+    "3. Notes/Some random long read about VIM I found online.md",
+    "3. Notes/PORTS 101.md"
   ]
 }
