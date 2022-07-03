@@ -198,10 +198,8 @@ If there's UDP RESPONSE (which is very unusual),
 
 #### If sent to a closed UDP Port
 The target (the one who received the sent packet) 
-should respond with an ICMP (ping) packet containing a message that the port is unreachable.  Nmap marks it as closed port and moves on.
-
-
-, 
+- Responds with an ICMP packet ([[Ping command for testing a connection|ping]]) w/ a message "**port is unreachable"**.
+- **Nmap marks it as closed port** and moves on.
 
 
 ### UDP scans are slow but there can be a fix
