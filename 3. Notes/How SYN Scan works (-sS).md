@@ -6,7 +6,8 @@ Tags: #fleeting
 
 ---
 Abstract:
-
+- 
+- Advantage/Disadvantage of SYN Scan
 
 ---
 It is used to scan the TCP port-range of a target
