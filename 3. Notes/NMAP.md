@@ -122,13 +122,15 @@ Many **firewalls are configured to ==drop incoming packets==**.
 This indicates that the port is being protected by a firewall
 Thus the port is considered to be **filtered**.
 
-
-
-
-
-That said, it is very easy to configure a firewall to respond with a `RST TCP packet`. For example, in IPtables for Linux, a simple version of the command would be as follows:
-
+##### The PROBLEM if pocket is behind FIREWALL
+For example, in IPtables for Linux, if we run this command: 
 `iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset`
+
+The command allows the firewall to 
+act as if it's an open port with no firewall behind it.
+
+Because when the command is executed,  
+any requests of ports behind the firewall will respond `RST TCP packet`. 
 
 This can make it extremely difficult (if not impossible) to get an accurate reading of the target(s).
 
