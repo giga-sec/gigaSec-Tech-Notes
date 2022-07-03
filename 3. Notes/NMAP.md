@@ -78,78 +78,29 @@ Additionally there are several less common port scan types.
 Most of these (with the exception of UDP scans) are used for very similar purposes, however, the way that they work differs between each scan. This means that, whilst one of the first three scans are likely to be your go-to in most situations, it's worth bearing in mind that other scan types exist.
 
 
-## How TCP Connect Scan Works (-sT)
-By ==**performing the [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
-Nmap tries to connect to each specified TCP port, and determines whether the service is open by the response it receives.
-
-For example, if a port is closed, [RFC 793](https://tools.ietf.org/html/rfc793) states that:
->"... If the connection does not exist (CLOSED)  -> then a reset is sent in response to any incoming segment except another reset.  
->In particular, SYN addressed to a non-existent connection are rejected by this means."
-
-In other words
-We send a TCP request with SYN flag to a specified port, 
-That port will either reply a RST flag or SYN/ACK flag or no reply at all. 
-
-These can be the replies of a target server when nmap sends TCP request w/ SYN flag
-RST flag for a port closed. 
-SYN/ACK for a port that's open. 
-No reply for when port is behind firewall
 
 
-SYN scans requires sudo permission to work in linux
+### SYN scans requires sudo permission to work in linux
+For this single reason above. 
+There are defaults run by Nmap 
 
-For this single reason above
 If run **==WITH SUDO==** permission
-SYN scans are the default scans used by Nmap _if run with sudo permissions_. 
-Nmap defaults so **SYN scans**
+Default Scan: **SYN scans** 
 
 If run **==WITHOUT== sudo** permissions, 
-Nmap defaults to the **TCP Connect scan**.
+Default Scan: **TCP Connect scan**.
 
 
 
-### Nmap sends a TCP request w/ SYN flag 
-to a specified port in the target server.
 
-#### If sent to a CLOSED port 
-The target server 
-- responds **TCP packet with ==RST flag set==**. 
-- Nmap then marks the port as **closed**.
-![[Pasted image 20220703150554.png|150]]
-RST means ReSeT
-
-#### If sent to an OPEN port
-Basically, it will act as if doing a [[The steps of Three-Way Handshake|three-way handshake]]
-
-The target server will respond a TCP packet w/ SYN/ACK flags set. 
-Completes the handshake by sending back a TCP packet w/ ACK set.
-Nmap then marks this port as being **open**. 
+How TCP Connect identifies if port is CLOSED/OPEN or behind firewall
+### [[How TCP Connect Scan Works (-sT)]]
 
 
-#### If behind FIREWALL
-What if port is open, but hidden behind a firewall?
-Many **firewalls are configured to ==drop incoming packets==**. 
-
--> Nmap sends a TCP SYN request, 
--> Receives nothing back. 
-This indicates that the port is being protected by a firewall
-Thus the port is considered to be ==**filtered**==.
-
-##### The PROBLEM if pocket is behind FIREWALL
-It can be extremely difficult (if not impossible) to get an accurate reading of the target(s).
-
-
-In IPtables for Linux, if we run this command: 
-`iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset`
-
-When the command is executed,  
-**any requests of ports behind the ==firewall will respond `RST TCP packet`**==. 
-In other words, the command allows the firewall 
-- **==to act as if it's an open port with no firewall behind it==**.
  
 
 
-
+How Nmap SYN Scan determines if a port is open, closed or behind firewall
 ### [[How SYN Scan works (-sS)]]
 
 
