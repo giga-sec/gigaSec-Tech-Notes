@@ -5,9 +5,14 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
-The 3 step process of forming a stable connection between computers. 
+Used when forming a stable/reliable connection between computers. Any data that is lost or corrupted on transmission will be re-sent.
 
-When using [[TCP - Transmission Control Protocol|TCP]], A [[When is Three-way handshake used in networking|three-way handshake]] must be carried out first before a connection can be established 
+
+
+When using [[TCP - Transmission Control Protocol|TCP]], 
+A three-way handshake must be carried out first before a connection can be established 
+
+
 
 
 [[The steps of Three-Way Handshake]]
