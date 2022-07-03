@@ -7,10 +7,11 @@ Tags: #literature
 
 ---
 Abstract
-- How Nmap UDP Scan determines if a
+- How Nmap UDP Scan determines if a port is CLOSED/OPEN
 - UDP scans are slow but there could be a fix
 ---
-Every packet is sent to a port and depending of the reply will determine if the port is OPEN or CLOSED.  It is not that easy to identify if a port is behind the firewall.
+Every packet is sent to a port of the target server and depending of the reply will determine if the port is OPEN or CLOSED.  It is not that easy to identify if a port is behind the firewall.
+
 
 
 ## Every packet is sent to a port
