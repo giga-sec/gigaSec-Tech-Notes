@@ -82,11 +82,20 @@ Most of these (with the exception of UDP scans) are used for very similar purp
 By ==**performing the [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
 Nmap tries to connect to each specified TCP port, and determines whether the service is open by the response it receives.
 
-
-
 For example, if a port is closed, [RFC 793](https://tools.ietf.org/html/rfc793) states that:
 >"... If the connection does not exist (CLOSED)  -> then a reset is sent in response to any incoming segment except another reset.  
 >In particular, SYN addressed to a non-existent connection are rejected by this means."
+
+In other words
+We send a TCP request with SYN flag to a specified port, 
+That port will either reply a RST flag or SYN/ACK flag or no reply at all. 
+
+RST flag for a port closed. 
+SYN/ACK for a port that's open. 
+No reply for when port is behind firewall
+
+
+
 
 In other words, 
 if Nmap sends a TCP request with _SYN_ flag to a **_closed_** port, 
@@ -104,10 +113,9 @@ Many firewalls are configured to simply **drop** incoming packets. Nmap sends 
 
 myquestion: Do we also know beforehand that the port is open or close?
 I think not because that defeats the functionality of determining if a port is open or not. 
-We sent a TCP request with syn flag to a port, then that port will either reply a RST flag or SYN/ACK flag or no reply at all. 
-RST flag for a port closed. 
-SYN/ACK for a port that's open. 
-No reply for when port is behind firewall
+
+
+
 
 
 
