@@ -27,7 +27,7 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 **Obsidian Installation**
 
-There are only two plugins installed here and only used for theme customization
+There are only three plugins installed here and only used for theme customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
 2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
