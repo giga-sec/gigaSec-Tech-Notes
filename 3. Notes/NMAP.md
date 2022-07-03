@@ -203,10 +203,15 @@ The target (the one who received the sent packet)
 
 
 ### UDP scans are slow but there can be a fix
-UDP scans tend to be incredibly slow in comparison to the various TCP scans (in the region of 20 minutes to scan the first 1000 ports, with a good connection). It's because of the difficulty in identifying whether a UDP port is actually open that's why the slowness exists.
+#### Why UDP scans are slow
+UDP scans tend to be incredibly slow in comparison to the various TCP scans (in the region of 20 minutes to scan the first 1000 ports, with a good connection). 
+The difficulty whether a UDP port is actually open is why slowness exists.
 
-For this reason it's usually good practice to run an Nmap scan with `--top-ports <number>` enabled. For example, scanning with  `nmap -sU --top-ports 20 <target>`. Will scan the top 20 most commonly used UDP ports, resulting in a much more acceptable scan time.
-
+#### The possible fix
+It's usually good practice to run an Nmap scan with 
+`--top-ports <number>` . 
+For example, scanning with  `nmap -sU --top-ports 20 <target>`. 
+Will scan the top 20 most commonly used UDP ports, resulting in a much more acceptable scan time.
 
 When scanning UDP ports, Nmap usually sends completely empty requests -- just raw UDP packets. That said, for ports which are usually occupied by well-known services, it will instead send a protocol-specific payload which is more likely to elicit a response from which a more accurate result can be drawn.
 
