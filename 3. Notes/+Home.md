@@ -17,7 +17,7 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 [[Linux Fundamentals]]
 
-[[VIM]]
+[[VIM 101]]
 
 
 
