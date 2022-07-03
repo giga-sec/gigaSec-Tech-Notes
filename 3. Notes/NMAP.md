@@ -79,29 +79,33 @@ Most of these (with the exception of UDP scans) are used for very similar purp
 
 
 ### How TCP Connect Scan Works (-sT)
-TCP Connect scan works 
-by **performing the [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**.
+By ==**performing the [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
 Nmap tries to connect to each specified TCP port, and determines whether the service is open by the response it receives.
+
 
 
 For example, if a port is closed, [RFC 793](https://tools.ietf.org/html/rfc793) states that:
 >"... If the connection does not exist (CLOSED)  -> then a reset is sent in response to any incoming segment except another reset.  
 >In particular, SYN addressed to a non-existent connection are rejected by this means."
 
-
-In other words, if Nmap sends a TCP request with the _SYN_ flag set to a **_closed_** port, the target server will respond with a TCP packet with the _RST_ (Reset) flag set. By this response, Nmap can establish that the port is closed.
-
-
-Just use an image viewer. Basically, it's a real example of a three-way handshake.
-![[threewayhandshake.png]]
+In other words, 
+if Nmap sends a TCP request with _SYN_ flag to a **_closed_** port, 
+The target server will respond with TCP packet with the _RST_ (Reset) flag set. By this response, Nmap can establish that the port is closed.
 ![[Pasted image 20220703150554.png|200]]
-If, however, the request is sent to an _open_ port, the target will respond with a TCP packet with the SYN/ACK flags set. Nmap then marks this port as being _open_ (and completes the handshake by sending back a TCP packet with ACK set).
 
+If, however, the request is sent to an _open_ port, 
+the target will respond with a TCP packet with the SYN/ACK flags set. 
+Nmap then marks this port as being _open_ 
+(and completes the handshake by sending back a TCP packet with ACK set).
 
 
 What if the port is open, but hidden behind a firewall?
-
 Many firewalls are configured to simply **drop** incoming packets. Nmap sends a TCP SYN request, and receives nothing back. This indicates that the port is being protected by a firewall and thus the port is considered to be _filtered_.
+
+myquestion: Do we also know beforehand that the port is open or close?
+I think not because that defeats the functionality of determining if a port is open or not. So, does that mean we sent a TCP request with syn flag to a port, then that port will either reply a RST flag or SYN/ACK flag or no reply at all. 
+
+
 
 That said, it is very easy to configure a firewall to respond with a `RST TCP packet`. For example, in IPtables for Linux, a simple version of the command would be as follows:
 
