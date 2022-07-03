@@ -7,8 +7,8 @@ Tags: #fleeting
 ---
 Abstract:
 - [[Switches of NMAP]]  <- Saving the outputs of Scan
-- Different ways we do port scanning with NMAP
-- The Default scanning method of NMAP and why they are the default
+- Different port scanning methods with NMAP
+- Default scanning of NMAP and why they're default
 
 ---
 ### [[PORTS 101]]
@@ -23,7 +23,7 @@ Once we know which ports are open, we can then look at enumerating which service
 
 
 
-## Different ways Port Scanning with NMAP is done
+## Different Port Scanning types of NMAP
 Three basic scan types in NMAP
 -   [[TCP Connect Scan   (-sT)]] 
 -   [[SYN Scan                  (-sS)]] 
@@ -39,7 +39,7 @@ Most of these (with the exception of UDP scans) are used for very similar purp
 This means that, whilst one of the first three scans are likely to be your go-to in most situations, it's worth bearing in mind that other scan types exist.
 
 
-
+## Defaults of NMAP when scanning
 ### SYN scans requires sudo permission to work in linux
 For this single reason above. 
 These then are the defaults run by Nmap 
