@@ -103,7 +103,11 @@ What if the port is open, but hidden behind a firewall?
 Many firewalls are configured to simply **drop** incoming packets. Nmap sends a TCP SYN request, and receives nothing back. This indicates that the port is being protected by a firewall and thus the port is considered to be _filtered_.
 
 myquestion: Do we also know beforehand that the port is open or close?
-I think not because that defeats the functionality of determining if a port is open or not. So, does that mean we sent a TCP request with syn flag to a port, then that port will either reply a RST flag or SYN/ACK flag or no reply at all. 
+I think not because that defeats the functionality of determining if a port is open or not. 
+So, does that mean we sent a TCP request with syn flag to a port, then that port will either reply a RST flag or SYN/ACK flag or no reply at all. 
+RST flag for a port closed. 
+SYN/ACK for a port that's open. 
+No reply for when port is behind firewall
 
 
 
