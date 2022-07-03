@@ -20,8 +20,7 @@ The 3 step process of **==forming a stable connection between computers==**.
 And that's how you form a reliable transmittion of data between two computers. Any data that is lost or corrupted on transmission will be re-sent.
 ![[image-2.png|400]]
 
-
-
+![[threewayhandshake.png]]
 
 
 
