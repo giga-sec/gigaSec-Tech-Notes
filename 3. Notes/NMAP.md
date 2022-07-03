@@ -104,7 +104,7 @@ Many firewalls are configured to simply **drop** incoming packets. Nmap sends 
 
 myquestion: Do we also know beforehand that the port is open or close?
 I think not because that defeats the functionality of determining if a port is open or not. 
-So, does that mean we sent a TCP request with syn flag to a port, then that port will either reply a RST flag or SYN/ACK flag or no reply at all. 
+We sent a TCP request with syn flag to a port, then that port will either reply a RST flag or SYN/ACK flag or no reply at all. 
 RST flag for a port closed. 
 SYN/ACK for a port that's open. 
 No reply for when port is behind firewall
