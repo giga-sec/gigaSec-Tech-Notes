@@ -90,12 +90,10 @@ In other words
 We send a TCP request with SYN flag to a specified port, 
 That port will either reply a RST flag or SYN/ACK flag or no reply at all. 
 
+These can be the replies of a target server when nmap sends TCP request w/ SYN flag
 RST flag for a port closed. 
 SYN/ACK for a port that's open. 
 No reply for when port is behind firewall
-
-
-
 
 
 SYN scans requires sudo permission to work in linux
@@ -113,14 +111,14 @@ Nmap defaults to the **TCP Connect scan**.
 ### Nmap sends a TCP request w/ SYN flag 
 to a specified port in the target server.
 
-#### If a CLOSED port 
+#### If sent to a CLOSED port 
 The target server 
 - responds **TCP packet with ==RST flag set==**. 
 - Nmap then marks the port as **closed**.
 ![[Pasted image 20220703150554.png|150]]
 RST means ReSeT
 
-#### If an OPEN port
+#### If sent to an OPEN port
 Basically, it will act as if doing a [[The steps of Three-Way Handshake|three-way handshake]]
 
 The target server will respond a TCP packet w/ SYN/ACK flags set. 
@@ -158,27 +156,22 @@ Sometimes SYN scan is referred to as
 - "_Half-open"_ scans 
 - "Stealth" scans.
 
-
+Why it's called "Stealth" scans
 SYN scans are often not logged by applications listening on open ports, as standard practice is to log a connection once it's been fully established.
 
 
-
-
-
-If a port is closed then the server responds with RST TCP packet. 
-If the port is filtered by a firewall then the TCP SYN packet is either dropped, or spoofed with a TCP reset.
+When sending TCP request w/ SYN flag 
 - Basically the same as how TCP w/ SYN flag request
 In this regard, the two scans are identical: the big difference is in how they handle _open_ ports.
 
 
 When receiving an open port
 -> After receiving a SYN/ACK from the server
--> SYN scans sends back a RST TCP packet 
-(This prevents the server from repeatedly trying to make the request). 
+-> SYN scan sends back a RST TCP packet (prevents the server from repeatedly trying to make the request). 
 ![[Pasted image 20220703152536.png|250]]
 ![[stealthscan.png]]
 
-### Advantages of SYN Scan (-sS) for us as hackers:
+### Advantages of SYN Scan (-sS) for us hackers:
 -   Bypasses older Intrusion Detection systems as they are looking out for a full three way handshake. (This is often no longer the case with modern IDS solutions; it is for this reason that SYN scans are still frequently referred to as "stealth" scans).
 -  **==SYN scans are often not logged by applications==** listening on open ports, as standard practice is to log a connection once it's been fully established. 
 -  ==**SYN scans are significantly faster== than a standard TCP Connect scan**. It **doesn't have to bother about completing/disconnecting from a three-way handshake** for every port thus making it faster.
@@ -193,13 +186,28 @@ When receiving an open port
 ### How UDP Scan works
 The lack of ACK bit makes UDP significantly more difficult/slower to scan.
 
+#### If packet sent to an OPEN UDP port
+Should be **NO RESPONSE**. 
+Then **request is sent a second time** as a double check.
+- Thus Nmap refers the port as `open|filtered`.  
+- Meaning **Port is open but could be firewalled**. 
+ 
+If there's UDP RESPONSE (which is very unusual), 
+- then the port is marked as _open_.  
 
-When a packet is sent to an open UDP port, there should be no response. When this happens, Nmap refers to the port as being `open|filtered`. It suspects that the port is open, but it could be firewalled. If it gets a UDP response (which is very unusual), then the port is marked as _open_.  More commonly there is no response, in which case the request is sent a second time as a double-check.  If there is still no response then the port is marked _open|filtered_ and Nmap moves on.
 
-When a packet is sent to a _closed_ UDP port, the target should respond with an ICMP (ping) packet containing a message that the port is unreachable. This clearly identifies closed ports, which Nmap marks as such and moves on.
+#### If sent to a closed UDP Port
+The target (the one who received the sent packet) 
+should respond with an ICMP (ping) packet containing a message that the port is unreachable.  Nmap marks it as closed port and moves on.
 
 
-Due to this difficulty in identifying whether a UDP port is actually open, UDP scans tend to be incredibly slow in comparison to the various TCP scans (in the region of 20 minutes to scan the first 1000 ports, with a good connection). For this reason it's usually good practice to run an Nmap scan with `--top-ports <number>` enabled. For example, scanning with  `nmap -sU --top-ports 20 <target>`. Will scan the top 20 most commonly used UDP ports, resulting in a much more acceptable scan time.
+, 
+
+
+### UDP scans are slow but there can be a fix
+UDP scans tend to be incredibly slow in comparison to the various TCP scans (in the region of 20 minutes to scan the first 1000 ports, with a good connection). It's because of the difficulty in identifying whether a UDP port is actually open that's why the slowness exists.
+
+For this reason it's usually good practice to run an Nmap scan with `--top-ports <number>` enabled. For example, scanning with  `nmap -sU --top-ports 20 <target>`. Will scan the top 20 most commonly used UDP ports, resulting in a much more acceptable scan time.
 
 
 When scanning UDP ports, Nmap usually sends completely empty requests -- just raw UDP packets. That said, for ports which are usually occupied by well-known services, it will instead send a protocol-specific payload which is more likely to elicit a response from which a more accurate result can be drawn.
