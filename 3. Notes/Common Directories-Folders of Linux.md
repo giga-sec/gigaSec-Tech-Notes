@@ -12,7 +12,12 @@ Abstract:
 /tmp
 
 ---
+## `/bin`
+- Where all available commands that can be used in the system are here
+
+
 ## `/etc`
+
 - Root directory where system files used in OS are stored
 ### Special files worth mentioning in `/etc`
 - **passwd**, **shadow** -> shows how system store passwords using sha512
