@@ -6,7 +6,7 @@
 - Quick Guide about the topics I'm taking notes with
 
 ---
-Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me. However, I highly encourage collaboration such as grammer corrections or correcting misinformation.
+Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me. However, I highly encourage any attempts of correcting misinformation or grammars.
 
 
 ## Screenshots (!Warning! Light Mode media below)
