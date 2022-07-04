@@ -1,4 +1,4 @@
-[CS50 [MOC Networking]]
+[[MOC Networking]]
 
 # NMAP
 Created:  [[2022-07-02]]
