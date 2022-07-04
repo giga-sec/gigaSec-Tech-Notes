@@ -89,10 +89,7 @@ MOC Hacking
 - This is for hacking techniques, groups or practices to defend an organization from attacks
 
 MOC Programming
-- Everything about programming
-
-MOC Git
-- Git, everything about git
+- Everything about programming most notes came from CS50 but I also rely on other articles as well.
 
 MOC Hardware
 - Basically contains all aspects in hardware such as GPU, CPU or smnth.
