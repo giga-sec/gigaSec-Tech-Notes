@@ -13,14 +13,15 @@
 
 [[What is protocol in networking]]
 
-[[OSI Model]]
-
-[[TCP-IP Model]]
-
 [[Encapsulation]]
 
 [[Port scanning with NMAP]]
 
+
+### Networking Models
+[[OSI Model]]
+
+[[TCP-IP Model]]
 
 
 ### Networking Tools

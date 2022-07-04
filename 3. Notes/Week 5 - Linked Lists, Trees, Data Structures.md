@@ -55,34 +55,8 @@ A binary search tree that looks like a linked list. If you use a Binary Search a
 ![[imbalanced_tree.png|200]]
 
 
-### Hash Table
-We can represent the letters of the Alphabet here. `0` for A and `25` for Z. These looks like a dictionary but dictionary is a concept that doesn't use some sort of things to put more things in a bucket. For instance, in dictionary, if bucket 1 has a value in it, then that's it, you can't add any values in it anymore and can only replace it.
-![[Pasted image 20220624105028.png|50]]
+### [[Hash Table]]
 
-There's an array vertically here. The extra names can be used as "linked lists". -     
-    The array has 26 pointers, some of which are null, but some pointing to a name in a node, each of which may also point to another name in another node.
-![[Pasted image 20220624105157.png|300]]
-
-```C
-typedef struct node
-{
-    char word[LONGEST_WORD + 1];
-    struct node *next;
-}
-node;
-```
-
-
-To create a hash_table thing. `NUMBER_OF_BUCKETS` is the size of the hash table.
-```C
-node *hash_table[NUMBER_OF_BUCKETS];
-```
-
-
-To decide which bucket, or location in the array, that a value should be placed in, we use a **hash function**, which takes some input and produces an index, or location.
-
-
-Hash Table is technically faster than a single linked_list. But it's only gonna be fast when there aren't that many nodes in a single bucket. 
 
 
 Another Data Structure, is trie, hard to explain but it's definetly better than Hash Table, Linked List or somethin like that. The cost for this, though, is that we need lots of memory to store mostly null pointers.

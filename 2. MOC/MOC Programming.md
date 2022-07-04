@@ -21,6 +21,9 @@
 
 [[Week 5 - Linked Lists, Trees, Data Structures]]
 
+[[PSET5 - Speller ]]
+
+
 
 ## Tools
 Visualize your algorithms
@@ -36,6 +39,8 @@ https://denigma.app
 [[sizeof values in each data type of C]]
 
 [[Advice I found in reddit about programming]]
+
+[[Modulus Operator]]
 
 
 C file handling

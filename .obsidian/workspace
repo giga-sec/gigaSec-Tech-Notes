@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/VIM 101.md",
+            "file": "3. Notes/Hashing.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "three way",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/VIM 101.md",
+                "file": "3. Notes/Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/VIM 101.md",
+                "file": "3. Notes/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +127,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
-    "3. Notes/VIM 101.md",
-    "3. Notes/+Home.md",
-    "2. MOC/MOC Networking.md",
-    "3. Notes/Port scanning with NMAP.md",
-    "3. Notes/Switches of NMAP.md",
+    "3. Notes/Hashing.md",
+    "3. Notes/Hash Table.md",
+    "3. Notes/Week 5 - Linked Lists, Trees, Data Structures.md",
     "2. MOC/MOC Programming.md",
-    "2. MOC/MOC Hacking.md",
-    "3. Notes/In Hacking, Knowledge is power.md",
-    "3. Notes/Ping command for testing a connection.md",
-    "3. Notes/PORTS 101.md"
+    "3. Notes/+Home.md",
+    "3. Notes/Modulus Operator.md",
+    "3. Notes/VIM 101.md",
+    "3. Notes/linear probing.md",
+    "3. Notes/VSCODE Keyboard Shortcuts.md",
+    "3. Notes/PSET5 - Speller.md"
   ]
 }
