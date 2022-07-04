@@ -1,4 +1,4 @@
-[[MOC Networking]]
+[CS50 [MOC Networking]]
 
 # NMAP
 Created:  [[2022-07-02]]
@@ -66,8 +66,11 @@ How Nmap UDP Scan determines if a port is open or closed
 ### [[UDP Scan                  (-sU)]]
 
 
+More common port scan types 
+### [[NULL, FIN and Xmas TCP]]
 
 
+[[NMAP Scripting Engine (NSE) ]]
 
 
 
