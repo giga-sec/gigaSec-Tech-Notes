@@ -14,10 +14,11 @@ Say we have been given an IP to perform a security audit on. \
 Before we do anything else, we need to get an idea of services running on the targets. (e.g running a webserver, or a Windows Active Directory Domain Controller). 
 
 
-The first stage in establishing this “map” of the landscape is something called port scanning. 
+The first stage in establishing this “map” of the network infrastructure is something called port scanning. In other words, we want to see which IP addresses contain active hosts, and which do not. One way to do this is by using [[nmap - ping sweep (-sn)]]
+
 When a computer runs a network service, it opens a networking construct called a “port” to receive the connection.
 
-If we do not know which of these ports a server has open, then we do not have a hope of successfully attacking the target; thus, it is crucial that we begin any attack with a port scan
+If we do not know which of these ports a server has open, then we do not have a hope of successfully attacking the target; thus, it is crucial that we begin any attack with a port scan.
 
 
 #### Note for CTF setting
