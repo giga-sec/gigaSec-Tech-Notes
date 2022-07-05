@@ -36,22 +36,25 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 4. You will be presented with a choice 
 - Keep Safe Mode on
+
 ---> Turns off every plugins I installed
 
-All plugins and customizations are stored in the `.obsidian` hidden folder
+---> All plugins and customizations are stored in the `.obsidian` hidden folder
 
-There are only three plugins installed here and only used for customization
+- Turn off Safe Mode
+
+---> Basically a full replica of my vault. 
+
+---> It keeps all my customizations and installed plugins enabled 
+
+
+There are only three plugins installed in my vault and only used for customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
 
 2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
 
 3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
-
-- Turn off Safe Mode
----> Basically a full replica of my vault. 
-
----> It keeps all my customizations and installed plugins enabled 
 
 
 ---
