@@ -1,12 +1,26 @@
-# Abstract:
-- Screenshots (Contains light mode media)
-- Installation Process
-- Quick Guide of navigating my notes
-- Quick Guide about using my Obsidian Vault
-- Quick Guide about the topics I'm taking notes with
+# Summary
+You'll see this notes as a complete mess if you don't install and **use a markdown editor that supports hyperlink**.
+
+**Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
+
+Uses principles in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502)
+
+**You DON'T need to learn the mentioned principles above**, simply read "Quick Guide of navigating my notes" 
+
+Topics in the notes are Programming, VIM, Git, Hacking, Networking, PC-Hardware, Linux, Windows and more. 
 
 ---
-Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me. However, I highly encourage any attempts of correcting misinformation or grammars.
+---
+# Contents:
+- Screenshots (Contains LIGHT MODE media)
+- Installation Process to be able to use my notes
+- Quick Guide of navigating my notes
+- Quick Guide about my Obsidian Vault (settings, customizations I've done)
+
+---
+
+
+
 
 
 ## Screenshots (!Warning! Light Mode media below)
@@ -21,28 +35,50 @@ https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570
 
 
 ---
-## Installation
+## Installation Process to be able to use my notes
 
 I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
-**Obsidian Installation**
+### Obsidian Installation
 
-There are only three plugins installed here and only used for theme customization
+-> Download this repository
+
+-> Install the app -> https://obsidian.md and launch the app
+
+-> Click "Open Folder as vault" and choose the downloaded folder of this repo 
+
+-> After doing the step above. You will be presented with two choices  
+- Keep Safe Mode on
+- Turn Off Sade Mode
+
+-> Keep Safe Mode on
+
+---> Turns off every plugins I installed
+
+---> All plugins and customizations are stored in the `.obsidian` hidden folder
+
+-> Turn off Safe Mode
+
+---> Basically a full replica of my vault. 
+
+---> It keeps all my customizations and installed plugins enabled 
+
+
+There are only three plugins installed in my vault and only used for customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
-2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
-3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
-... Still working this part here
-Click `Turn Off Safe Mode`
+2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+
+3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
 
 ---
 ## Quick Guide of navigating my notes
 
-My system of note taking is a combination of the principles I learned in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/) and [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6). As you navigate my system, you might see some slip-ups but I designed it to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
+As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
 
-However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes.
+However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
 
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
@@ -78,22 +114,3 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 
 3. All Deleted Files goes to .trash folder which is hidden
-
----
-## Quick guide about the topics I'm taking note with
-
-MOC Networking
-- Everything about how computers are connected or how they communicate to each other.
-
-MOC Hacking
-- This is for hacking techniques, groups or practices to defend an organization from attacks
-
-MOC Programming
-- Everything about programming most notes came from CS50 but I also rely on other articles as well.
-
-MOC Hardware
-- Basically contains all aspects in hardware such as GPU, CPU or smnth.
-- I haven't touched this area for so long. 
-
----
-If you found any typo's or grammar mistakes, feel free to roast me in pull requests and I'll make sure to review them. 
