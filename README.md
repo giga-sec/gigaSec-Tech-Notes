@@ -73,9 +73,9 @@ There are only three plugins installed in my vault and only used for customizati
 ---
 ## Quick Guide of navigating my notes
 
-My system of note taking is a combination of the principles I learned in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/) and [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6). As you navigate my system, you might see some slip-ups but I designed it to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
+As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
 
-However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes.
+However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
 
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
