@@ -78,7 +78,7 @@ That's it. You're good to navigate my notes now
 ---
 ## Quick Guide of navigating my notes
 
-Go to the home file first -> `3. Notes/+Home`
+**Go to the home file first -> `3. Notes/+Home`**
 - Just click the `hyperlinks` to your chosen content. 
 
 **Each note has a hyperlink at the top**
@@ -91,6 +91,7 @@ Go to the home file first -> `3. Notes/+Home`
 - Always come back to your home file `3. Notes/+Home`.
 
 
+### More info on how I take my notes, otherwise you can skip this read.
 
 As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
 
