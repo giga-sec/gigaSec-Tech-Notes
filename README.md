@@ -131,6 +131,9 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 `#permanent`
 - Contains only one concise piece of knowledge that are most translated by my own words. 
 - It's not only summarization but rather a technique called "[Atomizing Notes](https://neuron.zettel.page/atomic#:~:text=Zettelkasten%20notes%20are%20atomic%20and,idea%20and%20one%20idea%20only.)"
+
+With this, it seems like a long hectic note taking method but here is where [Progressive Summarization](https://fortelabs.co/blog/series/ps/) comes into play. Basically the whole idea of it is to only modify each note by chance. Meaning if you haven't touched the note for so long, then you don't need to do anything at all. It can be safely ignored no matter if the status of note is `#fleeting`. Doesn't matter, the note will stay intact with your system. 
+
 ---
 ## Quick guide about using my Obsidian Vault
 
