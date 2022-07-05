@@ -6,7 +6,6 @@
 
 ---
 ---
----
 ### Summary of this readme file
 - **Use a markdown editor that supports hyperlink** to take advantage of my notes
 - **Notes aren't CATEGORIZED into folders** by complete intention and design
