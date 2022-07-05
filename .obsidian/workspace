@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2. MOC/MOC Programming.md",
+            "file": "3. Notes/Windows Fundamentals.md",
             "mode": "source",
             "source": false
           }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. MOC/MOC Programming.md",
+                "file": "3. Notes/Windows Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. MOC/MOC Programming.md",
+                "file": "3. Notes/Windows Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
+    "3. Notes/Windows Fundamentals.md",
+    "3. Notes/+Home.md",
     "2. MOC/MOC Programming.md",
     "3. Notes/GIT Basics.md",
     "3. Notes/DNS in detail.md",
     "2. MOC/MOC Networking.md",
     "3. Notes/HTTP in Detail.md",
-    "3. Notes/+Home.md",
     "2. MOC/MOC Hacking.md",
     "2. MOC/MOC Graph Theory.md",
-    "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md",
-    "3. Notes/VIM 101.md"
+    "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md"
   ]
 }
