@@ -86,7 +86,7 @@ That's it. You're good to navigate my notes now
 
 ^--> Just click the `hyperlinks` to your chosen content. 
 
-**Each note has a hyperlink at the top**
+**Each note has a `hyperlink` at the top** except for `+Home` file
 
 ^--> Purpose is to take you back to the parent note that it came from.
 
