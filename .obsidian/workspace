@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/DNS in detail.md",
+            "file": "3. Notes/GIT Basics.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "directories",
+                "query": "GIT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/DNS in detail.md",
+                "file": "3. Notes/GIT Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/DNS in detail.md",
+                "file": "3. Notes/GIT Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +128,7 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
+    "3. Notes/GIT Basics.md",
     "3. Notes/DNS in detail.md",
     "2. MOC/MOC Networking.md",
     "3. Notes/HTTP in Detail.md",
@@ -135,7 +137,6 @@
     "2. MOC/MOC Programming.md",
     "2. MOC/MOC Graph Theory.md",
     "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md",
-    "3. Notes/VIM 101.md",
-    "3. Notes/Some random long read about VIM I found online.md"
+    "3. Notes/VIM 101.md"
   ]
 }
