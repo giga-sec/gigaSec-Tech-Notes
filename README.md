@@ -73,6 +73,8 @@ There are only three plugins installed in my vault and only used for customizati
 3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
 
+That's it. You're good to navigate my notes now
+
 ---
 ## Quick Guide of navigating my notes
 You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
