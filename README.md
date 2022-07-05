@@ -97,7 +97,11 @@ That's it. You're good to navigate my notes now
 
 ### More info on how I take my notes, otherwise you can skip this read.
 
-As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
+I knew I had to find the right note-taking system. I had a problem where I spent most of my time googling the same stuffs over and over again. Storing it in a bookmark was a pain at all as categorizing it turned into a job. Here, I devoted my time to learn on how to take notes effectively in which I did so by exploring [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).   
+
+
+As you navigate my system, you might see some slip-ups but the design of this sytem is meant to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
+
 
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
@@ -115,8 +119,6 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 `#permanent`
 - Contains only one concise piece of knowledge that are most translated by my own words. 
 - It's not only summarization but rather a technique called "[Atomizing Notes](https://neuron.zettel.page/atomic#:~:text=Zettelkasten%20notes%20are%20atomic%20and,idea%20and%20one%20idea%20only.)"
-
-
 ---
 ## Quick guide about using my Obsidian Vault
 
