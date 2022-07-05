@@ -7,7 +7,7 @@ Uses principles in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [
 
 **You DON'T need to learn the mentioned principles above**, simply read "Quick Guide of navigating my notes" 
 
-Topics in the notes are Programming, VIM, Git, Hacking, Networking, PC-Hardware, Linux, Windows, 
+Topics in the notes are Programming, VIM, Git, Hacking, Networking, PC-Hardware, Linux, Windows and more. 
 
 ---
 ---
