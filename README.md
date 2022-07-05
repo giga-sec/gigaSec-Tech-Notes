@@ -39,22 +39,25 @@ https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570
 
 I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
-**Obsidian Installation**
+### Obsidian Installation
 
-Download this repository
+-> Download this repository
 
-Install the app -> https://obsidian.md and launch the app
+-> Install the app -> https://obsidian.md and launch the app
 
-Click "Open Folder as vault" and choose the downloaded folder of this repo 
+-> Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
-You will be presented with a choice 
+You will be presented with two choices  
 - Keep Safe Mode on
+- Turn Off Sade Mode
+
+-> Keep Safe Mode on
 
 ---> Turns off every plugins I installed
 
 ---> All plugins and customizations are stored in the `.obsidian` hidden folder
 
-- Turn off Safe Mode
+-> Turn off Safe Mode
 
 ---> Basically a full replica of my vault. 
 
