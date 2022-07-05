@@ -2,21 +2,21 @@
 
 # 3 - Network Layer
 Created:  [[2022-06-30]]
-Tags: #permanent 
+Tags: #literature 
 
 --- 
-Locates the destination of your request. 
+**Locates the destination of your request.** 
+? What destination are we talking about
+? What do we expect
+
+---
+Network layer uses [[Logical addressing in networking|logical addressing]] which are still software controlled. 
 
 
-When you want to request information from a webpage, 
-It's the network layer that takes the IP address for the page and figures out the best route to take.
-
-
-We're working with _Logical_ addressing (i.e. IP addresses) which are still software controlled. Logical addresses are used to provide order to networks, categorising them and allowing us to properly sort them. 
-
-
-Most common form of logical addressing is the 
-- IPV4 format, (i.e 192.168.1.1 common address for home router).
+### Example where network layer happens
+--> When requesting information for website 
+         Network layer takes IP address of the website 
+         then figures out the best route to take.
 
 
 
