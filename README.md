@@ -41,13 +41,13 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 **Obsidian Installation**
 
-1.  Download this repository
+Download this repository
 
-2.  Install the app -> https://obsidian.md and launch the app
+Install the app -> https://obsidian.md and launch the app
 
-3. Click "Open Folder as vault" and choose the downloaded folder of this repo 
+Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
-4. You will be presented with a choice 
+You will be presented with a choice 
 - Keep Safe Mode on
 
 ---> Turns off every plugins I installed
