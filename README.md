@@ -1,5 +1,5 @@
 # Summary
-You'll see this notes as a complete mess if you don't install and **use a markdown editor that supports hyperlink**.
+The notes will not serve you anything if you don't install and **use a markdown editor that supports hyperlink**.
 
 **Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
 
