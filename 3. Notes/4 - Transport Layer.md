@@ -5,12 +5,11 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
-### 4. Transport Layer
-It chooses the protocol to use for the data to be transmitted. And divides the transmission of data to make it easier to transmit data. 
+**Chooses the protocol to use** for the data to be transmitted. 
+Also **divides the transmission of data to make it easier to transmit data**. 
 
 
-
-#### A protocol will be selected  
+## A protocol will be selected  
 - [[TCP - Transmission Control Protocol]]
 A TCP connection allows **two computers to remain in constant communication**. It ensures that data sent is at an acceptable speed, and **==any lost data is re-sent==**.
 
@@ -23,11 +22,12 @@ With UDP, packets of data are essentially thrown at the receiving computer, **==
 
 
 
-#### When a protocol is now selected 
-The ==**transport layer divides the transmission== to bite-sized pieces** which makes it easier to transmit the message successfully. 
+## When a protocol is now selected 
+The ==**transport layer divides the transmission to bite-sized pieces**== **which makes it easier to transmit the message successfully.** 
 
-(In **TCP** bite sized pieces are called **_segments_**,) 
-(over **UDP** they're called **_datagrams_**)
+(**TCP** bite pieces are called **_segments_**) 
+
+(**UDP** they're called **_datagrams_**)
 
 
 
