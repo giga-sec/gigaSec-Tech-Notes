@@ -107,7 +107,9 @@ That's it. You're good to navigate my notes now
 
 ### More info on how I take my notes, otherwise you can skip this read.
 
-I knew I had to find the right note-taking system. I had a problem where I spent most of my time googling the same stuffs over and over again. Storing it in a bookmark was a pain at all as categorizing it turned into a job. Here, I devoted my time to learn on how to take notes effectively in which I did so by exploring [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).   
+I knew I had to find the right note-taking system. I had a problem where I spent most of my time googling the same stuffs over and over again. Storing it in a bookmark was a pain at all as categorizing it turned into a job. I also realized that everything in technology seems to be connected to each other. If I learned a hacking technique that uses python languange and the technique also applies to networking, then where do I put my notes? Is it in hacking folder, python folder or networking folder? That's where I realized that traditional note taking method will not do me any favor.
+
+Here, I devoted my time on learning how to take notes effectively in which I did so by exploring [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).   
 
 
 As you navigate my system, you might see some slip-ups but the design of this sytem is meant to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
