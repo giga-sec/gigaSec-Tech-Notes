@@ -1,11 +1,3 @@
-# Contents:
-- Screenshots (Contains LIGHT MODE media)
-- Installation Process to be able to use my notes
-- Quick Guide of navigating my notes
-- Quick Guide about my Obsidian Vault (settings, customizations I've done)
-
----
----
 ### Summary of this readme file
 - **Use a markdown editor that supports hyperlink** to take advantage of my notes
 - **Notes aren't CATEGORIZED into folders** by complete intention and design
@@ -14,6 +6,13 @@
 - **You DON'T need to learn how I take notes or learn the mentioned principles above**, simply read "Quick Guide of navigating my notes" 
 - Topics in the notes are Programming, VIM, Git, Hacking, Networking, PC-Hardware, Linux, Windows, 
 ---
+---
+# Contents:
+- Screenshots (Contains LIGHT MODE media)
+- Installation Process to be able to use my notes
+- Quick Guide of navigating my notes
+- Quick Guide about my Obsidian Vault (settings, customizations I've done)
+
 ---
 
 
