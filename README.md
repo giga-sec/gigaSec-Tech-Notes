@@ -7,7 +7,13 @@ Uses principles in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [
 
 **You DON'T need to learn the mentioned principles above**, simply read "Quick Guide of navigating my notes" 
 
-Topics in the notes are Programming, VIM, Git, Hacking, Networking, PC-Hardware, Linux, Windows and more. 
+**Topics of notes**
+
+--> Programming, VIM, Git, 
+
+--> Hacking, Networking, Linux, 
+
+--> PC-Hardware, Windows and more. 
 
 ---
 ---
@@ -48,16 +54,16 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 -> Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
 -> After doing the step above. You will be presented with two choices  
-- Keep Safe Mode on
-- Turn Off Sade Mode
+- _Keep Safe Mode on_
+- _Turn Off Sade Mode_
 
-??-> Keep Safe Mode on
+??-> **Keep Safe Mode on**
 
 ---> Turns off every plugins I installed
 
 ---> All plugins and customizations are stored in the `.obsidian` hidden folder
 
-??-> Turn off Safe Mode
+??-> **Turn off Safe Mode**
 
 ---> Basically a full replica of my vault. 
 
@@ -77,11 +83,37 @@ That's it. You're good to navigate my notes now
 
 ---
 ## Quick Guide of navigating my notes
-You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
+
+**What is a `hyperlink`?**
+
+^--> Imagine a search engine, those underlined words will take you to the right website. That's basically what hyperlink is, it takes you to the right note assigned to it.  
+
+**Go to the home file first -> `3. Notes/+Home`**
+
+^--> Just click the `hyperlinks` to your chosen content. 
+
+**Each note has a `hyperlink` at the top** except for `+Home` file
+
+^--> Purpose is to take you back to the parent note that it came from.
+
+**Obsidian has a search feature.**
+
+^--> Click `Ctrl + Shift + F` and you can search the files there. 
+
+**Got Lost**?
+
+^--> Always come back to your home file `3. Notes/+Home`.
 
 
+### More info on how I take my notes, otherwise you can skip this read.
 
-As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
+I knew I had to find the right note-taking system. I had a problem where I spent most of my time googling the same stuffs over and over again. Storing it in a bookmark was a pain at all as categorizing it turned into a job. I also realized that everything in technology seems to be connected to each other. If I learned a hacking technique that uses python languange and the technique also applies to networking, then where do I put my notes? Is it in hacking folder, python folder or networking folder? That's where I realized that traditional note taking method will not do me any favor.
+
+Here, I devoted my time on learning how to take notes effectively in which I did so by exploring [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).   
+
+
+As you navigate my system, you might see some slip-ups but the design of this sytem is meant to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
+
 
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
@@ -100,6 +132,7 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 - Contains only one concise piece of knowledge that are most translated by my own words. 
 - It's not only summarization but rather a technique called "[Atomizing Notes](https://neuron.zettel.page/atomic#:~:text=Zettelkasten%20notes%20are%20atomic%20and,idea%20and%20one%20idea%20only.)"
 
+With this, it seems like a long hectic note taking method but here is where [Progressive Summarization](https://fortelabs.co/blog/series/ps/) comes into play. Basically the whole idea of it is to only modify each note by chance. Meaning if you haven't touched the note for so long, then you don't need to do anything at all. It can be safely ignored no matter if the status of note is `#fleeting`. Doesn't matter, the note will stay intact with your system. 
 
 ---
 ## Quick guide about using my Obsidian Vault
