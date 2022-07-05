@@ -2,8 +2,7 @@
 - Screenshots (Contains LIGHT MODE media)
 - Installation Process to be able to use my notes
 - Quick Guide of navigating my notes
-- Quick Guide about using my Obsidian Vault
-- Quick Guide about the topics I'm taking notes with
+- Quick Guide about my Obsidian Vault (settings, customizations I've done)
 
 ---
 ---
