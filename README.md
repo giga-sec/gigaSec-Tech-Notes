@@ -48,16 +48,16 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 -> Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
 -> After doing the step above. You will be presented with two choices  
-- Keep Safe Mode on
-- Turn Off Sade Mode
+- _Keep Safe Mode on_
+- _Turn Off Sade Mode_
 
-??-> Keep Safe Mode on
+??-> **Keep Safe Mode on**
 
 ---> Turns off every plugins I installed
 
 ---> All plugins and customizations are stored in the `.obsidian` hidden folder
 
-??-> Turn off Safe Mode
+??-> **Turn off Safe Mode**
 
 ---> Basically a full replica of my vault. 
 
@@ -77,7 +77,18 @@ That's it. You're good to navigate my notes now
 
 ---
 ## Quick Guide of navigating my notes
-You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
+
+Go to the home file first -> `3. Notes/+Home`
+- Just click the `hyperlinks` to your chosen content. 
+
+**Each note has a hyperlink at the top**
+- Purpose is to take you back to the parent note that it came from.
+
+**Obsidian has a search feature.**
+- Click `Ctrl + Shift + F` and results will show the file. Just click on it and it will pop up. 
+
+**Got Lost**?
+- Always come back to your home file `3. Notes/+Home`.
 
 
 
