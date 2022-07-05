@@ -110,22 +110,3 @@ My notes takes three stages of writing and I use tags to assign these. Specifica
 
 
 3. All Deleted Files goes to .trash folder which is hidden
-
----
-## Quick guide about the topics I'm taking note with
-
-MOC Networking
-- Everything about how computers are connected or how they communicate to each other.
-
-MOC Hacking
-- This is for hacking techniques, groups or practices to defend an organization from attacks
-
-MOC Programming
-- Everything about programming most notes came from CS50 but I also rely on other articles as well.
-
-MOC Hardware
-- Basically contains all aspects in hardware such as GPU, CPU or smnth.
-- I haven't touched this area for so long. 
-
----
-If you found any typo's or grammar mistakes, feel free to roast me in pull requests and I'll make sure to review them. 
