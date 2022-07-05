@@ -1,12 +1,25 @@
-# Abstract:
-- Screenshots (Contains light mode media)
-- Installation Process
+# Contents:
+- Screenshots (Contains LIGHT MODE media)
+- Installation Process to be able to use my notes
 - Quick Guide of navigating my notes
 - Quick Guide about using my Obsidian Vault
 - Quick Guide about the topics I'm taking notes with
 
 ---
-Notes may contain grammatical errors and some wont make sense and will only make sense to me. Understand that I wrote this notes for me and to be understood by me. However, I highly encourage any attempts of correcting misinformation or grammars.
+---
+---
+### Summary of this readme file
+- Must **use a markdown editor that supports hyperlink** to take advantage of my notes
+- **Notes aren't CATEGORIZED into folders** by complete intention and design
+- **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
+- Uses principles in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502)
+- **You DON'T need to learn how I take notes or learn the mentioned principles above** to navigate my notes, simply read "Quick Guide of navigating my notes" 
+- Taking notes with Programming, VIM, Git, Hacking, Networking, PC-Hardware, Linux, Windows, 
+---
+---
+
+
+
 
 
 ## Screenshots (!Warning! Light Mode media below)
@@ -21,20 +34,21 @@ https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570
 
 
 ---
-## Installation
+## Installation Process to be able to use my notes
 
 I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
 **Obsidian Installation**
 
-1. Install the app -> https://obsidian.md
+1.  Download this repository
 
-2. Download this repository
+2.  Install the app -> https://obsidian.md 
 
-3. Click "Open Folder as vault" and choose the folder of this repo 
-![image](https://user-images.githubusercontent.com/105108954/177249398-005db1a6-9c09-42f6-8f61-4e28d0afb6b1.png)
+3. Launch the app and 
 
-4. You will be presented with a choice 
+4. Click "Open Folder as vault" and choose the downloaded folder of this repo 
+
+5. You will be presented with a choice 
 - Keep Safe Mode on
 
 ---> Turns off every plugins I installed
