@@ -1,11 +1,11 @@
-[[MOC Programming]]
+[[MOC Programming]]              
 
 # CS50 - Week 1
 Created:  [[2022-05-08]]
 Tags: #literature  
 
 ---
-Abstract
+Abstract                                
 [[Decimals aren't precise in programming -- Floating Point Imprecision]]
 
 [[Signed or Unsigned Data type, which one to choose]]
