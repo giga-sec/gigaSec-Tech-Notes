@@ -1,5 +1,5 @@
 # Summary
-You'll see this notes as a complete mess if you don't install and **use a markdown editor that supports hyperlink**.
+The notes will not serve you anything if you don't install and **use a markdown editor that supports hyperlink**.
 
 **Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
 
@@ -39,11 +39,11 @@ https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570
 
 I recommended installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
-### Obsidian Installation
+### Steps of Obsidian Installation
 
 -> Download this repository
 
--> Install the app -> https://obsidian.md and launch the app
+-> Install the app -> https://obsidian.md and launch it
 
 -> Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
@@ -51,13 +51,13 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 - Keep Safe Mode on
 - Turn Off Sade Mode
 
--> Keep Safe Mode on
+??-> Keep Safe Mode on
 
 ---> Turns off every plugins I installed
 
 ---> All plugins and customizations are stored in the `.obsidian` hidden folder
 
--> Turn off Safe Mode
+??-> Turn off Safe Mode
 
 ---> Basically a full replica of my vault. 
 
@@ -73,12 +73,15 @@ There are only three plugins installed in my vault and only used for customizati
 3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
 
+That's it. You're good to navigate my notes now
+
 ---
 ## Quick Guide of navigating my notes
+You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
+
+
 
 As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
-
-However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
 
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
