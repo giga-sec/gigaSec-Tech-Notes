@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2. MOC/MOC Hacking.md",
+            "file": "3. Notes/+Home.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. MOC/MOC Hacking.md",
+                "file": "3. Notes/+Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. MOC/MOC Hacking.md",
+                "file": "3. Notes/+Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,9 +127,9 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
-    "2. MOC/MOC Hacking.md",
     "3. Notes/+Home.md",
     "2. MOC/MOC Programming.md",
+    "2. MOC/MOC Hacking.md",
     "2. MOC/MOC Networking.md",
     "2. MOC/MOC Graph Theory.md",
     "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md",
