@@ -27,14 +27,31 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 **Obsidian Installation**
 
-There are only three plugins installed here and only used for theme customization
+1. Install the app -> https://obsidian.md
+
+2. Download this repository
+
+3. Click "Open Folder as vault" and choose the folder of this repo 
+![image](https://user-images.githubusercontent.com/105108954/177249398-005db1a6-9c09-42f6-8f61-4e28d0afb6b1.png)
+
+4. You will be presented with a choice 
+- Keep Safe Mode on
+---> Turns off every plugins I installed
+
+All plugins and customizations are stored in the `.obsidian` hidden folder
+
+There are only three plugins installed here and only used for customization
 
 1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
+
 2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+
 3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
-... Still working this part here
-Click `Turn Off Safe Mode`
+- Turn off Safe Mode
+---> Basically a full replica of my vault. 
+
+---> It keeps all my customizations and installed plugins enabled 
 
 
 ---
