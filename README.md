@@ -79,16 +79,20 @@ That's it. You're good to navigate my notes now
 ## Quick Guide of navigating my notes
 
 **Go to the home file first -> `3. Notes/+Home`**
-- Just click the `hyperlinks` to your chosen content. 
+
+^--> Just click the `hyperlinks` to your chosen content. 
 
 **Each note has a hyperlink at the top**
-- Purpose is to take you back to the parent note that it came from.
+
+^--> Purpose is to take you back to the parent note that it came from.
 
 **Obsidian has a search feature.**
-- Click `Ctrl + Shift + F` and results will show the file. Just click on it and it will pop up. 
+
+^--> Click `Ctrl + Shift + F` and results will show the file. Just click on it and it will pop up. 
 
 **Got Lost**?
-- Always come back to your home file `3. Notes/+Home`.
+
+^--> Always come back to your home file `3. Notes/+Home`.
 
 
 ### More info on how I take my notes, otherwise you can skip this read.
