@@ -5,9 +5,12 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
-TCP, when ACCURACY is favoured over speed (e.g. file transfer, or loading a webpage) 
+[[TCP - Transmission Control Protocol]], 
+when **ACCURACY is favoured** over speed (e.g. file transfer, or loading a webpage) 
 
-UDP where SPEED is more important (e.g. video streaming).
+
+[[UDP - User Datagram Protocol]] 
+where **SPEED is more important** (e.g. video streaming).
 
 
 
