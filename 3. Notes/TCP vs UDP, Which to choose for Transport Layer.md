@@ -15,6 +15,9 @@ where **SPEED is more important** (e.g. video streaming).
 
 
 
+
+## Images
+
 ![[TCP vs UDP.png]]
 - At least TCP virgin has a gf.
 - **UDP Chad doesn't get locked into a relationship, he spreads his packets everywhere.**

@@ -6,14 +6,16 @@ Tags:  #literature
 
 ---
 Abstract:
-[[Networks and Networking in computers defined]]
-
 [[IP Address and how its used in communication between devices]]
 
 [[MAC Address and the meaning of its numbers]]
 
 ---
+Networking in computers 
+- is the communication between technology devices such as security cameras, phones and  traffic lights.
 
+Network in computers
+- term for a group of devices that are connected to each other. 
 
 
 

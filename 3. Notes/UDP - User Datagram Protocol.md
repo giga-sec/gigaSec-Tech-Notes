@@ -12,7 +12,7 @@ Packets of data are essentially thrown at the receiving computer, **==if the rec
 
 
 
-[[TCP vs UDP, Which protocol to choose in Transport Layer]]
+[[TCP vs UDP, Which to choose for Transport Layer]]
 
 
 

@@ -4,10 +4,8 @@
 Created:  [[2022-06-30]]
 Tags: #permanent 
 
----
-### 3. Network
-The network layer is 
-- responsible for locating the destination of your request. 
+--- 
+Locates the destination of your request. 
 
 
 When you want to request information from a webpage, 

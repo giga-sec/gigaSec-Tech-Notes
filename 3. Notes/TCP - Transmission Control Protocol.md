@@ -5,19 +5,22 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
+### Purpose
 Allows **two computers to remain in constant communication**.
 **==Any lost data is re-sent==**.
 
 
-
-- **Stable connection must be formed first** before sending any data. It's a process named "[[When is Three-way handshake used in networking]]"
-- The protocol type of TCP is **==Connection-Based Protocol==**
-
+### But first
+A [[When is Three-way handshake used in networking|Three-Way Handshake]] must be done first before sending any data.
 
 
+### Protocol used
+The protocol type of TCP is **==Connection-Based Protocol==**
 
 
-[[TCP vs UDP, Which protocol to choose in Transport Layer]]
+
+
+[[TCP vs UDP, Which to choose for Transport Layer]]
 
 
 

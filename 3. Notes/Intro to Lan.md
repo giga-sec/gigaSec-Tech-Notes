@@ -33,7 +33,7 @@ Ring Topology,
 
 
 Switch allows multiple connections of local networks and transmit those data to a correct location. 
-Router is a device that is responsible for handling communication of networks, [[Networks and Networking in computers defined]]
+Router is a device that is responsible for handling communication of networks, [[What is Networking]]
 
 [[Routers and Switch]]
 
