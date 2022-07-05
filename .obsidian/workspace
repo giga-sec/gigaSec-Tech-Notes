@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/GIT Basics.md",
+            "file": "2. MOC/MOC Programming.md",
             "mode": "source",
             "source": false
           }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/GIT Basics.md",
+                "file": "2. MOC/MOC Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/GIT Basics.md",
+                "file": "2. MOC/MOC Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,13 +128,13 @@
   },
   "active": "1c23ec085228a5f6",
   "lastOpenFiles": [
+    "2. MOC/MOC Programming.md",
     "3. Notes/GIT Basics.md",
     "3. Notes/DNS in detail.md",
     "2. MOC/MOC Networking.md",
     "3. Notes/HTTP in Detail.md",
     "3. Notes/+Home.md",
     "2. MOC/MOC Hacking.md",
-    "2. MOC/MOC Programming.md",
     "2. MOC/MOC Graph Theory.md",
     "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md",
     "3. Notes/VIM 101.md"
