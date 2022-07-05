@@ -92,7 +92,7 @@ That's it. You're good to navigate my notes now
 
 **Obsidian has a search feature.**
 
-^--> Click `Ctrl + Shift + F` and results will show the file. Just click on it and it will pop up. 
+^--> Click `Ctrl + Shift + F` and you can search the files there. 
 
 **Got Lost**?
 
