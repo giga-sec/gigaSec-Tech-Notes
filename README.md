@@ -47,7 +47,7 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 -> Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
-You will be presented with two choices  
+-> After doing the step above. You will be presented with two choices  
 - Keep Safe Mode on
 - Turn Off Sade Mode
 
