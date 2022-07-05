@@ -10,14 +10,17 @@ Also **divides the transmission of data to make it easier to transmit data**.
 
 
 ## A protocol will be selected  
-- [[TCP - Transmission Control Protocol]]
-A TCP connection allows **two computers to remain in constant communication**. It ensures that data sent is at an acceptable speed, and **==any lost data is re-sent==**.
+### [[TCP - Transmission Control Protocol]]
+Allows **2 computers to remain in constant communication**. 
+**==Any lost data is re-sent==**.
 
-- [[UDP - User Datagram Protocol]]
-With UDP, packets of data are essentially thrown at the receiving computer, **==if the receiving computer can't keep up then that's not his problem==** 
+
+### [[UDP - User Datagram Protocol]]
+**Packets of data are essentially thrown at the receiving computer,** 
+**==if receiving computer can't keep up then that's not his problem==** 
 (e.g. a pixelated skype call)
 
-#### [[TCP vs UDP, Which protocol to choose in Transport Layer]]
+[[TCP vs UDP, Which protocol to choose in Transport Layer]]
 
 
 
