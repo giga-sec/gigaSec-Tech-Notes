@@ -78,6 +78,9 @@ That's it. You're good to navigate my notes now
 ---
 ## Quick Guide of navigating my notes
 
+**What is a `hyperlink`?**
+^--> Imagine a search engine, those underlined words will take you to the right website. That's basically what hyperlink is, it takes you to the note assigned to it.  
+
 **Go to the home file first -> `3. Notes/+Home`**
 
 ^--> Just click the `hyperlinks` to your chosen content. 
