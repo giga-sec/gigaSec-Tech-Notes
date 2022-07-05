@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GIT",
+                "query": "tag:#literature",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -129,13 +130,13 @@
   "lastOpenFiles": [
     "3. Notes/+Home.md",
     "2. MOC/MOC Programming.md",
+    "3. Notes/Questions to ask when solving a problem.md",
+    "2. MOC/MOC Networking.md",
+    "3. Notes/Windows Fundamentals.md",
     "2. MOC/MOC GIT.md",
     "3. Notes/GIT Basics.md",
-    "2. MOC/MOC Networking.md",
     "3. Notes/HTTP in Detail.md",
     "3. Notes/Why are cookies used in HTTP.md",
-    "3. Notes/What is Networking.md",
-    "3. Notes/Windows Fundamentals.md",
-    "3. Notes/DNS in detail.md"
+    "3. Notes/What is Networking.md"
   ]
 }
