@@ -5,7 +5,6 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
-### 2. Data Link 
 We're now in the physical addressing. It receives packet from the network layer (also includes the [[What is an IP Address|IP Address]] for the remote computer) and adds in the [[MAC address]] of the receiving endpoint.
 
 
