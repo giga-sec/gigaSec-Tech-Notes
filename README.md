@@ -43,7 +43,7 @@ I recommended installing [Obsidian](https://obsidian.md) as that's where I write
 
 -> Download this repository
 
--> Install the app -> https://obsidian.md and launch the app
+-> Install the app -> https://obsidian.md and launch it
 
 -> Click "Open Folder as vault" and choose the downloaded folder of this repo 
 
@@ -75,10 +75,11 @@ There are only three plugins installed in my vault and only used for customizati
 
 ---
 ## Quick Guide of navigating my notes
+You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
+
+
 
 As you navigate my system, you might see some slip-ups but I designed my system to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. 
-
-However, you don't need to learn those said principles. You just need to click the `hyperlinks` and you're good to navigate my notes. Starting from `3. Notes/+Home`
 
 My notes takes three stages of writing and I use tags to assign these. Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
