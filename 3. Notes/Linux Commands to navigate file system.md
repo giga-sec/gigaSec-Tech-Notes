@@ -25,6 +25,7 @@ grep,
 `grep "search this text on this file" filename.txt`
 
 
+
 ## [[Linux File Manipulation (Rename, Move, Delete, Copy)]]
 
 
