@@ -15,5 +15,6 @@
   "showFrontmatter": true,
   "newFileFolderPath": "3. Notes",
   "showLineNumber": false,
-  "vimMode": false
+  "vimMode": false,
+  "defaultViewMode": "source"
 }
