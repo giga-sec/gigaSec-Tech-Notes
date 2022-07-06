@@ -11,12 +11,6 @@ Abstract:
 - Some variations of TCP-IP Model
 
 ---
-**TCP/IP Model**
-Application
-Transport
-Internet
-Network Interface
-
 ## Similarities between OSI and TCP/IP Model
 
  OSI MODEL                           TCP/IP Model
