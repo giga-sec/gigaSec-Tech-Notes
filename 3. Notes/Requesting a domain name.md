@@ -6,7 +6,8 @@ Tags: #permanent
 
 ---
 `1`. First, computer checks LOCAL CACHE if you've PREVIOUSLY VISITED the address recently. 
-IF a result is found locally
+
+IF a result is found locally in your computer
 -> Address is sent back to your computer 
 -> your request ends here. 
 
