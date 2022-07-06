@@ -9,17 +9,21 @@ Abstract:
 - Encapsulation
 - De-encapsulation
 - [[Why Encapsulation and De-encapsulation are important]]
+- [[Each Layer often name their data differently]]
 
 ---
 ![[image.jpeg]]
 ## Encapsulation happens when sending a message
-The **current layer will be covered with the headers of the next layer and repeats the process till Layer 1**. 
+**Current layer will be covered with headers of the next layer
+Repeats process above till Layer 1**. 
 
-After the data is processed in layer 1. Then, it's ready to be sent to the receiving computer.
+After data is processed in layer 1. 
+Then, it's READY TO BE SENT TO RECEIVING computer.
 
 
 ## De-encapsulation happens when receiving a message
-**When message is received** by the second computer, **it reverses the process -- starting at the physical layer and working up until it reaches the application layer, stripping off the added information as it goes.** 
+==**When message is received**== by the second computer, 
+**==it reverses the process== -- starting at [[1 - Physical Layer]] & working up til it reaches [[7- Application Layer]], stripping off informations as it goes.** 
 
 
 
@@ -27,7 +31,7 @@ After the data is processed in layer 1. Then, it's ready to be sent to the recei
 ## [[Why Encapsulation and De-encapsulation are important]]
 
 
-
+[[Each Layer often name their data differently]]
 
 
 
