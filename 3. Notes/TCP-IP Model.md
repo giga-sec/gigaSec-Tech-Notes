@@ -53,17 +53,6 @@ Your question is justified about why we bother with OSI model if **it's not even
 
 
 
-### Three-Way Handshake
-The 3 step process of forming a stable connection between computers. 
-
-When using [[TCP - Transmission Control Protocol|TCP]], A [[When is Three-way handshake used in networking|Three-way handshake]] must be carried out first before a connection can be established.
-
-
-
-
-
-
-
 
 
 
