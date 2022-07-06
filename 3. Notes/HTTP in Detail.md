@@ -2,7 +2,7 @@
 
 # HTTP in Detail, HyperText Transfer Protocol
 Created:  [[2022-04-17]]
-Tags: #fleeting 
+Tags: #literature 
 
 ---
 [[URL or Uniform Resource Locator]]
