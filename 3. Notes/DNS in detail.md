@@ -20,7 +20,6 @@ Abstract:
 We use DNS `tryhackme.com` instead**  
 
 
-
 **DNS isn't just for websites, 
 ==Multiple types of DNS record exist**==. 
 These are the common one
@@ -39,7 +38,8 @@ TLD, Second Level Domain or Subdomain
 
 
 [[Requesting a domain name]]
-`1`. The computer first check its local cache to see if you've previously looked up the address recently. If a result is found locally, this is sent back to your computer, and your request ends here. 
+Machines don't understand human readable domain names, so they have to send a special request to a DNS resolver to translate the human languange into a machine readable [[What is an IP Address|IP Address]] for them.
+
 
 
 
