@@ -33,6 +33,7 @@ http://woshub.com/run-script-when-app-opens-closes/
 
 
 
+
 ### Process of Note Taking
 Fleeting
 - This is where I frequently copy, paste snippets from articles/videos. 
@@ -51,3 +52,5 @@ Cleaning Up
 - This is also where I decide how to make my notes neat and readable.
 - Also where I frequently change title to notes. The goal is make it possible for me to understood what the note contains just from reading the title
 - This also makes it possible for me to make permanent notes. But that isn't the priority here, instead we prioritize making notes that is understandable and actually make sense.
+
+It's important to me that this process is not rigid and allows flexibility. What those only mean above is that's how usually happens whenever I take notes. I didn't create this rules before I started writing notes. It only happened when I already created a bunch of notes. This approach is called bottom-up, where we started from nothing and slowly we build notes, when we have enough notes, then that's where we end up making rules or categorising the notes.
