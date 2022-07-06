@@ -1,11 +1,12 @@
-[[MOC Networking]]
+[[+Home]]
 
 # TryHackMe - WindowsFundamentals
 Created:  [[2022-04-24]]
 Tags: #fleeting  
 
 ---
-NTFS has a feature called ADS (Alternate Data Steam), NOT Advertisement. Each file has one data stream and ADS allows a file to have more than one data stream. 
+NTFS has a feature called ADS (Alternate Data Steam). 
+Each file has one data stream and ADS allows a file to have more than one data stream. 
 
 
 
