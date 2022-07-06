@@ -1,5 +1,5 @@
 # Summary
-The notes will not serve you anything if you don't install and **use a markdown editor that supports hyperlink**.
+To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
 **Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
 
@@ -47,11 +47,9 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 ### Steps of Obsidian Installation
 
--> Download this repository
+-> Download this repository and Install the app -> https://obsidian.md
 
--> Install the app -> https://obsidian.md and launch it
-
--> Click "Open Folder as vault" and choose the downloaded folder of this repo 
+-> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo 
 
 -> After doing the step above. You will be presented with two choices  
 - _Keep Safe Mode on_
