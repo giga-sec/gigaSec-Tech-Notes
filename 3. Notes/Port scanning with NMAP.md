@@ -14,7 +14,8 @@ Abstract:
 ### [[PORTS 101]]
 
 ## How Nmap works
-Nmap will connect to each port of the target in turn. Depending on how the port responds, it can be determined as being open, closed, or filtered by a firewall.
+Nmap will connect to each port of the target in turn. 
+Depending on how the port responds, it can be determined as being open, closed, or filtered by a firewall.
 Once we know which ports are open, we can then look at enumerating which services are running on each port.
 
 
