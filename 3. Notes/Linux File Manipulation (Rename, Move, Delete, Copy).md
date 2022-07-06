@@ -5,21 +5,24 @@ Created:  [[2022-06-22]]
 Tags: #permanent 
 
 ---
-Removing Files/Folder
-To remove a file (not a folder), use `rm`
-To remove a folder, use a flag `-r` to `rm` to remove recursively
+### Removing Files/Folder
+`rm`
+Remove FILE
+
+`r rm`
+Remove FOLDER, use a flag `-r` to `rm` to remove recursively
 
 
-Copy a File
-- `cp oldNote.txt newNote.txt`
+### Copy file
+`cp <oldnote.txt> <newnote.txt>`
 
 
-Move file to new folder 
-- `mv`    ->  `mv <filename> <directory>`
+### Move file to new folder 
+`mv <filename.txt> <folder_location>`
 
 
-Rename a file
-- `mv`    ->  `mv <oldname.txt> <newname.txt>` 
+### Rename a file
+`mv <old_name.txt> <new_name.txt>` 
 
 
 
