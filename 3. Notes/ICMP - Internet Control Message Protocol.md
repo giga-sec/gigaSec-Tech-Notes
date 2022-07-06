@@ -10,6 +10,7 @@ The ICMP protocol
 - thus the **Internet layer** of the [[TCP-IP model]].
 
 
+
 Things that uses ICMP Protocol
 [[Ping command for testing a connection|Ping]]
 [[Linux - Traceroute command  OR  Windows - Tracert command|Traceroute]]
