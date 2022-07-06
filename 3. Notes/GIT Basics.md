@@ -26,12 +26,11 @@ For GUI Access
 
 [How can I make Git "forget" about a file that was tracked, but is now in .gitignore?](https://stackoverflow.com/questions/1274057/how-can-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitign)
 [`git update-index`](https://www.git-scm.com/docs/git-update-index) does the job for me:
-
 ```
 git update-index --assume-unchanged <file>
 ```
 
-Doesn't work with folders
+Doesn't work with folders so use files
 
 **Note:** This solution is actually independent on `.gitignore` as gitignore is only for untracked files.
 
