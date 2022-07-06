@@ -2,7 +2,7 @@
 
 # NMAP Scripting Engine (NSE)
 Created:  [[2022-07-04]]
-Tags: #fleeting 
+Tags: #literature 
 
 ---
 Abstract:
