@@ -9,10 +9,10 @@ Tags: #fleeting
 
 The more knowledge you have about a target system or network, the more options you have available. This makes it imperative that proper enumeration is carried out before any exploitation attempts are made.
 
+
 ### Example
 Say we have been given an IP to perform a security audit on. \
 Before we do anything else, we need to get an idea of services running on the targets. (e.g running a webserver, or a Windows Active Directory Domain Controller). 
-
 
 The first stage in establishing this “map” of the network infrastructure is something called port scanning. In other words, we want to see which IP addresses contain active hosts, and which do not. One way to do this is by using [[nmap - ping sweep (-sn)]]
 
