@@ -6,7 +6,7 @@ Tags: #permanent
 
 ---
 `-128 to 127`     8-bit signed integer 
-**`Signed Data Type` can accept negative numbers**. It however accepts lower POSITIVE values compared to the same data type but `unsigned`.
+**`Signed Data Type` accepts negative numbers**. It however accepts lower POSITIVE values compared to the same data type but `unsigned`.
 
 
 `0 to 255`           8-bit **un**signed integer
