@@ -7,7 +7,6 @@ Tags: #literature
 --- 
 **Locates the destination of your request.** 
 ? What destination are we talking about
-? What do we expect
 
 ---
 Network layer uses [[Logical addressing in networking|logical addressing]] which are still software controlled. 
