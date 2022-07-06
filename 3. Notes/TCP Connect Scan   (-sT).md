@@ -10,6 +10,8 @@ Abstract:
 - Must read: Problems if pocket is behind the firewall
 
 ---
+The default without SUDO permission.
+
 TCP Connect scan
 ==**performs [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
 Nmap tries to connect to each specified TCP port, and determines whether the service is open by the response it receives.
