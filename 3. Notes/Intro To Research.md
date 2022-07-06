@@ -6,24 +6,33 @@ Tags: #fleeting
 
 ---
 Abstract:
-- How to do a research for something you don't know about
+- How to -> Research for something you don't know about
 - CVE Website
 - Exploit out of the box Website
 
 ---
-Hacking requires a _vast_ knowledge base -- because how are you supposed to break into something if you don't know how it works? In the field of information security, there will never come a point where you don't need to look things up.
+Hacking requires a _vast_ knowledge base because how are you supposed to break into something if you don't know how it works? 
 
 
-The thing is: no one knows everything. Everyone (professional, experienced or totally new) will encounter problems which they don't automatically know how to solve. This is where research comes in, as, in the real world, you can't ever expect to simply be handed the answers to your questions.
+In the field of information security, 
+there will never come a point where you don't need to look things up.
 
+The thing is: no one knows everything. 
+Everyone (professional, experienced or totally new) 
+will encounter problems which they don't automatically know how to solve. 
 
+### This is where research comes in 
+In the real world, 
+you can't ever expect to simply be handed the answers to your questions.
 
-Blogs especially can often be very valuable for learning when it comes to information security, as many security researchers keep a blog.
 
 
 ### How to do research
 Start with a question; get an initial understanding of the topic; then look into more advanced aspects as needed. The expectation will be,  you start from nothing and as you slowly answer a broad question, you get to ask more specific questions and answer those, with the hope of building a complete picture of understanding. 
 
+
+Blogs are valuable for learning when it comes to information security, 
+as many security researchers keep a blog.
 
 
 ### Website for CVE 
@@ -40,12 +49,6 @@ If you're inclined towards the CLI on Linux, Kali comes pre-installed with a to
 
 
 
-
-
-
-
-
-Steganoraphy - is the act of hiding hidden message or file inside of another file. 
 
 
 ### References
