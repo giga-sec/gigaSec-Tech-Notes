@@ -5,15 +5,17 @@ Created:  [[2022-06-29]]
 Tags: #fleeting 
 
 ---
-"Headers" are data that's used in communicating between the web server and the client. 
+Header is a Type of Data 
+used to communicate between web server and client. 
 
 
 
-[[HEADER REQUEST by CLIENT to web servers]]
+
+[[HEADERS used when CLIENT reQUESTS to web servers]]
 **Requests** is you basically sending data to the web server.  
 
 
-[[HEADER RESPONSE by WEB-SERVER to client]]
+[[HEADERS used when WEB-SERVER reSPOND to client]]
 **Response** is the web server sending data to your computer.
 
 
