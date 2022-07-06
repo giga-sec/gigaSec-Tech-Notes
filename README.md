@@ -47,11 +47,9 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 ### Steps of Obsidian Installation
 
--> Download this repository
+-> Download this repository and Install the app -> https://obsidian.md
 
--> Install the app -> https://obsidian.md and launch it
-
--> Click "Open Folder as vault" and choose the downloaded folder of this repo 
+-> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo 
 
 -> After doing the step above. You will be presented with two choices  
 - _Keep Safe Mode on_
