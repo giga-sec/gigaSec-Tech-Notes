@@ -6,7 +6,7 @@ Tags: #permanent
 
 ---
 A protocol will be selected 
-The received data will be divided for easier transmission.
+Received data will be divided for easier transmission.
 
 (**TCP** pieces are called **_segments_**) 
 (**UDP** pieces are called **_datagrams_**)
