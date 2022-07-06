@@ -5,14 +5,24 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
-### 1. Physical Layer
-This is where electrical pulses that make up data transfer over a network are sent and received. 
+- Data are turned into electrical pulses
 
 
-Physical layer **converts the binary data of the transmission into signals** and transmit them across the network, as well as **receiving incoming signals and converting them back into binary data**.
+TRANSMIT signals across network 
+But, first must **Convert binary data of transmission into signals**
 
 
-### [[OSI Model]]
+
+Also RECEIVES incoming signals 
+Then **converts signals into binary data**.
+
+
+
+
+
+
+[[OSI Model]]
+### [[TCP-IP Model]]
 
 
 
