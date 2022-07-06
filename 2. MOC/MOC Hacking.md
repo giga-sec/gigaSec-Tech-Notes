@@ -39,3 +39,6 @@ Steganoraphy - is the act of hiding hidden message or file inside of another fil
 
 Blogs are valuable for learning when it comes to information security, 
 as many security researchers keep a blog.
+
+
+I read the news and cyber security blogs for years, so knew about attacks, the types of attacks and cyber security lingo.
