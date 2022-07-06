@@ -10,6 +10,8 @@ Abstract:
 - Advantage/Disadvantage of SYN Scan
 
 ---
+The default with SUDO permission.
+
 It is used to scan the TCP port-range of a target
 Sometimes SYN scan is referred to as 
 - "_Half-open"_ scans 
