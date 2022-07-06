@@ -7,7 +7,14 @@ Tags: #fleeting
 ---
 ### When it comes to hacking, knowledge is power. 
 
+Hacking requires a _vast_ knowledge base because how are you supposed to break into something if you don't know how it works? 
+
 The more knowledge you have about a target system or network, the more options you have available. This makes it imperative that proper enumeration is carried out before any exploitation attempts are made.
+
+
+
+
+[[Intro To Research]]
 
 
 ### Example
