@@ -9,9 +9,9 @@ Abstract:
 - How it idenfities closed, open, ports
 
 ---
-- All of this three scans uses TCP
-- tend to be even stealthier than a [[SYN Scan                  (-sS)]]. 
-- often used for firewall evasion
+- All of this three scans uses [[TCP - Transmission Control Protocol|TCP]]
+- More stealthier than [[SYN Scan     (-sS)]]. 
+- Often used for firewall evasion
 
 
 
@@ -35,7 +35,7 @@ The flags that it sets (PSH, URG and FIN) give's the appearance of a blinking ch
 
 #### When packet is received by OPEN/FIREWALLED ports
 For _open_ ports are all identical, 
-and very similar to [[UDP Scan                  (-sU)]]. 
+and very similar to [[UDP Scan     (-sU)]]. 
 
 There is no response to the sent packet to OPEN and Firewalled Ports. 
 
