@@ -5,9 +5,9 @@ Created:  [[2022-06-28]]
 Tags: #fleeting 
 
 ---
-Requests is you basically sending data to the web server.  
+[[Web server and different ways we make request to it|Requests]] is you basically sending data to the web server.  
 
-Example of a request:
+### Example of a request:
 ```http
 GET / HTTP/1.1
 Host: tryhackme.com
@@ -26,17 +26,20 @@ Referer. It's the referer, that's it.
 
 Blank Line. Requests always leave a blank line in the end, kinda like a period in english where it signifies the end of the sentence. Here it signifies to the web server that the request has finished. 
 
-#### The web-server will then send a response to the client.  
+### The web-server will then send a response to the client.  
 [[example of HTTP reSPONSE from WEBSERVER]]
 
 
 
-#### There's also different ways we can make request to a web server
+
+
+
+## Different ways we can make request to a web server
 [[Web server and different ways we make request to it]]
 
 
 
-##### More details about headers being used in this Request Code
+## More details about headers used in Request 
 [[HEADERS used when CLIENT reQUESTS to web servers]]
 
 
