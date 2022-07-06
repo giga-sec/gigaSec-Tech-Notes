@@ -26,6 +26,13 @@ Guides of Hackings here
 https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
 
 
+Practice using map here
+http://scanme.nmap.org
+
+If you are looking for vulnerable webapp here are some good lists :
+-   [Hacking Vulnerable Web Applications Without Going To Jail](http://blog.taddong.com/2011/10/hacking-vulnerable-web-applications.html)
+-   [Deliberately Insecure Web Applications For Learning Web App Security](http://www.irongeek.com/i.php?page=security/deliberately-insecure-web-applications-for-learning-web-app-security)
+
 
 Steganoraphy - is the act of hiding hidden message or file inside of another file. 
 
