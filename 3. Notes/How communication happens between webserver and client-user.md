@@ -6,20 +6,27 @@ Tags: #fleeting
 
 ---
 Abstract:
-- Example of REQUEST sent by client to webserver
-- Example of RESPONSE by webserver to client
 - [[Web server and different ways we make request to it]]
 ---
-To access a website, 
-- You, the client, give a [[HTTPS REQUEST by CLIENT to webserver example|request]] to the webserver  
-- The webserver will give a [[HTTPS RESPONSE from WEBSERVER to client-user example|response]] to your computer, if the response is `Ok`, the files required to display the website will be sent to your computer. 
-- [[Web server and different ways we make request to it]]
+## To access a website
+
+You, the client, give a [[example of HTTP reQUEST by CLIENT|request]] to the webserver  
+
+
+The webserver will give a [[example of HTTP reSPONSE from WEBSERVER|response]] to your computer, 
+
+
+If webserver's [[example of HTTP reSPONSE from WEBSERVER|response]] is `OK`, 
+the, files required to display website will be sent to your computer. 
+
+
 
 
 ## [[What are headers and how is it used in HTTPS]]
 
-- [[HTTPS REQUEST by CLIENT to webserver example]]
-- [[HTTPS RESPONSE from WEBSERVER to client-user example]]
+- [[example of HTTP reQUEST by CLIENT]]
+
+- [[example of HTTP reSPONSE from WEBSERVER]]
 
 
 
