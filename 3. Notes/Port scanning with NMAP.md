@@ -6,7 +6,6 @@ Tags: #fleeting
 
 ---
 Abstract:
-- How NMAP works
 - [[Switches of NMAP]]  <- Saving the outputs of Scan
 - Different port scanning methods with NMAP
 - Default scanning of NMAP and why they're default
@@ -41,9 +40,9 @@ This means that, whilst one of the first three scans are likely to be your go-to
 
 
 ## Defaults of NMAP when scanning
-### SYN scans requires sudo permission to work in linux
-For this single reason above. 
-These then are the defaults run by Nmap 
+#### SYN scans requires SUDO permission TO WORK in linux
+This single reason above. 
+Make the defaults run by Nmap 
 
 #### If run **==WITH SUDO==** permission
 Default Scan: **SYN scans** 
