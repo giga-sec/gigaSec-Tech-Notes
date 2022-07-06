@@ -19,12 +19,12 @@ The protocol type of TCP is **==Connection-Based Protocol==**
 
 
 ### The bad thing about TCP
-When your browser sends a bunch of packets to request a connection, webserver responds packets of its own, acknowledging the receipt. 
+When your browser sends bunch of packets to request connection, Webserver responds its own packets, acknowledging the receipt. 
 They are batched together in a specific order. 
 ![[Pasted image 20220706181812.png|400]]
 If one of response packets gets lost because of weak connection, 
-the rest of them will have to wait in line until lost packet is re-sent. 
-    This can slow the traffic speed down significantly
+The rest of them will have to wait in line until lost packet is re-sent. 
+This can slow the traffic speed down significantly
 
 
 
