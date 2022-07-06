@@ -26,9 +26,9 @@ Once we know which ports are open, we can then look at enumerating which service
 
 ## Different Port Scanning types of NMAP
 Three basic scan types in NMAP
--   [[TCP SYN Connect Scan   (-sT)]] 
--   [[SYN Scan                  (-sS)]] 
--   [[UDP Scan                  (-sU)]]
+-   [[TCP SYN Scan   (-sT)]] 
+-   [[SYN Scan     (-sS)]] 
+-   [[UDP Scan     (-sU)]]
 
 
 Additionally there are several less common port scan types.
@@ -55,15 +55,15 @@ Default Scan: **TCP Connect scan**.
 
 
 How TCP Connect identifies if port is CLOSED/OPEN or behind firewall
-### [[TCP SYN Connect Scan   (-sT)]]
+### [[TCP SYN Scan   (-sT)]]
 
 
 How Nmap SYN Scan determines if a port is open, closed or behind firewall
-### [[SYN Scan                  (-sS)]]
+### [[SYN Scan     (-sS)]]
 
 
 How Nmap UDP Scan determines if a port is open or closed
-### [[UDP Scan                  (-sU)]]
+### [[UDP Scan     (-sU)]]
 
 
 More common port scan types 
