@@ -18,10 +18,11 @@ Tags: #fleeting
 
 
 -   Boolean operations can be used. 
-        Use `OR` to match one or another. 
-        Use `-` to negate a query. 
-        The space character is used for boolean "and".
-    For example: `foo OR bar` will find all notes that contain either of those words, they don't have to be in the same note. `foo -bar` will find all notes that contain `foo`, but not if they also contain `bar`.
+        `OR` to match one or another. 
+        `-` to negate a query. 
+        `space character` "and".
+    For example: `foo OR bar` will find all notes that contain either of those words, they don't have to be in the same note. 
+    `foo -bar` will find all notes that contain `foo`, but not if they also contain `bar`.
 
 
 -   Group boolean operations by parenthesis 
