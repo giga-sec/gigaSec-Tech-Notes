@@ -110,11 +110,18 @@ that provides more control over size of the packets
 accepts a maximum transmission unit size to use for the packets sent. 
 This _must_ be a multiple of 8.
 
+
 `--scan-delay <time>ms`
-used to add a delay between packets sent. This is very useful if the network is unstable, but also for evading any time-based firewall/IDS triggers which may be in place.
+used to add a delay between packets sent. 
+Useful if network is unstable
+Useful for evading any time-based firewall/IDS triggers 
 
 
-`--badsum`:- this is used to generate in invalid checksum for packets. Any real TCP/IP stack would drop this packet, however, firewalls may potentially respond automatically, without bothering to check the checksum of the packet. As such, this switch can be used to determine the presence of a firewall/IDS.
+`--badsum` 
+Used to generate in invalid checksum for packets. 
+Any real TCP/IP stack would drop this packet, however, firewalls may potentially respond automatically, without bothering to check the checksum of the packet. 
+For reason above, 
+This switch is used to determine the presence of a firewall/IDS
 
 
 
