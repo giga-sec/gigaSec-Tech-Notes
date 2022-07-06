@@ -5,12 +5,13 @@ Created:  [[2022-06-22]]
 Tags: #permanent 
 
 ---
-`1.1.3`    The nameserver for `tryhackme.com` is `kip.ns.cloudflare.com` and `uma.ns.cloudflare.com`. Multiple nameservers for a domain name exists to act as a backup in case one goes down.
+`1.1.3`    
+The nameserver for `tryhackme.com` 
+`kip.ns.cloudflare.com` and `uma.ns.cloudflare.com`. 
+Multiple nameservers for a domain name exists to act as a backup in case one goes down.
 
 
 Depending on the record type, the DNS record is then sent back to the [[Recursive DNS Server|Recursive DNS Server]], where a local copy will be cached for future requests and then relayed back to the original client that made the request. 
-
-
 
 
 
