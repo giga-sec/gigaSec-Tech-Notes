@@ -10,8 +10,8 @@ Tags: #permanent
 
 
 The ping command is used 
-- to test whether a connection to a remote resource is possible like a website, or home network. 
-- it works using the [[ICMP protocol]]
+- test whether connection to remote resource is possible like a website, or home network. 
+- it works using the [[ICMP - Internet Control Message Protocol]]
 
 
 ### Other useful thing Ping can do
