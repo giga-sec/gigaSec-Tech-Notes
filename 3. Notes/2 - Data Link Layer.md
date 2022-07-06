@@ -5,17 +5,25 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
-We're now in the physical addressing. It receives packet from the network layer (also includes the [[What is an IP Address|IP Address]] for the remote computer) and adds in the [[MAC address]] of the receiving endpoint.
+## Data is now in the **physical addressing**. 
+
+Receives packet from the [[3 - Network Layer]] 
+
+Gets [[What is an IP Address|IP Address]] for remote computer 
+
+Adds in [[MAC address]] of receiving endpoint.
 
 
-Data will be formatted in preparation for transmission. 
+
+## Adds a trailer during encapsulation
+
+**==Adds (trailer) piece of data  at _end_ of transmission==**
 
 
-It also checks the received information to make sure that it hasn't been corrupted during transmission, which could well happen when the data is transmitted by layer 1.
+**`Trailer`
+used to verifiy that data hasn't been corrupted during transmission**.
 
-The data link layer also adds a piece of data at the _end_ of the transmission, which is used to verify that the data has not been corrupted.
 
-Adds a _trailer_ during encapsulation
 
 ### [[1 - Physical Layer]]
 
