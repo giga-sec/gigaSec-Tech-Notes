@@ -36,7 +36,7 @@ you could also just combine it with existing command
 `-vn`
 
 
-In the previous examples in this tutorial, when you searched for the words `GNU` and `the`, you were actually searching for basic regular expressions which matched the exact string of characters `GNU` and `the`. Patterns that exactly specify the characters to be matched are called “literals” because they match the pattern literally, character-for-character.
+In the previous examples in this tutorial, when you searched for the words `GNU` and `the`, you were actually searching for basic regular expressions which matched the exact string of characters `GNU` and `the`. Patterns that exactly specify the characters to be matched are called “literals” because they match the pattern literally, character-for-character. It is helpful to think of these as matching a string of characters rather than matching a word. This will become a more important distinction as you learn more complex patterns. All alphabetical and numerical characters (as well as certain other characters) are matched literally unless modified by other expression mechanisms.
 
 
 
