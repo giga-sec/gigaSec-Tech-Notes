@@ -37,11 +37,11 @@ Additionally there are several less common port scan types.
 -   TCP Xmas Scans (`-sX`)
 
 Most of these (with the exception of UDP scans) are used for very similar purposes, however, the way that they work differs between each scan. 
-This means that, whilst one of the first three scans are likely to be your go-to in most situations, it's worth bearing in mind that other scan types exist.
+This means that, **whilst one of the first three scans are likely to be your go-to in most situations, it's worth bearing in mind that other scan types exist.**
 
 
 ## Defaults of NMAP when scanning
-#### SYN scans requires SUDO permission TO WORK in linux
+### SYN scans requires SUDO permission TO WORK in linux
 This single reason above. 
 Make the defaults run by Nmap 
 
