@@ -1,5 +1,5 @@
 # Summary
-To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](obsidian.md/)
+To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
 **Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
 
