@@ -5,7 +5,8 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
-Packets of data are essentially thrown at the receiving computer, **==if the receiving computer can't keep up then that's not his problem==** 
+Packets of data are essentially thrown at the receiving computer, 
+**==if the receiving computer can't keep up then that's not his problem==** 
 (e.g. a pixelated skype call)
 
 
