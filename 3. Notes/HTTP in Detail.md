@@ -25,9 +25,11 @@ thus [[Why are cookies used in HTTP|cookies]] are used to remember you .
 
 
 ### [[How communication happens between webserver and client-user]]
-To access a website, you send a [[example of HTTP reQUEST by CLIENT|request]] to the webserver. 
+To access a website, 
+You send a [[example of HTTP reQUEST by CLIENT|request]] to the webserver. 
 Webserver will give a [[example of HTTP reSPONSE from WEBSERVER|response]] to you 
-If response `OK`, files required to display website will be sent to your computer. 
+If webserver's response `OK`, 
+-> files required to display website will be sent to your computer. 
 
 
 
