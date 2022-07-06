@@ -1,4 +1,4 @@
-[[Encapsulation]]
+[[Encapsulation and De-Encapsulation]]
 
 # Why Encapsulation and De-encapsulation are important
 Created:  [[2022-07-05]]
