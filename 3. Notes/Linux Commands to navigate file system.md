@@ -23,9 +23,8 @@ Tags: #fleeting
 `find -name <filename.txt>` --> search every directory with a file named `filename.txt`
 `find -name *.txt` --> To find all .txt files
 
-**Search a file for keywords** and spits it out.
-grep means global regular expression print
-`grep "search this text on this file" filename.txt`
+[[grep command]]
+
 
 
 
