@@ -13,8 +13,6 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 [[Offensive Security vs Defensive Security]]
 
 
-[[Intro To Research]]
-
 
 [[In Hacking, Knowledge is power]]
 
@@ -30,3 +28,7 @@ https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
 
 
 Steganoraphy - is the act of hiding hidden message or file inside of another file. 
+
+
+Blogs are valuable for learning when it comes to information security, 
+as many security researchers keep a blog.
