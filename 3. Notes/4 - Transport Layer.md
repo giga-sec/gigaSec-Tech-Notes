@@ -5,6 +5,8 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
+When [[5 - Session Layer]] SUCCESSFULLY made connection between host and remote computer, data's passed down to transport layer
+
 A protocol will be selected 
 Received data will be divided for easier transmission.
 
