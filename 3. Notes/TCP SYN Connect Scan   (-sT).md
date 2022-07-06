@@ -10,13 +10,12 @@ Abstract:
 - Must read: Problems if pocket is behind the firewall
 
 ---
-The default without SUDO permission.
-
-TCP Connect scan
-==**performs [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
-Nmap tries to connect to each specified TCP port, and determines whether the service is open by the response it receives.
+TCP SYN Scan (-st) 
+**==is DEFAULT without SUDO permission.==**
 
 
+
+==**Performs [[The steps of Three-Way Handshake|three-way handshake]] with each target port in turn**==.
 ## We **send TCP request w/ SYN flag to a port**,
 ### Target server will either 
 
@@ -30,18 +29,18 @@ Nmap tries to connect to each specified TCP port, and determines whether the ser
 
 
 
-Detailed explanation below
+**Detailed explanation below**
 ## How TCP Connect identifies if port is CLOSED/OPEN or behind firewall
-### Nmap sends a TCP request w/ SYN flag 
+### Nmap sends TCP request w/ SYN flag 
 to a specified port in the target server.
 
-#### If received by a CLOSED port 
+#### If received by CLOSED port 
 The target server 
 - responds **TCP packet with ==RST flag set==**.  rst means "reset"
 - Nmap then **marks the port as closed**.
 ![[Pasted image 20220703150554.png|150]]
 
-#### If received by an OPEN port
+#### If received by OPEN port
 Basically, it will act as if doing a [[The steps of Three-Way Handshake|three-way handshake]]
 - We send a **TCP request w/ SYN flag**
 - Target **server will respond** a TCP packet w/ **SYN/ACK flags**. 
@@ -50,23 +49,23 @@ Nmap then marks this port as being **open**. 
 
 
 #### If received by a port behind FIREWALL
-What if port is open, but hidden behind a firewall?
 Many **firewalls are configured to ==drop incoming packets==**. 
 
-##### How it determines if it's behind FIREWALL
--> Nmap TCP Connect Scan **sends a TCP SYN request**, 
+##### How it determines if behind FIREWALL
+-> TCP SYN Scan **sends TCP SYN request**, 
 -> Receives nothing back. 
 This indicates that the port is being protected by a firewall
 Thus the port is considered to be ==**filtered**==.
 
 ##### The PROBLEM if pocket is behind FIREWALL
-It can be extremely difficult/impossible to get an accurate reading of target.
+Can be difficult/impossible to get an accurate reading of target.
+
 In IPtables for Linux, if we run this command: 
 `iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset`
+When the command is executed above ^  
+**Any requests of ports behind the ==firewall will respond  RST TCP packet**==. 
 
-When the command is executed,  
-**any requests of ports behind the ==firewall will respond `RST TCP packet`**==. 
-In other words, the command allows the firewall 
+^ In other words, the command allows the firewall 
 - **==to act as if it's an open port with no firewall behind it==**.
 
 
