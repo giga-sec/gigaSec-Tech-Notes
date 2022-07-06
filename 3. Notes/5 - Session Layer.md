@@ -5,7 +5,6 @@ Created:  [[2022-06-30]]
 Tags: #permanent 
 
 ---
-### 5. Session
 When data is correctly formated by presentation layer, data will be passed through the session layer. 
 
 
