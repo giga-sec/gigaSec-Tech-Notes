@@ -9,7 +9,7 @@ Abstract:
 /etc -> passwd, shadow, sudoers.d
 /var -> /var/log
 /root
-/tmp
+/tmp 
 
 ---
 ## `/bin`
@@ -30,7 +30,7 @@ Abstract:
 - `/var/log` is where log files are stored
 It automatically manage logs in a process that is known as "rotating".
 
-Examples of useful logs
+#### Examples of useful logs in `/var/log`
 -   An Apache2 web server
 -   Logs for the fail2ban service, which is used to monitor attempted brute forces, for example
 -   The UFW service which is used as a firewall
