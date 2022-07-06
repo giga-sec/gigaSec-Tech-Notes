@@ -6,62 +6,59 @@ Tags: #fleeting
 
 ---
 Abstract:
-
+- Multiple Scripts can be run in single command
+- Built-in help for each scripts
+- Arguments in Scripts
+- Finding Nmap Scripts
 
 ---
 Uses LUA programming languange
-
 
 
 Many categories exists
 -   `safe`:- Won't affect the target
 -   `intrusive`:- Not safe: likely to affect the target  
 -   `vuln`:- Scan for vulnerabilities
--   `exploit`:- Attempt to exploit a vulnerability
--   `auth`:- Attempt to bypass authentication for running services (e.g. Log into an FTP server anonymously)
--   `brute`:- Attempt to bruteforce credentials for running services
--   `discovery`:- Attempt to query running services for further information about the network (e.g. query an SNMP server).
+-   `exploit`:- Exploit a vulnerability
+-   `auth`:- Bypass authentication for running services 
+-   `brute`:- Bruteforce credentials for running services
+-   `discovery`:- Query running services for further info about a network.
 A more exhaustive list can be found [here](https://nmap.org/book/nse-usage.html).
 
 
-    
-Multiple Scripts can be run, by separating commas
-Here we are running two scripts
-`smb-enum-users`
-`smb-enum-shares`
+## Multiple Scripts can be run in single command
+We use `,` to separate commands
+#### `--script=<script_name1>, <script_name2>`
 ```Lua
 --script=smb-enum-users, smb-enum-shares
 ```
 
-Nmap scripts come with built-in help
-`nmap --script-help <script-name>``
-The built-in help will have a website that will lead you to more info such as arguments for the script
+## Built-in help of scripts
+#### `nmap --script-help <script-name>``
+It will have a website link that leads you to more info
 
 
-Some scripts require arguments
-`<script-name>.<argument>`
+## Arguments in scripts
+#### `<script-name>.<argument>`
 
 
-Finding nmap scripts
-Through the official website
+## Finding nmap scripts
+### Through the official website
 https://nmap.org/nsedoc/
 
-Or the local copy
-`/usr/share/nmap/scripts`
-All scripts are installed here by default
-
-Inside of the folder contains 
-This is where nmap keep tracks of the script
-`script.db`
 
 
-You could do this search
+### Or the local copy
+#### `/usr/share/nmap/scripts`
+^ Directory above contains `script.db`
+
+---> You could grep `script.db`
 `grep "ftp" /usr/share/nmap/scripts/script.db`
 `grep "safe" /usr/share/nmap/scripts/script.db`
 
+---> Or search the folder with this syntax
+`ls -l /usr/share/nmap/scripts/*script_name*`
 
-Or this search
-`ls -l /usr/share/nmap/scripts/*ftp*`
 
 
 
