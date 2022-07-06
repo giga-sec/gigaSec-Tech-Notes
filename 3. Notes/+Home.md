@@ -40,8 +40,14 @@ Fleeting
 - Whenever, I copy paste snippets, I just straight up paste them in the note. I don't categorize them yet until I read them again on the note. 
 - Sometimes, categorization happens here but it's not the priority. The priority is reading the note again.
 
+Literature
+- This is sometimes a page that leads to every permanent note that I've created.
+- Sometimes, it's just the neater version of fleeting note
+- Sometimes, when there is just a bunch of information in a single note. 
+
 
 Cleaning Up
 - This is where I remove redundant words of notes. The goal here is to make the sentence have less words as much as possible.
 - This is also where I decide how to make my notes neat and readable.
 - Also where I frequently change title to notes. The goal is make it possible for me to understood what the note contains just from reading the title
+- This also makes it possible for me to make permanent notes. But that isn't the priority here, instead we prioritize making notes that is understandable and actually make sense.
