@@ -8,32 +8,33 @@ Tags: #literature
 Abstract:
 [[What is an IP Address]]
 
-[[Parts of a DNS Website]]
+[[Parts of a DNS]]
 
 [[Requesting a domain name]]
 
 ---
-DNS is a **way for us to ==communicate with devices on the internet== without remembering complex numbers.** 
-When visiting a website, **it's unconvenient to remember `104.26.10.299` thus we remember `tryhackme.com` instead** and DNS allows us to do that. 
+**A way for us to communicate with devices on internet
+==without remembering complex numbers==.** 
+
+**It's unconvenient to remember `104.26.10.299` 
+We use DNS `tryhackme.com` instead**  
 
 
 
-**DNS isn't just for websites though, and ==multiple types of DNS record exist**==. 
+**DNS isn't just for websites, 
+==Multiple types of DNS record exist**==. 
 These are the common one
 - A Record - for IPv4 Addresses
 - AAAA Record - for IPv6 Addresses
 [[More DNS Record Types]]
 
 
-DNS records all come with a **TTL (Time To Live) value. ==Time value represented in seconds that should be saved for locally== until you have to look it up again**. Caching saves on having to make a DNS request every time you communicate with a server. 
+DNS records all come with a **[[TTL (Time-to-live) in Networking|TTL]] value. ==Time value represented in seconds that should be saved for locally== until you have to look it up again**. Caching saves on having to make a DNS request every time you communicate with a server. 
 
 
 
 
-
-
-
-[[Parts of a DNS Website]]
+[[Parts of a DNS]]
 TLD, Second Level Domain or Subdomain
 
 
