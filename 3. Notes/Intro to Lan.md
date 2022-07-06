@@ -16,7 +16,8 @@ Abstract:
 
 
 ---
-Topology is the design of how networks are connected. Each topologies have their own strength and weaknesses. 
+Topology is the design of how networks are connected. 
+Each topologies have their own strength and weaknesses. 
 
 
 Star Topology, a switch has a one on one connection to each devices. These devices talks to the switch and the switch will pass their message to the dedicated device. It's costly as it requires lots of cables.  
