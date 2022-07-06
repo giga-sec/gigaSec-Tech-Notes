@@ -5,7 +5,7 @@ Created:  [[2022-06-30]]
 Tags: #literature 
 
 ---
-The **OSI Model** (**O**pen **S**ystems **I**nterconnection) is a standardised model which we **use to demonstrate the theory behind computer networking**. In practice, **it's actually the ==more compact TCP/IP model that real-world networking is based off**==
+The **OSI Model** (**O**pen **S**ystems **I**nterconnection) is a standardised model which we **use to demonstrate the theory behind computer networking**. In practice, **it's actually the ==more compact [[TCP-IP Model]] that real-world networking is based off**==
 
 
 The OSI Model has seven layers
@@ -28,7 +28,7 @@ The OSI Model has seven layers
 
 
 ### [[5 - Session Layer]]
-- Set-ups a connection between other computer across network
+- **Set-ups a connection** between other computer across network
 
 
 ### [[4 - Transport Layer]]
@@ -42,6 +42,7 @@ The OSI Model has seven layers
 
 ### [[2 - Data Link Layer]]
 - Receives packet from network layer and adds in MAC Address at endpoint
+- Verifies if data hasn't been corrupted
 
 
 ### [[1 - Physical Layer]]
@@ -52,7 +53,7 @@ The OSI Model has seven layers
 
 
 
-[[Layers often name their data differently]].
+[[Each Layer often name their data differently]].
 
 
 
