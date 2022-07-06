@@ -5,13 +5,15 @@ Created:  [[2022-06-22]]
 Tags: #permanent  
 
 ---
-`subdomain` . `second level domain` . `tld`
+#### subdomain . second level domain . tld
 
 Example: `admin`.`tryhackme`.`com`
 
 ---
 **TLD (Top-Level Domain)**
-The `tryhackme.com` the TLD is `.com`. 
+`tryhackme.com` 
+the TLD is `.com`. 
+
 
 Two types of TLD
 gTLD (Generic Top Level) 
