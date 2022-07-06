@@ -5,19 +5,26 @@ Created:  [[2022-06-26]]
 Tags: #literature  
 
 ---
-Uses social engineering convincing the sim phone carrier to reset or activate the victim's sim card onto the hacker's phone.
+Uses social engineering to convince the sim phone carrier to reset/activate the victim's sim card onto the hacker's phone.
 
-Basically, any calls or texts will no longer be received to your sim but instead to the hackers sim. 
+Therefore, any calls/texts will no longer be received to victim's sim but instead to the hackers sim. 
 
-This is dangerous as 2fa sometimes relies on txt codes and potentially, hackers can use that to login in your bank accounts or other sensitive accounts.
-
-
-How it works
-1. They gather as much as information to you so that they convince the phone carrier that it's you and not an impersonator. They do this by buying info on dark web, using social media or phishing emails.
+### Why Swim Swap is dangerous
+2fa sometimes relies on txt codes 
+hackers can use this method to login to your sensitive accounts.
 
 
-How to protect yourself:
-1. Don’t build your security and identity authentication solely around your phone number. This includes text messaging (SMS), which is not encrypted.
+### How Swim Swap works
+They gather as much as information.
+They buy info on dark web, social media details or phishing emails.
+
+Purpose is to 
+convince the phone carrier that it's you and not an impersonator. 
+
+
+### How to protect yourself:
+Don’t rely on phone number for authentication. 
+This includes text messaging (SMS), which is not encrypted.
 
 
 
