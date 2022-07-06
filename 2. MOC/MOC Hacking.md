@@ -26,3 +26,7 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 
 Guides of Hackings here
 https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
+
+
+
+Steganoraphy - is the act of hiding hidden message or file inside of another file. 
