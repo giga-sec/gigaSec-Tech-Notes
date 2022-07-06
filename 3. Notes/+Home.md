@@ -10,6 +10,8 @@ This MOC is dedicated to things that relate to technology especially computers, 
 
 [[MOC Hacking]]
 
+[[MOC Obsidian]]
+
 
 
 
