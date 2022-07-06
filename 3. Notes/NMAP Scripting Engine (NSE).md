@@ -9,7 +9,7 @@ Abstract:
 
 
 ---
-- Written in lua programming languange
+Uses LUA programming languange
 
 
 
@@ -24,7 +24,7 @@ Many categories exists
 A more exhaustive list can be found [here](https://nmap.org/book/nse-usage.html).
 
 
-
+    
 Multiple Scripts can be run, by separating commas
 Here we are running two scripts
 `smb-enum-users`
