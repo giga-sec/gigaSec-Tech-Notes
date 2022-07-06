@@ -17,12 +17,25 @@ Transport
 Internet
 Network Interface
 
+## Similarities between OSI and TCP/IP Model
+
+ OSI MODEL                           TCP/IP Model
+7 Application                         \
+6 Presentation                       |-> ==Application==
+5 Session                               /
+
+
+4 Transport                          ->  ==Transport== 
+3 Network                            ->   ==Internet==
+
+
+2 Data Link                            |---  ==Network Interface==
+1 Physical                              |--------^
+
+
 
 TCP-IP Model
-Processes of encapsulation and de-encapsulation
-- At **==each layer of TCP/IP model==**, 
-- a **header is ADDED during encapsulation**
--  a **header is REMOVED during DE-encapsulation**.
+
 
 
 ## Difference between OSI Model and TCP/IP Model
@@ -36,20 +49,7 @@ Your question is justified about why we bother with OSI model if **it's not even
 
 
 
-### Similarities between OSI and TCP/IP Model
 
- OSI MODEL                        TCP/IP Model
-7 Application                      \
-6 Presentation                    |-> Application
-5 Session                            /
-
-
-4 Transport                       ->  Transport 
-3 Network                         ->   Internet
-
-
-2 Data Link                         |---  Network Interface
-1 Physical                           |--------^
 
 
 
