@@ -8,7 +8,7 @@ Tags: #permanent
 `1.1`    Usually provided by ISP. This server has a local cache of recently looked up domain names. 
 
 
-If a result is found locally by local cache of server, 
+If result found in local cache of server, 
 -> this is sent back to your computer, 
 -> and your request ends here.
 
