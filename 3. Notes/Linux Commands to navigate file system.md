@@ -2,10 +2,12 @@
 
 # File System Interaction
 Created:  [[2022-06-16]]
-Tags: #literature  
+Tags: #fleeting 
 
 ---
 [[Linux Shell Operators like `&` or `&&`]]
+
+
 ## INFORMATION
 `pwd` -> **print working directory**
 - print the current location of folder/directory
@@ -13,6 +15,7 @@ Tags: #literature
 **Know more details about a file**
 - `file notepad.txt`
 - `notepad.txt: ASCII text, with no line interaction` 
+
 
 
 ## FINDING Files
