@@ -9,11 +9,11 @@ Tags: #fleeting
 
 ### Combining sub-queries
 
--   Word separated by space will be searched independently. 
+-   Words will be searched independently. 
         For example `foo bar` will find note that has both `foo` and `bar` 
 
 
--   `"Quoted strings"` can be to search a phrase. 
+-   `"Quoted strings"` to search a phrase. 
          `"I am not gae"` with quotes will only find notes that include those words next to each other. 
 
 
@@ -24,9 +24,10 @@ Tags: #fleeting
     For example: `foo OR bar` will find all notes that contain either of those words, they don't have to be in the same note. `foo -bar` will find all notes that contain `foo`, but not if they also contain `bar`.
 
 
--   Parenthesis can be used to group boolean operations. 
+-   Group boolean operations by parenthesis 
         For example `((a OR b) (c OR d))`. 
         Useful when crafting complex searches to make sure things happen in the order you want.
+
 
 ### Search operators
 Some operators allow nesting queries using parenthesis, 
