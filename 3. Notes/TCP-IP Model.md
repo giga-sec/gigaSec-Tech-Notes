@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 Abstract:
 - Difference/Similarities between TCP/IP Model and OSI Model
-- History of TCP-IP Model
+- History of why TCP-IP Model was created
 - Some variations of TCP-IP Model
 
 ---
@@ -50,15 +50,6 @@ Your question is justified about why we bother with OSI model if **it's not even
 
 2 Data Link                         |---  Network Interface
 1 Physical                           |--------^
-
-
-
-
-
-
-
-
-
 
 
 
