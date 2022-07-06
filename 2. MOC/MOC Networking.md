@@ -13,7 +13,7 @@
 
 [[What is protocol in networking]]
 
-[[Encapsulation]]
+[[Encapsulation and De-Encapsulation]]
 
 [[Port scanning with NMAP]]
 
