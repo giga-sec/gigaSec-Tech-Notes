@@ -18,7 +18,7 @@ The first stage in establishing this “map” of the network infrastructure is 
 
 When a computer runs a network service, it opens a networking construct called a “port” to receive the connection.
 
-If we do not know which of these ports a server has open, then we do not have a hope of successfully attacking the target; thus, it is crucial that we begin any attack with a port scan.
+If we do not know which of these ports a server has open, then we do not have a hope of successfully attacking the target; thus, it is crucial that we begin any attack with a port scan. Once we know which ports are open, we can then look at enumerating which services are running on each port.
 
 
 #### Note for CTF setting
