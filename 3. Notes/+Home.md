@@ -66,7 +66,7 @@ This is not a one way note taking approach where I MUST follow these order every
 Problems 
 - Currently it takes time to organize information
 - My system isn't suitable for amassing lots of info in a short period of time whislt being understandable.
-- Abstract section seems a bit weak. Let's the address the abstract section. 
+- Abstract section seems a bit weak. 
 
 
 Abstract section
@@ -80,7 +80,7 @@ How does it do it?
 
 
 Maybe not that good?
-- I've kind of experience a ridigity where I am afraid to touch permanent notes because I might break its readability or its understandability. But it could be solved by transforming the note into fleeting, and opportunistically make the note permanent. Also perhaps put the new info at the bottom of the note. 
+- I've kind of experience ridigity where I am afraid to touch permanent notes because I might break its readability or its understandability. But it could be solved by transforming the note into fleeting, and opportunistically make the note permanent. Also perhaps put the new info at the bottom of the note. 
 
 
 Good
