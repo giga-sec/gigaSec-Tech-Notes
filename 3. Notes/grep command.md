@@ -14,6 +14,9 @@ regex means **REG**ular **EX**pression.
 A “regular expression” 
 - text string 
 - describes a specific search pattern.
+A regular expression or regex is **a pattern that matches a set of strings**. A pattern consists of operators, constructs literal characters, and meta-characters, which have special meaning. GNU grep supports three regular expression syntaxes, Basic, Extended, and Perl-compatible
+
+
 
 
 By default, "case" matters
@@ -157,11 +160,68 @@ grep "^[A-Z].*\.$" GPL-3
 
 
 ## Extended Regular Expressions
+A more extensive regular expression language by 
+using the `-E` flag or by 
+calling `egrep` 
+
+Include all of the basic meta-characters, 
+along with additional meta-characters to express more complex matches.
+
+### Grouping
+One of the most useful abilities that extended regular expressions open up is the ability to group expressions together to manipulate or reference as one unit.
+
+To group expressions together, wrap them in parentheses. If you would like to use parentheses without using extended regular expressions, you can escape them with the backslash to enable this functionality. This means that the following three expressions are functionally equivalent:
+
+```
+grep "\(grouping\)" file.txt
+grep -E "(grouping)" file.txt
+egrep "(grouping)" file.txt
+```
+
+### Alternation
+To indicate alternation, use the pipe character `|`. These are often used within parenthetical grouping to specify that one of two or more possibilities should be considered a match.
+
+The following will find either `GPL` or `General Public License` in the text:
+
+```
+grep -E "(GPL|General Public License)" GPL-3
+```
+
+?? Like an `or` boolean expression?
+
+Alternation can select between more than two choices by adding additional choices within the selection group separated by additional pipe (`|`) characters.
+
+### Quantifiers
+To match a character zero or one times, you can use the `?` character. This makes character or character sets that came before optional, in essence.
+
+The following matches `copyright` and `right` by putting `copy` in an optional group:
+
+```
+grep -E "(copy)?right" GPL-3
+```
+The `+` character matches an expression one or more times. This is almost like the `*` meta-character, but with the `+` character, the expression **must** match at least once.
+
+The following expression matches the string `free` plus one or more characters that are not white space characters:
+```
+grep -E "free[^[:space:]]+" GPL-3
+```
 
 
+### Specifiying Match Repetition
 
+To specify the number of times that a match is repeated, use the brace characters (`{` and `}`). These characters let you specify an exact number, a range, or an upper or lower bounds to the amount of times an expression can match.
 
+Use the following expression to find all of the lines in the `GPL-3` file that contain triple-vowels:
 
+```
+grep -E "[AEIOUaeiou]{3}" GPL-3
+```
+
+To match any words that have between 16 and 20 characters, use the following expression:
+
+```
+grep -E "[[:alpha:]]{16,20}" GPL-3
+```
 
 
 
