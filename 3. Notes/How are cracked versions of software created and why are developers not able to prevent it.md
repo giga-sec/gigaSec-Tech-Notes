@@ -7,11 +7,9 @@ Tags: #fleeting
 ---
 Cracked versions of software are created with the use of [[debuggers]]. (A debugger is a special type of software that lets programmers deconstruct their software into its constituent parts for the purpose of finding bugs and thus de-bugging. 
 
-Additionally debuggers can be used for reverse-engineering, or to see what is inside the software, to learn its logic. 
+Additionally debuggers can be used for reverse-engineering, to see what is inside the software, to learn its logic. It's used by an attacker to "crack" softwares.
 
-The latter method is used mostly by malware researchers to study what malware (or computer viruses) do on-the-inside. But it can be also used by an attacker to "crack" (or bypass) legal software registration, or at times, to alter normal behavior of software, for instance by injecting a malicious code into it.)
-
-For the sake of this example, I will assume that the software that is being "cracked" was compiled into a native code, and is not a .NET or a JavaScript based application. (Otherwise it will be somewhat trivial to view its source code.) The compiled native code is a bit more tricky "beast" to study. (Native means that the code executes directly by the CPU, GPU, or other hardware.)
+For the sake of this example, assume that software being "cracked" was compiled into a native code, and is not a .NET or a JavaScript based application. (Otherwise it will be somewhat trivial to view its source code.) The compiled native code is a bit more tricky "beast" to study. (Native means that the code executes directly by the CPU, GPU, or other hardware.)
 
 So let's assume that the goal of an attacker is to bypass the registration logic in the software so that he or she doesn't have to pay for it. (Later for lolz, he or she may also post such "crack" on some shady online forum or on a torrent site so that others can "use" it too and give him or her their appreciation.)
 
