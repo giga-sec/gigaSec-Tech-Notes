@@ -5,7 +5,7 @@ Created:  [[2022-07-07]]
 Tags: #fleeting 
 
 ---
-Cracked versions of software are created with the use of [[debuggers]]. 
+Cracked versions of software are created with the use of [[debugger]]. 
 
 debuggers can be used for reverse-engineering, to see what's inside the software, learning its logic. This is where cracking softwares happens.
 
@@ -40,20 +40,21 @@ then display the message thanking the user for registering:
 A "cracker" obviously want second result for any registration code that they enter. 
 Problem: They don't have the C++ source code, part of which I showed above. 
 
-An attacker would [disassemble](https://en.wikipedia.org/wiki/Disassembler "en.wikipedia.org") the binary code 
-(that always ships with software in the form of `.exe` and `.dll` files on Windows, and mostly as `Unix executables` inside the `.app` packages on a Mac.) 
-An attacker will then use a [[debuggers]] to study the binary code 
+Step 1: An attacker would [disassemble](https://en.wikipedia.org/wiki/Disassembler "en.wikipedia.org") the binary code (always ships with software in the form of `.exe` and `.dll` files on Windows, and mostly as `Unix executables` inside the `.app` packages on a Mac.) 
+Step 2: An attacker use a [[debugger]] to study the binary code 
 and try to locate the registration logic that I singled out above.
 
-Next you can see the flowchart for a snippet of code that I showed in C++, presented via a low-level debugger. Or, as the code will be read in the binary form after [compilation](https://en.wikipedia.org/wiki/Compiler "en.wikipedia.org"):
+Next you can see the flowchart for a snippet of code that I showed in C++, presented via a low-level debugger. 
+Or, as the code will be read in the binary form after [compilation](https://en.wikipedia.org/wiki/Compiler "en.wikipedia.org"):
 
 (For readability I added comments on the right with the names of functions and variables. They will not be present in the code that an attacker could see.)
 
-![](https://qph.fs.quoracdn.net/main-qimg-7665f7f54b2683a41ba24ffe595fe450-pjlq)
+![[Pasted image 20220707205229.png|800]]
+Good knowledge of Assembly is required to understand what the code is doing above.
 
-(To understand what is shown above an attacker will have to have good knowledge of the Assembly language instructions for the native code.)
-
-I also need to point out that having a disassembly snippet like the one above is the final result for an attacker. The main difficulty for him or her is to locate it among millions and millions of other similar lines of code. And that is their main challenge. Not many people can do it and that is why software "cracking" is a special skill.
+I also need to point out that having a disassembly snippet like the one above is the final result for an attacker. 
+The main difficulty for it is to locate among millions and millions of other similar lines of code. 
+And that is their main challenge. Not many people can do it and that is why software "cracking" is a special skill.
 
 ---
 
