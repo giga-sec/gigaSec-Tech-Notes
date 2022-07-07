@@ -65,11 +65,6 @@ Disable
 
 
 
-
-
-
-
-
 https://stackoverflow.com/questions/53343801/how-do-i-get-the-man-command
 `apt update` to update the local package lists followed by `apt install man-db` to install the actual package.
 
@@ -77,6 +72,8 @@ https://stackoverflow.com/questions/53343801/how-do-i-get-the-man-command
 https://averagelinuxuser.com/how-to-install-and-use-ssh-on-linux/#configure-ssh-on-a-local-computer
 Install SSH on computer
 
+
+You can see the bad login attempts to your Linux system with: lastb The command just reads data from /var/log/btmp and displays it in a pretty format.
 
 
 
