@@ -1,3 +1,5 @@
+
+
 # grep, global regular expression print
 Created:  [[2022-07-06]]
 Tags: #fleeting 
@@ -36,34 +38,32 @@ you could also just combine it with existing command
 
 
 Basic Regular Expressions explained
-Literal Matches
-The previous commands above, 
-You were searching for basic regular expressions 
+Literal Matches is called to the previous commands above, 
 which matched the exact *string of characters* `GNU` and `the`. 
+You were searching for basic regular expressions 
+
 
 ## Not helpful to think regex as matching words
-Literals
+Literal
 - They match the pattern literally, character-for-character.
-- All alpha, num, symbol characters are matched literally  
 - Unless modified by other expression mechanisms.
 -> Helpful to think as matching *string of characters* 
 -> rather than matching a word. 
-Because this becomes important distinction as you learn more complex patterns. 
+Becomes important distinction as you learn more complex patterns. 
 
 Myquestion: What is an expression mechanisms?
 
 
-
 Anchor Matches
-You can specify that you only want to know about the lines that match `GNU` at the very beginning of the line. 
-To do this, you could use the `^` anchor before the literal string.
+Lines that match `GNU` at the very beginning of the line. 
+Use `^` anchor before the literal string.
 ```
 grep "^GNU" GPL-3
 ```
 
 
-You use the `$` anchor at the end of a pattern to indicate that the match will only be valid if it occurs at the very end of a line.
-This command will match every line ending with the word `and` in the `GPL-3` file:
+`$` match be valid if occurs at end of line.
+Command will match every line ending with the word `and` in the `GPL-3` file:
 ```
 grep "and$" GPL-3
 ```
