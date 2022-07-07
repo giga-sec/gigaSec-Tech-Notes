@@ -18,15 +18,15 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 
 
 
+[[Web Hacking Fundamentals]]
+
 
 
 
 [[How are cracked versions of software created and why are developers not able to prevent it]]
 
 
-### Web Exploits
 
-[[Buffer Overflow]]
 
 
 
