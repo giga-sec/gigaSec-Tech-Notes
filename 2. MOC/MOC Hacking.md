@@ -18,6 +18,11 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 
 
 
+[[Buffer Overflow]]
+
+
+[[How are cracked versions of software created and why are developers not able to prevent it]]
+
 
 
 ### Extras:
