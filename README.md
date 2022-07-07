@@ -11,7 +11,7 @@ To fully take advantage of my notes. **Use a markdown editor that supports hyper
 
 --> PC-Hardware, Windows and more. 
 
----
+
 ---
 # Contents:
 - Screenshots (Contains LIGHT MODE media)
@@ -43,11 +43,11 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 ### 3 Step Process of Installing Obsidian
 
--> Download this repository and Install the app -> https://obsidian.md
+1-> Download this repository and Install the app -> https://obsidian.md
 
--> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo 
+2-> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo 
 
--> After doing the step above. You will be presented with two choices  
+3-> After doing the step above. You will be presented with two choices  
 - _Keep Safe Mode on_
 - _Turn Off Sade Mode_
 
