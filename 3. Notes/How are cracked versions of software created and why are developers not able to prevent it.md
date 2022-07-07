@@ -1,27 +1,34 @@
-
+[[MOC Hacking]]
 
 # How are cracked versions of software created and why are developers not able to prevent it
 Created:  [[2022-07-07]]
 Tags: #fleeting 
 
 ---
-Cracked versions of software are created with the use of [[debuggers]]. (A debugger is a special type of software that lets programmers deconstruct their software into its constituent parts for the purpose of finding bugs and thus de-bugging. 
+Cracked versions of software are created with the use of [[debuggers]]. 
 
-Additionally debuggers can be used for reverse-engineering, to see what is inside the software, to learn its logic. It's used by an attacker to "crack" softwares.
+debuggers can be used for reverse-engineering, to see what's inside the software, learning its logic. This is where cracking softwares happens.
 
-For the sake of this example, assume that software being "cracked" was compiled into a native code, and is not a .NET or a JavaScript based application. (Otherwise it will be somewhat trivial to view its source code.) The compiled native code is a bit more tricky "beast" to study. (Native means that the code executes directly by the CPU, GPU, or other hardware.)
+For the sake of this example, 
+**Assume software being "cracked" was compiled into a native code**, 
+and is not a .NET or a JavaScript based application. (Otherwise it will be somewhat trivial to view its source code.)  
+(**Native Code means that the code executes directly by the CPU, GPU, or other hardware.)
 
-So let's assume that the goal of an attacker is to bypass the registration logic in the software so that he or she doesn't have to pay for it. (Later for lolz, he or she may also post such "crack" on some shady online forum or on a torrent site so that others can "use" it too and give him or her their appreciation.)
+Assume 
+- goal is to bypass registration logic in software 
+- so no longer have to pay for it. 
 
-For simplicity let's assume that the original logic that was checking for the software registration was written in C++ and was something similar to the following code snippet:
-
+Assume 
+- Written in C++ 
+- Assume this the code logic for checking software registration
 ![](https://qph.fs.quoracdn.net/main-qimg-aa9899f92cb2438b4bc310c3095afaec)
 
-In this code sample "`RegistrationName`" and "`RegistrationCode`" are special strings of text that a legitimate software user will receive after paying for the license. (The name is usually that person's actual name or their email address, and the code is some string of unique/special characters that is tied to the name.)
+"`RegistrationName`" and "`RegistrationCode`" are special strings of text that a legitimate software user will receive after paying for the license. 
+(The name is usually that person's actual name or their email address, and the code is some string of unique/special characters that is tied to the name.)
 
-In the logic above, the function named "`isRegistrationCodeGood()`" will check if "`RegistrationName`" and "`RegistrationCode`" are accepted using some proprietary method. If they are, it will return `true`. Otherwise `false`. That outcode will dictate which branch (or scope) the execution will follow.
+In the logic above, the function named "`isRegistrationCodeGood()`" will check if "`RegistrationName`" and "`RegistrationCode`" are accepted using some proprietary method. If they are, it will return `true`. Otherwise `false`. That outcode will dictate which branch the execution will follow.
 
-So the logic above will either show that registration failed and quit:
+So logic above will either show that registration failed and quit:
 
 ![](https://qph.fs.quoracdn.net/main-qimg-f1cc891fa17f7f2c3084535cadd16b65)
 
