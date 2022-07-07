@@ -57,13 +57,14 @@ Myquestion: What is an expression mechanisms?
 
 
 Anchor Matches
-For instance, using anchors, you can specify that you only want to know about the lines that match `GNU` at the very beginning of the line. To do this, you could use the `^` anchor before the literal string.
+You can specify that you only want to know about the lines that match `GNU` at the very beginning of the line. 
+To do this, you could use the `^` anchor before the literal string.
 ```
 grep "^GNU" GPL-3
 ```
 
 
-Similarly, you use the `$` anchor at the end of a pattern to indicate that the match will only be valid if it occurs at the very end of a line.
+You use the `$` anchor at the end of a pattern to indicate that the match will only be valid if it occurs at the very end of a line.
 This command will match every line ending with the word `and` in the `GPL-3` file:
 ```
 grep "and$" GPL-3
@@ -71,6 +72,7 @@ grep "and$" GPL-3
 
 
 Conclusion: Very similar as how VIM uses the commands as well
+
 
 
 
