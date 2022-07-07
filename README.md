@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570
 
 I recommend installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
-### Steps of Obsidian Installation
+### 3 Step Process of Installing Obsidian
 
 -> Download this repository and Install the app -> https://obsidian.md
 
