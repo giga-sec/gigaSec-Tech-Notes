@@ -3,19 +3,13 @@
 # MOC Hacking
 This MOC is dedicated to things that relate to hacking techniques, groups, exploits or best practices to defend from attacks.
 
-
 [[Swim Swap]]
-
-
-[[Tropic Trooper as a cyberespionage threat group]]
 
 
 [[Offensive Security vs Defensive Security]]
 
 
-
 [[In Hacking, Knowledge is power]]
-
 
 
 [[Web Hacking Fundamentals]]
@@ -23,11 +17,14 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 
 
 
+### Hacking news
+
+[[Tropic Trooper as a cyberespionage threat group]]
+
+
+
+### Article
 [[How are cracked versions of software created and why are developers not able to prevent it]]
-
-
-
-
 
 
 
