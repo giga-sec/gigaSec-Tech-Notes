@@ -66,6 +66,17 @@ This is not a one way note taking approach where I MUST follow these order every
 Problems 
 - Currently it takes time to organize information
 - My system isn't suitable for amassing lots of info in a short period of time whislt being understandable.
+- Abstract section seems a bit weak. Let's the address the abstract section. 
+
+
+Abstract section
+Purpose
+- give a glance of what the note is all about. 
+- I also put the links of the permanent notes there. 
+How does it do it?
+- I put the most important headers on their.
+- I sometimes summarize the key ideas there. 
+
 
 
 Maybe not that good?
