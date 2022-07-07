@@ -45,7 +45,6 @@ which matched the exact *string of characters* `GNU` and `the`.
 
 ## Not helpful to think regex as matching words
 Literals
-- Patterns that specifies the characters to be matched
 - They match the pattern literally, character-for-character.
 - All alpha, num, symbol characters are matched literally  
 - Unless modified by other expression mechanisms.
@@ -53,9 +52,8 @@ Literals
 -> rather than matching a word. 
 Because this becomes important distinction as you learn more complex patterns. 
 
-
-
 Myquestion: What is an expression mechanisms?
+
 
 
 Anchor Matches
