@@ -1,29 +1,29 @@
-
-
-# grep command
+# grep, global regular expression print
 Created:  [[2022-07-06]]
 Tags: #fleeting 
 
 ---
-**Search a file for keywords** and spits it out.
-grep means global regular expression print
-Regex means regular expression. A “regular expression” is a text string that describes a particular search pattern.
-`grep "TEXT TO SEARCH" filename.txt`
+### `grep    "TEXT TO SEARCH"    filename.txt`
+
+### Lingo
+grep means **G**lobal **RE**gular **E**xpression **P**rint
+regex means **REG**ular **EX**pression. 
+A “regular expression” 
+- text string 
+- describes a specific search pattern.
 
 
-Every use of switches will be treat its "case"
-If you want `grep` to ignore the “case” of your search parameter and search for both upper- and lower-case variations, you can specify the `-i` or `--ignore-case` option.
+
+
+By default, "case" matters
+To ignore “case”, basically search for upper/lower-case,  
+`-i` or `--ignore-case` option.
 `grep -i "license" GPL-3`
 
 
 
-Search for every line that does not contain the word `the` in the BSD license with the following command:
-```
-grep -v "the" BSD
-```
-
-
-Search for every line that does not contain the word `the` in the BSD license with the following command:
+Search every line 
+DOES NOT CONTAIN THE WORD `the` in BSD file.
 ```
 grep -v "the" BSD
 ```
