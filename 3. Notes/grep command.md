@@ -5,8 +5,9 @@ Tags: #fleeting
 ---
 ### `grep    "TEXT TO SEARCH"    filename.txt`
 
+
 ### Lingo
-grep means **G**lobal **RE**gular **E**xpression **P**rint
+grep means **G**lobal **R**egular **E**xpression **P**rint
 regex means **REG**ular **EX**pression. 
 A “regular expression” 
 - text string 
@@ -35,11 +36,27 @@ You can add line number
 you could also just combine it with existing command
 `-vn`
 
-Basic Regular Expressions explained
 
+Basic Regular Expressions explained
 Literal Matches
-The previous commands above, You were searching for basic regular expressions which matched the exact string of characters `GNU` and `the`. 
-Patterns that exactly specify the characters to be matched are called “literals” because they match the pattern literally, character-for-character. It is helpful to think of these as matching a string of characters rather than matching a word. This will become a more important distinction as you learn more complex patterns. All alphabetical and numerical characters (as well as certain other characters) are matched literally unless modified by other expression mechanisms.
+The previous commands above, 
+You were searching for basic regular expressions 
+which matched the exact *string of characters* `GNU` and `the`. 
+
+## Not helpful to think regex as matching words
+Literals
+- Patterns that specifies the characters to be matched
+- They match the pattern literally, character-for-character.
+- All alpha, num, symbol characters are matched literally  
+- Unless modified by other expression mechanisms.
+-> Helpful to think as matching *string of characters* 
+-> rather than matching a word. 
+Because this becomes important distinction as you learn more complex patterns. 
+
+
+
+Myquestion: What is an expression mechanisms?
+
 
 Anchor Matches
 For instance, using anchors, you can specify that you only want to know about the lines that match `GNU` at the very beginning of the line. To do this, you could use the `^` anchor before the literal string.
