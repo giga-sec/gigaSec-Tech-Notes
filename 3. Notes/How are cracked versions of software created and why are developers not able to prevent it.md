@@ -29,16 +29,21 @@ Assume
 In the logic above, the function named "`isRegistrationCodeGood()`" will check if "`RegistrationName`" and "`RegistrationCode`" are accepted using some proprietary method. If they are, it will return `true`. Otherwise `false`. That outcode will dictate which branch the execution will follow.
 
 So logic above will either show that registration failed and quit:
+![[Pasted image 20220707204451.png|300]]
 
-![](https://qph.fs.quoracdn.net/main-qimg-f1cc891fa17f7f2c3084535cadd16b65)
+Or, if the registration code and name matched, 
+it will save registration details in persistent storage (in File System or System Registry) 
+using function named "`rememberRegistrationParameters()`" 
+then display the message thanking the user for registering:
+![[Pasted image 20220707204539.png|300]]
 
-Or, if the registration code and name matched, it will save the registration details in persistent storage (such as the File System or System Registry) using the function named "`rememberRegistrationParameters()`" and then display the message thanking the user for registering:
+A "cracker" obviously want second result for any registration code that they enter. 
+Problem: They don't have the C++ source code, part of which I showed above. 
 
-![](https://qph.fs.quoracdn.net/main-qimg-aa797644ae46a16233df23e02ee1ca23)
-
-A "cracker" will obviously want to achieve the second result for any registration code that he or she enters. But they have a problem. They do not have the C++ source code, part of which I showed above. (I hope not!)
-
-So the only recourse for an attacker is to [disassemble](https://en.wikipedia.org/wiki/Disassembler "en.wikipedia.org") the binary code (that always ships with software in the form of `.exe` and `.dll` files on Windows, and mostly as `Unix executables` inside the `.app` packages on a Mac.) An attacker will then use a debugger to study the binary code and try to locate the registration logic that I singled out above.
+An attacker would [disassemble](https://en.wikipedia.org/wiki/Disassembler "en.wikipedia.org") the binary code 
+(that always ships with software in the form of `.exe` and `.dll` files on Windows, and mostly as `Unix executables` inside the `.app` packages on a Mac.) 
+An attacker will then use a [[debuggers]] to study the binary code 
+and try to locate the registration logic that I singled out above.
 
 Next you can see the flowchart for a snippet of code that I showed in C++, presented via a low-level debugger. Or, as the code will be read in the binary form after [compilation](https://en.wikipedia.org/wiki/Compiler "en.wikipedia.org"):
 
