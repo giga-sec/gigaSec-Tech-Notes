@@ -14,8 +14,6 @@ A “regular expression”
 - describes a specific search pattern.
 
 
-
-
 By default, "case" matters
 To ignore “case”, basically search for upper/lower-case,  
 `-i` or `--ignore-case` option.
@@ -112,7 +110,6 @@ freedoms that you received.  You must make sure that they, too, receive
 ```
 
 
-
 you can specify a range of characters instead of individually typing every available character.
 This means that if you want to find every line that begins with a capital letter, you can use the following pattern:
 ```
@@ -120,14 +117,14 @@ grep "^[A-Z]" GPL-3
 ```
 
 
-Due to some legacy sorting issues, it is often more accurate to use POSIX character classes instead of character ranges like you just used.
+Due to some legacy sorting issues, 
+often accurate to use *POSIX character classes* instead of *character ranges* 
 
-To discuss every POSIX character class would be beyond the scope of this guide, but an example that would accomplish the same procedure as the previous example uses the `\[:upper:\]` character class within a bracket selector:
-
+Example of POSIX Character classes
+An example that accomplish the same procedure as the previous example uses the `\[:upper:\]` character class within a bracket selector:
 ```
 grep "^[[:upper:]]" GPL-3
 ```
-
 
 
 
