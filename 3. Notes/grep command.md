@@ -37,13 +37,13 @@ you could also just combine it with existing command
 `-vn`
 
 
-Basic Regular Expressions explained
+## Basic Regular Expressions explained
 Literal Matches is called to the previous commands above, 
 which matched the exact *string of characters* `GNU` and `the`. 
 You were searching for basic regular expressions 
 
 
-## Not helpful to think regex as matching words
+### Not helpful to think regex as matching words
 Literal
 - They match the pattern literally, character-for-character.
 - Unless modified by other expression mechanisms.
@@ -54,7 +54,7 @@ Becomes important distinction as you learn more complex patterns.
 Myquestion: What is an expression mechanisms?
 
 
-Anchor Matches
+### Anchor Matches
 Lines that match `GNU` at the very beginning of the line. 
 Use `^` anchor before the literal string.
 ```
@@ -135,6 +135,34 @@ To find each line in the `GPL-3` file that contains an opening and closing par
 ```
 grep "([A-Za-z ]*)" GPL-3
 ```
+
+
+
+### Escaping Meta-Characters
+Where you’ll need to search for a literal period or opening bracket, 
+especially when working with source code or configuration files. 
+Because these characters have special meaning in regular expressions, 
+you need to “escape” these characters to tell `grep` that you do not wish to use their special meaning in this case.
+
+You escape characters by using the backslash character (`\`) in front of the character that would normally have a special meaning.
+
+
+For instance, to find any line that begins with a capital letter and ends with a period, use the following expression which escapes the ending period so that it represents a literal period instead of the usual “any character” meaning:
+
+```
+grep "^[A-Z].*\.$" GPL-3
+```
+
+
+
+
+## Extended Regular Expressions
+
+
+
+
+
+
 
 
 
