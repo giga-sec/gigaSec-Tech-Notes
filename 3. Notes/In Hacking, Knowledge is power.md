@@ -7,18 +7,19 @@ Tags: #fleeting
 ---
 ### When it comes to hacking, knowledge is power. 
 
-Hacking requires a _vast_ knowledge base because how are you supposed to break into something if you don't know how it works? 
-
-The more knowledge you have about a target system or network, the more options you have available. This makes it imperative that proper enumeration is carried out before any exploitation attempts are made.
-
+How are you supposed to break in something if you don't know how it works? 
+- Hacking requires a _vast_ knowledge base 
 
 
+More knowledge about a target system or network, 
+More options you have available. 
 
-[[Intro To Research]]
+
+Conclusion: Proper enumeration must be carried out before any exploitation attempts are made, [[Intro To Research]]
 
 
 ### Example
-Say we have been given an IP to perform a security audit on. \
+Say we have been given an IP to perform a security audit on. 
 Before we do anything else, we need to get an idea of services running on the targets. (e.g running a webserver, or a Windows Active Directory Domain Controller). 
 
 The first stage in establishing this “map” of the network infrastructure is something called port scanning. In other words, we want to see which IP addresses contain active hosts, and which do not. One way to do this is by using [[nmap - ping sweep (-sn)]]
