@@ -3,10 +3,6 @@ To fully take advantage of my notes. **Use a markdown editor that supports hyper
 
 **Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Notes/+Home.md`**
 
-Uses principles in [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502)
-
-**You DON'T need to learn the mentioned principles above**, simply read "Quick Guide of navigating my notes" 
-
 **Topics of notes**
 
 --> Programming, VIM, Git, 
@@ -45,7 +41,7 @@ https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570
 
 I recommend installing [Obsidian](https://obsidian.md) as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports `hyperlink` feature. 
 
-### Steps of Obsidian Installation
+### 3 Step Process of Installing Obsidian
 
 -> Download this repository and Install the app -> https://obsidian.md
 
