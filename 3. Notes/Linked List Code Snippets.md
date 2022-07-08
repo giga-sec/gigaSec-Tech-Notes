@@ -9,7 +9,6 @@ Abstract
 - ADDING nodes to a linked list
 - REMOVING nodes of a linked list
 - FREEING the linked list
-- 
 All codes are checked by valgrind and are memory bug free. 
 ---
 ### Headers needed
