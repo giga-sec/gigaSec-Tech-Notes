@@ -2,7 +2,7 @@
 
 # count
 Created:  [[2022-07-08]]
-Tags: 
+Tags: #permanent 
 
 ---
 #### `operator [count] motion`
