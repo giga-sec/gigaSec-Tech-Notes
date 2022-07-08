@@ -86,3 +86,7 @@ Maybe not that good?
 Good
 - I can be confident that whatever information I stored here can easily be retrieved and understood
 
+
+
+Changes
+- I might stop copy pasting but instead type everything. As I can easily control what info will stay and not. With, copy pasting, I sometimes just copy paste straight and not read the whole info thereby increasing the time of rereading the text again.
