@@ -76,6 +76,10 @@ Install SSH on computer
 You can see the bad login attempts to your Linux system with: lastb The command just reads data from /var/log/btmp and displays it in a pretty format.
 
 
+Want to see the file permission on a directory in Linux? Using ls -l won't work as it shows the content of directory. To see the file permissions of directory, use: ls -ld With the d option, it lists the directory, not its content.
+![[Pasted image 20220708103417.png]]
+
+
 
 
  ### References
