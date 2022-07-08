@@ -5,7 +5,7 @@ Created:  [[2022-07-07]]
 Tags: #fleeting 
 
 ---
-Abstract:
+#### Abstract
 - Applications used in web dev that are at risk of Buffer Overflow
 - How to prevent Buffer Overflow Attack
 ---
@@ -49,8 +49,6 @@ Buffer overflow attacks have been launched against websites by taking advantage 
 ## How to prevent Buffer Overflow attacks
 
 To avoid being exposed to buffer overflow vulnerabilities in the applications you use, you need to keep them up-to-date with the latest security patches. These are the key things to need to do:
-
-
 
 -   **Automate your build and deployment process.** You need to know which versions of each application your are running on each server. This means writing deployment scripts for web-servers and language runtimes, and retaining copies of deployment logs.
     
