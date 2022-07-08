@@ -7,20 +7,18 @@ Tags: #fleeting
 ---
 Cracked versions of software are created with the use of [[debugger]]. 
 
-debuggers can be used for reverse-engineering, to see what's inside the software, learning its logic. This is where cracking softwares happens.
 
-For the sake of this example, 
 **Assume software being "cracked" was compiled into a native code**, 
 and is not a .NET or a JavaScript based application. (Otherwise it will be somewhat trivial to view its source code.)  
 (**Native Code means that the code executes directly by the CPU, GPU, or other hardware.)
 
-Assume 
-- goal is to bypass registration logic in software 
+Assume goal of the cracker 
+- bypass registration logic in software 
 - so no longer have to pay for it. 
 
 Assume 
 - Written in C++ 
-- Assume this the code logic for checking software registration
+- Assume the code logic for checking software registration
 ![](https://qph.fs.quoracdn.net/main-qimg-aa9899f92cb2438b4bc310c3095afaec)
 
 "`RegistrationName`" and "`RegistrationCode`" are special strings of text that a legitimate software user will receive after paying for the license. 
@@ -36,8 +34,7 @@ it will save registration details in persistent storage (in File System or Syst
 using function named "`rememberRegistrationParameters()`" 
 then display the message thanking the user for registering:
 ![[Pasted image 20220707204539.png|300]]
-
-A "cracker" obviously want second result for any registration code that they enter. 
+A "cracker" wants second result for any registration code that they enter. 
 Problem: They don't have the C++ source code, part of which I showed above. 
 
 Step 1: An attacker would [disassemble](https://en.wikipedia.org/wiki/Disassembler "en.wikipedia.org") the binary code (always ships with software in the form of `.exe` and `.dll` files on Windows, and mostly as `Unix executables` inside the `.app` packages on a Mac.) 
@@ -52,12 +49,11 @@ Or, as the code will be read in the binary form after [compilation](https://en.
 ![[Pasted image 20220707205229.png|800]]
 Good knowledge of Assembly is required to understand what the code is doing above.
 
-I also need to point out that having a disassembly snippet like the one above is the final result for an attacker. 
+Having disassembly snippet like one above is final result for an attacker. 
 The main difficulty for it is to locate among millions and millions of other similar lines of code. 
 And that is their main challenge. Not many people can do it and that is why software "cracking" is a special skill.
 
 ---
-
 So having found the code snippet above in the software binary file a "cracker" has two choices:
 
 1) Modify (or patch) the binary.
