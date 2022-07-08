@@ -1,4 +1,4 @@
-[[Difference between User Options  and Project Options in Burp Suite]]
+[[Difference of User Options and Project Options in Burp Suite]]
 
 # User Options in Burp Suite
 Created:  [[2022-07-08]]
