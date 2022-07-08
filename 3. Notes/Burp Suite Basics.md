@@ -24,7 +24,7 @@ Options for Burp Suite
 -   Project-specific settings can be found in the _Project options_ tab.
 
 
-[[User Options and Project Options in Burp Suite]]
+[[Difference between User Options  and Project Options in Burp Suite]]
 
 
 
