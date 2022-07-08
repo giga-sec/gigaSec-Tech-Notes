@@ -1,4 +1,4 @@
-
+[[Burp Suite Basics]]
 
 # Extensions in Burp Suite
 Created:  [[2022-07-07]]
