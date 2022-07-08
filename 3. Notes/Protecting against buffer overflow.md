@@ -9,21 +9,20 @@ Abstract:
 
 
 ---
-### buffer overflows in c and c++
+## Buffer overflows in c and c++
 
-Buffer overflows in C and C++ arise when you use unsafe functions that do not check the length of data being written to a buffer. If you write C or C++ code, make sure to use the following secure equivalent functions:
+Arise when you use unsafe functions that do not check the length of data being written to a buffer. 
+If you write C or C++ code, make sure to use the following secure equivalent functions:
 
-Insecure Function
+Insecure Function     Secure Alternative
 
-Secure Alternative
+`gets()`                          `fgets()`
 
-`gets()`                `fgets()`
+`strcpy()`                      `strncpy()`
 
-`strcpy()`            `strncpy()`
+`strcat()`                      `strncat()`
 
-`strcat()`            `strncat()`
-
-`sprintf()`          `snprintf()`
+`sprintf()`                    `snprintf()`
 
 
 
