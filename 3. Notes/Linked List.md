@@ -23,10 +23,10 @@ A linked list is a linear data structure. It's a set of dynamically allocated no
 ---
 ## Linked list vs Array
 
-Array's placeholder of values are called "elements"
+Array's holder of values are called "elements"
 and it's location as "index"
 
-Now here, in linked list, we call the placeholder of values "node"
+Now here, in linked list, we call the holder of values "node"
 and the locations as "position"
 
 ### Inserting values into ARRAY
