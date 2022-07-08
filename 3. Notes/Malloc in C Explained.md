@@ -25,7 +25,7 @@ Malloc is used to create a single large block of [[continguous]] memory accordin
 
 
 
-?? What does malloc returns
+### What does malloc returns
 `malloc()` 
 - returns the address of the empty spaced memory. 
 - Specifically, **returns a `void pointer` ==pointing to the first byte==** of the [[allocate memory|allocated memory]].
