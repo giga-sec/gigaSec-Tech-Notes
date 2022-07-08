@@ -9,7 +9,6 @@ Cracked versions of software are created with the use of [[debugger]].
 
 
 **Assume software being "cracked" was compiled into a native code**, 
-and is not a .NET or a JavaScript based application. (Otherwise it will be somewhat trivial to view its source code.)  
 (**Native Code means that the code executes directly by the CPU, GPU, or other hardware.)
 
 Assume goal of the cracker 
@@ -45,7 +44,6 @@ Next you can see the flowchart for a snippet of code that I showed in C++, prese
 Or, as the code will be read in the binary form after [compilation](https://en.wikipedia.org/wiki/Compiler "en.wikipedia.org"):
 
 (For readability I added comments on the right with the names of functions and variables. They will not be present in the code that an attacker could see.)
-
 ![[Pasted image 20220707205229.png|800]]
 Good knowledge of Assembly is required to understand what the code is doing above.
 
