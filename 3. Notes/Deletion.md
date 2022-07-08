@@ -9,7 +9,8 @@ Tags: #fleeting
 ### Delete char on current position 
 #### `x`
 
-### Delete Word
+
+### Delete Word / s
 #### `d   [count]  motion`
 ##### `dw`  -> till next word (no whitespace are left)
 `w` means move cursor to next word
@@ -17,7 +18,11 @@ Tags: #fleeting
 ##### `de` -> till end of current word (whitespaces are spared) 
 `e` means move cursor to end of current word
 
-### Delete from CURRENT cursor to END OF LINE 
+[[Using count in vim]]
+#### d3w
+deletes three words
+
+### Delete CURRENT cursor to END OF LINE 
 #### `shift+d`  or  `d$`
 `$` means move cursor at end of line
 
