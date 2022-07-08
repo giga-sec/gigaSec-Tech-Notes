@@ -6,8 +6,8 @@ Tags: #fleeting
 
 ---
 Abstract:
-
-
+- Applications used in web dev that are at risk of Buffer Overflow
+- How to prevent Buffer Overflow Attack
 ---
 ## Buffer overflows in c and c++
 
@@ -26,10 +26,11 @@ Insecure Function     Secure Alternative
 
 
 
-
 It’s pretty rare for web-developers to write low-level code in languages like C or C++, so the biggest risk of buffer overflows for must of us in the applications we use.
 
-##### Web Servers
+## Applications that are at risk for buffer overflow
+
+### Web Servers
 
 Most websites are deployed using a _web server_ to serve static content. (This is distinct from the _application server_ that executes dynamic content.) The three most common web-servers are:
 
@@ -40,9 +41,12 @@ Most websites are deployed using a _web server_ to serve static content. (This
 Each of these has been found to be vulnerable to buffer overflows at different times. Web-server vendors are very quick to patch vulnerabilities, so the key to keeping yourself secure is deploying security patches as soon as they become available.
 
 
-##### Operating Systems and Language Runtimes
+### Operating Systems and Language Runtimes
 
 Buffer overflow attacks have been launched against websites by taking advantage of vulnerabilities in operating systems and language runtimes. The [Heartbleed](http://heartbleed.com/) attack took advantage of a serious vulnerability in the OpenSSL cryptographic software library that Linux-based web-servers use to encrypt SSL/TLS traffic. Similarly, security researchers have discovered vulnerabilities in various functions in the PHP runtime which allow attackers to launch buffer overflow attacks remotely by crafting malicious input.
+
+
+## How to prevent Buffer Overflow attacks
 
 To avoid being exposed to buffer overflow vulnerabilities in the applications you use, you need to keep them up-to-date with the latest security patches. These are the key things to need to do:
 
