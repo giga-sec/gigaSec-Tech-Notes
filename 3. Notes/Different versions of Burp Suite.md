@@ -1,4 +1,4 @@
-[[Web Hacking Fundamentals]]
+[[Burp Suite Basics]]
 
 # Different versions of Burp Suite
 Created:  [[2022-07-07]]
