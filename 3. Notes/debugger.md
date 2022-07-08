@@ -9,9 +9,12 @@ Lets programmers deconstruct their software into its constituent parts for the p
 - Additionally debuggers can be used for reverse-engineering, to see what is inside the software, to learn its logic. 
 
 
-The latter method is used mostly by malware researchers. 
-But it can be also used by an attacker to "crack" softwares 
+Method is used mostly by malware researchers. 
+
+Can be also used by an attacker to "crack" softwares 
 or to alter normal behavior of software, like injecting a malicious code into it.
+
+Debuggers can be used for [[reverse-engineering]]
 
 
 
