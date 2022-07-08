@@ -22,6 +22,12 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 [[Tropic Trooper as a cyberespionage threat group]]
 
 
+[[Orbit Linux Malware that hijacks Execution Flow]]
+
+
+Toread: What is log4j and why it's the most serious vulnerability in the internet
+https://theconversation.com/what-is-log4j-a-cybersecurity-expert-explains-the-latest-internet-vulnerability-how-bad-it-is-and-whats-at-stake-173896
+
 
 ### Article
 [[How are cracked versions of software created and why are developers not able to prevent it]]
