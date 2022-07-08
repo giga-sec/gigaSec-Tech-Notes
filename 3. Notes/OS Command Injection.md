@@ -1,4 +1,4 @@
-
+[[OWASP]]
 
 # OS Command Injection
 Created:  [[2022-07-08]]
@@ -19,6 +19,12 @@ It opens up many options for the attacker by doing enumeration through executing
 
 Worst thing an attacker could do is spawn [[reverse shell]] to become the user that the web server is running as. 
 
+
+Active Command Injection
+When system command made to server doesn't return the response to the user in HTML document.
+Active Command Injeciton will return response to user.
+
+Can be made visible through several HTML elements.
 
 
 
