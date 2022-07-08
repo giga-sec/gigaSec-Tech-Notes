@@ -5,7 +5,7 @@ Created:  [[2022-07-07]]
 Tags: #fleeting 
 
 ---
-Abstract:
+#### Abstract
 - Who are immune to buffer overflow attack
 - Protecting Against Buffer Overflow
 
