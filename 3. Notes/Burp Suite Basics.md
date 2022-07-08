@@ -5,7 +5,8 @@ Created:  [[2022-07-08]]
 Tags: #fleeting 
 
 ---
-Burp Suite is a framework written in Java that aims to provide a one-stop-shop for web application penetration testing.
+Burp Suite is a framework written in Java that 
+- aims to provide one-stop-shop for web application penetration testing.
 - industry standard tool for hands-on web app security assessments.
 
 Assessing mobile applications, as the same features which make it so attractive for web app testing translate almost perfectly into testing the APIs (**A**pplication **P**rogramming **I**nterfaces) powering most mobile apps.
@@ -36,7 +37,7 @@ This ability to intercept, view, and modify web requests prior to them being sen
 [[Shortcut keys for Burp Suite]]
 
 
-[[Burp Suite Browser]]
+[[Burp Suite in built Browser]]
 
 
 
