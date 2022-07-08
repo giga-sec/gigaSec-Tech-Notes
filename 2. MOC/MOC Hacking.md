@@ -29,6 +29,10 @@ Toread: What is log4j and why it's the most serious vulnerability in the interne
 https://theconversation.com/what-is-log4j-a-cybersecurity-expert-explains-the-latest-internet-vulnerability-how-bad-it-is-and-whats-at-stake-173896
 
 
+Hacker pulled of a fake job  interview and tricked Axie Infinity's senior engineer, that stole them $620 million dollars
+https://africa.businessinsider.com/news/hackers-pulled-off-a-dollar620-million-crypto-heist-by-tricking-an-engineer-into/9es8d55
+
+
 ### Article
 [[How are cracked versions of software created and why are developers not able to prevent it]]
 
@@ -40,7 +44,7 @@ Guides of Hackings here
 https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
 
 
-Practice using map here
+Practice using nmap here
 http://scanme.nmap.org
 
 If you are looking for vulnerable webapp here are some good lists :
