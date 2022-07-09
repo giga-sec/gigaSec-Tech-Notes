@@ -90,8 +90,9 @@ Good
 
 Changes
 - I might stop copy pasting but instead type everything. As I can easily control what info will stay and not. With, copy pasting, I sometimes just copy paste straight and not read the whole info thereby increasing the time of rereading the text again.
-
+- I think it's better for me to read the whole paragraph or article before I start writing words.
 
 
 Plan:
 Make a default tutorial page when they first opened my vault. Like letting the newcomers know how to use the hyperlinks. Basically freeing the amount of text to be read in readme.md 
+
