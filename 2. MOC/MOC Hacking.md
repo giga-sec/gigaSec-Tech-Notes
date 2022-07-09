@@ -28,13 +28,18 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 [[Log4jSHELL and why it's the most serious vulnerability in the internet]]
 
 
+[[Hacker pulled of a fake job  interview and tricked Axie Infinity's senior engineer, that stole them $620 million dollars]]
 
-Hacker pulled of a fake job  interview and tricked Axie Infinity's senior engineer, that stole them $620 million dollars
-https://africa.businessinsider.com/news/hackers-pulled-off-a-dollar620-million-crypto-heist-by-tricking-an-engineer-into/9es8d55
+
+
+
 
 
 ### Article
 [[How are cracked versions of software created and why are developers not able to prevent it]]
+
+
+
 
 
 
