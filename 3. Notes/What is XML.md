@@ -6,17 +6,14 @@ Tags: #fleeting
 
 ---
 #### Abstract:
-
-
+- Why use XML
+- Syntax and more info about XML languange
 ---
 XML
 -> Used for storing and transporting data 
 
 
 ### Why use XML
-
-#### Prog Languange Independet 
--> supports technology change when it happens
 
 #### No data conversion needed
 -> When transferred between different systems
@@ -28,10 +25,39 @@ XML
 #### Free of Syntax Error
 -> Validates syntax using DTD and Schema
 
+### Syntax and more info about XML languange
+-> Mostly starts with XML Prolog.** 
+-> Must have **`ROOT` element**
+-> **Case sensitive language**
+
+#### XML doc **mostly starts with XML Prolog.** 
+Not compulsory but `good practice` to put that line in all your XML documents.
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+```
+**^- XML Prolog Specifies -^** 
+- XML version <--> Encoding used
 
 
+#### **ALL XML document must have `ROOT` element**
+`<mail>` is ROOT element
+    `<to>, <from>, <subject>, <text>` are CHILDREN elements
+```XML
+<mail>  
+   <to>falcon</to>  
+   <from>feast</from>  
+   <subject>About XXE</subject>  
+   <text>Teach about XXE</text>  
+</mail>
+```
 
-
+#### **XML is case-sensitive languange**
+Attributes can be used
+```C
+<text category = "message">You need to learn about XXE</text>
+```
+^--- `category` is attribute name
+^--- `"message"` is attribute value
 
 
 
