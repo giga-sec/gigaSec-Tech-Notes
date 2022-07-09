@@ -23,7 +23,7 @@
 [[VIM 101]]
 
 
-### Uncategorized
+## Uncategorized
 
 [[VSCODE Keyboard Shortcuts]]
 
