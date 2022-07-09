@@ -21,18 +21,19 @@ Tags: #fleeting
 - Insufficient Logging & Monitoring
 
 
-[[Injection]]
+Severity 1: [[Injection]]
 
 
-[[OS Command Injection]]
+Severity 1: [[OS Command Injection]]
 
 
-[[Broken Authentication]]
+Severity 2: [[Broken Authentication]]
 
 
-[[Sensitive Data Exposure]]
+Severity 3: [[Sensitive Data Exposure]]
 
 
+Severity 4: [[XML Eternal Entity]]
 
 
 
