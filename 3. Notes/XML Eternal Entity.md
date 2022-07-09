@@ -9,6 +9,8 @@ Tags: #fleeting
 
 
 ---
+[[What is XML]]
+
 Abuses features of XML parsers/data
 Allows an attacker to 
 - interact w/ backend/external systems that the application itself can access
