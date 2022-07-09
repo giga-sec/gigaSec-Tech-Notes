@@ -8,7 +8,7 @@ Tags: #fleeting
 ## SEVERITY  1
 - How it happens
 - What it can do to the system
-- What's Active Command Injection
+- Example: What's Active Command Injection
 
 ---
 ### How OS Command Injection happens
