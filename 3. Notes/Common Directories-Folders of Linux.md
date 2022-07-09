@@ -20,7 +20,7 @@ Abstract:
 
 - Root directory where system files used in OS are stored
 ### Special files worth mentioning in `/etc`
-- **passwd**, **shadow** -> shows how system store passwords using sha512
+- **[[Understanding passwd file]]**, **shadow** -> shows how system store passwords using sha512
 - **sudoers.d** -> shows users/groups that have sudo permission
 
 
