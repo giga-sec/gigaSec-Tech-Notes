@@ -5,10 +5,12 @@ Created:  [[2022-07-09]]
 Tags: #fleeting 
 
 ---
+## Severity 2
 #### Abstract:
 - What is Authentication
 - What Broken Authentication Can Do
 - How to prevent Broken Authentication Attack
+- Example: Re-registration of Existing User
 
 ---
 ### What is Authentication
@@ -38,7 +40,7 @@ These can be done through
 
 
 
-Re-registration of an existing user.
+### Re-registration of an existing user.
 This is the developers fault
 
 For instance
