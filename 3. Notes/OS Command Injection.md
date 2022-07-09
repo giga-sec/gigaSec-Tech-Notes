@@ -30,7 +30,9 @@ Active command injection occurs when you can see the response from the system ca
 
 ![[Pasted image 20220709151747.png|300]]
 Like this pic above ^
-It's suppose to be a webshell, but then it allowed me to see the output of it. Therefore I can see the files, the user info through /etc/passwd 
+It's suppose to be a webshell, 
+but then it allowed me to see the output of it. 
+Therefore I can see the files, the user info through /etc/passwd 
 
 
 
