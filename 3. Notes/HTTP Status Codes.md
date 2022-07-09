@@ -46,6 +46,7 @@ Example:
 Example: Web server cannot access its database and the application crashes?
 
 
+![[Pasted image 20220709083858.png]]
 
 
 
