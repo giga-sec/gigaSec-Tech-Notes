@@ -6,6 +6,9 @@ Tags: #fleeting
 
 ---
 ## SEVERITY  1
+- How it happens
+- What it can do to the system
+- What's Active Command Injection
 
 ---
 ### How OS Command Injection happens
@@ -20,13 +23,14 @@ It opens up many options for the attacker by doing enumeration through executing
 Worst thing an attacker could do is spawn [[reverse shell]] to become the user that the web server is running as. 
 
 
-Active Command Injection
-When system command made to server doesn't return the response to the user in HTML document.
-Active Command Injeciton will return response to user.
+### Active Command Injection
+When system command made to server doesn't return the response to the user in HTML document.Instead it returns response to user.
 
-Can be made visible through several HTML elements.
+Active command injection occurs when you can see the response from the system call.
 
-
+![[Pasted image 20220709151747.png|300]]
+Like this pic above ^
+It's suppose to be a webshell, but then it allowed me to see the output of it. Therefore I can see the files, the user info through /etc/passwd 
 
 
 
