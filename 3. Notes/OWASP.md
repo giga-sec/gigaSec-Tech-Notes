@@ -30,6 +30,7 @@ Tags: #fleeting
 [[Broken Authentication]]
 
 
+[[Sensitive Data Exposure]]
 
 
 
