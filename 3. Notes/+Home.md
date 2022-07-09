@@ -1,6 +1,6 @@
 # Home Directory
-## MOC Technology
-This MOC is dedicated to things that relate to technology especially computers, softwares, or hacking.
+## gigaSecure's Tech-Notes
+
 
 [[MOC Programming]]
 
@@ -21,7 +21,6 @@ This MOC is dedicated to things that relate to technology especially computers, 
 [[Linux Fundamentals]]
 
 [[VIM 101]]
-
 
 
 ### Uncategorized
