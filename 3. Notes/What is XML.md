@@ -9,8 +9,7 @@ Tags: #fleeting
 - Why use XML
 - Syntax and more info about XML languange
 ---
-XML
--> Used for storing and transporting data 
+## Used for storing and transporting data 
 
 
 ### Why use XML
