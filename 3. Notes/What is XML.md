@@ -11,6 +11,8 @@ Tags: #fleeting
 ---
 ## Used for storing and transporting data 
 
+[[What is DTD]]
+
 
 ### Why use XML
 
