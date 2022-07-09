@@ -38,6 +38,21 @@ Tags: #fleeting
 
 
 
+Linux
+
+-   whoami
+-   id
+-   ifconfig/ip addr
+-   uname -a
+-   ps -ef
+
+Windows
+
+-   whoami
+-   ver
+-   ipconfig
+-   tasklist
+-   netstat -an
 
 
 
