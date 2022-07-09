@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1c23ec085228a5f6",
+        "id": "35e7fe2e4bd65c0e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -40,12 +40,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#literature",
-                "matchingCase": false,
-                "explainSearch": false,
+                "query": "redo",
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258
+    "width": 234
   },
   "right": {
     "id": "f353718dcb7505ad",
@@ -70,7 +70,7 @@
       {
         "id": "ce80cf4ce750ee9d",
         "type": "tabs",
-        "dimension": 27.972027972027973,
+        "dimension": 27.027027027027028,
         "children": [
           {
             "id": "d02565216a652358",
@@ -98,9 +98,28 @@
         ]
       },
       {
+        "id": "554ee567e01883fe",
+        "type": "tabs",
+        "dimension": 27.027027027027028,
+        "children": [
+          {
+            "id": "b5f0a421b53dfa6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Notes/Socials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "2a9639312e863c1a",
         "type": "tabs",
-        "dimension": 72.02797202797203,
+        "dimension": 45.94594594594595,
         "children": [
           {
             "id": "acd06db55cd1ea61",
@@ -114,7 +133,7 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,17 +144,17 @@
     "direction": "horizontal",
     "width": 309.5
   },
-  "active": "1c23ec085228a5f6",
+  "active": "35e7fe2e4bd65c0e",
   "lastOpenFiles": [
     "3. Notes/+Home.md",
-    "2. MOC/MOC Programming.md",
-    "3. Notes/GIT Basics.md",
-    "3. Notes/Week 1 - Data Types, Imprecision and Overflows.md",
-    "3. Notes/Questions to ask when solving a problem.md",
-    "2. MOC/MOC Networking.md",
+    "2. MOC/MOC PC-Hardware.md",
     "3. Notes/Windows Fundamentals.md",
-    "2. MOC/MOC GIT.md",
-    "3. Notes/HTTP in Detail.md",
-    "3. Notes/Why are cookies used in HTTP.md"
+    "2. MOC/MOC Programming.md",
+    "2. MOC/MOC Networking.md",
+    "3. Notes/VIM 101.md",
+    "3. Notes/Saving file in vim.md",
+    "3. Notes/Copying in Vim.md",
+    "3. Notes/Selection in vim.md",
+    "3. Notes/vimgrep - grep inside of vim.md"
   ]
 }
