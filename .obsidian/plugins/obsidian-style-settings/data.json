@@ -18,7 +18,7 @@
   "minimal-style@@sidebar-lines-off": true,
   "minimal-style@@bold-weight": 600,
   "minimal-style@@h3-weight": 700,
-  "minimal-style@@show-grabber": true,
+  "minimal-style@@show-grabber": false,
   "minimal-style@@title-weight": 600,
   "minimal-style@@ax2@@light": "#038DD1",
   "minimal-style@@link-weight": 500,
