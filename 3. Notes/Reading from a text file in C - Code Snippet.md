@@ -1,4 +1,4 @@
-[[C - modes in fopen()]]
+[[Modes parameter in fopen()]]
 
 # Reading from a text file
 Created:  [[2022-07-10]]
