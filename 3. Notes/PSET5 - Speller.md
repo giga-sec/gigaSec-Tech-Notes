@@ -24,9 +24,6 @@ Files
 ### speller.c 
 - spell-check a file after loading a dictionary of words in `dictionary.c` from disk into memory
 
-### dictionary.c
-- 
-
 ### dictionary.h
 - Prototypes for functions meanwhile, are defined in `dictionary.h`. 
 - That way, both `speller.c` and `dictionary.c` can `#include` the file.
@@ -37,7 +34,7 @@ Preprocessor Directive
 defines a “constant” called `LENGTH` that has a value of `45`. 
 Constant in the sense that you can’t change it in your own code. 
 `clang` will replace mentions of `LENGTH` in the code with, literally, `45`. 
-
+    
 
 ```C
 bool check(const char *word);
@@ -120,9 +117,33 @@ Can add functions
 Functions in dictionary.
 `check`
 - must be case-insensitive -> if `hello` in dictionary, then `check` returns true for all cases `HELLO`, `hElLO`, `heLLO`, `heLlO` 
+- Note: All words in dictionary file are in lowercase format
 - any variations of case will not be considered misspelled
 - Possessives only return true when they are in the dictionary -> `foo` is in `dictionary`, `check` should return `false` given `foo's` if `foo's` is not also in `dictionary`.
 - assume that `check` will only be passed words that contain (uppercase or lowercase) alphabetical characters and possibly apostrophes.
+
+`load`
+- loads all of the words in dictionary
+- into some sort of data structure (hash table)
+Hash Table 
+-> is an array of individual linked list
+
+Hash Function
+-> assigns a number to every point
+
+
+`hash`
+- take a word and run a hash function on it
+- returning some number that corresponds to that word
+
+`size`
+- returns how many words are in your dictionary
+
+`unload`
+- any memory allocated to store data in data structure
+- will be free up in here
+
+
 
 Dictionary File
 - Default dictionary has 143,091 words
