@@ -10,6 +10,22 @@ Tags: #fleeting
 [[Copying strings in C isn't straightforward]]
 
 
+
+bool check(const char *word);
+unsigned int hash(const char *word);
+bool load(const char *dictionary);
+```
+`char *` is what we used to call `string`. 
+So those three functions above are essentially just:
+```C
+bool check(const string word);
+unsigned int hash(const string word);
+bool load(const string dictionary);
+```
+And `const`, makes it so that strings passed will not get changed 
+you won’t be able to change them accidentally or smtnh
+
+
 ### Types of char in strings C
 ```C
 char s[10] = "Hello";  // char array makes string writable
