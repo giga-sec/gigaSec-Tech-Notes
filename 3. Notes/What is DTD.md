@@ -1,4 +1,4 @@
-
+[[What is XML]]
 
 # DTD (Document Type Definition)
 Created:  [[2022-07-09]]
@@ -49,7 +49,7 @@ Basically explanation of the `note.dtd` file
 `!ELEMENT to (#)`
 Basically `to`, `from`, `heading`, `body` elements will be defined as "#PCDATA"
 
-NOTE: #PCDATA means parseable character data.
+NOTE: `#PCDATA` means parseable character data.
 
 
 
