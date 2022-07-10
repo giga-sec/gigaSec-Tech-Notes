@@ -31,13 +31,12 @@ C o n s t a n t    W i d t h
 
 
 
-
-
+## Let's start!
 
 Pointers can be difficult to master
 
-Stack is used to support functions
-Heap is used to support dynamic memory allocation
+**Stack** is used to support functions
+**Heap** is used to support dynamic memory allocation
 
 Understanding stack frames helps clarifies concepts 
 - passing by value
@@ -45,9 +44,10 @@ Understanding stack frames helps clarifies concepts
 - how recursion works
 
 
-
 Key to understand pointers
 - Understand how memory is managed in C
+After all, pointers contain the address of memory. If we don't understand how memory is organized/managed, it's difficult to understand how pointers work.
+
 
 
 
