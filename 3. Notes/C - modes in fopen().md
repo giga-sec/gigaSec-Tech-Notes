@@ -14,6 +14,7 @@ Tags: #literature
 ## Text Mode
 **`r`** -> reading 
 -> If file **NOT** exist, then `fopen()` returns `NULL`
+[[Reading from a text file in C - Code Snippet]]
 
 
 **`w`** -> writing
@@ -24,7 +25,7 @@ Tags: #literature
 
 **`a`** -> append (data added at end)
 -> if file **NOT** exist, it will be created
-[[Reading from a text file in C - Code Snippet]]
+
 
 
 [[Multiple Modes in fopen()]]
