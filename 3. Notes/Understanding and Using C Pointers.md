@@ -9,26 +9,45 @@ Tags: #fleeting
 
 
 ---
-Pointers can be difficult to master
+### Plans on how to read the book
+- Everytime you read a new chapter
+    -> Read the Preface part first in pg 13 or XI
 
+### Conventions used on the book
+_Italic_
+-> New terms, URLS, email, 
+-> filenames AND file extensions
+
+C o n s t a n t    W i d t h
+-> program listings
+-> within paragraphs that refer to program elements
+    -> such as variable/function, databases, data types, statements and keywords
+
+**C o n s t a n t    W i d t h   b o l d**
+-> Should be typed by user
+
+*C o n s t a n t    W i d t h   b o l d*
+-> text that should be replaced w/ user input or values by context
+
+
+
+
+
+
+Pointers can be difficult to master
 
 Stack is used to support functions
 Heap is used to support dynamic memory allocation
 
-
-Understanding stack frames
-Helps clarifies concepts 
+Understanding stack frames helps clarifies concepts 
 - passing by value
 - passing by pointer
 - how recursion works
 
 
 
-
-
-
-
-
+Key to understand pointers
+- Understand how memory is managed in C
 
 
 
