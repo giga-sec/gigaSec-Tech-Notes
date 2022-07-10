@@ -1,4 +1,4 @@
-[[C - modes in fopen()]]
+[[Modes parameter in fopen()]]
 
 # Writing to a text File
 Created:  [[2022-07-10]]
