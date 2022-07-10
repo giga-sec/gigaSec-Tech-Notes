@@ -26,6 +26,11 @@
 [[File Handling in C]]
 
 
+## Books
+
+[[Understanding and Using C Pointers]]
+
+
 ## Tools
 Visualize your algorithms
 https://algoviz.io
