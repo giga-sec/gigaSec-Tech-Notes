@@ -1,4 +1,4 @@
-[[C - modes in fopen()]]
+[[Modes parameter in fopen()]]
 
 # Multiple Modes in fopen()
 Created:  [[2022-07-10]]
