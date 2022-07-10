@@ -13,6 +13,9 @@ Tags: #fleeting
 
 [[What is DTD]]
 
+[[XXE Payload use to replace words inside root element]]
+[[XXE Payload to read files from system]]
+
 
 ### Why use XML
 
