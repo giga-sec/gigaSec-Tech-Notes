@@ -19,11 +19,12 @@ Tags: #literature
 **`w`** -> writing
 -> if file **EXISTS**, then its overwritten
 -> if file **NOT** exist, it will be created
-[[Writing to a text File]]
+[[Writing to a text File in C - Code Snippet]]
 
 
 **`a`** -> append (data added at end)
 -> if file **NOT** exist, it will be created
+[[Reading from a text file in C - Code Snippet]]
 
 
 [[Multiple Modes in fopen()]]
