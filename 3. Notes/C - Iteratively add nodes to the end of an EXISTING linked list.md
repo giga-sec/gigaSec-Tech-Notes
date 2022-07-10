@@ -33,11 +33,12 @@ void add_nodes_iteratively(node *head, int len)
         printf("Input data for node %i: ", i);
         scanf("%i", &num);
 
+        // Iterate to last node
         while (current->next != NULL) {
             current = current->next;
         }
 
-        /* now we can add a variable at the end*/
+        /* now we can add values to end*/
         current->next = (node *) malloc(sizeof(node));
         if (current->next == NULL) { return; }
         current->next->val = num;
