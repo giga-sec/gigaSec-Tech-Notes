@@ -29,24 +29,12 @@ The **addresses for memory uses hexadecimal**, specifically 16 digits.
 
 
 
-### Valgrind
-Sometimes bugs in your code that you don't see visually like possible memory leaks exists. 
-```C
-int main(void)
-{
-	char *s = malloc(3);  // Only accepts 3 bytes of char 
-	s[0] = 'H';
-	s[1] = 'I';
-	s[2] = '!';
-	s[3] = '\0';  // Oh n
-}
-// This code will still run despite it having possible memory leak. 
-```
+### [[Valgrind]]
 
-Valgrind is a tool to help you determine memory bugs.
 
 `*x = 42` The `*x` is a deference operator. 
 It translates to --> go to the address of `x` and assign an integer `42`. 
+
 
 
 ### Types of Overflow
