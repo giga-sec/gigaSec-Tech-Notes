@@ -12,31 +12,38 @@ Tags: #literature
 ### `fopen("file_path", "mode");`
 
 ## Text Mode
-`r` -> reading 
+**`r`** -> reading 
 -> If file **NOT** exist, then `fopen()` returns `NULL`
 
 
-`w` -> writing
+**`w`** -> writing
 -> if file **EXISTS**, then its overwritten
 -> if file **NOT** exist, it will be created
+[[Writing to a text File]]
 
 
-`a` -> append (data added at end)
+**`a`** -> append (data added at end)
 -> if file **NOT** exist, it will be created
+
 
 [[Multiple Modes in fopen()]]
 [[Always close files when using fopen()]]
 
 ## Binary Mode
-`rb` -> reading in binary mode
+**`rb`** -> reading in binary mode
 -> if file NOT EXIST, then `fopen()` returns `NULL`
 
-`wb` -> writing in binary mode
+
+
+**`wb`** -> writing in binary mode
 -> if file **EXISTS**, then its overwritten
 -> if file **NOT** exist, it will be created
 
-`ab` -> append (data added at end)
+
+
+**`ab`** -> append (data added at end)
 -> if file **NOT** exist, it will be created
+
 
 [[Multiple Modes in fopen()]]
 [[Always close files when using fopen()]]
