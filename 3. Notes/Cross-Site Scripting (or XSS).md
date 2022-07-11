@@ -8,6 +8,7 @@ Tags: #fleeting
 Allows attacker to execute malicious Javascript on victim's machine.
 XSS is possible in Javascript, VBScript, Flash and CSS
 
+
 ### Types of Cross-Site Scripting
 Stored XSS (MOST DANGEROUS)
 -> Malicious string originates from the website
@@ -24,6 +25,15 @@ DOM-Based XSS
 -> DOM is Programming interface for HTML and XMl docs
 -> THE ROOM JUST EXPLAINED WHAT DOM IS!
 
+
+Common Payload Types used
+- Popup
+- Override the website's HTML to add the malicious ting
+- XSS Keylogger
+- Port Scanning
+
+website that has XSS related Payloads, Tools, Documentation and more
+http://www.xss-payloads.com
 
 
 
