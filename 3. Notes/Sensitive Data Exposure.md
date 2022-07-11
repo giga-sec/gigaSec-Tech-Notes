@@ -1,4 +1,4 @@
-[[OWASP]]
+[[OWASP (Open Web Application Security Project)]]
 
 # Sensitive Data Exposure
 Created:  [[2022-07-09]]
