@@ -5,6 +5,22 @@ Created:  [[2022-07-08]]
 Tags: #fleeting 
 
 ---
+[[Difference of User Options and Project Options in Burp Suite]]
+
+
+[[Differences between each version of Burp Suite]]
+
+
+[[Extensions in Burp Suite]]
+
+
+[[Shortcut keys for Burp Suite]]
+
+
+[[Burp Suite in built Browser]]
+
+
+
 Burp Suite is a framework written in Java that 
 - aims to provide one-stop-shop for web application penetration testing.
 - industry standard tool for hands-on web app security assessments.
@@ -27,17 +43,7 @@ This ability to intercept, view, and modify web requests prior to them being sen
 
 
 
-[[Difference of User Options and Project Options in Burp Suite]]
 
-
-[[Differences between each version of Burp Suite]]
-
-[[Extensions in Burp Suite]]
-
-[[Shortcut keys for Burp Suite]]
-
-
-[[Burp Suite in built Browser]]
 
 
 
