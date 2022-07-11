@@ -107,14 +107,41 @@ Do NOT ALTER
 - the declarations (i.e., prototypes) of `load`, `hash`, `size`, `check`, or `unload`. 
 
 Can Alter
-- `dictionary.c` 
 - `N` value in `dictionary.c`, so that your hash table can have more buckets.
-- 
+
 
 Can add functions
 - `dictionary.c`. (and, in fact, must in order to complete the implementations of `load`, `hash`, `size`, `check`, and `unload`)
 
-Functions in dictionary.
+### Functions in dictionary.c
+
+
+Steps
+-> Open dictionary file
+fopen()
+make sure its value NULL
+
+
+
+-> Read strings from file one at a time
+fscanf(file, "%s", word)
+fscanf returns EOF once it reaches End Of File
+
+-> Create a new node for each word
+Store each of those words in the hash table
+
+Use malloc to each word to store each node
+Use this `strcpy("n->word", "Hello")` means Copy hello to n->word
+
+-> Hash word to obtain a hash value (the index)
+Function takes string and returns an Index
+
+-> Insert node into hash table at that location
+Set the new node to point to the first position in linked list
+Then you can point the first position in linked list to point at the new node
+    
+
+
 `check`
 - must be case-insensitive -> if `hello` in dictionary, then `check` returns true for all cases `HELLO`, `hElLO`, `heLLO`, `heLlO` 
 - Note: All words in dictionary file are in lowercase format
@@ -135,6 +162,9 @@ Hash Function
 `hash`
 - take a word and run a hash function on it
 - returning some number that corresponds to that word
+
+
+
 
 `size`
 - returns how many words are in your dictionary
