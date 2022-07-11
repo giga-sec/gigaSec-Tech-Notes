@@ -17,6 +17,7 @@ Tags: #fleeting
 ##### Always check if malloc can't give memory anymore
 - [[C - Memory or NULL check of malloc]]
 ---
+Malloc requies `#include <stdlib.h>`
 
 Malloc is used to create a single large block of [[continguous]] memory according to the size specified. The whole idea of it is to [[allocate memory]] during run time. 
 
