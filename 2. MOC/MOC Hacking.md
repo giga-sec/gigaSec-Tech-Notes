@@ -15,11 +15,13 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 [[Web Hacking Fundamentals]]
 
 
+[[IP Address and can someone hack me if they have it]]
+
 
 
 ### Hacking news
 
-Revictimizes ransomware victim even if ransom is already paid
+A group of hackers revictimizes ransomware victim even if ransom was already paid
 https://www.csoonline.com/article/3597298/revil-ransomware-explained-a-widespread-extortion-operation.html
 
 
