@@ -1,14 +1,11 @@
-[[OWASP]]
+[[OWASP (Open Web Application Security Project)]]
 
 # XML Eternal Entity
 Created:  [[2022-07-09]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
+## SEVERITY 4
 [[What is XML]]
 
 Abuses features of XML parsers/data
@@ -18,7 +15,7 @@ Allows an attacker to
 - or could use XXE to perform Server-Side Request Forgery(SSRF)
 
 ### XXE
-- enable port scanning and lead to remote code execution
+- enables port scanning and lead to remote code execution
 
 #### 2 types of XXE
 
@@ -32,6 +29,8 @@ Allows an attacker to
 
 
 
+[[XXE Payload use to replace words inside root element]]
+[[XXE Payload to read files from system]]
 
 
 
