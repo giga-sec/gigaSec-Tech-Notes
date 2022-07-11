@@ -39,6 +39,8 @@ http://woshub.com/run-script-when-app-opens-closes/
 
 
 
+
+
 ### Process of Note Taking
 Fleeting
 - This is where I frequently copy, paste the snippets from articles/videos. 
@@ -91,6 +93,8 @@ Good
 Changes
 - I might stop copy pasting but instead type everything. As I can easily control what info will stay and not. With, copy pasting, I sometimes just copy paste straight and not read the whole info thereby increasing the time of rereading the text again.
 - I think it's better for me to read the whole paragraph or article before I start writing words.
+Update: Changes did work
+- Awesome, I spent less time rereading the note for trimming down the details. When writing it by myself, I understood the text better as naturally, you're gonna read it slowly. Then I can also spent time cutting down unnecessary details to reduce the words.
 
 
 Plan:
