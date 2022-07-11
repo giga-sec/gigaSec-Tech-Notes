@@ -67,7 +67,7 @@ This is not a one way note taking approach where I MUST follow these order every
 
 Problems 
 - Currently it takes time to organize information
-- My system isn't suitable for amassing lots of info in a short period of time whislt being understandable.
+- My system isn't suitable for amassing lots of info in a short period of time whislt being understandable. **Update: It's possible now thanks to me typing instead of copy pasting words**
 - Abstract section seems a bit weak. 
 
 
@@ -83,6 +83,7 @@ How does it do it?
 
 Maybe not that good?
 - I've kind of experience ridigity where I am afraid to touch permanent notes because I might break its readability or its understandability. But it could be solved by transforming the note into fleeting, and opportunistically make the note permanent. Also perhaps put the new info at the bottom of the note. 
+- **Update: Nahh it's alright, the permanent notes I've touched and edited so far allowed flexibility.**
 
 
 Good
