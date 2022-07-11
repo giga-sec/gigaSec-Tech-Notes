@@ -40,6 +40,11 @@ Severity 4: [[XML Eternal Entity]]
 Severity 5: [[Broken Access Control]]
 
 
+Severity 6: [[Security Misconfiguration]]
+
+
+Severity 7: [[Cross-Site Scripting (or XSS)]]
+
 
 ### References
 1. 
