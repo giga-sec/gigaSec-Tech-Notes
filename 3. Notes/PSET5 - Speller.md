@@ -148,6 +148,11 @@ Then you can point the first position in linked list to point at the new node
 - any variations of case will not be considered misspelled
 - Possessives only return true when they are in the dictionary -> `foo` is in `dictionary`, `check` should return `false` given `foo's` if `foo's` is not also in `dictionary`.
 - assume that `check` will only be passed words that contain (uppercase or lowercase) alphabetical characters and possibly apostrophes.
+- return `true` if word is in dictionary
+- Traverse linked list  looking for word (`strcasecmp` is a function that compares strings but ignores casing)
+
+
+
 
 `load`
 - loads all of the words in dictionary
@@ -163,11 +168,17 @@ Hash Function
 - take a word and run a hash function on it
 - returning some number that corresponds to that word
 
+First one letter is good, but it's not fast
+First two letters
+or using math to use all letters
 
 
 
 `size`
 - returns how many words are in your dictionary
+- you could imagine that as you're loading the hash table
+- you could somehow keep track of the number of words you've added to dictionary so far
+
 
 `unload`
 - any memory allocated to store data in data structure
