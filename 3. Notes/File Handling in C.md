@@ -17,6 +17,8 @@ Types of Files you can open with fopen()
 NOTE: [[Always close files when opening them]]
 
 [[fseek() in C - Code Snippet]]
+[[fscanf() in C]]
+
 
 
 In C you can
