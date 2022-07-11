@@ -7,6 +7,9 @@ Tags: #permanent
 ---
 Much like every house has a unique address for sending mail directly to it, ==**every computer on the internet has its own unique address== to communicate with it called an IP address.**
 
+[[IP Address and can someone hack me if they have it]]
+
+
 
 An IP address looks like  `104.26.10.229` 
 **Four sets of digits** ranging from 0 - 255 
