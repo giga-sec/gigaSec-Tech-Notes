@@ -19,6 +19,14 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 
 ### Hacking news
 
+Revictimizes ransomware victim even if ransom is already paid
+https://www.csoonline.com/article/3597298/revil-ransomware-explained-a-widespread-extortion-operation.html
+
+
+Different ransomware gangs and their level of integrity 
+https://www.csoonline.com/article/3607649/the-worst-and-most-notable-ransomware.html
+
+
 [[Tropic Trooper as a cyberespionage threat group]]
 
 
@@ -31,7 +39,7 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 [[Hacker pulled of a fake job  interview and tricked Axie Infinity's senior engineer, that stole them $620 million dollars]]
 
 
-
+[[Cybersecurity researchers and bug hunters face real-life threats]]
 
 
 
