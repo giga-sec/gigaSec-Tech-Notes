@@ -16,6 +16,9 @@ Contains list of
 - system accoutnss
 - each account has info about user ID, group ID, home directory, shell etc..
 
+Quick Tips
+- Name of the user is usually found at the end of the file
+
 
 All fiels are separated by colon symbol. All have 7 fields
 ![[Pasted image 20220709145529.png|400]]
