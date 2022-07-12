@@ -5,6 +5,8 @@ Created:  [[2022-07-08]]
 Tags: #fleeting 
 
 ---
+## Severity 8
+
 Allows attacker to execute malicious Javascript on victim's machine.
 XSS is possible in Javascript, VBScript, Flash and CSS
 
@@ -35,6 +37,9 @@ Common Payload Types used
 
 website that has XSS related Payloads, Tools, Documentation and more
 http://www.xss-payloads.com
+
+
+
 
 
 
