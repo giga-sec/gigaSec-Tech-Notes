@@ -46,5 +46,7 @@ Severity 6: [[Security Misconfiguration]]
 Severity 7: [[Cross-Site Scripting (or XSS)]]
 
 
+Severity 8: [[Insecure Deserialization]]
+
 ### References
 1. 
