@@ -83,7 +83,7 @@ How does it do it?
 
 Maybe not that good?
 - I've kind of experience ridigity where I am afraid to touch permanent notes because I might break its readability or its understandability. But it could be solved by transforming the note into fleeting, and opportunistically make the note permanent. Also perhaps put the new info at the bottom of the note. 
-- **Update: Nahh it's alright, the permanent notes I've touched and edited so far allowed flexibility.**
+- **Update: Nahh it's alright, the permanent notes I've touched and edited so far allowed flexibility/**
 
 
 Good
@@ -101,3 +101,5 @@ Update: Changes did work
 Plan:
 Make a default tutorial page when they first opened my vault. Like letting the newcomers know how to use the hyperlinks. Basically freeing the amount of text to be read in readme.md 
 
+Learn some stats and AI and ML
+Math, stats, algo, data structures, architecture
