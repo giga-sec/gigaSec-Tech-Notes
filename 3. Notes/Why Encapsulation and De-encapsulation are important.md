@@ -17,6 +17,7 @@ All transmissions follows same method therefore **allowing communications betwee
 
 
 
+> Original Text:
 > Any network enabled device to send a request to any other reachable device and be sure that it will be understood -- regardless of whether they are from the same manufacturer; use the same operating system; or any other factors.
 
 
