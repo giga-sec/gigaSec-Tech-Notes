@@ -48,9 +48,10 @@ https://denigma.app
 
 [[Modulus Operator]]
 
+[[AHK - Authotkey Script]]
 
-C file handling
-https://www.programiz.com/c-programming/c-file-input-output
+
+
 
 
 C compilers, sees code top to bottom, left to right
