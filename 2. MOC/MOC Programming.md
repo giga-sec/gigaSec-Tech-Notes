@@ -73,6 +73,7 @@ Buffer in programming is a temporary placeholder. Used a lot in context of trans
 [[MOC C++]]
 
 
+[[Javascript]]
 
 
 
