@@ -14,6 +14,8 @@ alt + enter
 Query Blocks
 Allows you to display search results or tag results inside the note
 
+- [ ] Learn about `YAML` tags
+- [ ] Learn about Tag Hierarchy
 
 
 
