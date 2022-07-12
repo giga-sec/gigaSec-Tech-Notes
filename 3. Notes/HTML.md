@@ -9,8 +9,9 @@ Tags: #fleeting
 
 
 ---
-[[HTML tags]]
-
+HTML tags 
+Refers to the commands used in HTML
+https://www.w3schools.com/TAgs/default.asp
 
 
 
