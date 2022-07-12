@@ -31,31 +31,11 @@ Like
 - Application Runtimes (Tomcat, Jenkins, Jboss, etc)
 
 
+## Let's first understand what serialization and deserialization is
+[[Serialization and Deserialization]]
 
-OOP (Object Oriented Programming) are made up of an object
-Object must have these two things
-- State
-- Behavior
-
-A lamp would be a good object
-State -> Lamps have different types of bulbs
-Behavior -> They can be turned off/on
-
-Rather than having a list of different types of bulb
-You can just use OOP to simply 
--> Change the type of bulb
--> Change the behavior of the bulb
-
-
-Serialization and Deserialization
-
-Serialization
-Converts objects used in prog languange into compatible formatting for transmitting data between systems or networks. 
-
-Deserializaztion
-Converts serialised info to their complex form -- an object that application will understand. 
-
-
+Insecure Deserialization happens 
+When data gets executed because there's no filtering/input validation.
 
 
 
