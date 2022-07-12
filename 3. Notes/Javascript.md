@@ -11,7 +11,12 @@ Tags: #fleeting
 ---
 [[Javascript Popup Boxes]]
 
-
+Cookies in Javascript
+JavaScript can 
+create ->  
+read -> 
+delete 
+cookies with the `document.cookie` property.
 
 
 
@@ -23,4 +28,4 @@ Tags: #fleeting
 
 
 ### References
-1. 
+1. https://www.w3schools.com/js/js_cookies.asp
