@@ -1,4 +1,4 @@
-
+[[MOC Programming]]
 
 # PSET5 - Speller
 Created:  [[2022-07-04]]
@@ -178,6 +178,7 @@ or using math to use all letters
 - returns how many words are in your dictionary
 - you could imagine that as you're loading the hash table
 - you could somehow keep track of the number of words you've added to dictionary so far
+
 
 
 `unload`
