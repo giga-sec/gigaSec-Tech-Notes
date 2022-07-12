@@ -11,7 +11,8 @@ alt + enter
 
 [[Search Syntax in Obsidian]]
 
-
+Query Blocks
+Allows you to display search results or tag results inside the note
 
 
 
