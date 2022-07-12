@@ -75,7 +75,8 @@ Buffer in programming is a temporary placeholder. Used a lot in context of trans
 
 [[Javascript]]
 
-
+I know!, HTML is not a programming languange, just wait. I'll organize it
+[[HTML]]
 
 
 ## Extras:
