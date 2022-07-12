@@ -18,7 +18,8 @@ Stored XSS (MOST DANGEROUS)
 
 Reflected XSS
 -> Attacker needs to trick a victim into clicking a URL to execute their malicious payload
-
+Your payload (string in this case) gets inputted directly into the page
+No Jscript is loaded before hand, neither is anything processed in DOM before hand.
 
 DOM-Based XSS
 -> DOM (Document Object Model)
