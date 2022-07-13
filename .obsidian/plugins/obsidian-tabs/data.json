@@ -2,9 +2,9 @@
   "tabEnabled": true,
   "rowOverflow": true,
   "horizontalToVertical": false,
-  "hideButtons": false,
+  "hideButtons": true,
   "smallTitle": false,
-  "compactTitle": false,
+  "compactTitle": true,
   "tabNumbering": false,
   "tabUnderline": false,
   "headerHeight": 29
