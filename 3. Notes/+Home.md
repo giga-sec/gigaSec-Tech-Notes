@@ -8,7 +8,7 @@
 
 [[MOC PC-Hardware]]
 
-[[MOC Hacking]]
+[[MOC Cybersecurity]]
 
 [[MOC Obsidian]]
 
@@ -22,9 +22,6 @@
 
 [[VIM 101]]
 
-## Articles to read
-As a programmer, you will always have more Problems than Engineers.
-https://betterprogramming.pub/you-will-always-have-more-problems-than-engineers-aafff94a4623
 
 
 
