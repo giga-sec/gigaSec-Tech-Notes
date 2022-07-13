@@ -4,6 +4,10 @@
 
 [[Questions to ask when solving a problem]]
 
+[[Problem solving for programmers]]
+
+[[You will always have more Problems than solutions]]
+
 [[MOC Graph Theory]]
 
 [[Batch Scripting]]
@@ -51,6 +55,9 @@ https://denigma.app
 [[AHK - Authotkey Script]]
 
 
+## Articles to Read
+
+[[Being a team player in software engineering]]
 
 
 
