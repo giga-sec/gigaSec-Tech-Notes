@@ -30,17 +30,24 @@ Memory Error
 - writing past the end of a piece of memory
 - accessing freed memory
 
-`Use of uninitialised value`
-`Conditional jump or move depends on uninitialised value(s)`
+
+## How to read valgrind reports
+### `Invalid read/write of size X`
+- Accessing beyond the end of heap block
+- Accessing memory that has been freed
+- Accesing into unallocated region (unintialized pointer)
+
+### `Use of uninitialised value`
+or -> `Conditional jump or move depends on uninitialised value(s)`
 First One: Program reads the value of an empty memory location 
 Second One: Specifically occured in if/for/while
 
-Explicitly Initialize all of your variables!!!
-If you want int to be `0`, 
-or pointer to be `NULL`
-then make it so. Don't assign an empty thing!   
 
-
+Solution:
+-> Explicitly Initialize all of your variables!!!
+    If you want int to be `0`, 
+    or pointer to be `NULL`
+    then make it so. Don't assign an empty thing!   
 
 
 Memory Leak
@@ -56,5 +63,8 @@ Memory Leak
 
 
 
-### References
+
+
+
+# References
 1. https://web.stanford.edu/class/archive/cs/cs107/cs107.1226/resources/valgrind
