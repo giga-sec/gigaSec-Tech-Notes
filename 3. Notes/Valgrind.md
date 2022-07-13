@@ -25,7 +25,7 @@ int main(void)
 Valgrind is a tool to help you determine memory bugs.
 
 
-Memory Error
+What does `Memory Error` mean
 - reading uninitialized memory
 - writing past the end of a piece of memory
 - accessing freed memory
