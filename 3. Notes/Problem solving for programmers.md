@@ -5,6 +5,8 @@ Created:  [[2022-07-13]]
 Tags: #fleeting 
 
 ---
+[[Questions to ask when solving a problem]]
+
 We only code when we've thought about how we're gonna approach/solve the problem
 
 Worst thing you could do is
@@ -40,7 +42,7 @@ You are given an integer, N. Your task is to print an alphabet rangoli of size N
 
 Different sizes of alphabet rangoli are shown below:
 
-#size 3  
+size 3  
   
 ----c----  
 --c-b-c--  
@@ -48,7 +50,7 @@ c-b-a-b-c
 --c-b-c--  
 ----c----  
   
-#size 5  
+size 5  
   
 --------e--------  
 ------e-d-e------  
@@ -64,7 +66,7 @@ The center of the rangoli has the first alphabet letter a, and the boundary has 
 
 The input to the function is a single line containing **_size_**, which is the size of the rangoli. Your function should return a string made up of each of the lines of the rangoli separated by a newline character (\n).
 
-# #Step 1 — Take time to understand the problem
+# Step 1 — Take time to understand the problem
 
 The first step to solving any problem is to understand the problem being solved. This means you’re able to articulate the problem fully in your own words.
 
@@ -96,7 +98,7 @@ Here is an example of my drawing:
 
 I’d draw a few of these to better reinforce my understanding.
 
-# #Step 2 — Break the problem down
+# Step 2 — Break the problem down
 
 Every problem is made up of a number of small problems. Breaking a larger problem down into smaller problems to be solved makes the greater less daunting to be approached.
 
@@ -148,7 +150,7 @@ This means it’s possible to still go deeper into solving this problem because 
 
 If you’re unsure how to do certain steps when you’ve written it out like this then don’t be afraid of taking extra time to further break down how each step will be implemented with pseudocode.
 
-# #Step 3 — Execution
+# Step 3 — Execution
 
 Now you’ve solved the problem on paper. All you have to do is implement the same solution you’ve written on paper but translate it into code.
 
@@ -239,7 +241,7 @@ d-c-b-a-b-c-d
 
 problem solved.
 
-# #Step 4 — Reflect
+# Step 4 — Reflect
 
 There are several ways to solve a problem; Nothing says my current solution to the problem is the best way to solve it. This means now is a good time to reflect on how we went about solving the problem and think about ways you could make your solution more efficient.
 
