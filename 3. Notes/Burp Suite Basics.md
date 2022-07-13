@@ -1,4 +1,4 @@
-[[Web Hacking Fundamentals]]
+[[Web App Security Fundamentals]]
 
 # Burp Suite Basics
 Created:  [[2022-07-08]]
