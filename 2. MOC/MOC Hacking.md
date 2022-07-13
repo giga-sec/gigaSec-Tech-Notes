@@ -18,11 +18,23 @@ This MOC is dedicated to things that relate to hacking techniques, groups, explo
 [[IP Address and can someone hack me if they have it]]
 
 
+[[API Vulnerability]]
+
+
+[[Hacking Lingo]]
+
+
+[[Lazarus Hacker Groups]]
+
+
 
 ### Hacking news
 
 A group of hackers revictimizes ransomware victim even if ransom was already paid
 https://www.csoonline.com/article/3597298/revil-ransomware-explained-a-widespread-extortion-operation.html
+
+Why Hackers Target Critical Infrastructure and Why It's Difficult to Upgrade Cybersecurity
+https://www.makeuseof.com/why-hackers-target-critical-infrastructure/
 
 
 Different ransomware gangs and their level of integrity 
