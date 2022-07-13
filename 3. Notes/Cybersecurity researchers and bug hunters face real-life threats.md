@@ -1,4 +1,4 @@
-[[MOC Hacking]]
+[[MOC Cybersecurity]]
 
 # Cybersecurity researchers face real-life threats
 Created:  [[2022-07-11]]
