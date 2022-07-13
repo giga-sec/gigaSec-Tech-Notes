@@ -1,4 +1,4 @@
-[[MOC Hacking]]
+[[MOC Cybersecurity]]
 
 # How are cracked versions of software created and why are developers not able to prevent it
 Created:  [[2022-07-07]]
