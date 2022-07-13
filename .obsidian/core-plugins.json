@@ -9,9 +9,9 @@
   "note-composer",
   "command-palette",
   "slash-command",
+  "editor-status",
   "starred",
   "random-note",
   "outline",
-  "open-with-default-app",
   "file-recovery"
 ]
