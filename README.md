@@ -7,7 +7,7 @@ To fully take advantage of my notes. **Use a markdown editor that supports hyper
 
 --> Programming, VIM, Git, 
 
---> Hacking, Networking, Linux, 
+--> Cybersecurity, Networking, Linux, 
 
 --> PC-Hardware, Windows and more. 
 
