@@ -1,4 +1,4 @@
-[[MOC Hacking]]
+[[Cybersecurity news]]
 
 # Tropic Trooper as a cyberespionage threat group
 Created:  [[2022-06-26]]
