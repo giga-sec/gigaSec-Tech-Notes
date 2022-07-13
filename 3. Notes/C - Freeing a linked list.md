@@ -14,10 +14,12 @@ while (list != NULL)
 }
 ```
 
+NOTE: 
+You NEED to free all memory first before reusing a linked list.
 
-Memory leaks are among the most difficult bugs to detect because they don't cause any outward problems until you've run out of memory and your call to malloc suddenly fails
 
-
+Memory leaks don't cause any outward problems 
+-> until you've run out of memory and your call to malloc suddenly fails
 
 
 
