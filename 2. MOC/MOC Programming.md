@@ -2,32 +2,13 @@
 
 # MOC Programming
 
-[[Questions to ask when solving a problem]]
-
 [[Problem solving for programmers]]
-
-[[You will always have more Problems than solutions]]
 
 [[MOC Graph Theory]]
 
-[[Batch Scripting]]
-
 [[GIT Basics]]
 
-## CS50
-[[Week 1 - Data Types, Imprecision and Overflows]]
-
-[[Week 2 - Arrays, Compiling, Command Line Argument, Strings]]
-
-[[Week 3 - BigO, Recursion, Data Search, Structs]]
-
-[[Week 4 - Memory, Malloc, Pointers, More Overflows]]
-
-[[Week 5 - Linked Lists, Trees, Data Structures]]
-
-[[PSET5 - Speller ]]
-
-[[File Handling in C]]
+[[MOC CS50]]
 
 
 ## Books
@@ -48,19 +29,22 @@ https://denigma.app
 
 [[sizeof values in each data type of C]]
 
-[[Advice I found in reddit about programming]]
 
 [[Modulus Operator]]
 
-[[AHK - Authotkey Script]]
 
 
-## Articles to Read
+## Articles
 
 [[Being a team player in software engineering]]
 
+[[You will always have more Problems than solutions]]
 
 
+[[Advice I found in reddit about programming]]
+
+
+---
 C compilers, sees code top to bottom, left to right
 
 
@@ -80,14 +64,18 @@ Buffer in programming is a temporary placeholder. Used a lot in context of trans
 [[MOC C++]]
 
 
+[[File Handling in C]]
+
+
 [[Javascript]]
+
 
 I know!, HTML is not a programming languange, just wait. I'll organize it
 [[HTML]]
 
 
-## Extras:
+[[Batch Scripting]]
 
 
-
+[[AHK - Authotkey Script]]
 
