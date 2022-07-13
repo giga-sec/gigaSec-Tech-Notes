@@ -31,7 +31,7 @@ Like
 - Application Runtimes (Tomcat, Jenkins, Jboss, etc)
 
 
-## Let's first understand what serialization and deserialization is
+## First understand what serialization and deserialization is
 [[Serialization and Deserialization]]
 
 Insecure Deserialization happens 
@@ -42,5 +42,7 @@ When data gets executed because there's no filtering/input validation.
 
 
 
-### References
-1. 
+
+
+
+
