@@ -1,4 +1,4 @@
-[[MOC Hacking]]
+[[MOC Cybersecurity]]
 
 # Offensive Security vs Defensive Security
 Created:  [[2022-06-30]]
