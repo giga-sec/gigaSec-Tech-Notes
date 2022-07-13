@@ -52,15 +52,7 @@ And `const`, makes it so that strings passed will not get changed
 you won’t be able to change them accidentally or smtnh
 
 
-### dictionary.c
-global pointer array, `table`
-hash table = `struct` called `node` 
-Array contains `N` node pointers, `N` = `26`  to match w/ default `hash` function. 
-You'll likely increase `N` depending on your own implementation of `hash`
 
-We’ve implemented `load`, `check`, `size`, and `unload`, but only barely, just enough for the code to compile. 
-We’ve implemented `hash` with a sample algorithm based on the first letter of the word. 
--> Your job, ultimately, is to re-implement those functions as cleverly as possible so that this spell checker works fast!
 
 
 ### speller.c
@@ -101,6 +93,18 @@ implement, in order, 
 as efficiently as possible using a hash table
 in such a way that `TIME IN load`, `TIME IN check`, `TIME IN size`, and `TIME IN unload` are all minimized.
 
+
+### dictionary.c
+global pointer array, `table`
+hash table = `struct` called `node` 
+Array contains `N` node pointers, `N` = `26`  to match w/ default `hash` function. 
+You'll likely increase `N` depending on your own implementation of `hash`
+
+We’ve implemented `load`, `check`, `size`, and `unload`, but only barely, just enough for the code to compile. 
+We’ve implemented `hash` with a sample algorithm based on the first letter of the word. 
+-> Your job, ultimately, is to re-implement those functions as cleverly as possible so that this spell checker works fast!
+
+
 Do NOT ALTER
 - `speller.c`
 - `makefile`
@@ -114,13 +118,19 @@ Can add functions
 - `dictionary.c`. (and, in fact, must in order to complete the implementations of `load`, `hash`, `size`, `check`, and `unload`)
 
 ### Functions in dictionary.c
+`load`
+- loads all of the words in dictionary
+- into some sort of data structure (hash table)
+Hash Table 
+-> is an array of individual linked list
 
+Hash Function
+-> assigns a number to every point
 
 Steps
 -> Open dictionary file
 fopen()
 make sure its value NULL
-
 
 
 -> Read strings from file one at a time
@@ -139,8 +149,6 @@ Function takes string and returns an Index
 -> Insert node into hash table at that location
 Set the new node to point to the first position in linked list
 Then you can point the first position in linked list to point at the new node
-    
-
 
 `check`
 - must be case-insensitive -> if `hello` in dictionary, then `check` returns true for all cases `HELLO`, `hElLO`, `heLLO`, `heLlO` 
@@ -151,19 +159,6 @@ Then you can point the first position in linked list to point at the new node
 - return `true` if word is in dictionary
 - Traverse linked list  looking for word (`strcasecmp` is a function that compares strings but ignores casing)
 
-
-
-
-`load`
-- loads all of the words in dictionary
-- into some sort of data structure (hash table)
-Hash Table 
--> is an array of individual linked list
-
-Hash Function
--> assigns a number to every point
-
-
 `hash`
 - take a word and run a hash function on it
 - returning some number that corresponds to that word
@@ -173,18 +168,15 @@ First two letters
 or using math to use all letters
 
 
-
 `size`
 - returns how many words are in your dictionary
 - you could imagine that as you're loading the hash table
 - you could somehow keep track of the number of words you've added to dictionary so far
 
 
-
 `unload`
 - any memory allocated to store data in data structure
 - will be free up in here
-
 
 
 Dictionary File
