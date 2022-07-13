@@ -20,7 +20,7 @@ This MOC is dedicated to things that relate to defending an organization from at
 [[Web App Security Fundamentals]]
 
 
-[[Swim Swap]]
+[[Swim Swap Technique]]
 
 
 
