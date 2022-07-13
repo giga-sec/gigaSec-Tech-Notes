@@ -1,4 +1,4 @@
-[[MOC Hacking]]
+[[MOC Cybersecurity]]
 
 # Hacker pulled of a fake job  interview and tricked Axie Infinity's senior engineer, that stole them $620 million dollars
 Created:  [[2022-07-09]]
