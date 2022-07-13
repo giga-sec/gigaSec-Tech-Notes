@@ -1,4 +1,4 @@
-[[MOC Hacking]]
+[[MOC Cybersecurity]]
 
 # In Hacking, Knowledge is power
 Created:  [[2022-07-03]]
