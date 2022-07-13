@@ -48,5 +48,8 @@ Severity 7: [[Cross-Site Scripting (or XSS)]]
 
 Severity 8: [[Insecure Deserialization]]
 
+
+Severity 9: [[Components with Known Vulnerabilities]]
+
 ### References
 1. 
