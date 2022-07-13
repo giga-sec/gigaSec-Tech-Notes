@@ -13,6 +13,9 @@ Abstract:
 ---
 Uses LUA programming languange
 
+Practice using nmap here. This website can be safely practiced
+http://scanme.nmap.org
+
 
 Many categories exists
 -   `safe`:- Won't affect the target
