@@ -25,7 +25,6 @@ https://denigma.app
 
 
 ## Uncategorized
-[[C - Print Leading Zeros in C]]
 
 [[sizeof values in each data type of C]]
 
@@ -45,7 +44,6 @@ https://denigma.app
 
 
 ---
-C compilers, sees code top to bottom, left to right
 
 
 Segmentation Fault = You touched a memory that you shouldn't
@@ -65,6 +63,12 @@ Buffer in programming is a temporary placeholder. Used a lot in context of trans
 
 
 [[File Handling in C]]
+
+
+[[C - Print Leading Zeros in C]]
+
+
+C compilers, sees code top to bottom, left to right
 
 
 [[Javascript]]
