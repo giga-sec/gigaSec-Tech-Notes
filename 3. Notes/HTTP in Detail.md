@@ -32,6 +32,7 @@ If webserver's response `OK`,
 -> files required to display website will be sent to your computer. 
 
 
+[[Cookies 101]]
 
 
 
