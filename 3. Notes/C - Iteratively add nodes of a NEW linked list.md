@@ -7,7 +7,7 @@ Tags: #permanent
 ---
 ### NOTE: 
 - This function assumes **linked list doesn't have any value to it**.
-
+- This adds the value to the end of the linked list which is slow!
 
 ### PARAMETERS:
 `node *head` is the **EMPTY** linked list
