@@ -167,6 +167,19 @@ First one letter is good, but it's not fast
 First two letters
 or using math to use all letters
 
+With three letters
+Some letters in 3rd position are missing (Meaning A B ?? D E F G)
+Okay, so instead of getting each letter. We could use for loop to get the letters
+When we use for loop, do we ignore the apostrophe????
+AB = 
+BA = 
+
+I do not understand what the end result of my hash function will be
+
+I have no idea how many buckets my hash function will get
+
+
+
 
 `size`
 - returns how many words are in your dictionary
