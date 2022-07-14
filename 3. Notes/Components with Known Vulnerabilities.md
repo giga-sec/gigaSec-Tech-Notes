@@ -35,6 +35,8 @@ Check for recent unauthenticated bookstore app rce's.
 `2017`, was the site created in this year?
 
 - [ ] Let's first download wpscan to find the version of services used
+- [ ] Let's first determine what wpscan can do
+
 
 
 Question
