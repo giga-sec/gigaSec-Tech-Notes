@@ -15,7 +15,7 @@ Allows an attacker to
 - or could use XXE to perform Server-Side Request Forgery(SSRF)
 
 ### XXE
-- enables port scanning and lead to remote code execution
+- enables port scanning and lead to [[RCE (Remote Code Execution)]]
 
 #### 2 types of XXE
 
