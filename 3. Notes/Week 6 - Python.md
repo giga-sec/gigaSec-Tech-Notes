@@ -1,0 +1,26 @@
+e
+
+# Week 6 - Python
+Created:  [[2022-07-14]]
+Tags: #fleeting 
+
+---
+#### Abstract:
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+## References
+1. 
