@@ -1,5 +1,4 @@
-
-
+[[OWASP (Open Web Application Security Project)]]
 # Insecure Deserialization
 Created:  [[2022-07-12]]
 Tags: #fleeting 
@@ -12,7 +11,7 @@ Occurs when untrusted data is used to abuse the logic of an application
 Replacing data processed by an application with malicious code
 This malicious code can allow
 - DOS (Denial of Service)
-- RCE (Remote Code Execution)
+- [[RCE (Remote Code Execution)]]
 
 
 OWASP rank this as 8 out of 10 because
