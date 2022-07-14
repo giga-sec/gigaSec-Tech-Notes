@@ -12,6 +12,7 @@
 
 [[MOC Obsidian]]
 
+[[MOC Browser]]
 
 
 
