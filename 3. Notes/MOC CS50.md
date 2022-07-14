@@ -14,9 +14,14 @@ This MOC is dedicated to things that relate to everything that I've learned when
 
 [[Week 5 - Linked Lists, Trees, Data Structures]]
 
+[[Week 6 - Python]]
+
+
+## Exercises
+
 [[PSET5 - Speller ]]
 
-
+[[LAB6 - World Cup]]
 
 
 
