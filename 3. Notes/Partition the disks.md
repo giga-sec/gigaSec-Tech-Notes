@@ -81,7 +81,7 @@ THEN -> consider 33 * 512 byte sector (16.5 KiB) of _free unpartitioned spacec_ 
 WHY -> Just in case you want to [convert it to GPT](https://wiki.archlinux.org/title/Gdisk#Convert_between_MBR_and_GPT "Gdisk"). The space is required for GPT headers
 
 
-#### GUID Partition Table
+### GUID Partition Table
 - part of the [[UEFI (Unified Extensible Firmware Interface)]] specification
 - uses [[GUID (Globally Unique IDentifies)]]
 
@@ -95,6 +95,3 @@ Every start of GUID Partition Table
 
 
 
-
-## References
-1. 
