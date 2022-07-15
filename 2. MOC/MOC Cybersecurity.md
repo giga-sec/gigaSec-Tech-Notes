@@ -12,6 +12,9 @@ This MOC is dedicated to things that relate to defending an organization from at
 [[Cybersecurity news]]
 
 
+[[Encryption 101]]
+
+
 ## Offensive Security Techniques
 
 [[In Hacking, Knowledge is power]]
