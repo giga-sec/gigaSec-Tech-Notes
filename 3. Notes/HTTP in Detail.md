@@ -14,6 +14,8 @@ Tags: #literature
 [[Why are cookies used in HTTP]]
 
 ---
+https://robertheaton.com/2014/03/27/how-does-https-actually-work/
+
 HTTP  
 **set of rules** for **==communicating with [[Web server and different ways we make request to it|web servers]] for the sending of webpage data==, whether that is HTML, Images, Videos, etc**. 
 
