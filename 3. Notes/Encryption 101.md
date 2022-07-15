@@ -1,38 +1,19 @@
-e
+[[MOC Cybersecurity]]
 
 # Encryption 101
 Created:  [[2022-07-15]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
 -   2 methods of Key Exchange
--   Notes about the future of encryption with the rise of Quantum Computing
 
 
-## Encryption Lingo
-Encryption -> Transforming data into encrypted data
+## [[Encryption Lingo]]
 
-Encoding 
--> Not encryption. Just data representation like base64
--> Easily reversible
-
-
-Ciphertext -> the result of plaintext to encrypted data
-Cipher -> method of encryptiong/decrypting data
-
-Key -> needed to correctly decrypt ciphertext to plaintext
-
-Passphrase -> used to protect the key (like a password but for `key`)
-
-Crtpytanalysis -> Attacking cryptography by finding weaknesses in its math
 
 ## How services prove their identity
-Webservers prove their identity through` certificate`
-Trusted Files through `checksum`
+Webservers prove their identity through [[Certificates - verifies legitimacy of websites|certificate]]
+
 
 
 ## Standards for services to comply
@@ -59,12 +40,28 @@ Data DECrypted with Public Key (Can be shared)
 ## ASYmmetric Cryptography
 Common use is exchange keys for symmetric encryption
 
-HTTPS Symmetric Encryption
-Problem: How do you agree a key with the server without transmitting the key for people snooping to see?
+### HTTPS Symmetric Encryption
+#### Problem: 
+How do you agree a key with the server without transmitting the key for people snooping to see?
 
-Metaphor for the problem:
-Imagine you have a secret code and instructions how to read the secret code
-If you want to send to your friend the instructions with/out anyone else being able to read it
+#### Metaphor for the problem:
+Imagine you have a `secret code` and `instructions` how to read the secret code
+Problem:
+-> If you send your friend the instructions 
+-> with/out anyone else being able to read it
+-> ask your friend for a `lock`. Only they have the `key` for this lock
+
+##### Solution: 
+If you send the `instructions` in a _indestructible locked box_ to your friend, 
+they can unlock it with a `lock` once it reaches them and read the `instructions`.
+Finally, You've communicated the `secret code` without people snooping in
+
+Conclusion:
+In this metaphor
+the `secret code` represents `symmetric encryption KEY`
+the `lock` represents `server's PUBLIC key`
+
+
 
 
 ## RSA in CTF
@@ -90,6 +87,35 @@ Key variables for CTF are
 More about RSA here -> https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/
 
 
+## Uncategorized
+Normally, SSH are authenticated with 
+-> username
+-> password
 
-## References
-1. ``
+
+Some SSH are configured with 
+-> key authentication
+    uses  public and private keys to prove client is valid
+By default, SSH keys are RSA keys
+But you can
+- choose what algorithm to generate
+- add a passphrase to encrypt the `SSH key`
+
+`ssh-keygen` can do all of that above
+- used to generate pairs of keys
+
+`Passphrase` to decrypt  key isn’t used to identify you to the server at all, 
+all it does is decrypt the SSH key. 
+The passphrase is never transmitted, and never leaves your system.
+
+Using tools like John the Ripper, you can attack an encrypted SSH key to attempt to find the passphrase, which highlights the importance of using a secure passphrase and keeping your private key private.
+
+
+
+Quantum Computers and Encryption
+
+Quantum computers affect the future of encryption
+Once quantom computers exists
+- RSA and Elliptical Curve Cryptography will be VERY FAST TO BREAK
+Because quantum computers can very efficiently solve the mathematical problems that these algorithms rely on for their strength.
+
