@@ -1,4 +1,4 @@
-e
+[[Firefox]]
 
 # Firefox CSS
 Created:  [[2022-07-14]]
