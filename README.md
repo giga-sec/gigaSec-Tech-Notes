@@ -77,30 +77,6 @@ There are only three plugins installed in my vault and only used for customizati
 
 
 That's it. You're good to navigate my notes now
-
----
-## Quick Guide of navigating my notes
-
-**What is a `hyperlink`?**
-
-^--> Imagine a search engine, those underlined words will take you to the right website. That's basically what hyperlink is, it takes you to the right note assigned to it.  
-
-**Go to the home file first -> `3. Notes/+Home`**
-
-^--> Just click the `hyperlinks` to your chosen content. 
-
-**Each note has a `hyperlink` at the top** except for `+Home` file
-
-^--> Purpose is to take you back to the parent note that it came from.
-
-**Obsidian has a search feature.**
-
-^--> Click `Ctrl + Shift + F` and you can search the files there. 
-
-**Got Lost**?
-
-^--> Always come back to your home file `3. Notes/+Home`.
-
 ---
 ## Quick guide about using my Obsidian Vault
 
