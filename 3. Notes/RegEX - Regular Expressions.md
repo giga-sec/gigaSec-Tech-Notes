@@ -13,13 +13,24 @@ Because characters includes letters, numbers and anything in ASCII Table
 ## special metacharacters
 - used in regular expressions that can be used to match a specific type of character
 
-`\d`
+`\d` -> used to place any digit from `0-9`
+
+### Matches any character
+**wildcard** represented by the `.` (dot)
+`...\.` Matches only the period
+
+### Matching Specific Characters
+`[abc]` will only match single letter `a`, `b`, or `c` 
+`[^abc]` inverse expression, match any _single_ character _except for_ the letters a, b, or c.
 
 
+### Character Ranges
+Uses dash
+`[0-6]` means match characters from `0` to `6`
+`[^n-p]` match any single character except for letters `n` to `p`
 
-
-
-
+Multiple Character Ranges can be used as well
+`[A-Za-z0-9]` 
 
 
 ## Websites to learn Regex
