@@ -20,29 +20,7 @@ You can stop python from stopping the program after it detects error
 `try` and `except` block detects **exception error**
 
 
-## Command Line Arguments in Python
-[[C - Command line arguments --argc and argv]]
-
-
-Libraries needed below
-```Python
-from sys import argv
-```
-
-`argv` means "argument vector", this is where we store the arguments. 
-`argv[0]` is the code execution itself (i.e `./filename`) 
-`len()` counts in 1. So there are two arguments here (`filename` and `arg1`)
-```Python
-if len(argv) == 2:
-    print(f"hello, {argv[1]}")
-```
-
-
-Execution of the Script below
-```Python
-python file_name.py arg1 arg2 ...
-```
-
+## [[Command Line Arguments in Python]]
 
 
 ## Caching in Python
