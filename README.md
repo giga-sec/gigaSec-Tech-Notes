@@ -21,10 +21,6 @@ Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkast
 - Installation Process to be able to use my notes
 ---
 
-
-
-
-
 ## Screenshots (!Warning! Light Mode media below)
 
 Dark Mode 
@@ -73,4 +69,7 @@ There are only three plugins installed in my vault and only used for customizati
 3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
 
-That's it. You're good to navigate my notes now
+
+As of this writing June 07, 2022
+- I will no longer be updating the changes in readme file
+- Rest assured that info written here are still relevant and helpful
