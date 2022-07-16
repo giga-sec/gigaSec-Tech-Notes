@@ -7,6 +7,8 @@ Tags: #fleeting
 ---
 Python is an [[Interpreted Language]] 
 
+
+## Caching in Python
 When Running a python program
 -> `Source Code` is compiled into `Bytecode`
 -> `Bytecode` is cached and stored in `.pyc` file. (runs faster after the first execution of file)
