@@ -43,9 +43,9 @@ Copy Pasted: An example of this is the alphanumeric _\w_ metacharacter which is 
 
 
 ### Quantifiers - Repetition of Characters 
-`star *`, 
-`plus +`, 
-`repetition {1,2}` 
+star `*`
+plus `+`
+repetition `{1,2}` 
 optional `?`
 
 #### Specific Repetition
@@ -90,7 +90,7 @@ match the full string that
 - ends with 'successful'.
 
 
-### Capturing 
+### Capturing Info to Process Them
 #### Groups
 For instance
 `^(IMG\d+\.png)$`  to capture and extract full filename
@@ -100,8 +100,13 @@ For instance
 Nested groups are read from left to right in the pattern, 
 with the first capture group being the contents of the first parentheses group, etc.
 
+All the quantifiers can be used within capture group patterns
+star `*`
+plus `+`
+repetition `{1,2}` 
+optional `?`
 
-all the quantifiers including the star _*_, plus _+_, repetition _{m,n}_ and the question mark _?_ can all be used within the capture group patterns.
+
 
 
 ### Conditionals
@@ -110,10 +115,9 @@ match strings with cats or dogs
 
 
 ### Other Extra Characters
-Conclusion
-capture digits using `\d`, 
-whitespace using `\s`, 
-alphanumeric letters and digits using `\w`
+match **digits** using `\d`, 
+match **whitespace** using `\s`, 
+match **AlphaNum** using `\w`
 
 
 UPPERCASE letters of above inverts them
