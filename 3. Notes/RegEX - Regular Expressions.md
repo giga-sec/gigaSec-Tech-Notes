@@ -7,7 +7,13 @@ Tags: #fleeting
 ---
 **Everything is essentially a character**
 **We are writing patterns to match a specific characters or strings**.
+It's helpful not to think of it as matching letters
+Because characters includes letters, numbers and anything in ASCII Table
 
+## special metacharacters
+- used in regular expressions that can be used to match a specific type of character
+
+`\d`
 
 
 
