@@ -9,9 +9,14 @@ Python is an [[Interpreted Language]]
 
 When Running a python program
 -> `Source Code` is compiled into `Bytecode`
--> `Bytecode` is cached and stored in `.pyc` file. (Will be faster next time you re-runP the code)
+-> `Bytecode` is cached and stored in `.pyc` file. (runs faster after the first execution of file)
 
-It turns out, we can cache, or save, the interpreted version of our Python program, so it runs faster after the first time. And Python is actually partially compiled too, into an intermediate step called bytecode, which is then run by the interpreter.
+ 
+When source code is being modified, 
+Will be recompiled and new bytecode files will be created again. 
+**HOWEVER** in some occasions this may not be true --^
+**Problem:** Python will execute the code using cached files causing you some troubles. 
+                For instance, you fixed a bug but Python runs the buggy cached version
 
 
 
