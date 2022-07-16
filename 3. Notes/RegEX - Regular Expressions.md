@@ -10,10 +10,17 @@ Tags: #fleeting
 It's helpful not to think of it as matching letters
 Because characters includes letters, numbers and anything in ASCII Table
 
+
+You have to use `\` to match characters
+- `?` -> `\?`
+- `.` -> `\.`
+
 ## special metacharacters
 - used in regular expressions that can be used to match a specific type of character
 
-`\d` -> used to place any digit from `0-9`
+`\d` -> match any single digit
+`\d+` -> match all digits!
+
 
 ### Matches any character
 **wildcard** represented by the `.` (dot)
@@ -27,10 +34,62 @@ Because characters includes letters, numbers and anything in ASCII Table
 ### Character Ranges
 Uses dash
 `[0-6]` means match characters from `0` to `6`
-`[^n-p]` match any single character except for letters `n` to `p`
+`[^n-p]` match any **single** character except for letters `n` to `p`
 
 Multiple Character Ranges can be used as well
 `[A-Za-z0-9]` 
+Copy Pasted: An example of this is the alphanumeric _\w_ metacharacter which is equivalent to the character range `[A-Za-z0-9]` and often used to match characters in English text.
+
+
+### Repetition of Characters
+`z{3,5}` Find any `z` with  `three` to `five` repeats 
+`z{5}`, Find any `z` with `five` repeats
+
+**All characters that are repeated**
+Kleene Star -> `*` 0 or more 
+Kleene Star -> `+` 1 or more
+Example
+`\d*` to match any number of digits,
+`a+` (one or more a's), 
+`[abc]+` (one or more of any a, b, or c character)
+
+### Optional Characters
+`ab?c`
+matches strings with `abc` or `ac`
+because `b` is optional
+
+
+### Whitspaces 
+whitespace `\s`
+For more specific whitespace
+- space `␣`
+- tab `\t`
+- new line `\n`
+- carriage return `\r`  
+
+
+### Metacharacters
+`^` hat
+`^success` match only a line that BEGINS with  `success`
+It's different `^` hat that's used inside of `[]` for excluding characters
+
+`$` dollar sign
+`success$` match only a line that END with `success`
+
+We can combine the two
+`^Mission: successful$`
+match the full string that 
+- starts with 'Mission' AND
+- ends with 'successful'.
+
+
+### Capturing 
+#### Groups
+For instance
+`^(IMG\d+\.png)$`  to capture and extract full filename
+`^(IMG\d+)\.png$` to extract only filename and not extension
+
+#### Capture
 
 
 ## Websites to learn Regex
