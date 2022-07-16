@@ -8,7 +8,7 @@ Tags: #fleeting
 Abstract:
 [[Compile C using command prompt]]
 
-[[Command line arguments in C--argc and argv]]
+[[C - Command line arguments --argc and argv]]
 
 [[Compiling explained--turning source code into `1's` and `0's`]]
 
@@ -29,7 +29,7 @@ int main(int argc, char** argv)
 
 `argc[0]` is the code execution itself (i.e `./filename`) 
 
-[[Command line arguments in C--argc and argv]]
+[[C - Command line arguments --argc and argv]]
 
 
 The process of turning source code into `1's` and `0's` (binary in short)
