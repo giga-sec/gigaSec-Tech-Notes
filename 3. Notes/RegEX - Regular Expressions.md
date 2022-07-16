@@ -16,16 +16,11 @@ To specifically search for this characters
 - `?` -> `\?`
 - `.` -> `\.`
 
-## special metacharacters
-- used in regular expressions that can be used to match a specific type of character
-
-`\d` -> match any single digit
-`\d+` -> match all digits!
-
 
 ### Matches any character
 **wildcard** represented by the `.` (dot)
 `...\.` Matches only the period
+
 
 ### Matching Specific Characters
 `[abc]` will only match single letter `a`, `b`, or `c` 
@@ -42,31 +37,11 @@ Multiple Character Ranges can be used as well
 Copy Pasted: An example of this is the alphanumeric _\w_ metacharacter which is equivalent to the character range `[A-Za-z0-9]` and often used to match characters in English text.
 
 
-### Quantifiers - Repetition of Characters 
-star `*`
-plus `+`
-repetition `{1,2}` 
-optional `?`
-
-#### Specific Repetition
-`z{3,5}` Find any `z` with  `three` to `five` repeats 
-`z{5}`, Find any `z` with `five` repeats
-
-#### Repetition
-Kleene Star -> `*` 0 or more 
-Kleene Plus -> `+` 1 or more
-Example
-`\d*` to match any number of digits,
-`a+` (one or more a's), 
-`[abc]+` (one or more of any a, b, or c character)
-
-#### Optional Characters
-`ab?c`
-matches strings with `abc` or `ac`
-because `b` is optional
+### [[Quantifiers or Repetition of Characters - RegEX]] 
 
 
-### Whitspaces 
+
+### Whitespaces 
 whitespace `\s`
 For more specific whitespace
 - space `␣`
