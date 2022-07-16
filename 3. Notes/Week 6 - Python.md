@@ -23,6 +23,37 @@ You can stop python from stopping the program after it detects error
 ## [[Command Line Arguments in Python]]
 
 
+Import different functions from a library
+Below, here we are importing `argv` and `exit` from the library `sys`
+```Python
+from sys import argv, exit
+```
+
+
+
+Python - File Handling
+Opening csv file
+
+Libraries Needed
+```Python
+import csv
+```
+
+Syntax to open a file
+```Python
+file = open("file_name.csv", "method_used")
+file.close()  # Always close file
+```
+
+More syntax to open a file
+```Python
+with open("phonebook.csv", "a") as file:
+    writer = csv.writer(file)
+    writer.writerow((name, number))
+    # with automatically closes file for us
+```
+
+
 ## Caching in Python
 When Running a python program
 -> `Source Code` is compiled into `Bytecode`
@@ -37,7 +68,7 @@ Will be recompiled and new bytecode files will be created again.
 
 
 
-
+[[Problem Set 6 - Credit]]
 
 
 
