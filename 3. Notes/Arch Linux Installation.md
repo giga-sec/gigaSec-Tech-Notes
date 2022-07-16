@@ -13,7 +13,7 @@ Tags: #fleeting
 
 [[timedatectl - Update system clock]]
 
-[[Partition the disks]]
+[[Partitioning the disks]]
 
 
 
