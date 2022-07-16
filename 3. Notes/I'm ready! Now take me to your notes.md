@@ -16,7 +16,7 @@ But first, remember this
 ^--> Always come back to your **+HOME** file `3. Notes/+Home`.
 
 
-[[+Home]]
+Proceed here -> [[+Home]]
 
 
 

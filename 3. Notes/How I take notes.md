@@ -14,9 +14,6 @@ I knew I had to find the right note-taking system. I had a problem where I spent
 
 Here, I devoted my time on learning how to take notes effectively in which I did so by exploring [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).
 
-As you navigate my system, you might see some slip-ups but the design of this sytem is meant to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow.
-
-
 
 ## Explanations of each tags
 
