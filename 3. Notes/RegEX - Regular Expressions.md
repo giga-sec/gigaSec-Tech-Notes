@@ -41,19 +41,25 @@ Multiple Character Ranges can be used as well
 Copy Pasted: An example of this is the alphanumeric _\w_ metacharacter which is equivalent to the character range `[A-Za-z0-9]` and often used to match characters in English text.
 
 
-### Repetition of Characters
+### Quantifiers - Repetition of Characters 
+`star *`, 
+`plus +`, 
+`repetition {1,2}` 
+optional `?`
+
+#### Specific Repetition
 `z{3,5}` Find any `z` with  `three` to `five` repeats 
 `z{5}`, Find any `z` with `five` repeats
 
-**All characters that are repeated**
+#### Repetition
 Kleene Star -> `*` 0 or more 
-Kleene Star -> `+` 1 or more
+Kleene Plus -> `+` 1 or more
 Example
 `\d*` to match any number of digits,
 `a+` (one or more a's), 
 `[abc]+` (one or more of any a, b, or c character)
 
-### Optional Characters
+#### Optional Characters
 `ab?c`
 matches strings with `abc` or `ac`
 because `b` is optional
@@ -90,6 +96,20 @@ For instance
 `^(IMG\d+)\.png$` to extract only filename and not extension
 
 #### Capture
+Nested groups are read from left to right in the pattern, 
+with the first capture group being the contents of the first parentheses group, etc.
+
+
+all the quantifiers including the star _*_, plus _+_, repetition _{m,n}_ and the question mark _?_ can all be used within the capture group patterns.
+
+
+### Conditionals
+`cats|dogs` 
+match strings with cats or dogs
+
+
+### Other Extra Characters
+
 
 
 ## Websites to learn Regex
