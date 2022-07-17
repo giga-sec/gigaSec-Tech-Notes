@@ -18,10 +18,12 @@ Tags: #fleeting
 - prints all the system information such as Os used, Date/Time, CPU-Architecture etc..
 
 `ps -eF`
-- Shows log inned user names, CMD used like is it bash or smtnh
+- Shows log-in users, CMD used like is it bash or smtnh
 
 
-
+**Know more details about a file**
+- `file notepad.txt`
+- `notepad.txt: ASCII text, with no line interaction` 
 
 
 
