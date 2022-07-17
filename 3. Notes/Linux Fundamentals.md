@@ -1,6 +1,4 @@
-## [[Linux Commands for INFORMATION Gathering]]
-[[MOC Networking]]
-
+[[MOC Linux]]
 # TryHackMe - Linux Fundamentals
 Created:  [[2022-04-26]]
 Tags: #fleeting 
@@ -15,7 +13,7 @@ Tags: #fleeting
 
 
 [[Processes on Linux]]
-[[Killing Processes on linux and more options we can add]]
+[[kill - Killing Processes on linux]]
 
 
 
@@ -87,8 +85,3 @@ You can see the bad login attempts to your Linux system with: lastb The command 
 Want to see the file permission on a directory in Linux? Using ls -l won't work as it shows the content of directory. To see the file permissions of directory, use: ls -ld With the d option, it lists the directory, not its content.
 ![[Pasted image 20220708103417.png]]
 
-
-
-
- ### References
-1. 
