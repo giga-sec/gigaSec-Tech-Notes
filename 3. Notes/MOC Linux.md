@@ -8,7 +8,7 @@ This MOC is dedicated to things that relate to
 
 [[Installing fonts in Linux]]
 
-[[Tile Manager in Linux]]
+[[Window TIling Manager in Linux]]
 
 [[Arch Linux Installation]]
 
