@@ -13,7 +13,7 @@ Each process will have an ID associated with it, known as PID.
 The PID increments as it launches. For instance, we launch the process with PID `300`, when the process is stopped and we launch it again, it will be `301` 
 
 
-[[Killing Processes on linux and more options we can add]]
+[[kill - Killing Processes on linux]]
 
 
 
