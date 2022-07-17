@@ -5,16 +5,6 @@ Created:  [[2022-06-16]]
 Tags: #fleeting 
 
 ---
-[[Linux Shell Operators like `&` or `&&`]]
-
-
-## [[Linux Commands for INFORMATION Gathering]]
-
-
-**Know more details about a file**
-- `file notepad.txt`
-- `notepad.txt: ASCII text, with no line interaction` 
-
 
 
 ## FINDING Files
