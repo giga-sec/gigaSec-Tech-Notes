@@ -20,8 +20,6 @@ Examples such as:
 
 
 
-
-
 ### Related:
 This also extends the functionality of a command
 [[Linux Shell Operators like `&` or `&&`]]
@@ -34,11 +32,3 @@ This also extends the functionality of a command
 
 
 
-
-
-
-
-
-
-### References
-1. 
