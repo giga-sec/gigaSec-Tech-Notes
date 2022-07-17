@@ -19,6 +19,8 @@ Tags: #fleeting
 
 [[SCP - Securely transfer files using SSH Protocol]]
 
+[[GREP - uses regex to search texts in linux files]]
+
 
 [[Software Repos and Packages]]
 
