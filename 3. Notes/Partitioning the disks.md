@@ -1,4 +1,4 @@
-
+[[Arch Linux Installation]]
 
 # Partition the disks
 Created:  [[2022-07-15]]
