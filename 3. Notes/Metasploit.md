@@ -1,4 +1,4 @@
-
+[[MOC Cybersecurity]]
 
 # Metasploit
 Created:  [[2022-07-16]]
@@ -27,11 +27,16 @@ Metasploit Framework
 `Tools`: Stand-alone tools that help vuln research, vuln assessment, or pen testing
             msfvenom, pattern_create and pattern_offset.
 
+
 Clarifying Concepts
-Exploit: A piece of code that uses a `vulnerability` present on the target system.
+Exploit: A code that takes advantage of `vulnerability` present on system.
 Vulnerability: A design, coding, or logic flaw affecting the target system.
 Payload: An exploit will take advantage of a vulnerability. 
     **However, if we want the exploit to have the result we want** (gaining access to the target system, read confidential information, etc.), we need to use a payload. Payloads are the code that will run on the target system.
+
+
+
+
 
 
 
