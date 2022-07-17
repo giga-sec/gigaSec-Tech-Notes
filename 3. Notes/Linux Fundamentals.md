@@ -1,3 +1,4 @@
+## [[Linux Commands for INFORMATION Gathering]]
 [[MOC Networking]]
 
 # TryHackMe - Linux Fundamentals
@@ -6,21 +7,6 @@ Tags: #fleeting
 
 ---
 [[Common Directories-Folders of Linux]]
-
-
-
-### Using Linux Terminal
-
-[[Linux Commands to navigate file system]]
-
-
-[[SSH - Remotely execute commands on another device]]
-
-
-[[SCP - Securely transfer files using SSH Protocol]]
-
-[[GREP - uses regex to search texts in linux files]]
-
 
 [[Software Repos and Packages]]
 
@@ -31,6 +17,25 @@ Tags: #fleeting
 [[Processes on Linux]]
 [[Killing Processes on linux and more options we can add]]
 
+
+
+### Using Linux Terminal
+
+[[Linux Commands to navigate file system]]
+
+[[Linux Commands for INFORMATION Gathering]]
+
+[[Linux Shell Operators like `&` or `&&`]]
+
+
+
+### Specific Linux Commands 
+
+[[SSH - Remotely execute commands on another device]]
+
+[[SCP - Securely transfer files using SSH Protocol]]
+
+[[GREP - uses regex to search texts in linux files]]
 
 
 
