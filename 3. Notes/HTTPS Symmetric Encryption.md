@@ -22,19 +22,10 @@ Finally, You've communicated the `secret code` without people snooping in
 
 Conclusion:
 In this metaphor
-the `secret code` represents `symmetric encryption KEY`
+the `secret code` represents **[[SYMmetric Encryption]] key**
 the `lock` represents `server's PUBLIC key`
 
 
 
 
 
-
-
-
-
-
-
-
-## References
-1. 
