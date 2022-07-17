@@ -1,4 +1,4 @@
-
+[[MOC Linux]]
 
 # Arch Linux Installation
 Created:  [[2022-07-15]]
