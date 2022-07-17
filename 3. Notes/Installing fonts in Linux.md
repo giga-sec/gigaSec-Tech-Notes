@@ -5,10 +5,6 @@ Created:  [[2022-07-15]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
 Make a new folder in home directory `.fonts`
 Just put all the custom fonts there
 
