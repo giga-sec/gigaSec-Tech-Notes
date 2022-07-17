@@ -11,11 +11,8 @@ Tags: #fleeting
  [[Encryption Lingo]]
 
 
-## How services prove their identity
+## How webservers prove their identity
 Webservers prove their identity through [[Certificates - verifies legitimacy of websites|certificate]]
-
-
-
 
 
 ## Types of Encryption
