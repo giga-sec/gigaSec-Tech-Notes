@@ -8,17 +8,7 @@ Tags: #fleeting
 [[Linux Shell Operators like `&` or `&&`]]
 
 
-## INFORMATION
-`pwd` -> **print working directory**
-- print the current location of folder/directory
-
-`whoami` ->
-- prints the user name
-
-`id` 
-- prints lots of info such as user name, user id and such
-
-
+## [[Linux Commands for INFORMATION Gathering]]
 
 
 **Know more details about a file**
@@ -48,20 +38,9 @@ Tags: #fleeting
 
 
 Linux
-
--   whoami
--   id
 -   ifconfig/ip addr
--   uname -a
--   ps -ef
 
-Windows
 
--   whoami
--   ver
--   ipconfig
--   tasklist
--   netstat -an
 
 
 
