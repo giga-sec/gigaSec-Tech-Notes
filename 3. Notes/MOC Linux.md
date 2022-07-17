@@ -1,4 +1,4 @@
-
+[[+Home]]
 
 # MOC Linux
 This MOC is dedicated to things that relate to
