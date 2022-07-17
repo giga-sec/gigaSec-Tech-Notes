@@ -6,9 +6,9 @@
 
 [[MOC Graph Theory]]
 
-[[GIT Basics]]
-
 [[MOC CS50]]
+
+[[GIT Basics]]
 
 [[RegEX - Regular Expressions]]
 
@@ -41,7 +41,6 @@ https://denigma.app
 
 [[You will always have more Problems than solutions]]
 
-
 [[Advice I found in reddit about programming]]
 
 
@@ -59,21 +58,10 @@ Buffer in programming is a temporary placeholder. Used a lot in context of trans
 
 
 
-## Languanges
-
-[[MOC C++]]
+## [[MOC Programming Languanges]]
 
 
-[[File Handling in C]]
 
-
-[[C - Print Leading Zeros in C]]
-
-
-C compilers, sees code top to bottom, left to right
-
-
-[[Javascript]]
 
 
 I know!, HTML is not a programming languange, just wait. I'll organize it
