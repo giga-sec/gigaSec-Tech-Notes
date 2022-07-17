@@ -5,12 +5,6 @@ Created:  [[2022-07-15]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
-DWM
--> Separate monitors have their own unique workspaces
 
 
 
