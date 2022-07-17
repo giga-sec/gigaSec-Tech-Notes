@@ -23,6 +23,7 @@ This MOC is dedicated to things that relate to everything that I've learned when
 
 [[LAB6 - World Cup]]
 
+[[Problem Set 6 - Credit]]
 
 
 
