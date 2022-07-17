@@ -1,4 +1,4 @@
-
+[[Partitioning the disks]]
 
 # Types of Partition Table
 Created:  [[2022-07-16]]
@@ -8,7 +8,7 @@ Tags: #fleeting
 - Master Boot Record
 - GUID Partition Table (GPT)
 - partitionless disk
-
+---
 
 ## Master Boot Record
 - First 512 bytes of a storage device
@@ -88,4 +88,4 @@ Every start of GUID Partition Table
 
 
 ## References
-1. 
+1. https://wiki.archlinux.org/title/Installation_guide#Installation
