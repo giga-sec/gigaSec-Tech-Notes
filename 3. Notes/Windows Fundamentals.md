@@ -17,7 +17,12 @@ Manuals of CMD commands
 
 
 
-
+Windows
+-   whoami
+-   ver
+-   ipconfig
+-   tasklist
+-   netstat -an
 
 
 
