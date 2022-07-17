@@ -12,6 +12,15 @@ Tags: #fleeting
 `pwd` -> **print working directory**
 - print the current location of folder/directory
 
+`whoami` ->
+- prints the user name
+
+`id` 
+- prints lots of info such as user name, user id and such
+
+
+
+
 **Know more details about a file**
 - `file notepad.txt`
 - `notepad.txt: ASCII text, with no line interaction` 
@@ -23,7 +32,7 @@ Tags: #fleeting
 `find -name <filename.txt>` --> search every directory with a file named `filename.txt`
 `find -name *.txt` --> To find all .txt files
 
-[[grep command]]
+[[GREP - uses regex to search texts in linux files]]
 
 
 
