@@ -10,19 +10,22 @@
 
 [[MOC Cybersecurity]]
 
-[[MOC Obsidian]]
-
-[[MOC Browser]]
-
 [[MOC Linux]]
 
-
+[[MOC Windows]]
 
 [[Windows Fundamentals]]
 
 
+
+
+
+
 [[VIM 101]]
 
+[[MOC Browser]]
+
+[[MOC Obsidian]]
 
 
 
@@ -30,9 +33,6 @@
 
 [[VSCODE Keyboard Shortcuts]]
 
-
-Track an event of launching a certain program (process) in Windows and perform
-http://woshub.com/run-script-when-app-opens-closes/
 
 
 
