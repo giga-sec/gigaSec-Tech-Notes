@@ -30,9 +30,14 @@ from sys import argv, exit
 ```
 
 
+Floor Division
+When doing arithmetic with large numbers, use floor Division
+`3534564675464565464564564 // 10`
+
+
 
 Python - File Handling
-Opening csv file
+    Opening csv file
 
 Libraries Needed
 ```Python
@@ -68,7 +73,6 @@ Will be recompiled and new bytecode files will be created again.
 
 
 
-[[Problem Set 6 - Credit]]
 
 
 
