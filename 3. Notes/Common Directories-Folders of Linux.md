@@ -6,10 +6,10 @@ Tags: #permanent
 
 ---
 Abstract:
-/etc -> passwd, shadow, sudoers.d
-/var -> /var/log
-/root
-/tmp 
+`/etc` -> passwd, shadow, sudoers.d
+`/var` -> /var/log
+`/root`
+`/tmp `
 
 ---
 ## `/bin`
