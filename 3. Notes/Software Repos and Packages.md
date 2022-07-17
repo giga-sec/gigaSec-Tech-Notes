@@ -13,6 +13,12 @@ Tags: #fleeting
 [[appimage file installer in linux]]
 
 
+
+
+
+
+
+
 When developers wish to submit software to the community, 
 they will submit it to an  "apt" repository. 
 If approved, their programs and tools will be released into the wild. 
@@ -31,15 +37,15 @@ Apt contains tools that allows us
 - to install or remove software
 
 
-Adding and removing a repository using the 
+## Adding and removing repository 
 `add-apt-repository` 
 Whilst you can install software through the use of package installers such as `dpkg`, 
-Benefits of apt 
+### Benefits of apt 
 - IF -> whenever we update our system
 - THEN -> repository that contains softwares that we add also gets checked for updates
 
 
-In this example, 
+## Example
 we're going to add the text editor Sublime Text to our Ubuntu machine 
 as a repository as it is not a part of the default Ubuntu repositories. 
 When adding software, the integrity of what we download is guaranteed by the use of what is called GPG (Gnu Privacy Guard) keys. 
