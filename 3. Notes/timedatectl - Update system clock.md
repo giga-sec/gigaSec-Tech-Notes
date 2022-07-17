@@ -8,6 +8,7 @@ Tags: #fleeting
 `timedatectl set-ntp true`
 `timedatectl status`
 
+
 `set-timezone Asia/Manila`
 
 
