@@ -97,8 +97,5 @@ Update: Changes did work
 - Awesome, I spent less time rereading the note for trimming down the details. When writing it by myself, I understood the text better as naturally, you're gonna read it slowly. Then I can also spent time cutting down unnecessary details to reduce the words.
 
 
-Plan:
-Make a default tutorial page when they first opened my vault. Like letting the newcomers know how to use the hyperlinks. Basically freeing the amount of text to be read in readme.md 
-
 Learn some stats and AI and ML
 Math, stats, algo, data structures, architecture
