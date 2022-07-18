@@ -44,20 +44,6 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 2-> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo 
 
 3-> After doing the step above. You will be presented with two choices  
-- _Keep Safe Mode on_
-- _Turn Off Sade Mode_
-
-??-> **Keep Safe Mode on**
-
----> Turns off every plugins I installed
-
----> All plugins and customizations are stored in the `.obsidian` hidden folder
-
-??-> **Turn off Safe Mode**
-
----> Basically a full replica of my vault. 
-
----> It keeps all my customizations and installed plugins enabled 
 
 
 There are only three plugins installed in my vault and only used for customization
@@ -69,8 +55,3 @@ There are only three plugins installed in my vault and only used for customizati
 3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
 
 
-
-As of this writing June 07, 2022
-- I will no longer be updating the changes in readme file
--> No update changes for plugins I've installed.
-- Rest assured that info written here are still relevant and helpful
