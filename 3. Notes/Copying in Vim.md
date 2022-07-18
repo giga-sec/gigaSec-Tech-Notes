@@ -5,10 +5,6 @@ Created:  [[2022-07-09]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
 `count <command>`
 
 Copy two lines
