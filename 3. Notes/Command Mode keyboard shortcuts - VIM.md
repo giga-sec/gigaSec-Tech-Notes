@@ -9,8 +9,22 @@ Tags: #fleeting
 
 [[Deletion in Command Mode keyboard shortcuts - VIM]]
 
+[[Copying in Command Mode keyboard shortcuts - VIM]]
+
+[[Cursor Location in Command Mode keyboard shortcuts - VIM]] 
+
+[[Command TO INSERT MODE Keyboard Shortcuts- VIM]]
 
 
+
+`Ctrl + o`
+Go to the previous cursor you were before
+
+
+VERY USEFUL IN CODING
+`%`
+Matching Parenthesis Searc
+Basically, it automatically goes to the (), {} or []
 
 ### Motion in command mode.
 commands that lets you move cursor
