@@ -1,4 +1,4 @@
-[[Introduction]]  **<- Click here to go back** 
+[[Introductio]]  **<- Click here to go back** 
 
 # How I take notes
 Created:  [[2022-07-16]]
@@ -36,6 +36,9 @@ Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
 With this, it seems like a long hectic note taking method but here is where [Progressive Summarization](https://fortelabs.co/blog/series/ps/) comes into play. Basically the whole idea of it is to only modify each note by chance. Meaning if I haven't touched the note for so long, then I don't need to do anything at all. It can be safely ignored no matter if the status of note is `#fleeting`. Doesn't matter, the note will stay intact in my system.
 
+`#myquestion `
+- Exactly, that's it. My questions or confusion about a topic. 
+- I usually don't answer them
 
 
 

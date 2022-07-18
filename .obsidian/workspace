@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Introductio.md",
+            "file": "3. Notes/Structure of my notes.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Introductio.md",
+                "file": "3. Notes/Structure of my notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Notes/Introductio.md"
+                "file": "3. Notes/Structure of my notes.md"
               }
             }
           }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Introductio.md",
+                "file": "3. Notes/Structure of my notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,15 +156,15 @@
   },
   "active": "35e7fe2e4bd65c0e",
   "lastOpenFiles": [
-    "3. Notes/How I take notes.md",
     "0. Files/Introduction.md",
     "3. Notes/I'm ready! Now take me to your notes.md",
     "3. Notes/+Home.md",
     "3. Notes/Quick guide about using my Obsidian Vault.md",
     "3. Notes/Structure of my notes.md",
     "3. Notes/Introductio.md",
+    "3. Notes/How I take notes.md",
+    "3. Notes/How I take note.md",
     "3. Notes/MOC Obsidian.md",
-    "3. Notes/Socials.md",
-    "3. Notes/What is a hyperlink.md"
+    "3. Notes/Socials.md"
   ]
 }
