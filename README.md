@@ -72,4 +72,5 @@ There are only three plugins installed in my vault and only used for customizati
 
 As of this writing June 07, 2022
 - I will no longer be updating the changes in readme file
+-> No update changes for plugins I've installed.
 - Rest assured that info written here are still relevant and helpful
