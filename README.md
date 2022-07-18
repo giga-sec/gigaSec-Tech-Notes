@@ -16,11 +16,6 @@ Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkast
 
 
 ---
-# Contents:
-- Screenshots (Contains LIGHT MODE media)
-- Installation Process to be able to use my notes
----
-
 ## Screenshots (!Warning! Light Mode media below)
 
 Dark Mode 
