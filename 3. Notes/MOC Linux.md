@@ -13,6 +13,16 @@ This MOC is dedicated to things that relate to
 [[Arch Linux Installation]]
 
 
+Set Volume Control in Terminal
+In arch
+`pamac install alsa-utils`
+Command: `amixer set Master 30%`
+
+
+Installing Metasploit in Manjaro
+https://techviewleo.com/install-metasploit-framework-on-arch-manjaro-garuda-linux/
+https://techviewleo.com/install-postgresql-on-arch-manjaro-garuda-linux/
+
 
 ### Extras:
 
