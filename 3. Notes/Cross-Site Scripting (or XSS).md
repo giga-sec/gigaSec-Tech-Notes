@@ -23,6 +23,7 @@ Reflected XSS
 Your payload (string in this case) gets inputted directly into the page
 No Jscript is loaded before hand, neither is anything processed in DOM before hand.
 
+
 DOM-Based XSS
 -> DOM (Document Object Model)
 -> DOM is Programming interface for HTML and XMl docs
@@ -34,6 +35,7 @@ Common Payload Types used
 - Override the website's HTML to add the malicious ting
 - XSS Keylogger
 - Port Scanning
+
 
 website that has XSS related Payloads, Tools, Documentation and more
 http://www.xss-payloads.com
