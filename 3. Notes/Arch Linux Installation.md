@@ -5,10 +5,6 @@ Created:  [[2022-07-15]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
 [[iwctl - Connecting to a network using Wifi]]
 
 [[timedatectl - Update system clock]]
