@@ -6,10 +6,11 @@ Tags: #fleeting
 
 ---
 Make a new folder in home directory `.fonts`
+`mkdir ~/.fonts
 Just put all the custom fonts there
 
-
-
+Font Awesome, fonts for icons
+https://fontawesome.com/v5/cheatsheet/free/brands
 
 
 
