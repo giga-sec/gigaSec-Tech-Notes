@@ -51,5 +51,8 @@ Severity 8: [[Insecure Deserialization]]
 
 Severity 9: [[Components with Known Vulnerabilities]]
 
+
+Severity 10: [[Insufficient Logging and Monitoring]]
+
 ### References
 1. 

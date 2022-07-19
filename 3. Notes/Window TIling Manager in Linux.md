@@ -5,9 +5,11 @@ Created:  [[2022-07-15]]
 Tags: #fleeting 
 
 ---
+**Sway**
 Disable Clipboard History 
 `/etc/sway/config.d/99-autostart-applications.conf`
 
+**[[i3]]**
 
 
 
