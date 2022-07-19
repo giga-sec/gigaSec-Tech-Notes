@@ -42,14 +42,3 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 2-> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo 
 
 3-> After doing the step above. You will be presented with two choices  
-
-
-There are only three plugins installed in my vault and only used for customization
-
-1. [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings)
-
-2. [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
-
-3. [Advance Table Editing](https://github.com/tgrosinger/advanced-tables-obsidian)
-
-
