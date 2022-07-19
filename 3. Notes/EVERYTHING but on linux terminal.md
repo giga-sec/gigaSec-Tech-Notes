@@ -1,4 +1,4 @@
-[[Linux Commands to navigate file system]]
+[[Navigate file system - Linux Commands]]
 
 # EVERYTHING but on linux terminal
 Created:  [[2022-06-22]]
