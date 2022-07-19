@@ -34,9 +34,10 @@ Exploit devs rarely make you read hundreds of lines of codes just to figure out 
 Check for recent unauthenticated bookstore app rce's.
 `2017`, was the site created in this year?
 
-- [ ] Let's first download wpscan to find the version of services used
-- [ ] Let's first determine what wpscan can do
+- [x] Let's first download wpscan to find the version of services used
+- [x] Let's first determine what wpscan can do
 
+Wpscan: The website is up but doesn't seem to be running wordpress
 
 
 Question
