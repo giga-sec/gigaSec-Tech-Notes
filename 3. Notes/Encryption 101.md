@@ -8,7 +8,7 @@ Tags: #fleeting
 -   2 methods of Key Exchange
 
 
- [[Encryption Lingo]]
+[[Encryption Lingo]]
 
 
 ## How webservers prove their identity
@@ -28,18 +28,17 @@ Uses Public and Private Key
 Uses [[SYMmetric Encryption]] in communicating between webservers
 
 
-
-
 ## Standards for services to comply
 [PCI-DSS](https://www.pcisecuritystandards.org/documents/PCI_DSS_for_Large_Organizations_v1.pdf) states data should be encrypted both at rest (in storage) AND while being transmitted.
 - payment card details, you need to comply with these PCI regulations.
 
 
 
-
 ## Uncategorized
 [[SSH Key Authentication in Cryptography]]
 
+
+[[Explaining Diffie Hellman Key Exchange]]
 
 [[Quantum Computers and the future of Encryption]]
 
