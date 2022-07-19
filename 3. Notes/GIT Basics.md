@@ -8,6 +8,7 @@ Tags: #fleeting
 Git synchronization 
 https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24caea37b8a5
 
+[[HTTPS vs SSH, what to choose in github]]
 
 
 Create a new repository
