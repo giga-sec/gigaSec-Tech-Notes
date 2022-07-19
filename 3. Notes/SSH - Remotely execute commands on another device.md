@@ -12,10 +12,12 @@ Tags: #permanent
 ==**Data sent is encrypted**== for travelling over a network and **only decrypted when it has reaches the remote machine**.
 ![[ssh1.png|400]]
 
+SSH uses port 22
+authentication is done through public-key cryptography, [[SSH Key Authentication in Cryptography]]
+
 
 [[SCP - Securely transfer files using SSH Protocol]]
 
-[[SSH Key Authentication in Cryptography]]
 
 
 

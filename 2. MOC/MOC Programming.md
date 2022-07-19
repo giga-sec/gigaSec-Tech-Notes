@@ -28,7 +28,6 @@ https://denigma.app
 
 ## Uncategorized
 
-[[sizeof values in each data type of C]]
 
 
 [[Modulus Operator]]

@@ -5,6 +5,10 @@ Created:  [[2022-07-17]]
 Tags: #fleeting 
 
 ---
+`free` -> displays free amount of memory
+
+`df` -> displays free space on hard drive
+
 `pwd` -> **print working directory**
 - print the current location of folder/directory
 

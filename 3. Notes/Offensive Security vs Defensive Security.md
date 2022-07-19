@@ -11,7 +11,7 @@ Tags: #literature
 - The jobs of Defensive Security
 
 ---
-## Offensive security 
+## Offensive security (Red Team) 
 - breaks into computer systems, 
 - exploiting software bugs, and 
 - finding loopholes in applications to gain unauthorized access to them.
@@ -19,7 +19,7 @@ Tags: #literature
 To beat a hacker, you need to behave like a hacker, finding vulnerabilities and recommending patches before a cybercriminal does.
 
 
-## Defensive Security, 
+## Defensive Security (Blue Team)
 - investigating infected computers to understand how it was hacked
 - tracking down cybercriminals 
 - monitoring infrastructure for malicious activity.
@@ -44,6 +44,11 @@ Understands what a malware is exactly doing thus possibily creating a plan to pr
 Malicious Hackers would 
 - use malicious softwares in any stage of their attack cycle 
 - from gaining access to a system to maintaining persistence. 
+
+
+### Resources to learn for Blue Tema
+https://blueteamlabs.online/
+https://securityblue.team/
 
 
 

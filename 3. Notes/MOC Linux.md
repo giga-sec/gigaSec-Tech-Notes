@@ -16,12 +16,13 @@ This MOC is dedicated to things that relate to
 Set Volume Control in Terminal
 In arch
 `pamac install alsa-utils`
+
+
+Setting Volume In Terminal
 Command: `amixer set Master 30%`
 `amixer set -c 1 Master 30%` 
-`-c`
-0 numbering is used for sound card 
-chooses the sound card
-Pavucontrol
+`-c` switch chooses the sound card
+`Pavucontrol`
 
 
 Installing Metasploit in Manjaro

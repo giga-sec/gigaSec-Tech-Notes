@@ -11,19 +11,17 @@ Tags: #literature
 
 [[How communication happens between webserver and client-user]]
 
-[[Why are cookies used in HTTP]]
-
 ---
 https://robertheaton.com/2014/03/27/how-does-https-actually-work/
+[[HTTPS in detail]]
 
-HTTP  
-**set of rules** for **==communicating with [[Web server and different ways we make request to it|web servers]] for the sending of webpage data==, whether that is HTML, Images, Videos, etc**. 
+What is an HTTP  
+- **set of rules** for **==communicating with [[Web server and different ways we make request to it|web servers]] for the sending of webpage data==, whether that is HTML, Images, Videos, etc**. 
 
+- **stateless (doesn't keep track of previous requests)** 
+    therefore can't remember who you are 
+    thus [[Why are cookies used in HTTP|cookies]] are used to remember you .
 
-HTTP
-**stateless (doesn't keep track of previous requests)** 
-therefore can't remember who you are 
-thus [[Why are cookies used in HTTP|cookies]] are used to remember you .
 
 
 ### [[How communication happens between webserver and client-user]]
@@ -35,7 +33,7 @@ If webserver's response `OK`,
 
 
 [[Cookies 101]]
-
+[[Why are cookies used in HTTP]]
 
 
 

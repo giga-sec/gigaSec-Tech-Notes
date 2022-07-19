@@ -8,7 +8,7 @@ Tags: #fleeting
 Are a way to prove the authenticity of files
 - Proving who created or modified them
 
-Using ASYmmetric cryptography, 
+Using ASYmmetric cryptography, [[ASYmmetric Encryption]] 
 You produce a `signature` by -> `private key`
 Then verified through -> `public key`
 

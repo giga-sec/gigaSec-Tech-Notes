@@ -17,7 +17,7 @@ Webservers prove their identity through [[Certificates - verifies legitimacy of 
 
 ## Types of Encryption
 1. [[SYMmetric Encryption]] 
-Uses SAME `key` to encrypt/decrept
+Uses SAME [[key]] to encrypt/decrept
 
 
 2. [[ASYmmetric Encryption]] 
@@ -40,7 +40,13 @@ Uses [[SYMmetric Encryption]] in communicating between webservers
 
 [[Explaining Diffie Hellman Key Exchange]]
 
+
+[[Key Exchange explained]]
+
+
 [[Quantum Computers and the future of Encryption]]
+
+
 
 
 

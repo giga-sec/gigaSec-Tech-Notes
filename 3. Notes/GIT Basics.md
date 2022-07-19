@@ -5,6 +5,11 @@ Created:  [[2022-05-09]]
 Tags: #fleeting  
 
 ---
+Git synchronization 
+https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24caea37b8a5
+
+
+
 Create a new repository
 `git init`
 
@@ -23,6 +28,19 @@ From "Working Directory" to "Index"
 For GUI Access
 `gitk`
 
+
+
+`git add -u`
+```bash
+# stage the changed files
+git add file1.md file2.md
+
+# take a snapshot of the staging area (anything that's been added)
+git commit -m "my snapshot"
+
+# push changes to github
+git push --set-upstream origin my-branch
+```
 
 
 

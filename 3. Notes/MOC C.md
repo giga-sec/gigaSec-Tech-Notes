@@ -6,6 +6,9 @@
 C compilers, sees code top to bottom, left to right
 
 
+[[sizeof values in each data type of C]]
+
+
 
 [[Understanding and Using C Pointers]]
 

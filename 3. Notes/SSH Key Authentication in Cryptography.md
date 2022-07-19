@@ -16,12 +16,12 @@ Some SSH are configured with
 By default, [[SSH - Remotely execute commands on another device|SSH]] keys are [[RSA in CTF|RSA]] keys
 But you can
 - choose what algorithm to generate
-- add a passphrase to encrypt the `SSH key`
+- add a [[passphrase]] to encrypt the `SSH key`
 `ssh-keygen` can do all of that above
 - used to generate pairs of keys
 
 
-The `~/.ssh` folder is the default place to store these keys for OpenSSH.
+The `~/.ssh` folder is the default place to store these [[Key]]s for OpenSSH.
 `authorized_keys` - holds public keys that are allowed to access the server if key authentication is enabled
 
 

@@ -6,10 +6,6 @@ Created:  [[2022-07-08]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
 - Injection
 - Broken Authentication
 - Sensitive Data Exposure
@@ -54,5 +50,5 @@ Severity 9: [[Components with Known Vulnerabilities]]
 
 Severity 10: [[Insufficient Logging and Monitoring]]
 
-### References
-1. 
+
+
