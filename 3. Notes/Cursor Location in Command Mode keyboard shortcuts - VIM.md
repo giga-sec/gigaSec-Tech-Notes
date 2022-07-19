@@ -12,7 +12,8 @@ Tags: #fleeting
 `<number>`G to jump to that `<number>` line
     Example: `45G` jumps cursor to line 45 
 
-
+`Ctrl + o`
+Go to the previous cursor you were before
 
 
 
