@@ -1,4 +1,4 @@
-[[Linux Commands to navigate file system]]
+[[Navigate file system - Linux Commands]]
 
 # Linux File Manipulation (Rename, Move, Delete, Copy)
 Created:  [[2022-06-22]]
