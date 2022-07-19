@@ -17,8 +17,7 @@ Tags: #fleeting
 
 
 
-`Ctrl + o`
-Go to the previous cursor you were before
+
 
 
 VERY USEFUL IN CODING
