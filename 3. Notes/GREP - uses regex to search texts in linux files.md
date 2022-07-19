@@ -1,4 +1,4 @@
-[[Linux Commands to navigate file system]]
+[[Navigate file system - Linux Commands]]
 
 # grep, global regular expression print
 Created:  [[2022-07-06]]
