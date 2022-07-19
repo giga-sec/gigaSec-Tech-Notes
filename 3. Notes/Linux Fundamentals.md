@@ -19,9 +19,9 @@ Tags: #fleeting
 
 ### Using Linux Terminal
 
-[[Linux Commands to navigate file system]]
+[[Navigate file system - Linux Commands]]
 
-[[Linux Commands for INFORMATION Gathering]]
+[[INFORMATION Gathering - Linux Commands]]
 
 [[Linux Shell Operators like `&` or `&&`]]
 
