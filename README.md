@@ -1,3 +1,6 @@
+#Note: 
+The repository might be a mess. I'm currently experimenting on git right now.
+
 # Summary
 To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
