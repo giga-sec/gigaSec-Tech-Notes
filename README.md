@@ -44,6 +44,5 @@ It will show you a warning whether to trust author (that's me).
 
 I assure you that no plugins causes harm. This plugins are written by the community and are open source. It's not written by me
 
-You can check the installed plugins here
-
-`Tech-Notes/.obsidian/plugins`
+Check the installed plugins here 
+--> `Tech-Notes/.obsidian/plugins`
