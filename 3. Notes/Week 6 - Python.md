@@ -43,27 +43,8 @@ When doing arithmetic with large numbers, use floor Division
 
 
 
-Python - File Handling
+[[Python - File Handling]]
     Opening csv file
-
-Libraries Needed
-```Python
-import csv
-```
-
-Syntax to open a file
-```Python
-file = open("file_name.csv", "method_used")
-file.close()  # Always close file
-```
-
-More syntax to open a file
-```Python
-with open("phonebook.csv", "a") as file:
-    writer = csv.writer(file)
-    writer.writerow((name, number))
-    # with automatically closes file for us
-```
 
 
 ## Caching in Python
