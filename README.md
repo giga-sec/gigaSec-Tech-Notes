@@ -40,6 +40,8 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 3-> After doing the step above. You will be presented with two choices
 
+## Installation Warning
+
 It will show you a warning whether to trust author (that's me). 
 
 I assure you that no plugins causes harm. This plugins are written by the community and are open source. It's not written by me
