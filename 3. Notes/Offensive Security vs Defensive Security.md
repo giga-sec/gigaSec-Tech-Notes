@@ -49,7 +49,7 @@ Malicious Hackers would
 ### Resources to learn for Blue Tema
 https://blueteamlabs.online/
 https://securityblue.team/
-
+https://letsdefend.io/
 
 
 
