@@ -12,6 +12,8 @@
 
 [[RegEX - Regular Expressions]]
 
+[[Kata - Codewars]]
+
 https://roadmap.sh/
 
 ## Books
