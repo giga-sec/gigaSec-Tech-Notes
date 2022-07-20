@@ -88,6 +88,30 @@ IF -> two DNA samples match in the number of repeats for each of the STRs,
 THEN -> the analyst can be pretty confident they came from the same person.
 
 
+### What does a DNA database look like?
+```cs
+name,AGAT,AATG,TATC
+Alice,28,42,14
+Bob,17,22,19
+Charlie,36,18,25
+```
+`.csv` file above ^    // `C#` is the syntax to add color highlighting
+Alice has a DNA sequence `AGAT` repeated for `28` times
+Alice also has `AATG` repeated `42` times
+Bob has `TATC` repeated `19` times
+
+
+### So given a sequence of DNA, how might you identify to whom it belongs? 
+Well, imagine that 
+you looked through the DNA sequence for 
+-> longest consecutive sequence of repeated `AGAT`s 
+-> you found  longest sequence was `17` repeats long. 
+-> IF you then found that
+    longest sequence of `AATG` is `22` repeats long and, 
+    longest sequence of `TATC` is `19` repeats long, 
+-> THEN that would provide pretty good evidence that the DNA was Bob’s. 
+
+Of course, it’s also possible that once you take the counts for each of the STRs, it doesn’t match anyone in your DNA database, in which case you have no match.
 
 
 
