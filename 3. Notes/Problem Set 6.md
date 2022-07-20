@@ -63,13 +63,14 @@ average_sentences = (sentences / words) * 100
 ### Explanation of the concept
 Basically the goal of DNA profiling is to have a certain piece of human body analyzed and compared by a certain person to identify if that certain piece of human body belongs to that certain person.
 
+Matching   STR counts can be used to identify who a sample of DNA belogns to 
+
 Given a sequence of DNA, how can forensic investigators identify to whom it belongs?
 
 DNA is really just a sequence of nucleotides
 Each nucleotide of DNA contains 
 - one of four different bases: adenine (A), cytosine (C), guanine (G), or thymine (T)
 
-Some portions of this sequence (i.e., genome) are the same, or at least very similar, across almost all humans, but other portions of the sequence have a higher genetic diversity and thus vary more across the population.
 
 Short Tandem Repeats (STRs)
 - High Genetic Diversity
@@ -106,7 +107,7 @@ Bob has `TATC` repeated `19` times
 Well, imagine that you have a pair of sequence of DNA
 you analyzed that pair of DNA and compared it to the DNA database 
 -> IF you then found that
-    longest sequence of `AGAT`s was `17` repeats long. 
+    longest sequence of `AGAT` was `17` repeats long. 
     longest sequence of `AATG` is `22` repeats long and, 
     longest sequence of `TATC` is `19` repeats long, 
 -> THEN, looking at the DNA database. It matches with the DNA database of BOB. Which is a  pretty good evidence that the sequence of DNA was Bob’s. 
@@ -122,6 +123,62 @@ Your task is to write a program that will
 
 
 ### What to do
+#### Open CSV file
+- opens the CSV file and read its contents into memory.
+- [ ]  store each line of data into a data structure
+
+#### Open the DNA sequence
+- open the DNA sequence and read its contents into memory.
+- [ ] store each line into a data structure
+
+#### Compute Longest Run
+For each of the STRs 
+Notice that we’ve defined a helper function for you, `longest_match`, which will do just that!
+- [x] Where should I find out the consecutive repeats
+    - [x] It says CSV file yet the file already contains how many repeats the person has
+    - [x] Its most likely the `.txt` file, but I maybe wrong
+- [x] Calculate how many times each STR repeats consecutively
+    - [ ] Use `longest_match()` function here ^
+    - [ ] Longest_match = DNA sequence and an STR as inputs, returns the maximum number of times that the STR repeats.
+    - [ ] How do we store the counts of RSA?
+        - [ ] How can we have it so that it remembers the data being stored and increments when needed
+        - [ ] And make it flexible to any length of headers 
+- [ ] Compare the counts against every row in the CSV file to look for a match
+- [ ] What does sequence mean?
+- [ ] What does subsequence mean?
+- [ ] Why does this thing below matter? 
+    --> longest run of consecutive repeats of STR in DNA sequence
+
+The biggest value of the repeated texts is the 
+ -> longest run of consecutive STR
+
+For each position
+keep checking successive substrings
+until STR no longe repeats
+
+See if STR matches once, then see if STR matches twice
+Okay, so what does `STR` contain?
+What value should the `STR` be? 
+So `STR` is the `headers` of the DNA database
+- Maybe what we could do is get the list of `headers` in the DNA database
+    - ^ This will act as a list of `STR`
+- Then starting from index 0, till the length of the STR
+
+
+#### Printing Results
+IF -> STR counts match exactly with any of the individuals in the CSV file, 
+THEN -> your program should print out the name of the matching individual.
+ELSE IF -> STR counts do not match exactly with any of the individuals in the CSV file,
+THEN ->  your program should print `No match`.
+ASSUME -> assume that the STR counts will not match more than one individual.
+
+- [ ] Code: Implement the command line argument code
+- [ ] Learn about CSV
+- [ ] Learn about open and read files
+
+
+
+Done:
 #### Command Line Argument
 Takes 1st command-line arg the name of a `.csv` file
 - Inside of the `.csv` File -> STR counts for a list of individuals
@@ -136,29 +193,6 @@ THEN -> read on ASSUME
 ASSUME -> 
     1st argument is indeed the filename of a valid CSV file 
     2nd argument is the filename of a valid text file.
-
-
-#### Open CSV file
-- opens the CSV file and read its contents into memory.
-
-#### Open the DNA sequence
-- open the DNA sequence and read its contents into memory.\
-
-#### Compute Longest Run
-For each of the STRs (from the first line of the CSV file), 
-program should compute longest run of consecutive repeats of STR in the DNA sequence to identify. 
-Notice that we’ve defined a helper function for you, `longest_match`, which will do just that!
-
-#### Printing Results
-IF -> STR counts match exactly with any of the individuals in the CSV file, 
-THEN -> your program should print out the name of the matching individual.
-ELSE IF -> STR counts do not match exactly with any of the individuals in the CSV file,
-THEN ->  your program should print `No match`.
-ASSUME -> assume that the STR counts will not match more than one individual.
-
-- [ ] Code: Implement the command line argument code
-- [ ] Learn about CSV
-- [ ] Learn about open and read files
 
 
 
