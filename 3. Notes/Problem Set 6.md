@@ -141,7 +141,17 @@ THEN -> assume 1st argument is indeed the filename of a valid CSV file
 #### Open the DNA sequence
 - open the DNA sequence and read its contents into memory.\
 
+#### Compute Longest Run
+For each of the STRs (from the first line of the CSV file), 
+program should compute longest run of consecutive repeats of STR in the DNA sequence to identify. 
+Notice that we’ve defined a helper function for you, `longest_match`, which will do just that!
 
+#### Printing Results
+IF -> STR counts match exactly with any of the individuals in the CSV file, 
+THEN -> your program should print out the name of the matching individual.
+ELSE IF -> STR counts do not match exactly with any of the individuals in the CSV file,
+THEN ->  your program should print `No match`.
+ASSUME -> assume that the STR counts will not match more than one individual.
 
 
 
