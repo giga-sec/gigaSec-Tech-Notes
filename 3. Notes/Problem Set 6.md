@@ -22,11 +22,40 @@ Visa
 
 
 ## Readability
+Coleman-Liu Index
+```Python
+S = "average number of sentences per 100 words in the text"
+L = "average number of letters per 100 words in the text"
+index = 0.0588 * L - 0.296 * S - 15.8
+```
+Example
+The text the user inputted has 
+65 letters, 4 sentences, and 14 words. 
+65 letters per 14 words 
+    is an average of about 464.29 letters per 100 words 
+    because 65 / 14 * 100 = 464.29 
+4 sentences per 14 words 
+    is an average of about 28.57 sentences per 100 words 
+    (because 4 / 14 * 100 = 28.57). 
+
+Plugged into the Coleman-Liau formula, a
+nd rounded to the nearest integer, 
+we get an answer of 3 
+    because 0.0588 * 464.29 - 0.296 * 28.57 - 15.8 = 3
+    so this passage is at a third-grade reading level.
 
 
+- [x] count the number of letters, words, and sentences in the text
+- [x] Word = any sequence of characters separated by spaces should count as a word, 
+- [x] Sentence =  period, exclamation point, or question mark indicates end of a sentence
+- [x] Letters = I guess spaces aren't included in letters
+average_letters = (letters / words) * 100
+average_sentences = (sentences / words) * 100
 
 
-
+- [x] Let's first make a counte for word, sentence and letters
+- [x] Get the average
+- [ ] Plugged it into Coleman_liau Formula
 
 
 
