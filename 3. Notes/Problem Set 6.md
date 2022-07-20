@@ -60,6 +60,8 @@ average_sentences = (sentences / words) * 100
 
 
 ## DNA profiling
+Basically the goal of DNA profiling is to have a certain piece of human body analyzed and compared by a certain person to identify if that certain piece of human body belongs to that certain person.
+
 Given a sequence of DNA, how can forensic investigators identify to whom it belongs?
 
 DNA is really just a sequence of nucleotides
@@ -70,9 +72,20 @@ Some portions of this sequence (i.e., genome) are the same, or at least very sim
 
 Short Tandem Repeats (STRs)
 - High Genetic Diversity
-- short sequence of DNA
-- 
+- short sequence of DNA bases
+- tends to repeat consecutively numerous times at specific locations
+![[Pasted image 20220720143606.png]]
+^ Alice has the STR `AGAT` repeated four times in her DNA, 
+^ Bob has the STR `AGAT` repeated five times.
 
+
+Using multiple STRs, rather than just one, 
+- improves the accuracy of DNA profiling
+
+
+So 
+IF -> two DNA samples match in the number of repeats for each of the STRs,
+THEN -> the analyst can be pretty confident they came from the same person.
 
 
 
