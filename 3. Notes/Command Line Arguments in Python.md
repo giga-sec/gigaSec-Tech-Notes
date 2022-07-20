@@ -17,7 +17,8 @@ from sys import argv
 **Explanation of how to use `argv`**
 `argv` means "argument vector", this is where we store the arguments. 
 `argv[0]` is the code execution itself (i.e `./filename`) 
-`len()` counts in 1. So there are two arguments here (`filename` and `arg1`)
+`len()` counts in 1. 
+    So two arguments here (`filename` and `arg1`)
 ```Python
 if len(argv) == 2:
     print(f"hello, {argv[1]}")
