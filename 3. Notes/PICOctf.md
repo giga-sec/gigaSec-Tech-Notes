@@ -21,7 +21,8 @@ Numbers can either be
 Binary (1, 0)
 ASCII 
 HEX 
-
+https://www.duplichecker.com/ascii-to-text.php
+https://www.branah.com/ascii-converter
 
 
 
