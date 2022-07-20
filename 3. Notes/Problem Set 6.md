@@ -172,9 +172,9 @@ ELSE IF -> STR counts do not match exactly with any of the individuals in the CS
 THEN ->  your program should print `No match`.
 ASSUME -> assume that the STR counts will not match more than one individual.
 
-- [ ] Code: Implement the command line argument code
-- [ ] Learn about CSV
-- [ ] Learn about open and read files
+- [x] Code: Implement the command line argument code
+- [x] Learn about CSV
+- [x] Learn about open and read files
 
 
 
