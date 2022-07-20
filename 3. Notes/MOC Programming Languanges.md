@@ -11,6 +11,11 @@ This MOC is dedicated to things that relate to
 
 
 
+Successor Languanges
+-   JavaScript → TypeScript
+-   Java → Kotlin
+-   C++ → **_Carbon_**
+
 
 
 
