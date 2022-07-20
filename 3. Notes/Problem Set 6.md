@@ -60,6 +60,7 @@ average_sentences = (sentences / words) * 100
 
 
 ## DNA profiling
+### Explanation of the concept
 Basically the goal of DNA profiling is to have a certain piece of human body analyzed and compared by a certain person to identify if that certain piece of human body belongs to that certain person.
 
 Given a sequence of DNA, how can forensic investigators identify to whom it belongs?
@@ -119,6 +120,26 @@ Your task is to write a program that will
 - CSV file containing STR counts for a list of individuals  
 - then output to whom the DNA (most likely) belongs.
 
+
+### What to do
+#### Command Line Argument
+Takes 1st command-line arg the name of a `.csv` file
+- Inside of the `.csv` File -> STR counts for a list of individuals
+Takes 2nd command-line arg name of `.txt` file
+- Inside of `.txt` file -> the DNA sequence to identify
+
+IF -> program executed with incorrect number of command-line arguments,
+THEN -> program print error message of your choice (with `print`). 
+
+IF -> correct number of arguments are provided, 
+THEN -> assume 1st argument is indeed the filename of a valid CSV file 
+    and 2nd argument is the filename of a valid text file.
+
+#### Open CSV file
+- opens the CSV file and read its contents into memory.
+
+#### Open the DNA sequence
+- open the DNA sequence and read its contents into memory.\
 
 
 
