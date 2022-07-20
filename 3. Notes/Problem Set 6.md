@@ -132,8 +132,11 @@ IF -> program executed with incorrect number of command-line arguments,
 THEN -> program print error message of your choice (with `print`). 
 
 IF -> correct number of arguments are provided, 
-THEN -> assume 1st argument is indeed the filename of a valid CSV file 
-    and 2nd argument is the filename of a valid text file.
+THEN -> read on ASSUME
+ASSUME -> 
+    1st argument is indeed the filename of a valid CSV file 
+    2nd argument is the filename of a valid text file.
+
 
 #### Open CSV file
 - opens the CSV file and read its contents into memory.
@@ -152,6 +155,10 @@ THEN -> your program should print out the name of the matching individual.
 ELSE IF -> STR counts do not match exactly with any of the individuals in the CSV file,
 THEN ->  your program should print `No match`.
 ASSUME -> assume that the STR counts will not match more than one individual.
+
+- [ ] Code: Implement the command line argument code
+- [ ] Learn about CSV
+- [ ] Learn about open and read files
 
 
 
