@@ -16,6 +16,9 @@ Tags: #fleeting
 [[kill - Killing Processes on linux]]
 
 
+Put the results of a command to a file
+`command > output.txt`
+
 
 ### Using Linux Terminal
 
