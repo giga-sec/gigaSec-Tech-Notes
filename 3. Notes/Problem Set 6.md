@@ -59,6 +59,19 @@ average_sentences = (sentences / words) * 100
 
 
 
+## DNA profiling
+Given a sequence of DNA, how can forensic investigators identify to whom it belongs?
+
+DNA is really just a sequence of nucleotides
+Each nucleotide of DNA contains 
+- one of four different bases: adenine (A), cytosine (C), guanine (G), or thymine (T)
+
+Some portions of this sequence (i.e., genome) are the same, or at least very similar, across almost all humans, but other portions of the sequence have a higher genetic diversity and thus vary more across the population.
+
+Short Tandem Repeats (STRs)
+- High Genetic Diversity
+- short sequence of DNA
+- 
 
 
 
