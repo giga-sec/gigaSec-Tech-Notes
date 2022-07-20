@@ -5,6 +5,11 @@ Created:  [[2022-07-14]]
 Tags: #fleeting 
 
 ---
+In Python2, `maketrans` is a function belongs to the `string` module. 
+However in Python3, `maketrans` is a static method of the `str` type.
+`str.maketrans`
+
+
 Python is an Interpreted Languange. [[What is an Interpreted Language]] 
 
 `ValueError` is a type of **exception error**. 
