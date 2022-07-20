@@ -102,16 +102,25 @@ Bob has `TATC` repeated `19` times
 
 
 ### So given a sequence of DNA, how might you identify to whom it belongs? 
-Well, imagine that 
-you looked through the DNA sequence for 
--> longest consecutive sequence of repeated `AGAT`s 
--> you found  longest sequence was `17` repeats long. 
+Well, imagine that you have a pair of sequence of DNA
+you analyzed that pair of DNA and compared it to the DNA database 
 -> IF you then found that
+    longest sequence of `AGAT`s was `17` repeats long. 
     longest sequence of `AATG` is `22` repeats long and, 
     longest sequence of `TATC` is `19` repeats long, 
--> THEN that would provide pretty good evidence that the DNA was Bob’s. 
+-> THEN, looking at the DNA database. It matches with the DNA database of BOB. Which is a  pretty good evidence that the sequence of DNA was Bob’s. 
 
-Of course, it’s also possible that once you take the counts for each of the STRs, it doesn’t match anyone in your DNA database, in which case you have no match.
+->ELSE:
+it doesn’t match anyone in your DNA database, 
+in which case you have no match.
+
+Your task is to write a program that will 
+- take a sequence of DNA 
+- CSV file containing STR counts for a list of individuals  
+- then output to whom the DNA (most likely) belongs.
+
+
+
 
 
 
