@@ -8,11 +8,11 @@ Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkast
 
 **Topics of notes**
 
---> Programming, VIM, Git,
+--> Programming, Coding Exercises, VIM, Git
 
---> Cybersecurity, Networking, Linux,
+--> Cybersecurity, Networking, CTF Challenges,
 
---> PC-Hardware, Windows and more.
+--> PC-Hardware, Windows and Linux.
 
 
 ---
@@ -48,3 +48,6 @@ I assure you that no plugins causes harm. This plugins are written by the commun
 
 Check the installed plugins here 
 --> `Tech-Notes/.obsidian/plugins`
+
+But you can choose `Do not trust`, I believe it will not break any functionality of my vault. 
+
