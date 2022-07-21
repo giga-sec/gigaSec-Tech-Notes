@@ -8,11 +8,11 @@ Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkast
 
 **Topics of notes**
 
---> Programming, VIM, Git,
+--> Programming, Coding Exercises, VIM, Git
 
---> Cybersecurity, Networking, Linux,
+--> Cybersecurity, Networking, CTF Challenges,
 
---> PC-Hardware, Windows and more.
+--> PC-Hardware, Windows and Linux.
 
 
 ---
