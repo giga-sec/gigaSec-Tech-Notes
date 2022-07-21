@@ -9,6 +9,8 @@ The **OSI Model** (**O**pen **S**ystems **I**nterconnection) is a standardised
 
 
 
+
+
 The OSI Model has seven layers
 7. Application
 6. Presentation
@@ -17,6 +19,14 @@ The OSI Model has seven layers
 3. Network
 2. Data Link
 1.  Physical 
+or
+7. All
+6. Prostitutes
+5. Seem
+4. To
+3. Need
+2. Double
+1. Penetration
 
 
 ### [[7- Application Layer]] 
