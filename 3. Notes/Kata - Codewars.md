@@ -5,6 +5,8 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+##
+
 ## Find the Parity Outlier
 Function gets `arg1` that's an array with size 3 or more, it contains integers
 The array either  
@@ -74,8 +76,37 @@ If the outlier value is at first, then it doesn't detect it because my algo dete
 
 
 2nd Plan:
-- [ ] Determine what we will retain on 1st plan
+- [ ] Determine what plans we will retain on 1st plan
 https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/python
+A variable that counts how many odds and even there are
+We could store each number to different list which represents the number of odds/even
+```python
+list_even = [2, 4, 6]
+list_odd = [1]
+```
+Then, which ever list has a length of 1, that will be returned
+
+Scan all the digits
+Make a decision to whether to store it in even list or odd list
+After scanning all digits
+Compare the length of each two lists
+The smallest number will return the number of that list
+
+```python
+list_even = []
+list_odd = []
+for i in numbers:
+    if ((i % 2) == 0):  # Even
+        list_even.append(i)
+    elif ((i % 0) == 1):  # Odd
+        list_odd.append(i)
+if (len(list_even) > len(list_odd)):
+    return list_odd[0]  # There's an odd outlier
+else:  # Assumes there's an even outlier
+    return list_even[0]
+```
+
+We managed to easily solve that in 2nd try. That works! :D
 
 
 
