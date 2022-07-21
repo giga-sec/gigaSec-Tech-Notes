@@ -10,6 +10,9 @@ This MOC is dedicated to things that relate to
 
 
 
+Check color contrast for text customization
+https://dequeuniversity.com/tips/color-contrast
+
 
 
 
