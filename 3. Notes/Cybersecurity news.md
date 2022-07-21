@@ -17,10 +17,13 @@ https://www.csoonline.com/article/3607649/the-worst-and-most-notable-ransomware.
 ---
 ## Uncategorized
 
+
+[[Luna ransomware encrypts Windows, Linux and ESXi systems]]
+
 [[Use of API has skyrocketed and many web apps are vulnerable because of it]]
 
 [Facebook starts encrypting links to prevent browsers from stripping trackers](https://www.ghacks.net/2022/07/17/facebook-has-started-to-encrypt-links-to-counter-privacy-improving-url-stripping/)
-^ Seriously?! I don't even need to read the article. s! 
+^ Seriously?! I don't even need to read the article. 
 
 ## Malware
 
