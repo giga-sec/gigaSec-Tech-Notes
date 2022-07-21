@@ -5,6 +5,77 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+## Find the Parity Outlier
+Function gets `arg1` that's an array with size 3 or more, it contains integers
+The array either  
+- entirely comprised of odd integers  
+- entirely comprised of even integers 
+- EXCEPT for a single integer `N`. 
+returns the "outlier" `N`.
+
+My understanding:
+outlier = The goal is to find this outcast of integer that doesn't belong to the comprised odd/even
+It's like "What number that doesn't belong here?" 
+
+
+Assumptions:
+There's only `one` outcast
+
+
+My plan:
+- [x] How to detect if a number is odd or even
+Ans: `n % 2` where in `n` is each numbers of the `array`
+
+Scan each every number in the array
+We determine each number if its an odd or even
+`1, 2` Still not determined
+`2, 2` Even
+`1, 1` Odd
+
+Maybe have a variable that counts how many even or odd there are
+IF -> even are greater than 1
+THEN ->  scan each number 
+    IF -> number is an odd number
+    THEN -> we return that odd number
+ELIF -> odd are greater than 1
+THEN -> scan each number
+    IF -> number is an even number
+    THEN -> we return that even number
+
+```python
+count_odd = 0
+count_even = 0
+array = [1, 2, 3, 5]
+# First determine which one is has more numbers, odd or even
+
+i = 0
+array_len = len(array)
+while (i < array_len):
+    odd_even = array[i] % 2
+    if (odd_even == 0):  # if number is even
+        count_even += 1
+    elif (odd_even == 1):
+        count_odd += 1
+
+    i += 1
+    if (count_even > 1):
+        while (i < array_len):
+            odd_even = array[i] % 2
+            if (odd_even == 1):  # number even
+                return array[i]
+    elif (count_odd > 1):
+        while (i < array_len):
+            odd_even = array[i] % 2
+            if (odd_even == 0):  # number odd
+                return array[i]
+```
+Problem with my plan: 
+If the outlier value is at first, then it doesn't detect it because my algo detects only the not scanned values.
+
+
+2nd Plan:
+- [ ] Determine what we will retain on 1st plan
+https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/python
 
 
 
