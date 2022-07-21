@@ -48,3 +48,6 @@ I assure you that no plugins causes harm. This plugins are written by the commun
 
 Check the installed plugins here 
 --> `Tech-Notes/.obsidian/plugins`
+
+But you can choose `Do not trust`, I believe it will not break any functionality of my vault. 
+
