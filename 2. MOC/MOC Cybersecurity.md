@@ -50,7 +50,7 @@ And, for the companies who do say they allow responsible bug reporting, here a c
 
 
 
-## Articles taken in quara or reddit
+## Words taken in quara or reddit
 
 [[How are cracked versions of software created and why are developers not able to prevent it]]
 
@@ -59,15 +59,12 @@ And, for the companies who do say they allow responsible bug reporting, here a c
 
 
 
+
 ## Uncategorized
 
 Guides here
 https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
 
-
-
-
-Steganoraphy - is the act of hiding hidden message or file inside of another file. 
 
 
 Blogs are valuable for learning when it comes to information security, 
