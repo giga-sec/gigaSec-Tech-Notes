@@ -5,6 +5,51 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+## Is a number prime?
+1. Understand the Problem
+Takes in an intger
+returns `True` or `False`
+
+Prime number ( or a prime ) 
+- is a natural number greater than `1` 
+- that has no positive divisors other than `1` and itself.
+Basically, a number that can't be further reduced to a natural number when dividing it.
+Like `7`, because the least number to get a natural number is `1` so `7/1`
+This is not a prime number, `8`, because we can still divide it further `8/2 = 4`  
+
+
+Assumptions
+-   you will be given integer input.
+-   You may be given negative numbers as well ( or `0` ).
+-   **NOTE on performance**: There are no fancy optimizations required, but still _the_ most trivial solutions might time out. Numbers go up to 2^31 ( or similar, depending on language ). Looping all the way up to `n`, or `n/2`, will be too slow.
+
+My plan:
+We divide the `num` with 2
+
+Okay, this is not easy as it seems. 
+Numbers can go up to `2147483648`, so dividing it simply by 1 isn't sufficient, neither is going up to all prime numbers to 1,000. 
+But hmm, efficiency might not be the problem here
+
+Okay, so let's try putting all values of prime numbers to 1000?
+Then we use that to divide the `number` and see if its prime?
+https://www.factmonster.com/math-science/mathematics/prime-numbers-facts-examples-table-of-all-up-to-1000
+
+
+Okay, so we can also do factors.
+Like this
+`36` can be written as 2 × 3 × 2 × 3. 
+So, the factors of 36 here are 1, 2, 3, 4, 6, 9, 12, 18, and 36. 
+Since the number of factors of 36 is more than 2, it is not a prime number but a [composite number](https://byjus.com/maths/composite-numbers/).
+
+We could also set up rules,
+1. **“**Numbers ending with 0, 2, 4, 6 and 8 are never prime numbers.**”**
+2. **“**Numbers whose sum of digits are divisible by 3 are never prime numbers.**”**
+3. **If a large number is ending with 5, then it is always divisible by 5. Hence, it is not a prime number**
+
+4. find the square root of the given number.
+     Divide the given number by all the prime numbers below its square root value.
+     If the number is divisible by any of the prime numbers less than its square root, it is not a prime number; otherwise, it is prime.
+
 ## Equal Sides Of An Array
 1. Understand the Problem
 You are going to be given an array of integers.
