@@ -32,7 +32,7 @@ https://www.csoonline.com/article/3607649/the-worst-and-most-notable-ransomware.
 
 [[Log4jSHELL and why it's the most serious vulnerability in the internet]]
 
-
+[[Log4jSHELL is still not fixed! Exploit persists despite patch fix was released]]
 
 ## Hackers and Cybersecurity
 
