@@ -43,10 +43,10 @@
 
 ### Process of Note Taking
 Fleeting
-- This is where I frequently copy, paste the snippets from articles/videos. 
+- This is where I type the snippets I find interesting from articles/videos. 
 - Then I read the copy pasted notes to make sense of the notes. I remove what that doesn't make sense. 
-- Whenever, I copy paste snippets, I just straight up paste them in the note. I don't categorize them yet until I read them again on the note. 
-- Sometimes, categorization happens here but it's not the priority. The priority is reading the note again.
+- ~~Whenever, I copy paste snippets, I just straight up paste them in the note. I don't categorize them yet until I read them again on the note.~~ Due to me typing instead of copy pasting, I can already formulate a categorization.
+
 
 Literature
 - This is sometimes a note that leads to every permanent note that I've created.
@@ -66,9 +66,9 @@ This is not a one way note taking approach where I MUST follow these order every
 
 
 Problems 
-- Currently it takes time to organize information
-- My system isn't suitable for amassing lots of info in a short period of time whislt being understandable. **Update: It's possible now thanks to me typing instead of copy pasting words**
-- Abstract section seems a bit weak. 
+- ~~Currently it takes time to organize informatio My system isn't suitable for amassing lots of info in a short period of time whislt being understandable.~~ 
+- **Update: It's possible now thanks to me typing instead of copy pasting words**
+- ~~Abstract section seems a bit weak. 
 
 
 Abstract section
@@ -82,7 +82,7 @@ How does it do it?
 
 
 Maybe not that good?
-- I've kind of experience ridigity where I am afraid to touch permanent notes because I might break its readability or its understandability. But it could be solved by transforming the note into fleeting, and opportunistically make the note permanent. Also perhaps put the new info at the bottom of the note. 
+- ~~I've kind of experience ridigity where I am afraid to touch permanent notes because I might break its readability or its understandability. But it could be solved by transforming the note into fleeting, and opportunistically make the note permanent. Also perhaps put the new info at the bottom of the note. 
 - **Update: Nahh it's alright, the permanent notes I've touched and edited so far allowed flexibility/**
 
 
@@ -94,8 +94,8 @@ Good
 Changes
 - I might stop copy pasting but instead type everything. As I can easily control what info will stay and not. With, copy pasting, I sometimes just copy paste straight and not read the whole info thereby increasing the time of rereading the text again.
 - I think it's better for me to read the whole paragraph or article before I start writing words.
-Update: Changes did work
-- Awesome, I spent less time rereading the note for trimming down the details. When writing it by myself, I understood the text better as naturally, you're gonna read it slowly. Then I can also spent time cutting down unnecessary details to reduce the words.
+**Update: Changes did work**
+    - Awesome, I spent less time rereading the note for trimming down the details. When writing it by myself, I understood the text better as naturally, you're gonna read it slowly. Then I can also spent time cutting down unnecessary details to reduce the words.
 
 
 Learn some stats and AI and ML
