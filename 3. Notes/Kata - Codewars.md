@@ -64,9 +64,10 @@ Translate to, include this index value here till before the excluded index
 When we want to include the last value also
 ```python
 list = [1, 2, 3, 4, 5]
-list[include:]
+list[3:]
 ```
-We just leave it empty
+Start at `3 index` till the end
+We just leave it empty to include the last index which is number `5`
 
 
 Rare Cases:
@@ -93,6 +94,15 @@ def find_even_index(arr):
         if (left_sum == right_sum):
             return i
         i += 1
+    return -1
+```
+
+Better Solution in Kata
+```python
+def find_even_index(arr):
+    for i in range(len(arr)):
+        if sum(arr[:i]) == sum(arr[i+1:]):
+            return i
     return -1
 ```
 
