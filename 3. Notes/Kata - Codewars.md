@@ -5,7 +5,48 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
-##
+## Equal Sides Of An Array
+1. Understand the Problem
+You are going to be given an array of integers.
+The length of the array will be `0 < arr < 1000`
+Use that array and
+- find an index N
+    - where the sum of the integers to the left of N
+    - is equal to the sum of the integers to the right of N.
+    - IF -> no index that would make this happen
+    - THEN -> `return -1`
+All in all, we want to return the index of where the scenario above can happen
+Example: Index is at the `middle`
+array `{1,2,3,4,3,2,1}`:  
+function will return the index `3`, 
+because at the `3rd` position of the array, 
+    sum of left side of the index (`{1,2,3}`) 
+    and sum of the right side of the index (`{3,2,1}`) 
+    both equal `6`.
+
+More Example: Index is at `1`
+array `{1,100,50,-51,1,1}`:  
+function will return the index `1`, 
+because at the `1st` position of the array, 
+    sum of left side of the index (`{1}`) 
+    and the sum of the right side of the index (`{50,-51,1,1}`) 
+    both equal `1`.
+
+More Example: Index is at `0`
+
+2. My Plan:
+
+
+
+
+My question:
+is it possible to have multiple answers?
+Ans: I think not, we'd scan the thing from left to right and if we found the correct index, then we just straight up exit the program. 
+
+Yeah confirmed
+If you are given an array with multiple answers, return the lowest correct index.
+Just stop the program to the correct index
+
 
 ## Find the Parity Outlier
 Function gets `arg1` that's an array with size 3 or more, it contains integers
