@@ -68,9 +68,14 @@ Sometimes, the index is at `0`
 because, when we sum one side, it's equal to `0` and the left side of `0` is `[]` meaning empty, therefore `zero`
 
 Global Variables:
-This is to consider the empty variable that may exist when index at first and last
+This is to consider the empty variable may exist when index at first and last
 `left_side = []`
 `right_side = []`
+`len_arr = len(arr)`  So that we wont have to len() again, making program faster 
+```python
+def find_even_index(arr):
+    
+```
 
 Okay, so we're gonna use the splice feature 
     to help us make a list for each side
