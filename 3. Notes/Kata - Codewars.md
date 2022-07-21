@@ -33,10 +33,11 @@ because at the `1st` position of the array,
     both equal `1`.
 
 More Example: Index is at `0`
-
-2. My Plan:
-
-
+You are given the array `{20,10,-80,10,10,15,35}`  
+At index 0 the left side is `{}`  
+The right side is `{10,-80,10,10,15,35}`  
+They both are equal to `0` when added. (Empty arrays are equal to 0 in this problem)  
+Index 0 is the place where the left side and right side are equal.
 
 
 My question:
@@ -46,6 +47,51 @@ Ans: I think not, we'd scan the thing from left to right and if we found the cor
 Yeah confirmed
 If you are given an array with multiple answers, return the lowest correct index.
 Just stop the program to the correct index
+
+
+2. My Plan:
+```Python
+for i in array:
+    
+```
+
+Let's test the slicing feature of python first
+Specifically, I want to find out what numbers will be included on a specific splice
+```python
+list[include:exclude]
+```
+Translate to, include this index value here till before the excluded index 
+
+
+Rare Cases:
+Sometimes, the index is at `0`
+because, when we sum one side, it's equal to `0` and the left side of `0` is `[]` meaning empty, therefore `zero`
+
+Global Variables:
+This is to consider the empty variable that may exist when index at first and last
+`left_side = []`
+`right_side = []`
+
+Okay, so we're gonna use the splice feature 
+    to help us make a list for each side
+We're gonna use sum() function to
+    to add all the list of each sides
+    Then we compare the sum,
+    IF -> sum is the same
+    THEN -> return `index`
+
+We're gonna use while loop so that we can have an `i` increment variable, 
+    allows us to scan the current index of an array
+    allows us to return the `index` as well
+    the while loop ends with length of given_list
+
+
+How are we gonna handle indices out of array?
+I don't think there will be indices out of array
+
+When no match is found, we just `return -1` at the end
+
+
 
 
 ## Find the Parity Outlier
