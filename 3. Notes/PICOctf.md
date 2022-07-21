@@ -5,6 +5,22 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+## Stonks (Binary Exploitation)
+I made a bot to automatically trade stonks for me using AI and machine learning.
+`nc mercury.picoctf.net 16439` to run the app
+The source code is written in `C`
+
+- [ ] Learn about binary exploitation
+
+
+#### Binary Exploitation
+requires a familiarity with C and a scripting language (preferrably python).
+
+Intro -> https://github.com/hoppersroppers/nightmare
+Know where to get learning resources -> https://www.hoppersroppers.org/roadmap/training/pwning.html
+
+
+---
 [[Ways to analyze Binary Files on Linux]]
 
 
