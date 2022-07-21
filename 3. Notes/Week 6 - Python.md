@@ -10,6 +10,12 @@ Tags: #fleeting
 
 https://stackoverflow.com/questions/10712002/create-an-empty-list-with-certain-size-in-python
 
+I think this is a good alternative for while loop that uses length of something as a condition to end
+```python
+for i in range(len(arr)):
+    pass
+```
+
 
 In Python2, `maketrans` is a function belongs to the `string` module. 
 However in Python3, `maketrans` is a static method of the `str` type.
