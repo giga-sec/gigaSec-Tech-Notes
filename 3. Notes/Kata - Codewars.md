@@ -61,6 +61,12 @@ Specifically, I want to find out what numbers will be included on a specific spl
 list[include:exclude]
 ```
 Translate to, include this index value here till before the excluded index 
+When we want to include the last value also
+```python
+list = [1, 2, 3, 4, 5]
+list[include:]
+```
+We just leave it empty
 
 
 Rare Cases:
@@ -74,16 +80,35 @@ This is to consider the empty variable may exist when index at first and last
 `len_arr = len(arr)`  So that we wont have to len() again, making program faster 
 ```python
 def find_even_index(arr):
-    
+    left_side = []
+    right_side = []
+    len_arr = len(arr)
+
+    i = 0  # Also acts as an index
+    while (i < len_arr):
+        left_side = arr[0:i]
+        right_side = arr[i+1:]  # +1 to skip the current_index
+        left_sum = sum(left_side)
+        right_sum = sum(right_side)
+        if (left_sum == right_sum):
+            return i
+        i += 1
+    return -1
 ```
+
 
 Okay, so we're gonna use the splice feature 
     to help us make a list for each side
+How do we detect the end point of list, and starting point of list for each side
+    `left_side[0:current_index]`
+    `right_side[current_index+1:-1]` +1 to skip the current_index 
+
 We're gonna use sum() function to
     to add all the list of each sides
     Then we compare the sum,
     IF -> sum is the same
     THEN -> return `index`
+
 
 We're gonna use while loop so that we can have an `i` increment variable, 
     allows us to scan the current index of an array
