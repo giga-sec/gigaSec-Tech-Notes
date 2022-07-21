@@ -30,6 +30,7 @@ https://denigma.app
 
 
 ## Uncategorized
+Boilerplate code
 
 
 
