@@ -12,6 +12,13 @@ Abstract:
 `/tmp `
 
 ---
+We have two types of path 
+1) Absolute path, 
+    It start with root directory (/) and follows the tree branch untill path of desired directory or file completed. Ex. cd /home/me/practice
+2) Relative path 
+    It start from working directory to do this we use some symbols like . (dot) which refers current working directory and .. (dot dot ) which refers parent directory of current working directory
+
+
 ## `/bin`
 - Where all available commands that can be used in the system are here
 
