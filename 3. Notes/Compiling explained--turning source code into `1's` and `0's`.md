@@ -18,9 +18,26 @@ The process of turning source code into `1's` and `0's` (binary)
 CS50 ^
 
 ---
+https://www.geeksforgeeks.org/compiling-a-c-program-behind-the-scenes/
+Pre-processing
+Compiling
+Assembly
+Linking
+
+By executing this command below. 
+We can see each file generated on each stages of compilation
+```C
+gcc -Wall -save-temps filename.c –o filename
+```
 
 
+Pre-processing
+- Removal of comments
+- Expansion of Macros  #myquestion What is a macro?
+- Expansion of the header files  #myquestion I think this is the header
+- Conditional Compilation
 
+preprocessed output is stored in the **filename.i**
 
 
 
