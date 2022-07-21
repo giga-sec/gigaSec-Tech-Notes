@@ -19,6 +19,8 @@ Tags: #fleeting
 Put the results of a command to a file
 `command > output.txt`
 
+You don't have to use `ls` when going to a directory
+simply use `cd ~/` and press `tab`. It will show you the directories
 
 ### Using Linux Terminal
 
