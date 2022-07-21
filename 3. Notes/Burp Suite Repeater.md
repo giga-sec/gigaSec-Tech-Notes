@@ -20,6 +20,8 @@ We can take a request captured in the Proxy,
 
 
 
+
+
 Alternatively, we could craft requests by hand, much as we would from the CLI (**C**ommand **L**ine **I**nterface), using a tool such as [cURL](https://curl.se/) to build and send requests.
 
 
