@@ -71,6 +71,9 @@ Disable
 
 `<service>` for instance, apache2
 
+### ls switches
+`ls -t` : sorted result by modification time 
+`ls -S` : sort by file size
 
 
 
