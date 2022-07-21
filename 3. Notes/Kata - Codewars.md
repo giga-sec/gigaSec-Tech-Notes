@@ -42,13 +42,34 @@ So, the factors of 36 here are 1, 2, 3, 4, 6, 9, 12, 18, and 36.
 Since the number of factors of 36 is more than 2, it is not a prime number but a [composite number](https://byjus.com/maths/composite-numbers/).
 
 We could also set up rules,
+We're gonna have to temporarily transform `int` to `str` so that we can use splices
 1. **“**Numbers ending with 0, 2, 4, 6 and 8 are never prime numbers.**”**
 2. **“**Numbers whose sum of digits are divisible by 3 are never prime numbers.**”**
-3. **If a large number is ending with 5, then it is always divisible by 5. Hence, it is not a prime number**
+    Transform the numbers into a list of digits
+    Then use sum on that list of digits
+    Then check if that sum is divisible by 3, hmm
+        Maybe go with `(sum % 3) != 0`
+1. **If a large number is ending with 5, then it is always divisible by 5. Hence, it is not a prime number**
+
+```python
+def is_prime(num):
+    not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
+    str(num)[-1] in not_prime_indicator:
+        return False
+    
+    
+    return True
+```
+
 
 4. find the square root of the given number.
      Divide the given number by all the prime numbers below its square root value.
-     If the number is divisible by any of the prime numbers less than its square root, it is not a prime number; otherwise, it is prime.
+     If the number is divisible by **any of the prime numbers less than its square root**, it is not a prime number; otherwise, it is prime.
+- [ ] I want to test my understanding of 4
+- [ ] Also how do we do square root in python?
+- [ ] We'd also have to teach the code to identify the prime numbers less than its square root
+- [ ] Hmmm, I think i'll skip this one, as its gonna complicate things.
+
 
 ## Equal Sides Of An Array
 1. Understand the Problem
