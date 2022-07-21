@@ -46,7 +46,9 @@ Understanding stack frames helps clarifies concepts
 
 Key to understand pointers
 - Understand how memory is managed in C
-After all, pointers contain the address of memory. If we don't understand how memory is organized/managed, it's difficult to understand how pointers work.
+After all, pointers contain the address of memory. 
+If we don't understand how memory is organized/managed, 
+it's difficult to understand how pointers work.
 
 
 
