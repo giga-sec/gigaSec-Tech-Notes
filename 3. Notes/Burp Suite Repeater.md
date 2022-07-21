@@ -12,7 +12,7 @@ We can take a request captured in the Proxy,
 
 
 
-
+[[Repeater Interface Explained - Burp Suite]]
 
 
 
