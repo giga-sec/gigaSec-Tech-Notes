@@ -23,7 +23,7 @@ Assumptions
 -   You may be given negative numbers as well ( or `0` ).
 -   **NOTE on performance**: There are no fancy optimizations required, but still _the_ most trivial solutions might time out. Numbers go up to 2^31 ( or similar, depending on language ). Looping all the way up to `n`, or `n/2`, will be too slow.
 
-My plan:
+First plan:
 We divide the `num` with 2
 
 Okay, this is not easy as it seems. 
@@ -77,7 +77,7 @@ Problem:
 It can't handle negative numbers
 `5` is a prime, my program detects the last number, however if there's only 1 digit, then it detects that as a last number. `5` is in not_prime_indicator. We could use len to check if it has more than 2 digits, if it's just a single digit, we just modulo it by 2
 
-New Code
+Second plan
 ```python
 def is_prime(num):
     str_num = str(num)
@@ -99,22 +99,21 @@ def is_prime(num):
     # Assumes integer is a prime
     return True
 ```
-Another Problem:
+Problem of 2nd plan:
 It doesn't detect 2 as prime number
 It still doesn't detect if a number is negative
 
-New Code
+Third Plan
 ```python
 def is_prime(num):
-    str_num = str(num)
-    len_num = len(str_num)
+    len_num = len(str(num))
 
     not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
     if (len_num >= 2):
         if (str_num[-1] in not_prime_indicator):
             return False
     else:  # Assumes digit length is 1
-        if (num % 2) != 0
+        if (num % 2) != 0:
             return True
          
     # Turn each digit into list and sum all of digits
@@ -125,6 +124,7 @@ def is_prime(num):
     # Assumes integer is a prime
     return True
 ```
+
 
 Maybe, let's try the factors.
 ```python
@@ -136,6 +136,142 @@ def print_factors(x):
 
 num = 320
 ```
+^ Problem of Third Plan:
+So I'm assuming here that a prime has only two factors
+Problem: The added thing with print_factors takes a very long time! This is because numbers can go up to millions and it scans every digit with `print_factors` function
+Wait but I only made it so that only less than numbers will go through that 
+
+Fifth Plan:
+Okay so I came back to third plan and revised it a lil bit.
+```python
+def is_prime_for_smallNumbers(x):
+    temp = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            temp.append(x)
+    if 1 in temp:
+        return True
+    return False
+
+
+def is_prime(num):
+    str_num = str(num)
+    len_num = len(str_num)
+
+    not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
+    if (len_num >= 2):
+        if (int(str_num[-1]) in not_prime_indicator):
+            return False
+    else:  # Assumes digit length is 1
+        if (is_prime_for_smallNumbers) == 0:
+            return True
+
+    # Turn each digit into list and sum all of digits
+    sum_digits = sum([int(x) for x in str(num)])
+    if ((sum_digits % 3) != 0):
+        return False
+
+    # Assumes integer is a prime
+    return True
+
+
+is_prime(234234)
+```
+
+The thing is, every number has a `1 * the number itself` factor
+
+Sixth Plan
+We're just going to remove the function and just tell the computer what single digits that's not a prime
+```python
+not_prime_digit = [0, 4, 6, 8, 9]
+```
+
+```python
+def is_prime(num):
+    if num < 0:
+        return False
+
+    str_num = str(num)
+    len_num = len(str_num)
+
+    not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
+    not_prime_digit = [0, 4, 6, 8, 9]
+    if (len_num >= 2):
+        if (int(str_num[-1]) in not_prime_indicator):
+            return False
+    else:  # Assumes digit length is 1
+        if num in not_prime_digit:
+            return False
+
+    # Turn each digit into list and sum all of digits
+    sum_digits = sum([int(x) for x in str(num)])
+    if ((sum_digits % 3) != 0):
+        return False
+
+    # Assumes integer is a prime
+    return True
+
+
+is_prime(234234)
+```
+
+
+Okay, so we have solve the first digits
+Problems;
+73 is prime: False should equal True
+41 is prime: False should equal True
+5099 is prime: False should equal True
+And it doesn't recognize negative numbers
+- [ ] find more ways to recognize a prime
+
+Seventh Plan
+Okay, we're almost there! :D
+We have solved, excluding negative numbers, the small numbers
+
+Now big numbers are having inaccuracy.
+such as this
+```python
+Incorrect answer for n=1760751331: True should equal False
+```
+
+
+
+
+Fourth Plan
+Okay, let's go back to the basics. How do we know if a number is a prime?
+There's numbers that ends with... and that is not a prime number
+```python
+[0, 2, 4, 5, 6, 8]
+```
+
+How do we know if a number is a prime
+- Well, we got the factors. And the factors of a number compromises of two numbers
+    Not efficient so this is not a good method
+Okay I read this online
+"Have students take a calculator and key in the number to determine whether it is prime. 
+The number should divide into a whole number. 
+    For example, take the number 57. 
+    Have students divide the number by 2. 
+    They will see that the quotient is 27.5, which is not an even number. 
+    Now have them divide 57 by 3. 
+    They will see that this quotient is a whole number: 19. 
+    So, 19 and 3 are factors of 57, which is, then, not a prime number."
+
+Let's try translating this into a code
+```python
+def is_prime(num):
+    quotient = num / 2
+
+    quotient = num / 3
+
+    # If there's a single 1 number of factor, then that's prime
+    if 1 in [factor1, factor2]:
+        return True
+```
+Okay, it didn't work. 
+
+
+
 
 
 4. find the square root of the given number.
