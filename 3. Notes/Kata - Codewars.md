@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 ## Is a number prime?
 1. Understand the Problem
-Takes in an intger
+Takes in an intiger
 returns `True` or `False`
 
 Prime number ( or a prime ) 
@@ -46,6 +46,7 @@ We're gonna have to temporarily transform `int` to `str` so that we can use spli
 1. **“**Numbers ending with 0, 2, 4, 6 and 8 are never prime numbers.**”**
 2. **“**Numbers whose sum of digits are divisible by 3 are never prime numbers.**”**
     Transform the numbers into a list of digits
+        Turning it into a string is good (actually bad idea since I can't use sum with it because it's a char, not an int)
     Then use sum on that list of digits
     Then check if that sum is divisible by 3, hmm
         Maybe go with `(sum % 3) != 0`
@@ -53,12 +54,87 @@ We're gonna have to temporarily transform `int` to `str` so that we can use spli
 
 ```python
 def is_prime(num):
+    str_num = str(num)
+    len_num = len(str_num)
+
     not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
-    str(num)[-1] in not_prime_indicator:
+    if (len_num >= 2):
+        if (str_num[-1] in not_prime_indicator):
+            return False
+    else:  # Assumes digit length is 1
+        if (num % 2) == 0
+            return True
+         
+    # Turn each digit into list and sum all of digits
+    sum_digits = sum([int(x) for x in str(num)])  
+    if ((sum_digits % 3) != 0):
         return False
-    
-    
+
+    # Assumes integer is a prime
     return True
+```
+Problem: 
+It can't handle negative numbers
+`5` is a prime, my program detects the last number, however if there's only 1 digit, then it detects that as a last number. `5` is in not_prime_indicator. We could use len to check if it has more than 2 digits, if it's just a single digit, we just modulo it by 2
+
+New Code
+```python
+def is_prime(num):
+    str_num = str(num)
+    len_num = len(str_num)
+
+    not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
+    if (len_num >= 2):
+        if (str_num[-1] in not_prime_indicator):
+            return False
+    else:  # Assumes digit length is 1
+        if (num % 2) != 0
+            return True
+         
+    # Turn each digit into list and sum all of digits
+    sum_digits = sum([int(x) for x in str(num)])  
+    if ((sum_digits % 3) != 0):
+        return False
+
+    # Assumes integer is a prime
+    return True
+```
+Another Problem:
+It doesn't detect 2 as prime number
+It still doesn't detect if a number is negative
+
+New Code
+```python
+def is_prime(num):
+    str_num = str(num)
+    len_num = len(str_num)
+
+    not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
+    if (len_num >= 2):
+        if (str_num[-1] in not_prime_indicator):
+            return False
+    else:  # Assumes digit length is 1
+        if (num % 2) != 0
+            return True
+         
+    # Turn each digit into list and sum all of digits
+    sum_digits = sum([int(x) for x in str(num)])  
+    if ((sum_digits % 3) != 0):
+        return False
+
+    # Assumes integer is a prime
+    return True
+```
+
+Maybe, let's try the factors.
+```python
+def print_factors(x):
+   print("The factors of",x,"are:")
+   for i in range(1, x + 1):
+       if x % i == 0:
+           print(i)
+
+num = 320
 ```
 
 
@@ -69,6 +145,8 @@ def is_prime(num):
 - [ ] Also how do we do square root in python?
 - [ ] We'd also have to teach the code to identify the prime numbers less than its square root
 - [ ] Hmmm, I think i'll skip this one, as its gonna complicate things.
+
+
 
 
 ## Equal Sides Of An Array
