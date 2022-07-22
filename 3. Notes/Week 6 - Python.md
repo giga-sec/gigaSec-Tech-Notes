@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 [[CSV in Python]]
 
-
+---
 https://stackoverflow.com/questions/10712002/create-an-empty-list-with-certain-size-in-python
 
 I think this is a good alternative for while loop that uses length of something as a condition to end
@@ -21,6 +21,12 @@ In Python2, `maketrans` is a function belongs to the `string` module.
 However in Python3, `maketrans` is a static method of the `str` type.
 `str.maketrans`
 
+Turn number into a list of digits
+```python
+list_of_digits = [int(x) for x in str(num)]
+```
+
+---
 
 Python is an Interpreted Languange. [[What is an Interpreted Language]] 
 
