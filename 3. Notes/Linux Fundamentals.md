@@ -22,6 +22,9 @@ Put the results of a command to a file
 You don't have to use `ls` when going to a directory
 simply use `cd ~/` and press `tab`. It will show you the directories
 
+ls -t : sorted result by modification time 
+ls -S : sort by file size
+
 ### Using Linux Terminal
 
 [[Navigate file system - Linux Commands]]
