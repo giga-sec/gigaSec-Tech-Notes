@@ -190,29 +190,30 @@ not_prime_digit = [0, 4, 6, 8, 9]
 def is_prime(num):
     if num < 0:
         return False
-
+    
     str_num = str(num)
     len_num = len(str_num)
 
     not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
-    not_prime_digit = [0, 4, 6, 8, 9]
+    prime_digit = [2, 3, 5, 7]
+    not_prime_digit = [0, 1, 4, 6, 8, 9]
     if (len_num >= 2):
+        last_digit = int(str_num[-1])
         if (int(str_num[-1]) in not_prime_indicator):
             return False
     else:  # Assumes digit length is 1
-        if num in not_prime_digit:
+        if num in prime_digit:
+            return True
+        elif num in not_prime_digit:
             return False
 
     # Turn each digit into list and sum all of digits
     sum_digits = sum([int(x) for x in str(num)])
-    if ((sum_digits % 3) != 0):
+    if ((sum_digits % 3) == 0):
         return False
 
     # Assumes integer is a prime
     return True
-
-
-is_prime(234234)
 ```
 
 
@@ -234,7 +235,15 @@ such as this
 Incorrect answer for n=1760751331: True should equal False
 Incorrect answer for n=4670413: True should equal False
 ```
-What's interesting is my code returns `True` for all big numbers. P
+What's interesting is my code returns `True` for all big numbers. 
+
+Okay, so we're going to go get some scratch of our old plan
+- take out the square root of the number.
+-   List all the prime numbers below this square root value and divide the given number by all these listed prime numbers.
+-   If the number is divided by any of the prime numbers less than its square root value, then it is not a prime number; otherwise, it is prime.
+```python
+
+```
 
 
 

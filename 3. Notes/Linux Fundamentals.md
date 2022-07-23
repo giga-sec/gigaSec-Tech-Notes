@@ -4,6 +4,14 @@ Created:  [[2022-04-26]]
 Tags: #fleeting 
 
 ---
+`~` is the home directory
+
+
+[[Shell 101]]
+
+
+
+
 [[Common Directories-Folders of Linux]]
 
 [[Software Repos and Packages]]
@@ -21,9 +29,6 @@ Put the results of a command to a file
 
 You don't have to use `ls` when going to a directory
 simply use `cd ~/` and press `tab`. It will show you the directories
-
-ls -t : sorted result by modification time 
-ls -S : sort by file size
 
 ### Using Linux Terminal
 
@@ -43,7 +48,7 @@ ls -S : sort by file size
 
 [[GREP - uses regex to search texts in linux files]]
 
-
+[[ls - Show the contents of specified folder-directory]]
 
 
 ### Windows System Apps and their respective linux alternative

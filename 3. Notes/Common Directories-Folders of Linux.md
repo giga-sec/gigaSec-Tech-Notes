@@ -12,6 +12,13 @@ Abstract:
 `/tmp `
 
 ---
+[[Root Directory is the GOD of all folders]]
+
+
+
+[[Root Directory and the peasant folders it reigns over explained]]
+
+
 We have two types of path 
 1) Absolute path, 
     It start with root directory (/) and follows the tree branch untill path of desired directory or file completed. Ex. cd /home/me/practice
@@ -19,38 +26,6 @@ We have two types of path
     It start from working directory to do this we use some symbols like . (dot) which refers current working directory and .. (dot dot ) which refers parent directory of current working directory
 
 
-## `/bin`
-- Where all available commands that can be used in the system are here
-
-
-## `/etc`
-
-- Root directory where system files used in OS are stored
-### Special files worth mentioning in `/etc`
-- **[[Understanding passwd file]]**, **shadow** -> shows how system store passwords using sha512
-- **sudoers.d** -> shows users/groups that have sudo permission
-
-
-## `/var`
-- Frequently accessed/written by services/applications
-### Special Files worth mentioning in `/var`
-- `/var/log` is where log files are stored
-It automatically manage logs in a process that is known as "rotating".
-
-#### Examples of useful logs in `/var/log`
--   An Apache2 web server
--   Logs for the fail2ban service, which is used to monitor attempted brute forces, for example
--   The UFW service which is used as a firewall
-
-
-## `/root`
-Home directory of a root user. The user would have their data in a directory such as `/home/root` by default.
-
-
-
-## `/tmp`
-Like temp in windows
-What's useful for us in pentesting is that any user can write to this folder by default. Meaning once we have access to a machine, it serves as a good place to store things like our enumeration scripts. 
 
 
 
