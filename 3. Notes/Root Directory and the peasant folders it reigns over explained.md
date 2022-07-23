@@ -19,12 +19,15 @@ All folders in here comes from `/` or `root directory`
 ## [[etc - directory]]
 
 
+## [[home - directory]]
+Each user only has write access to their own home folder 
+
 
 ## [[boot - directory]]
 - contain files needed to boot system
 
 
-## `/opt`
+## [[opt - directory]]
 This is where 3rd-party software lives
 
 ## `/usr`
@@ -53,11 +56,7 @@ Like temp in windows
 What's useful for us in pentesting is that any user can write to this folder by default. Meaning once we have access to a machine, it serves as a good place to store things like our enumeration scripts. 
 
 
-## `/dev`
-Linux exposes devices as files, and `/dev` is where we store these files
-
-These are not actual files as we know them, but they appear as files — for example, /dev/sda represents the first SATA drive in the system. If you wanted to partition it, you could start a partition editor and tell it to edit /dev/sda.
-
+## [[dev - directory]]
 
 
 
