@@ -5,7 +5,10 @@ Created:  [[2022-07-23]]
 Tags: #fleeting 
 
 ---
-- Root directory where system files used in OS are stored
+- where system files used in OS are stored
+- contains config files
+`/etc` directory contains system-wide configuration files — 
+user-specific configuration files are located in each user’s home directory.
 
 
 ### Special files worth mentioning in `/etc`
