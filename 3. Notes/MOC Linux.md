@@ -10,8 +10,13 @@ This MOC is dedicated to things that relate to
 
 [[Window Tiling Manager in Linux]]
 
+[[Shell Customization]]
+
 [[Arch Linux Installation]]
 
+
+Okay, so terminal is basically the application that enable us to launch shell
+And shell, is the application that enable us to interact with the kernel
 
 Set Volume Control in Terminal
 In arch
@@ -22,7 +27,7 @@ Setting Volume In Terminal
 Command: `amixer set Master 30%`
 `amixer set -c 1 Master 30%` 
 `-c` switch chooses the sound card
-`Pavucontrol`
+`Pavucontrol` for gui
 
 
 Installing Metasploit in Manjaro
