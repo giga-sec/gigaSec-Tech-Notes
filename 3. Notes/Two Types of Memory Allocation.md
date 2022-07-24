@@ -5,29 +5,13 @@ Created:  [[2022-06-25]]
 Tags: #literature 
 
 ---
-### [[Static Memory Allocation]]
-- The memory allocated is fixed 
-- Fixed Size meaning can't be increased/decreased during run time. 
-- It uses the stack space
-
-Problems with Static Memory Allocation
-- If user entered **LESS than the fixed size, ==then there's a waste of memory**==
-- If user entered **MORE than the fixed size, ==program will crash==**
+## [[Static Memory Allocation]]
+- Fixed Memory, memory can't be modified during runtime
 
 
-### [[Dynamic memory allocation]] 
-- Flexible memory size
-- assigns the memory in heap space during the execution or run time. 
-- Pointers play a very imporant role in Dynamic memory Allocation as allocated memory can only be accessed through pointers.
+## [[Dynamic memory allocation]] 
+- Flexible Memory
 
-?? When to use Dynamic Memory Allocation
-- We're not sure how much data we're gonna use during runtime
-
-[[Malloc in C Explained]]
-
-
-Example of Dynamic Data Structure that uses [[Dynamic Memory Allocation]]
-[[Linked List]]
 
 
 

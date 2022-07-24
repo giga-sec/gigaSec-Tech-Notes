@@ -10,19 +10,19 @@ Tags: #fleeting
 - Typecast the returned `void pointer` of malloc
 - Explanation about how `free()` works
 
-
-#### Code Snippets
+##### Code Snippets
 - [[C - Freeing a linked list]]
-
-##### Always check if malloc can't give memory anymore
 - [[C - Memory or NULL check of malloc]]
 ---
-Malloc requies `#include <stdlib.h>`
+Libraries Needed
+```c
+`#include <stdlib.h>
+```
 
-Malloc is used to create a single large block of [[continguous]] memory according to the size specified. The whole idea of it is to [[allocate memory]] during run time. 
-
-**Explanation of Syntax**
-`malloc(4)` malloc asks for how many bytes to be allocated.
+Purpose of Malloc: 
+- malloc asks for how many bytes to be allocated
+- create a single large block of [[continguous]] memory according to size specified. 
+- The whole idea of it is to [[allocate memory]] during run time. 
 
 
 
@@ -42,17 +42,13 @@ person *myperson = (person *) malloc(sizeof(person));
 
 
 
-
-
 [[sizeof values in each data type of C]]
 `malloc(sizeof(int))`
 Basically `sizeof(int)` is saying **I have 1 int**. Since I want three integers, **give me three pieces of int** -> `3 * sizeof(int)`. (1)
 
 
+[[Freeing a memory in C and how it works]]
 
-
-
-`free(num);`  basically turns into this `int num;` . When we free `num`, the variable `num` is still there but it no longer have any value attached to it. Basically, `free()` only deletes values, not the variable itself. 
 
 
 [[C - Freeing a linked list]]

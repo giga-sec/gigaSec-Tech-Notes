@@ -1,12 +1,8 @@
-
+[[MOC Programming]]
 
 # Modulus Operator
 Created:  [[2022-07-04]]
 Tags: #fleeting 
-
----
-Abstract:
-
 
 ---
 Plainly, it just gives you the remainder of the division of two numbers.
@@ -16,13 +12,13 @@ Plainly, it just gives you the remainder of the division of two numbers.
 ```
 
 
-See if it's an even number
+**See if it's an even number**
 `n % 2`
 1 means odd
 0 means even
 
 
-Circular Array
+**Circular Array**
 `[1, 2, 3, 4]`
 Since the array is full, 
 I can wrap back at the beginning

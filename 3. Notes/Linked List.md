@@ -5,10 +5,6 @@ Created:  [[2022-06-25]]
 Tags: #fleeting 
 
 ---
-Abstract:
-
-
-
 [[Linked List Code Snippets]]
 - Creating a node or linked list
 - Adding, Removing, Printing values to a linked list

@@ -5,6 +5,7 @@ Created:  [[2022-06-25]]
 Tags: #permanent 
 
 ---
+TIP: You NEED to free all memory first before reusing a linked list.
 ```C
 while (list != NULL)
 {
@@ -14,15 +15,12 @@ while (list != NULL)
 }
 ```
 
-NOTE: 
-You NEED to free all memory first before reusing a linked list.
+## Why it's important to free memory?
+Memory leaks don't automatically cause problems 
+-> **until you've run out of memory and your call to malloc suddenly fails**
 
 
-Memory leaks don't cause any outward problems 
--> until you've run out of memory and your call to malloc suddenly fails
-
-
-
+[[Freeing a memory in C and how it works]]
 
 
 

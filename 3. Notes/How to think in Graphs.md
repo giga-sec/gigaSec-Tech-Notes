@@ -5,10 +5,6 @@ Created:  [[2022-06-03]]
 Tags: #fleeting 
 
 ---
-Abstract:
-
-
----
 The circles are now named vertex/node
 The lines are now named edge
 ![[1_h8-Y7kfLY81IeZ61y6RhPA.png|350]]

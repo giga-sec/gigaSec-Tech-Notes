@@ -6,6 +6,7 @@ Tags: #fleeting
 
 ---
 Arrays in C are equivalent to pointers
+#myquestion ^ What makes you say that?
 
 With a sorted array, we have 
 running time of O(log⁡ *n*) for search,
@@ -16,7 +17,6 @@ since we might get lucky and find our value immediately.
 
 
 [[Two Types of Memory Allocation]]
-
 
 
 

@@ -5,21 +5,20 @@ Created:  [[2022-06-25]]
 Tags: #permanent 
 
 ---
- Pointers play a very imporant role in Dynamic memory Allocation as allocated memory can only be accessed through pointers.
+ Pointers play a very imporant role here 
+ as allocated memory can only be accessed through pointers.
 - Flexible memory size
-- **==assigns the memory in heap space ==during the execution or run time**. 
+- **==assigns the memory in heap space ==**. 
 
 
 ?? When to use Dynamic Memory Allocation
-- We're not sure how much data we're gonna use during runtime
-
-[[Linked List]]
-
+- When we're not sure how much data we're gonna use during runtime
 
 [[Malloc in C Explained]]
 
 
-
+Dynamic Data Structure that uses [[Dynamic Memory Allocation]]
+- [[Linked List]]
 
 
 

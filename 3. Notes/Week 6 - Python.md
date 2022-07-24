@@ -13,6 +13,7 @@ https://stackoverflow.com/questions/10712002/create-an-empty-list-with-certain-s
 [[Looping in Python]]
 
 
+
 In Python2, `maketrans` is a function belongs to the `string` module. 
 However in Python3, `maketrans` is a static method of the `str` type.
 `str.maketrans`

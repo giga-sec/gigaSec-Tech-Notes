@@ -14,19 +14,13 @@
 
 [[Kata - Codewars]]
 
-https://roadmap.sh/
 
 ## Books
 
 [[Understanding and Using C Pointers]]
 
 
-## Tools
-Visualize your algorithms
-https://algoviz.io
-
-Translate your code to english
-https://denigma.app
+## [[Programming Tools]]
 
 
 ## Uncategorized
