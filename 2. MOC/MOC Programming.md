@@ -15,10 +15,16 @@
 [[Kata - Codewars]]
 
 
-## Books
+## Articles
 
-[[Understanding and Using C Pointers]]
+[[Being a team player in software engineering]]
 
+[[You will always have more Problems than solutions]]
+
+[[Advice in programming that I found on reddit]]
+
+
+## [[Programming Books]]
 
 ## [[Programming Tools]]
 
@@ -32,13 +38,6 @@ Boilerplate code
 
 
 
-## Articles
-
-[[Being a team player in software engineering]]
-
-[[You will always have more Problems than solutions]]
-
-[[Advice I found in reddit about programming]]
 
 
 ---

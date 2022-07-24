@@ -93,7 +93,7 @@ Maybe not that good?
 
 Good
 - I can be confident that whatever information I stored here can easily be retrieved and understood
-
+- Whatever information that I store in here can be useful in their own way. Notes are permanently stored and never get thrown away unless if I intentionally do it so
 
 
 Changes
