@@ -239,11 +239,64 @@ What's interesting is my code returns `True` for all big numbers.
 
 Okay, so we're going to go get some scratch of our old plan
 - take out the square root of the number.
--   List all the prime numbers below this square root value and divide the given number by all these listed prime numbers.
--   If the number is divided by any of the prime numbers less than its square root value, then it is not a prime number; otherwise, it is prime.
+-   List all the prime numbers below this square root value 
+    How do we find the prime numbers below the square root value?
+    Will it be memory friendly? Since we're dealing with large numbers
+        I guess note, the square root number of the highest number I got is `41961`, that's a lot of prime numbers to compare and divide. ==NOT A GOOD IDEA PLAN==
+- divide the given number by all these listed prime numbers.
+    - Is the given number the original number and not the square root of the numbeR?
+-  If the number is divided by any of the prime numbers less than its square root value, then it is not a prime number; otherwise, it is prime.
 ```python
 
 ```
+
+
+Okay, this is where I view solutions. It seems like large numbers just doesn't work with my code. 
+Final Code:
+```python
+def is_prime(num):
+    if num < 0:
+        return False
+    
+    str_num = str(num)
+    len_num = len(str_num)
+
+    not_prime_indicator = [0, 2, 4, 5, 6, 8]  # ends with
+    prime_digit = [2, 3, 5, 7]
+    not_prime_digit = [0, 1, 4, 6, 8, 9]
+    if (len_num >= 2):
+        if (int(str_num[-1]) in not_prime_indicator):
+            return False
+    else:  # Assumes digit length is 1
+        if num in prime_digit:
+            return True
+        elif num in not_prime_digit:
+            return False
+
+    # Turn each digit into list and sum all of digits
+    sum_digits = sum([int(x) for x in str(num)])
+    if ((sum_digits % 3) == 0):
+        return False
+
+    # Assumes integer is a prime
+    return True
+```
+
+A code solution I view
+```python
+from math import sqrt
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    i = 2
+    while i <= sqrt(num):    
+        if num%i == 0:
+            return False
+        i += 1
+    return True 
+```
+Comments: This is much cleaner and shorter than my code wtf. Fuckin amazing
 
 
 
