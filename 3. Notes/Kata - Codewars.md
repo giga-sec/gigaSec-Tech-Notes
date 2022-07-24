@@ -297,6 +297,37 @@ def is_prime(num):
     return True 
 ```
 Comments: This is much cleaner and shorter than my code wtf. Fuckin amazing
+My analysis:
+```python
+if num <= 1:
+    return False
+```
+^ Yeah definetly makes sense as 1, 0 and negative numbers are not prime.
+
+```python
+i = 2
+while i <= sqrt(num):
+    mod = num % i
+    if mod == 0:
+        return False  # Not Prime
+    i += 1
+return True  # Prime
+```
+1. He set the `i` with `2`
+2. The condition to end the loop is when `i` is greater than square rooted number  
+3. Inside the loop, the original number is `moduled` by `i`
+4. If `mod` is equals to `0`, then return False
+5. otherwise, increment `i` by 1
+
+1. Why is the `i` set to `2`?
+Ans: Probably because the first prime number is `2`
+2. No comment yet
+3. Why do we `mod` the original num by `i`?
+Ans: 
+4. Why is it that when `mod` is equal to `0`, it's not a prime?
+5. Also why the hell do we increment `i` by 1?
+
+
 
 
 
