@@ -19,21 +19,10 @@ Better version of [[sh - shell]]
 
 
 ## [[ksh - shell]]
-`korn shell` is a superset version of `bourne shell`
-- allows built-in support for arithmetic operations
-- supports scripts made in
-    - Bourne shell
-    - C Shell
-        - while offering string, array and function manipulation 
-
-`/bin/ksh`
-`#` for the root user
-`$` for the non-root users
 
 
-## `zsh`
+## [[zsh - shell]]
 is sh shell extension with tons of improvements for customization
-
 
 
 
