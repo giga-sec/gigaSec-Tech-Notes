@@ -327,7 +327,16 @@ Ans:
 4. Why is it that when `mod` is equal to `0`, it's not a prime?
 5. Also why the hell do we increment `i` by 1?
 
+Maybe the purpose of the loop is to get the listed prime numbers, then check if any of those prime numbers is divisible by the given number. But then 
 
+Maybe it uses this 
+- take out the square root of the number.
+-   List all the prime numbers below this square root value 
+- divide the given number by all these listed prime numbers.
+-  If the number is divided by any of the prime numbers less than its square root value, then it is not a prime number; otherwise, it is prime.
+
+My understanding of the solution:
+So it checks every number, then if its divisible by that number, then it's not a prime. If all numbers under the square rooted number isn't divisible by the original number, then it's a prime. So basically he skipped the finding of prime numbers less than the square root value and instead use all the numbers under the square rooted value. 
 
 
 
