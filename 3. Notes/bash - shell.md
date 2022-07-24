@@ -7,8 +7,8 @@ Tags: #fleeting
 ---
 Designed to be compatible with the Bourne shell. 
 It incorporates useful features from shells in Linux such as 
-- Korn shell 
-- C shell.
+- [[ksh - shell]] 
+- [[csh - shell]]
 
 Allows recall previously used commands 
 
