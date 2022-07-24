@@ -17,6 +17,12 @@ for i in range(len(arr)):
 `range(start, stop, [step])
 
 
+Try these:
+My prediction is the loop will end until the end of the character or basically the length of the character
+```python
+variable = "Hello there"
+for i in range(variable):
+```
 
 
 
