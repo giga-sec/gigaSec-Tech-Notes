@@ -17,16 +17,32 @@ Then use `csv.readed` to read the contents of `.csv`
 ```python
 opened_file = open("file_name.csv")  # Open csv file first
 csvreader = csv.reader(opened_file)  #
-
-next(csvreader)  # Skips the header
-print(next(csvreader))  # Prints 1st record
 ```
+
+It's better to get the header first
+```python
+header = []
+header = next(csvreader)
+```
+
+Then the next iteration will be the 1st record 
+```python
+rows = []
+for row in csvreader:
+        rows.append(row)
+```
+
+
+
+
 
 Print everything of the csv
 ```python
 for row in read_file_csv:
-        print(row)
+    print(row)
 ```
+
+
 
 
 ## CS50 Guide
