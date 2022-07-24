@@ -148,6 +148,76 @@ Notice that we’ve defined a helper function for you, `longest_match`, which wi
 - [ ] What does subsequence mean?
 - [ ] Why does this thing below matter? 
     --> longest run of consecutive repeats of STR in DNA sequence
+- [ ] Let's first understand what the existing function does
+
+##### Longest Match Function
+given both 
+inputs -> DNA sequence, and STR
+Our plan is to plug in this two manually and see what happens
+- [x] What is a DNA sequence
+    Ans: Like ASSAAAGGKALALAK, basically a strings of character
+- [x] What is an STR
+    Ans: It's the repeated value of a DNA, for instance `AAAT` is an str that repeats four times in DNA sequence
+- [x]  Okay, so let's find out how we can read the raw DNA sequence file and assign it to a variable in python 
+- [x] We're also gonna learn how to read a .csv file into python
+
+- [x] Okay so how do we find the STR?
+- I think it's on the headerrs
+returns the maximum number of times that the STR repeats.
+
+Okay so I finally understood the longest match function
+```python
+dna_sequence = "AAASJFDAAASGTTTTSDAAAA"
+str = "AABB"
+longest_match(dna_sequence, str)
+```
+like that, but there are multiple `str`, so we're gonna loop it. 
+But each of the results is assigned to different str
+Oh wait, what's gonna be the use of the results of `longest_match`?
+
+
+Okay, so let's first understand what the "Check the database for matching profile"
+-   If the STR counts match exactly with any of the individuals in the CSV file, your program should print out the name of the matching individual.
+    -   You may assume that the STR counts will not match more than one individual.
+    -   If the STR counts do not match exactly with any of the individuals in the CSV file, your program should print `No match`.
+
+
+
+And let's plan on how to do it as well
+So basically, we're gonna scan each column for each row,
+Then we see if it matches with 
+wait wait
+
+This is the database of `.csv`
+```python
+name,AGAT,AATG,TATC
+Alice,28,42,14
+Bob,17,22,19
+Charlie,36,18,25
+```
+So how exactly are we gonna compare
+Hmmm, okay so let's understand what the `longest_match` returns
+Okay, so we're gonna store the returned values of `longest_match` to a list. 
+For instance, `[name, 28, 42, 14]`
+We're gonna remove the first index here, which is `name` 
+then we're gonna get the rows, with name_removed as well 
+and compare the row with the longest_match list
+like
+```python
+longest_match = [28, 42, 14]
+database = [Alice, 28, 42, 14]
+if longest_match == database[1:]:
+    return database[0]  # returns the name
+```
+Then we just need a loop to scan each of the row
+```
+python
+```
+
+
+
+
+
 
 The biggest value of the repeated texts is the 
  -> longest run of consecutive STR
