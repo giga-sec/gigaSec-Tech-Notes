@@ -9,7 +9,8 @@ Tags: #fleeting
 - syntax similar to c-programming languange
 - the `c shell` or `csh` has aliases feature
 
-`/bin/csh`
+
+Path: `/bin/csh`
 By default,
 - `hostname#` for ROOT user
 - `hostname%` for NON - root user
