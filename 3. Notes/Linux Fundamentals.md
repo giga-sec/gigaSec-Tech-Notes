@@ -9,9 +9,6 @@ Tags: #fleeting
 
 [[Shell 101]]
 
-
-
-
 [[Common Directories-Folders of Linux]]
 
 [[Software Repos and Packages]]
