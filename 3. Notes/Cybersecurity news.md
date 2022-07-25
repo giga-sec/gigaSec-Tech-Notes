@@ -10,10 +10,6 @@ https://www.makeuseof.com/why-hackers-target-critical-infrastructure/
 
 Different ransomware gangs and their level of integrity 
 https://www.csoonline.com/article/3607649/the-worst-and-most-notable-ransomware.html
-
-Blue Team Guide on preventing ransomware
-https://www.csoonline.com/article/3046586/security/a-blue-teams-reference-guide-to-dealing-with-ransomware.html
-
 ---
 ## Uncategorized
 [[Hacking Group revictimizes ransomware victim even if ransom was already paid]]
@@ -27,6 +23,11 @@ https://www.csoonline.com/article/3046586/security/a-blue-teams-reference-guide-
 ## Ransomware
 [[Luna ransomware encrypts Windows, Linux and ESXi systems - Cross Platform Ransomware]]
 
+
+Ransomware right now behaves like a standard application. 
+- Doesn't require local administrator privileges 
+- doesn't care if UAC is on, 
+- most make use of standard Windows API for encryption, which you can't disable without really messing up a workstation.
 
 ## Malware
 
