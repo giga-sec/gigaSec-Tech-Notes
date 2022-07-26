@@ -106,9 +106,20 @@ for team in dictionary:
     # Replace the value of key rating to an int
     teams.append(team)
 ```
-- [ ] Let's first learn how to GET the value of a particular key
-- [ ] Then let's learn how to REPLACE a value of a particular key
+- [x] Let's first learn how to GET the value of a particular key
+```python
+dictionary.get('ratings')
+```
 
+- [x] Then let's learn how to REPLACE a value of a particular key
+```python
+dictionary['Key'] = 'new value to update the old value of key'
+```
+
+So in conclusion
+```python
+
+```
 
 
 `Simulate Tournament`
