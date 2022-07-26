@@ -1,4 +1,4 @@
-
+[[Burp Suite Basics]]
 
 # Burp Suite Repeater
 Created:  [[2022-07-21]]

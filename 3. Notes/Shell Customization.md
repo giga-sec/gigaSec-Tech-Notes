@@ -5,7 +5,7 @@ Created:  [[2022-07-24]]
 Tags: #fleeting 
 
 ---
-[[zsh - shell]]
+[[Shell 101]]
 
 **Oh My Zsh** is a framework for [Zsh](https://www.zsh.org), the Z shell.
 -   In order for **Oh My Zsh** to work, **Zsh must be installed**.
