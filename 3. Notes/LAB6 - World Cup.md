@@ -209,9 +209,95 @@ Else (assumes team is not in dictionary):
 - [ ] Learn how to add key-value pair into dictionary
 
 Code
+```python
+if winner in count:
+    count[winner] += 1
+else:  # Assumes team is not in count dictionary
+    count[winner] = 1
+```
 
 
+Okay, so my code now works. I had to do some adjustments here in there
+But I have no idea if logically, there's no error on it
 
+Well done :D
+FINAL CODE
+```python
+# Simulate a sports tournament
+
+import csv
+import sys
+import random
+
+# Number of simluations to run
+N = 1000
+
+
+def main():
+
+    # Ensure correct usage
+    if len(sys.argv) != 2:
+        sys.exit("Usage: python tournament.py FILENAME")
+
+    teams = []
+    # TODO: Read teams into memory from file
+    file = sys.argv[1]
+    with open(file) as csv_file:
+        dictionary = csv.DictReader(csv_file)
+        for team in dictionary:
+            team['rating'] = int(team.get('rating'))  # Replace string to int
+            teams.append(team)
+
+
+    counts = {}
+    # TODO: Simulate N tournaments and keep track of win counts
+    for i in range(0, N):
+        winner = simulate_tournament(teams)
+        if winner in counts:
+            counts[winner] += 1
+        else:  # Assumes team is not in count dictionary
+            counts[winner] = 1
+
+    # Print each team's chances of winning, according to simulation
+    for team in sorted(counts, key=lambda team: counts[team], reverse=True):
+        print(f"{team}: {counts[team] * 100 / N:.1f}% chance of winning")
+
+
+def simulate_game(team1, team2):
+    """Simulate a game. Return True if team1 wins, False otherwise."""
+    rating1 = team1["rating"]
+    rating2 = team2["rating"]
+    probability = 1 / (1 + 10 ** ((rating2 - rating1) / 600))
+    return random.random() < probability
+
+
+def simulate_round(teams):
+    """Simulate a round. Return a list of winning teams."""
+    winners = []
+
+    # Simulate games for all pairs of teams
+    for i in range(0, len(teams), 2):
+        if simulate_game(teams[i], teams[i + 1]):
+            winners.append(teams[i])
+        else:
+            winners.append(teams[i + 1])
+
+    return winners
+
+
+def simulate_tournament(teams):
+    """Simulate a tournament. Return name of winning team."""
+    # TODO
+    winners = teams
+    while (len(winners) != 1):
+        winners = simulate_round(winners)
+    return winners[0].get('team')  # return the name of team
+
+
+if __name__ == "__main__":
+    main()
+
+```
 
 
 ## References
