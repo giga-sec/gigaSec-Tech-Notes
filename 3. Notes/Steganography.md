@@ -1,4 +1,4 @@
-
+[[MOC Cybersecurity]]
 
 # Steganography
 Created:  [[2022-07-20]]
@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 ## Least significant bit steganography
 The insertion of hidden message happens with
--> We change the last bits or add bits to the end of the file 
+-> By changing the last bits or adding bits to the end of the file 
 
 ## Discrete Cosine Transform Coefficients of the jpeg
 `jsteg` - common algorithm
