@@ -19,6 +19,17 @@ A dictionary is basically
 
 
 
+GET the value of a particular key
+```python
+dictionary.get('name_of_key')
+```
+
+REPLACE a value of a particular key
+```python
+dictionary['name_of_key'] = 'new value to replace old value of key'
+```
+
+
 
 
 
