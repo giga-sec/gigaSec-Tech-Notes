@@ -7,23 +7,23 @@ Tags: #fleeting
 ---
 THREE WAYS TO DEFINE DICTIONARY
 
-Defining Dictionary 
+ 
 1st Way
 ```python
 d = {
-    <key>: <value>, 
-    <key>: <value>
+    'key': 'value', 
+    'key': 'value'
 }
 ```
 
-Explicit Example
 
-
-2nd Way
-
-
-
-
+2rd Way (If `key-value` pair are all strings)
+```python
+d = dict(
+    key = 'value',
+    key = 'value'
+)
+```
 
 
 

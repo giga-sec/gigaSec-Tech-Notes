@@ -94,6 +94,15 @@ And I want it to be like this below
 {'team': 'Urugay', 'rating': 976}
 ```
 
+> append each team’s dictionary to `teams`. The function call `teams.append(x)` will append `x` to the list `teams`.
+- [ ] What should I expect the `teams` list value is gonna be?
+Ans: Okay, so I'm expecting that it's just gonna be the name of the teams, not their ratings??? 
+Different Ans: Hmm no, I think the `teams` list is gonna be a list of dictionary representing the team name and their rating. And the rating is expected to be `int`
+~~- [ ] So where will I put the ratings value? Will I need to create a new list?
+
+
+
+
 
 `Simulate Tournament`
 input a list of teams and 
