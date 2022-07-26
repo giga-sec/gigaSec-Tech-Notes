@@ -29,7 +29,10 @@ REPLACE a value of a particular key
 dictionary['name_of_key'] = 'new value to replace old value of key'
 ```
 
-
+ADDING a key-value pair in the dictionary
+```python
+dict['new_key'] = 'new_value'
+```
 
 
 
