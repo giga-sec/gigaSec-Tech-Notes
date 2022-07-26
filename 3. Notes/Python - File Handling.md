@@ -21,6 +21,11 @@ f.read()
 ```
 
 
+### With Statement to automatically close file
+```python
+with open("welcome.txt") as file:
+   data = file.read()
+```
 
 
 
