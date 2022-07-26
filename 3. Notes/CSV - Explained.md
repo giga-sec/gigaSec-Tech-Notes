@@ -5,6 +5,14 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+```csv
+Name, Favorite Snack
+Jonathan, "Banana, Women(streets ver), Potato"
+``` 
+We can safely use `,` comma inside of `" "`
+Safe, in a way that it will not separate the content and will stay into a single `field` 
+
+
 ## How is CSV used
 It stores data in tabular form as plain text
 

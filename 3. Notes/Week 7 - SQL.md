@@ -6,13 +6,13 @@ Tags: #fleeting
 
 ---
 [[CSV - Explained]]
+[[CSV in Python]]
 
-```csv
-Name, Favorite Snack
-Jonathan, "Banana, Women(streets ver), Potato"
-``` 
-We can safely use `,` comma inside of `" "`
-Safe, in a way that it will not separate the content and will stay into a single `field` 
+
+CSV quick introduction
+SQL introduction
+SQL in Python
+Problems with SQL
 
 
 
