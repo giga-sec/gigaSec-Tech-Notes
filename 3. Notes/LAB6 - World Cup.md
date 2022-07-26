@@ -145,6 +145,38 @@ return the name of the one team that's left
     -   You should not assume the number of teams in the tournament, but you may assume it will be a power of 2.
 
 
+
+
+
+```python
+teams = [
+{'team': 'Uruguay', 'rating': 976}, 
+{'team': 'Portugal', 'rating': 1306}
+]
+```
+
+Algo:
+Call `simulate round`
+then it will return all of the winners
+Check if the length of the new winners are one team
+If not, then return step 1
+
+Code:
+```python
+winners = teams
+while len(winners) == 1:
+    winners = simulate_round(winners)
+return winners.get('team')  # return the name of team
+```
+Okay, so this is my final code, I'm not quite sure if its correct or not
+
+
+```python
+
+```
+
+
+
 Back to `main` function
 For example, 
 IF -> Uruguay won 2 tournaments and Portugal won 3 tournaments, 
@@ -154,6 +186,30 @@ Use your `simulate_tournament` to simulate each tournament and determine the win
 
 -   Recall that if `counts` is a dictionary, then syntax like `counts[team_name] = x` will associate the key stored in `team_name` with the value stored in `x`.
 -   You can use the `in` keyword in Python to check if a dictionary has a particular key already. For example, `if "Portugal" in counts:` will check to see if `"Portugal"` already has an existing value in the `counts` dictionary.
+
+```python
+counts = {}
+    # TODO: Simulate N tournaments and keep track of win counts
+    for i in range(0, N):
+        team_winner = simulate_tournaments(teams)
+        
+```
+- [ ] Checking if a particular key is already in the dictionary
+Ans: You can use the `in` keyword in Python to check if a dictionary has a particular key already. 
+
+
+Algo:
+If a team is in dictionary:
+    increment the value pair of that
+Else (assumes team is not in dictionary):
+    create a key-value pair with 
+        the default value of 1
+        key will be the team name
+
+- [ ] Learn how to add key-value pair into dictionary
+
+Code
+
 
 
 
