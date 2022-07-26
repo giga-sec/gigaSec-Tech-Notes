@@ -1,4 +1,4 @@
-
+[[MOC CS50]]
 
 # Week 7 - SQL
 Created:  [[2022-07-26]]

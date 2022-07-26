@@ -1,4 +1,4 @@
-
+[[Burp Suite Repeater]]
 
 # Burp Suite - Repeater Interface GUI Explained
 Created:  [[2022-07-21]]
@@ -6,7 +6,7 @@ Tags: #fleeting
 
 ---
 ![[Pasted image 20220721111223.png]]
-1. At the very top left of the tab, 
+1. At the very top left of the tab, (Request List)
     List of Repeater requests. 
     New request to Repeater will appear up here.
     Different requests going through Repeater is possible 
