@@ -79,10 +79,20 @@ teams = []
 file = sys.argv[1]
 with open(file) as csv_file: 
     dictionary = csv.DictReader(csv_file)
+    for team in dictionary:
+        teams.append(team)
 ```
 Do we still need to remember the `.csv` file outside of this particular code?
-Ans: I don't think so, okay so I guess we can safely use with
-- [ ] Experiement with dictionary
+Ans: I don't think so, okay so I guess we can safely use `with`
+- [x] Experiement with dictionary
+- [ ] How do we make the particular value transform into an `int`?
+    - [ ] I could read the article about dictionaries in python. That will also lead us to learn more about dictionaries in python.
+Basically like this
+```python
+{'team': 'Urugay', 'rating': '976'}
+And I want it to be like this below
+{'team': 'Urugay', 'rating': 976}
+```
 
 
 `Simulate Tournament`
