@@ -37,10 +37,71 @@ I think I can say that the two .csv files
 - doesn't have similar teams comparing the two .csv files
 
 
+The order in which the teams are listed 
+-> determines which teams will play each other in each round 
+Example:
+in the first round, 
+    Uruguay will play Portugal and 
+    France will play Argentina; 
+    #myquestion So does that mean that 1st round consists of all teams, like Brazil vs Mexico, Beligun vs Japan till the last team which is Colombia vs England?????? Yeah I think it is because the `simulate_round` returns the list of all of the teams that won the round. 
+in the next round, 
+    the winner of the `Uruguay-Portugal` match will play the winner of the `France-Argentina` match). 
+    **So be sure not to edit the order in which teams appear in this file!**
+
+
+
+Functions Explained (Already implented)
+The `simulate_game` function accepts two teams as inputs 
+(recall that each team is a dictionary containing the team name and the team’s rating), and simulates a game between them. 
+If -> first team wins, the function returns `True` 
+ELSE -> the function returns `False`.    Assumes that the 2nd team wins
+
+
+The `simulate_round` function accepts a list of teams (in a variable called `teams`) as input, and simulates games between each pair of teams. 
+The function returns a list of all of the teams that won the round.
+
+**Main Function**
+Finally, at the end of `main`, we sort the teams in descending order of how many times they won simulations (according to `counts`) and print the estimated probability that each team wins the World Cup.
 
 
 
 
+Functions or Code that we are going to implement
+First, in `main`, 
+- read the team data from the CSV file into your program’s memory,
+- add each team to the list `teams`.
+    The file to use will be provided as a cli arg. You can access the name of the file, then, with `sys.argv[1]`.
+    `csv.DictReader` function to read the csv file
+    By default, all values read from the file will be strings. convert the team’s `rating` to an `int`
+    Ultimately, append each team’s dictionary to `teams`. The function call `teams.append(x)` will append `x` to the list `teams`.
+```python
+teams = []
+file = sys.argv[1]
+with open(file) as csv_file: 
+    dictionary = csv.DictReader(csv_file)
+```
+Do we still need to remember the `.csv` file outside of this particular code?
+Ans: I don't think so, okay so I guess we can safely use with
+- [ ] Experiement with dictionary
+
+
+`Simulate Tournament`
+input a list of teams and 
+should repeatedly simulate rounds until you’re left with one team.
+return the name of the one team that's left
+    You can call the `simulate_round` function, which simulates a single round, accepting a list of teams as input and returning a list of all of the winners.
+    -   You should not assume the number of teams in the tournament, but you may assume it will be a power of 2.
+
+
+Back to `main` function
+For example, 
+IF -> Uruguay won 2 tournaments and Portugal won 3 tournaments, 
+THEN -> your `counts` dictionary should be `{"Uruguay": 2, "Portugal": 3}`.
+
+Use your `simulate_tournament` to simulate each tournament and determine the winner.
+
+-   Recall that if `counts` is a dictionary, then syntax like `counts[team_name] = x` will associate the key stored in `team_name` with the value stored in `x`.
+-   You can use the `in` keyword in Python to check if a dictionary has a particular key already. For example, `if "Portugal" in counts:` will check to see if `"Portugal"` already has an existing value in the `counts` dictionary.
 
 
 
