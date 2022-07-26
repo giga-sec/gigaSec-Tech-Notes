@@ -85,8 +85,8 @@ with open(file) as csv_file:
 Do we still need to remember the `.csv` file outside of this particular code?
 Ans: I don't think so, okay so I guess we can safely use `with`
 - [x] Experiement with dictionary
-- [ ] How do we make the particular value transform into an `int`?
-    - [ ] I could read the article about dictionaries in python. That will also lead us to learn more about dictionaries in python.
+- [x] How do we make the particular value transform into an `int`?
+    - [x] I could read the article about dictionaries in python. That will also lead us to learn more about dictionaries in python.
 Basically like this
 ```python
 {'team': 'Urugay', 'rating': '976'}
@@ -95,7 +95,7 @@ And I want it to be like this below
 ```
 
 > append each team’s dictionary to `teams`. The function call `teams.append(x)` will append `x` to the list `teams`.
-- [ ] What should I expect the `teams` list value is gonna be?
+- [x] What should I expect the `teams` list value is gonna be?
 Ans: Okay, so I'm expecting that it's just gonna be the name of the teams, not their ratings??? 
 Different Ans: Hmm no, **I think the `teams` variable is gonna be a list of dictionary representing the team name and their rating. And the rating is expected to be `int`**
 ~~- [ ] So where will I put the ratings value? Will I need to create a new list?
@@ -108,18 +108,33 @@ for team in dictionary:
 ```
 - [x] Let's first learn how to GET the value of a particular key
 ```python
-dictionary.get('ratings')
+dictionary.get('name_of_key')
 ```
 
 - [x] Then let's learn how to REPLACE a value of a particular key
 ```python
-dictionary['Key'] = 'new value to update the old value of key'
+dictionary['name_of_key'] = 'new value to update the old value of key'
 ```
 
 So in conclusion
 ```python
-
+for team in dictionary:
+    team['rating'] = int(team.get('rating'))  # Replace string to int
+    teams.append(team)
 ```
+
+Overall
+```python
+teams = []
+file = sys.argv[1]
+with open(file) as csv_file: 
+    dictionary = csv.DictReader(csv_file)
+    for team in dictionary:
+        team['rating'] = int(team.get('rating'))  # Replace string to int
+        teams.append(team)
+```
+So I'm confident that the first ting is now solve
+
 
 
 `Simulate Tournament`
