@@ -38,6 +38,7 @@ MSFconsole supports tab completion
 
 
 ### Msfconsole is managed by context; 
+Context is like what exploit we're currently in
 this means that unless set as a global variable, 
 all parameter settings will be lost if you change the module you have decided to use. 
 
@@ -63,5 +64,14 @@ msf6 exploit(windows/smb/ms17_010_eternalblue) >
 Further information on any module can be obtained by typing the `info` command within its context.
 
 If used from the msfconsole prompt, the `show` command will list all modules.
-The `use` and `show <options>` (options like payload or options itself)commands we have seen so far are identical for all modules in Metasploit.
+The `use` and `show options`
 You can leave the context using the `back` command.
+`info` command within its context.
+
+
+`search ms7-010`. 
+will search the Metasploit Framework database for modules relevant to the given search parameter. You can conduct searches using CVE numbers, exploit names (eternalblue, heartbleed, etc.), or target system.
+
+Each exploit module has a ranking syste
+Look her efor always updated info -> https://docs.metasploit.com/docs/using-metasploit/intermediate/exploit-ranking.html
+
