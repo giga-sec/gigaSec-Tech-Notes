@@ -42,13 +42,40 @@ SQL takes in the principles of CRUD and in a better way as well
 `UPDATE`
 `DELETE`, `DROP`
 
+```sql
+sqlite3 <filename>.db
+```
+If the filename doesn't exist, it will automatically be created
+
+```sql
+.mode csv
+.import <filename>.csv filename
+```
+This will transfer any data from `.csv` to the created sql `.db` file
+
+```csv
+.schema
+```
+To open the database
+
+
+```sql
+SELECT DISTINCT(UPPER(title)) FROM favorites;
+```
+Forces every output to be in uppercase and remove redundancy of similar outputs
+
+We can also add more phrases to our command:
+-   `WHERE`, adding a Boolean expression to filter our data
+-   `LIKE`, filtering responses more loosely
+-   `ORDER BY`
+-   `LIMIT`
+-   `GROUP BY`
 
 
 
 
 
-
-SQL in Python
+SQL  in Python
 Problems with SQL
 
 
