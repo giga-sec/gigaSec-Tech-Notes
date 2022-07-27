@@ -2,7 +2,7 @@
 
 # Structure of my notes 
 Created:  [[2022-07-16]]
-Tags: #fleeting 
+Tags: #literature 
 
 ---
 #### Abstract:
