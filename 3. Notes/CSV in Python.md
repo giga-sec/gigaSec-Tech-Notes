@@ -8,8 +8,21 @@ Tags: #fleeting
 
 `set()`
 A data structure built-in, `set`, 
-which ensures that all values are unique:
+which ensures that the list doesn't have any similar values.
+#myquestion Does it ignore caps? Like does it say it is similar for word `hello` and `HeLLo`?
+```python
+import csv
 
+#titles = []
+titles = set()  # define it into set() instead of a list
+
+with open("favorites.csv", "r") as file:
+    reader = csv.DictReader(file)
+
+    for row in reader:
+        title = row["title"].strip().upper()
+        titles.add(title)  # Add the title into the set
+```
 
 
 Libraries Needed

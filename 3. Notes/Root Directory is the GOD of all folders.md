@@ -5,7 +5,8 @@ Created:  [[2022-07-23]]
 Tags: #fleeting 
 
 ---
-`Filesystem Hierarchy Standard` is what the structure used to folders in Linux.
+`Filesystem Hierarchy Standard` 
+-> is the structure used to folders in Linux.
 
 
 ## `/` or `root directory`

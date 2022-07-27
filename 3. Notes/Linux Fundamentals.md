@@ -5,7 +5,7 @@ Tags: #fleeting
 
 ---
 `~` is the home directory
-
+`/` is the root directory, [[Root Directory is the GOD of all folders]]
 
 [[Shell 101]]
 
@@ -20,12 +20,21 @@ Tags: #fleeting
 [[Processes on Linux]]
 [[kill - Killing Processes on linux]]
 
+Auto mount disk at boot
+`/dev/sb1`
+
+https://techhut.tv/auto-mount-drives-in-linux-fstab/
+
+
+
 
 Put the results of a command to a file
 `command > output.txt`
 
 You don't have to use `ls` when going to a directory
 simply use `cd ~/` and press `tab`. It will show you the directories
+
+`type <command>` to know more about the command or its directory
 
 ### Using Linux Terminal
 

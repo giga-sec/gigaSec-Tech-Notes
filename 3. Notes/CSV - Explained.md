@@ -5,6 +5,9 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+CSV meaning Comma Separated Values
+CSV is a flat-file database
+
 ```csv
 Name, Favorite Snack
 Jonathan, "Banana, Women(streets ver), Potato"
