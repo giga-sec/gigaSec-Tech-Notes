@@ -23,7 +23,7 @@ Launch Metasploit with `msfconsole`
 This `msfconsole` helps us to interact with different modules of Metasploit Framework. [[What is a Module in Metasploit]]
 
 
-[[Exploit]] 
-[[Vulnerability]]: 
-[[Payload]]
+[[Exploit]] - A code that takes advantage of existing [[vulnerability]] in the system
+[[Vulnerability]]: A logical, code, or design flaw in a program
+[[Payload]] - A code that helps us do what we want in a target system
 
