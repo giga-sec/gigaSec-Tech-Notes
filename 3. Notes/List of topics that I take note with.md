@@ -20,5 +20,6 @@ And many more
 - Browser Configuration (Mainly Firefox CSS)
 
 
+The things that I take note with isn't limited to the list above and I will not update this list that often.  
 
 
