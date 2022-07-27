@@ -51,9 +51,9 @@ Check the installed plugins here
 
 ### I don't trust you!
 
-Fair enough
+Fair enough, I'd be wary as well to a stranger whose name isn't that recognizable enough to labeled as trusted.
 
--> You can choose `Do not trust`, but some minor features might not work.
+-> You can choose `Do not trust`, but some minor features might not work, tho it doesn't spawn inconvience.
 
 -> Or just skip downloading `.obsidian` directory. I believe the obsidian app itself will automatically create it for you at startup. 
 
