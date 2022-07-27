@@ -49,7 +49,7 @@
 ### Process of Note Taking
 Fleeting
 - This is where I type the snippets I find interesting from articles/videos. 
-- Then I read the copy pasted notes to make sense of the notes. I remove what that doesn't make sense. 
+- Then I read the notes to make sense of it. I remove what that doesn't make sense. 
 - ~~Whenever, I copy paste snippets, I just straight up paste them in the note. I don't categorize them yet until I read them again on the note.~~ Due to me typing instead of copy pasting, I can already formulate a categorization.
 
 
