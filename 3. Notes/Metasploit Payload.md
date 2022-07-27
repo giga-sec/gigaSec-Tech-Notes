@@ -1,4 +1,4 @@
-[[Modules and categories of Metasploit]]
+[[Exploit Modules and categories of Metasploit]]
 
 # Metasploit Payload
 Created:  [[2022-07-27]]

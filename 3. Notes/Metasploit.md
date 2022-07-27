@@ -21,7 +21,9 @@ This `msfconsole` helps us to interact with different modules of Metasploit Fram
 [[Vulnerability]]: A logical, code, or design flaw in a program
 [[Payload]] - A code that helps us do what we want in a target system
 
-## [[Modules and categories of Metasploit]]
+## [[Exploit Modules and categories of Metasploit]]
+Each exploit module has a ranking system
+Look her efor always updated info -> https://docs.metasploit.com/docs/using-metasploit/intermediate/exploit-ranking.html
 
 
 
@@ -61,17 +63,23 @@ msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
 
-Further information on any module can be obtained by typing the `info` command within its context.
+`info` command .
+- More info about the exploit within its context 
 
-If used from the msfconsole prompt, the `show` command will list all modules.
-The `use` and `show options`
-You can leave the context using the `back` command.
-`info` command within its context.
+`back` command
+- Leave the current context
+
+`use` command
+- To go into a certain context
+- You can use the Exploite Modules to browse context. [[Exploit Modules and categories of Metasploit]]
+
+`show options` 
+Idk, it shows you options I guess?
+
 
 
 `search ms7-010`. 
-will search the Metasploit Framework database for modules relevant to the given search parameter. You can conduct searches using CVE numbers, exploit names (eternalblue, heartbleed, etc.), or target system.
+will search the Metasploit Framework database for modules relevant to the given search parameter. 
+You can conduct searches using CVE numbers, exploit names (eternalblue, heartbleed, etc.), or target system.
 
-Each exploit module has a ranking syste
-Look her efor always updated info -> https://docs.metasploit.com/docs/using-metasploit/intermediate/exploit-ranking.html
 
