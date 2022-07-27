@@ -40,14 +40,15 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 3-> After doing the step above. You will be presented with two choices
 
-## Installation Warning
+## Installation Warning (IMPORTANT TO READ)
 
 It will show you a warning whether to trust author (that's me). 
 
-I assure you that no plugins causes harm. This plugins are written by the community and are open source. It's not written by me
+I assure you that no plugins causes harm. Plugins are not written by me and are written by the community therefore open source. 
 
 Check the installed plugins here 
 --> `Tech-Notes/.obsidian/plugins`
 
-But you can choose `Do not trust`, I believe it will not break any functionality of my vault and understand that the tutorials written on my vault will not kinda work. 
+But you can choose `Do not trust`, but some functionalities might not work.
 
+Or just skip downloading `.obsidian` directory, I believe obsidian will automatically create it for you at startup. 
