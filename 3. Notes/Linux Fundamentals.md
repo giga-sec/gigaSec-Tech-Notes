@@ -26,6 +26,8 @@ Auto mount disk at boot
 https://techhut.tv/auto-mount-drives-in-linux-fstab/
 
 
+https://pbs.twimg.com/media/FYlMJaEWQAImvS6?format=jpg&name=4096x4096
+![[Pasted image 20220727130121.png]]
 
 
 Put the results of a command to a file
