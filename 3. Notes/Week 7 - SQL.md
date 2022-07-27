@@ -64,12 +64,18 @@ SELECT DISTINCT(UPPER(title)) FROM favorites;
 ```
 Forces every output to be in uppercase and remove redundancy of similar outputs
 
+
+
+```sql
+SELECT title FROM favorites LIMIT 10;
+```
 We can also add more phrases to our command:
 -   `WHERE`, adding a Boolean expression to filter our data
 -   `LIKE`, filtering responses more loosely
 -   `ORDER BY`
 -   `LIMIT`
 -   `GROUP BY`
+
 
 
 
