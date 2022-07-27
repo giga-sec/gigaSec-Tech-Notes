@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 Modules in Metasploit are 
 - small components within the Metasploit framework 
-- that are built to perform a specific task, 
+- built to perform a specific task, 
     -> such as 
     -> exploiting a vulnerability,
     -> scanning a target,  

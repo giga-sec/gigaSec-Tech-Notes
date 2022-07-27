@@ -14,7 +14,8 @@ Metasploit supports
 
 
 Launch Metasploit with `msfconsole`
-This `msfconsole` helps us to interact with different modules of Metasploit Framework. [[What is a Module in Metasploit]]
+This `msfconsole` helps us to interact with different modules of Metasploit Framework. 
+[[What is a Module in Metasploit]]
 
 
 [[Exploit]] - A code that takes advantage of existing [[vulnerability]] in the system
