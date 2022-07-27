@@ -16,5 +16,6 @@ Payloads are a piece of code that runs on the target system.
 -> running a command, 
 
 
-Metasploit has ability to send different payloads that can open shells on the target system. 
+Metasploit has ability to send different payloads...
+...that can open shells on the target system. 
 [[Metasploit Payload]]

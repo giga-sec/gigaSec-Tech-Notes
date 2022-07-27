@@ -5,11 +5,6 @@ Created:  [[2022-07-16]]
 Tags: #fleeting 
 
 ---
-Metasploit supports
-- information gathering to post-exploitation.
-- scanning, exploitation, exploit development, post-exploitation
-
-
 ## [[Metasploit Versions]]
 
 
@@ -29,19 +24,20 @@ Look her efor always updated info -> https://docs.metasploit.com/docs/using-meta
 
 
 ## The MSFconsole
-It will support most Linux commands, including `clear`, `ls`, `cd` 
-but not all like (e.g. output redirection), as seen below.
+- supports most Linux commands, `clear`, `ls`, `cd` 
+- supports tab completion
+
+- DOES NOT support _output redirection_, as seen below.
 ```     
 msf6 > help > help.txt
 [-] No such command
 msf6 >
 ```
-MSFconsole supports tab completion
 
 
 
 ### Msfconsole is managed by context; 
-Context is like what exploit we're currently in
+Context is like what exploit module we're currently in.
 this means that unless set as a global variable, 
 all parameter settings will be lost if you change the module you have decided to use. 
 
