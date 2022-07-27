@@ -6,6 +6,7 @@ Tags: #fleeting
 ---
 `~` is the home directory
 `/` is the root directory, [[Root Directory is the GOD of all folders]]
+`history` to view the previously used commands
 
 [[Shell 101]]
 
