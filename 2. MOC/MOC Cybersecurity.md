@@ -24,7 +24,7 @@ This MOC is dedicated to things that relate to defending an organization from at
 [[PICOctf]]
 
 
-
+[[TryHackMe - Security Awareness]]
 
 
 ## Offensive Security Techniques

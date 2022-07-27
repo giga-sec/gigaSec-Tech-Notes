@@ -5,7 +5,7 @@ Created:  [[2022-07-16]]
 Tags: #fleeting 
 
 ---
-## [[Metasploit Versions]]
+## [[Metasploit Versions - Pro vs Framework]]
 
 
 Launch Metasploit with `msfconsole`
@@ -85,5 +85,5 @@ You can conduct searches using
 -> exploit names (eternalblue, heartbleed, etc.) 
 -> target system.
 
-It uses Metasploit Framework Database to give the results of the searches
+`search` uses Metasploit Framework Database to give the results of the searches
 
