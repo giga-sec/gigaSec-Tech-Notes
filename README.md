@@ -51,7 +51,7 @@ Check the installed plugins here
 
 ### I don't trust you!
 
-Fair enough! And that's a good practice to not trust strangers online :D
+Fair enough! And that's a good thing to not trust strangers online :D
 
 -> You can choose `Do not trust`, but some minor features might not work, tho it doesn't spawn inconvience.
 
