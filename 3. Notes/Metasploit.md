@@ -40,6 +40,20 @@ Encoders: Allows you to encode exploit and payload
 
 Evasion: This will try to evade antivirus software with no guarantee of success. 
 
-NOPs: NOPs (No OPeration) do nothing, literally.
 
-They are represented in the Intel x86 CPU family they are represented with 0x90, following which the CPU will do nothing for one cycle. They are often used as a buffer to achieve consistent payload sizes.
+NOPs: NOPs (No OPeration) do nothing, literally.
+Represented in Intel x86 CPU family 
+Represented with 0x90, 
+Following which the CPU will do nothing for one cycle. 
+-> **often used as a buffer to achieve consistent payload sizes**.
+
+
+Payloads: Payloads are codes that will run on the target system.
+Exploits will take advantage of vulnerability on the target system, 
+but to achieve the desired result, we will need a payload. 
+
+Examples could be; 
+-> getting a shell, 
+-> loading a malware or backdoor to the target system, 
+-> running a command, 
+Metasploit offers the ability to send different payloads that can open shells on the target system.
