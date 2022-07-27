@@ -11,7 +11,7 @@ Auxiliary: modules, such as
 
 Encoders: Allows you to encode exploit and payload 
 - in hope that a signature-based antivirus solution may miss them.
-[[What is a signature-based antivirus and why encoders have less success on them]]
+[[Encoders have less success on signature-based antivirus, here's why]]
 
 
 Evasion: This will try to evade antivirus software with no guarantee of success. 
