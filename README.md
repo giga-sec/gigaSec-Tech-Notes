@@ -49,6 +49,11 @@ I assure you that no plugins causes harm. Plugins are not written by me and are 
 Check the installed plugins here 
 --> `Tech-Notes/.obsidian/plugins`
 
-But you can choose `Do not trust`, but some functionalities might not work.
+### I don't trust you!
 
-Or just skip downloading `.obsidian` directory, I believe obsidian will automatically create it for you at startup. 
+Fair enough
+
+-> You can choose `Do not trust`, but some minor features might not work.
+
+-> Or just skip downloading `.obsidian` directory. I believe the obsidian app itself will automatically create it for you at startup. 
+
