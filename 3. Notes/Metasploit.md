@@ -66,20 +66,27 @@ msf6 exploit(windows/smb/ms17_010_eternalblue) >
 `info` command .
 - More info about the exploit within its context 
 
+
 `back` command
 - Leave the current context
+
 
 `use` command
 - To go into a certain context
 - You can use the Exploite Modules to browse context. [[Exploit Modules and categories of Metasploit]]
 
+
 `show options` 
 Idk, it shows you options I guess?
 
 
+`search command`
+Syntax: `search <CVE numbers, exploit names, target system>`
+Example ->`search ms7-010`. 
+You can conduct searches using   
+-> CVE numbers, 
+-> exploit names (eternalblue, heartbleed, etc.) 
+-> target system.
 
-`search ms7-010`. 
-will search the Metasploit Framework database for modules relevant to the given search parameter. 
-You can conduct searches using CVE numbers, exploit names (eternalblue, heartbleed, etc.), or target system.
-
+It uses Metasploit Framework Database to give the results of the searches
 
