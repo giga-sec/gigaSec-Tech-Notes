@@ -5,6 +5,79 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+## Where my anagrams at?
+1. Understand the Problem
+What is an anagram?  
+IF -> two words contain the same letters. 
+For example:
+```
+'abba' & 'baab' == true
+'abba' & 'bbaa' == true
+
+'abba' & 'abbba' == false
+'abba' & 'abca' == false
+```
+
+How the function willl work
+Given two inputs 
+- a word and 
+- an array with words. 
+Return -> an array of all the anagrams or an empty array if there are none. 
+
+Overall Goal: Write a function that will find all the anagrams of a word from a list. 
+
+Example:
+```javascript
+anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) 
+=> ['aabb', 'bbaa']
+```
+
+```javascript
+anagrams('laser', ['lazing', 'lazy',  'lacer']) 
+=> []
+```
+
+
+My understanding:
+So the arg1 is use to compare each element on the arg2, and we determine it if it has the same set of letters, 
+If it has the same set of letters, then we put it into a list and we repeat the process until we are at the end of the arg2 list.
+Now we just return the whole list of words that we found.
+
+My Algo:
+Loop this until the end of the arg2 list
+IF -> arg1 has the same set of letters of the specific element on arg2
+THEN -> we put it into a separate list
+When the loop ends, we just return the separate list
+
+
+My Plan:
+`abba` , `aabb`
+- [ ] So, how do we teach python if it is an anagram to it?
+Ans: 
+Well maybe we could count each specific letter of arg1
+We're also gonna count the specifc element of each specific letter on arg2
+We compare it, and if both have the same values, then its an anagram to it?
+- [ ] Okay, that might work, but is there an efficient way of solving this problem?
+Ans:
+I can't think of anything. So we're going with plan A
+
+
+Count each specific letter of arg1
+We're also gonna count the specifc element of each specific letter on arg2
+We compare it, and if both have the same values, then its an anagram to it?
+
+The count is unique to each letter in the alphabet
+So how are we gonna categorize the counts?
+Also, we're gonna create two lists, 
+    one is to track the arg1's counts of letters
+    the other one is the arg2's counts of letters
+
+
+
+
+
+
+
 ## Is a number prime?
 1. Understand the Problem
 Takes in an intiger
