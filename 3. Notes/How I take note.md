@@ -24,6 +24,7 @@ Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 
 -   Basically these are drafts. Snippets from an article/video that I think are interesting.
 -   Some of it are unfinished or notes that are still waiting to be reviewed.
+-   Most of the time, it's an uncategorized large chunks amount of knowledge
 
 `#literature`
 

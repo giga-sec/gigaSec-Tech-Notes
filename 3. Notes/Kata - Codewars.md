@@ -51,7 +51,7 @@ When the loop ends, we just return the separate list
 
 
 My Plan:
-`abba` , `aabb`
+`baba` , `aabb`
 - [ ] So, how do we teach python if it is an anagram to it?
 Ans: 
 Well maybe we could count each specific letter of arg1
@@ -72,9 +72,71 @@ Also, we're gonna create two lists,
     one is to track the arg1's counts of letters
     the other one is the arg2's counts of letters
 
+- [ ] We can order them base on the position of the alphabet
+Problem: It will leave us with lots of useless memory
+- [ ] We could use a dictionary 
+Question: But then, for instance if a specific letter doesn't exist on the arg1's "key" cause we're gonna use the "key" to assign the letter. Okay, so will it give us an error if we do that? We could use a try:except block to do something with the error. 
+
+Okay, I got an idea
+What if, we're just going to add this values as an ASCII.
+I'm pretty sure it will all be just the same
+Okay let's try lol
+`baba`, `aabb`
+- [ ] How do we transform a letter into an ascii in python
+[How to get the ASCII value of a character](https://stackoverflow.com/questions/227459/how-to-get-the-ascii-value-of-a-character)
+
+My Algo:
+Scan each letter
+Transform the letter into an ascii value
+Make it so that its possible to add existing values
+
+```python
+word = "baba"
+ascii_sum = 0
+for letter in word:
+    val = ord(letter)
+    ascii_sum += val
+```
+
+Okay so it works! :D 
 
 
+Loop this until the end of the arg2 list
+IF -> arg1 has the same set of letters of the specific element on arg2
+THEN -> we put it into a separate list
+When the loop ends, we just return the separate list
 
+My Algo:
+We're also gonna initalize `anagram_words` list for the ting
+First we're gonna determine the overall ascii sum of the arg1
+Then we're gonna iterate over the arg2 list
+    Then we take the overall ascii sum of each element of arg2 list
+    Compare it to overall ascii sum of arg1
+        IF -> the same 
+        THEN -> we append it to the `anagram_words` list
+We return the `anagram_words` list 
+
+We're gonna make it so that it make sense with the current problem
+```python
+def ascii_sum(word) -> list:
+    ascii_sum = 0
+    for letter in word:
+        val = ord(letter)  # Make it into an ascii ting
+        ascii_sum += val
+
+def anagrams(word, words):
+    anagram_words = []
+    ascii_sum_one = ascii_sum(word)
+    
+    for word in words:
+        ascii_sum_two = ascii_sum(word)
+        if (ascii_sum_one == ascii_sum_two):
+            anagram_words.append(word)
+    
+    return anagram_words
+```
+
+That was easy
 
 
 

@@ -16,9 +16,10 @@ choo choo choo
 tada!
 
 **Note:**
-As you navigate my system, you might see some slip-ups but the design of this system is meant to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. Thus some notes will not follow the same structure of this, but I rarely do it. 
+As you navigate my system, **you might see some slip-ups** but the design of this system is meant to be flexible and ==**doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow**==. 
 
-**Caution:** 
+
+==**IMPORTANT TO READ:**== 
 I did not made this notes for the public, I made this notes for myself therefore the notes are made to be understood by me. Expect some messiness, confusing grammar or spelling mistakes.  
 
 
