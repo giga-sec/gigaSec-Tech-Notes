@@ -325,6 +325,35 @@ but then what if second_roman is empty
 
 
 This logic seems really long and I think is inefficient :/ but idk man
+Let's try summarizing my logic
+- We're gonna teach the program to understand what the corresponding value is equivalent to a roman numeral letter. We do this by using dictionary
+- Then we start chopping the numbers into like `1909` to 100, 900, 00, 9
+    - With each chop of numbers, we translate that into roman numeral
+
+The translation of roman numeral
+- Okay so, we first find if the number exists in the dictionary. 
+- If it doesn't then, we subtract the number to its lowest number that is limited by the number of digits( Like 900, the lowest number of that same digits is 100)
+- After subtracting, we translate what number we use to subtract the orig number into roman_numeral, then we store it into a `second_roman` variable
+- we then find if the resulting subtracted number exists in dictionary, if it doesn't exist in dictionary, then we repeat the process until we found one.
+
+Finally, if we found the resulting subtracted number in dictionary
+We get the value of that which is the letter and put it into `first_roman`
+
+At last, we add `first_roman` and `second_roman` and add it to `final_roman`
+
+We are now then done with our first number (from left)
+We move on to the next number and repeat the process
+
+The Code:
+```python
+
+```
+
+
+
+Problems:
+I actually haven't dealt with `IV` numbers like that
+
 
 
 
