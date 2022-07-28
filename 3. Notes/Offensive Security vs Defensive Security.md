@@ -46,7 +46,7 @@ Malicious Hackers would
 - from gaining access to a system to maintaining persistence. 
 
 
-### Resources to learn for Blue Tema
+### Resources to learn for Blue Team
 https://blueteamlabs.online/
 https://securityblue.team/
 https://letsdefend.io/

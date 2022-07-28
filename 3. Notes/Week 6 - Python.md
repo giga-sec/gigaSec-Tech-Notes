@@ -24,6 +24,20 @@ list_of_digits = [int(x) for x in str(num)]
 ```
 
 ---
+```python
+def get_value(num):
+    return num + 1
+```
+Translated into `lambda` function
+```python
+final_num = lambda num: num + 1
+```
+the left side of `:` indicates the input
+the right side of `:` indicates what value it will return to
+
+A `lambda` function is basically a one liner function that
+
+
 
 [[Python Dictionaries - Dictionary]]
 

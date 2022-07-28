@@ -56,7 +56,7 @@ This will transfer any data from `.csv` to the created sql `.db` file
 ```csv
 .schema
 ```
-To open the database
+To show the design of your database
 
 
 ```sql
@@ -68,6 +68,9 @@ Forces every output to be in uppercase and remove redundancy of similar outputs
 
 ```sql
 SELECT title FROM favorites LIMIT 10;
+```
+```sql
+SELECT title FROM favorites WHERE title LIKE "%friends"
 ```
 We can also add more phrases to our command:
 -   `WHERE`, adding a Boolean expression to filter our data
@@ -81,8 +84,14 @@ We can also add more phrases to our command:
 
 
 
+
 SQL  in Python
+
+
+
+
 Problems with SQL
+
 
 
 
