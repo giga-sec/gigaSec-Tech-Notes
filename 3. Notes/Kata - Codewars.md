@@ -17,8 +17,329 @@ Written by...
 ...expressing each digit separately 
     starting with the left most digit 
     skipping any digit with a value of zero. 
+
+Examples:
+1990 is rendered: 
+1000=M, 
+900=CM, 
+90=XC; 
+resulting in MCMXC.
+
+2008 is written as 
+2000=MM, 
+8=VIII; 
+resulting into MMVIII. 
+
+1666 uses each Roman symbol in descending order: MDCLXVI.
+What the fuck does descending order, 
+why the fuck does it do it in descending order????
+**arranged in a series that begins with the greatest or largest and ends with the least or smallest**
+Okay, that was unnecessary info :/
+1666 = MDCLXVI
+MDCLXVI = M + DC + LX + VI
+MDCLXVI = 1000 + 600 + 60 + 6
+MDCLXVI = 1666
+
+
+**There can't be more than 3 identical symbols in a row.**
+```
+Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000
+```
+
+
+My understanding:
+So the conversion from Number to Roman Numeral
+- Skip any `0` from getting converted
+
+Okay, let's do a conversion with number `seven`
+`V` then `II`
+`V` for 5 and `II` for 2 and `5 + 2 = 7`
+So we'd need some ways that we can recognize what symbol to use for a single digit
+```python
+n = 7
+if (n >= 5) and (n < 10):
+    roman_numeral = 'V'
+elif (n >= 1) and (n < 5):
+    roman_numeral = 'I'
+```
+
+Okay then how are we going to make it so that it chooses one `V` and two `I`
+We subtract it 
+```python
+n = 7
+roman_numeral = ""
+
+while (n > 0):
+    if (n >= 5) and (n < 10):
+        n -= 5
+        roman_numeral += 'V'  # Concantenate the ting
+        
+    elif (n >= 1) and (n < 5):
+        n -= 1
+        roman_numeral += 'I'
+```
+Okay, this code above only works with numbers less than `10`
+Let's try having numbers up to `500`
+```python
+n = 91
+roman_numeral = ""
+
+while (n > 0):
+    elif (n >= 100) and (n < 500):
+        n -= 100
+        roman_numeral += 'C'
+
+    elif (n >= 50) and (n < 100):
+        n -= 50
+        roman_numeral += 'L'
+
+    elif (n >= 10) and (n < 50):
+        n -= 10
+        roman_numeral += 'X'
+
+    elif (n >= 5) and (n < 10):
+        n -= 5
+        roman_numeral += 'V'  # Concantenate the ting
+        
+    elif (n >= 1) and (n < 5):
+        n -= 1
+        roman_numeral += 'I'
+
+```
+Okay, so the results of the code was 
+`LXXXXI` and the real answer is `XCI`
+So this is a logical error
+So how we might go about translating `91` to roman numeral
+`90` 
+So how do we translate `90`?
+It's `XC` but C is a number more than 100?, and `90` is less than `100`
+Okay, so I might have a wrong understanding here
+Okay, so every number that is close to the new length of digit gets rule changed
+like 
+`9`, nine is `5` + four `1` which is `V` and four `I` 
+but no, it's `I` and `X` THERFORE `IX`
+bruhhh
+
+`1` = `I`
+
+Looking up online here's what I got
+Rules to writing Roman Numerals
+There are certain rules to be followed if we have to represent a number in roman numerals form. Please check the rules listed below.
+
+-   The value of the symbol is added to itself, as many times as it is repeated. (Eg. II – 2, XX – 20 and XXX – 30).
+-   A symbol can be repeated only for three times, for example XXX = 30, CC = 200, etc.\
+    Thoughts: Okay, so four symbols like `IIII` is not allowed, therefore numbers like `9` have their ting into `IX` , also number four itself has `IV` 
+-   When a symbol of smaller value appears after a symbol of greater value, its values will be added. For Example-  VI = V + I = 5 + 1 = 6.
+-   When a symbol of a smaller value appears before a greater value symbol, it will be subtracted. For Example-  IX = X – I = 10 – 1 = 9.
+-   The symbol I can be subtracted from V and X only and symbol X can be subtracted from symbols L, M and C only.
+
+-   Symbols V, L, and D are never repeated.
+    Thoughts: What??? Why??? Probably because it creates a long ting, idk man.
+
+
+```
+Symbol    Value
+I          1
+V          5   (Never Repeated)
+X          10   
+L          50  (Never Repeated)
+C          100
+D          500  (Never Repeated)
+M          1,000
+```
+
+
+Okay, so we're gonna do translate 1909, into individual tings
+like 
+1000
+900
+skip because it's `0`
+`9`
+```python
+num = 1909
+num = (num // 1000) * 1000
+-> 1000
+```
+So I think
+```python
+(num // length_of_digits) * length_of_digits
+```
+We could just get the length_of_digits through
+```python
+num // 10
+count += 1
+```
+Then we just subtract `length_of_digits` to 1 every iteration of digits
+
+So basically here's the raw plan
+```python
+num = 1909
+
+# Count Digits
+temp = num
+count = 0
+while (temp > 0):
+    temp = temp // 10
+    count += 1
+
+# Print each individual tings
+while (count > 0):
+    print((num // count) * count)
+    count -= 1
+```
+
+
+```python
+def count_digits(num):
+    # Counting starts with 1, meaning 1000 means 4 digits
+    count = 0
+    while (num > 0):
+        num = num // 10
+        count += 1
+    return count
+
+
+num = 1909
+count = count_digits(num)
+while (count > 0):
+    # Get the individual digits and leave their number of digits
+    multiplier = 10 ** (count-1)
+    temp = (num // multiplier) * multiplier
+
+    # Reduce the original number to what the number of digits is
+    num -= temp
+
+    # I think this is where we convert the thing into roman numeral
     
-In Roman numerals 1990 is rendered: 1000=M, 900=CM, 90=XC; resulting in MCMXC. 2008 is written as 2000=MM, 8=VIII; or MMVIII. 1666 uses each Roman symbol in descending order: MDCLXVI.
+
+    # Since we are going to the next digit, we reduce the count of digits
+    count -= 1
+```
+With this code above, we can now get the individual tings like
+`1909` -> `MCMIX`
+for 
+1000,
+900
+0
+9
+
+
+Convert `900` to roman numeral
+Since its closer to `1000` then we just get the least number of `three digit` which is `100`.
+Then we get the roman numeral of `100` so it's `C`
+Then we get the roman numeral of `1000`, `M`
+So, it's `CM`
+
+Convert `400` to roman numeral
+Since it's closer to `500`, then we just get the least number of `three digits` which is `100`
+Then we get the roman numeral of `100`, so it's `C`
+Then we get the roman numeral of `500`, so its `D`
+So it's, `CD`
+
+Roman Numerals/Numbers that are never repeated
+5, 50, 500
+V, L, D
+
+
+My Plan:
+Okay, we could just have a temp variable that stores the translated numeral ting, if roman numerals are repeated, 
+I actually have no idea
+
+We could say
+```python
+num = 9
+list_things = [5, 10, 50, 100, 500, 1000]
+count = is how many things in the digit
+if num + (1 + (10 ** (count - 1))):
+    
+```
+
+Okay so let's deal with this problem later
+Let's first solve on how we can translate the basic stuffs like 
+The 1, 5, 10, 50, 100 ,500, 1000
+```
+Symbol    Value
+I          1
+V          5   (Never Repeated)
+X          10   
+L          50  (Never Repeated)
+C          100
+D          500  (Never Repeated)
+M          1,000
+```
+- We could use if, else but that's just inefficient
+- We could use a dictionary and assign key-valur pair with it
+    key being the number and value being the symbol
+What else could we do?
+I think dictionary is good but I am not familiar with it
+- [ ] Is it possible for the key to be a number?
+- [ ] How can we search values through dictionary?
+- [ ] How can we get that value through dictionary?
+
+Okay, let's say that I have coded the ting above
+Now how can we deal with `8`, `23`, `135`, `680`
+
+The only way we can detect numbers in dictionary is through `1, 5, 10, 50, 100, 500, 1000`
+So, the idea is to reduce the numbers that matches the numbers in the dictionary?
+Then we'd use if-else to do that
+`680` reduce to `600` which is already coded
+but then `600` reduce to `500` and `100`, that means `V` AND `C`
+So basically we subtracted `600` with `100`
+Does that mean what we subtracted is also what our roman numeral will be?
+
+Okay we could have a while loop that only stops subtracting when the number being reduced already exists in the `list` of `1, 5, 10, 50...`
+
+So that leaves us with how is the compiler gonna know how much the number is going to be used for subtraction?
+Ans: Maybe we could use the length of the digit, 
+Like for instance, `80` means two digits, and the lowest number of two digits is `10` therefore 
+`80 - 10 = 70` 
+`70 - 10 = 60`
+`60 - 10 = 50` and 50 is in `1, 5, 10, 50`
+so that's where we stop
+Okay so how does it spit out the roman numeral?
+Ah no, it spits out the numeral base what number we use to subtract the orig number
+like `10`, that's `X`
+So we have `X` then `X` then `X`
+Since it detected it's on list `1, 5, 10, 50...` we stop
+So we got `XXX` now what?
+How are we going to spit it out that `50` is equal to `L`
+Ahh, the dictionary
+okay, so the way my algo works
+it's gonne be like this
+`XXXL`
+So okay, how are we able to first make it so that `L` which is `50` is gonna be the first value 
+Either we're gonna have to find some way that it detects `50` first 
+Or probably we're going to separate it with two variables
+the subtracting will be `second_roman = XXX`
+then `first_roman = L` is the numbers we detect on dictionary
+so, `first_roman + second_roman`, 
+but then what if second_roman is empty
+    okay so we always default `second_roman = ""`
+
+
+This logic seems really long and I think is inefficient :/ but idk man
+
+
+
+
+
+
+
+
+
+Code to add roman_numeral tings
+```python
+roman_numeral = ""
+roman_numeral += roman_letter
+```
+
 
 
 
