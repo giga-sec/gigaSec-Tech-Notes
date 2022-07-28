@@ -86,6 +86,18 @@ We can also add more phrases to our command:
 
 
 SQL  in Python
+Data types of SQL
+`BLOB`  Binary Large OBject
+`INTEGER`
+`NUMERIC` 
+`REAL`
+`TEXT`
+
+
+`CREATE INDEX name ON table (column, ...);`
+`INDEX` in SQL is a data structure that allow us to do better in searching than the default linear search
+
+
 
 
 
