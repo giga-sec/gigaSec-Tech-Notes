@@ -78,6 +78,28 @@ Many varying SQL Databases...
 ...Differs in extra features and supported storage type
 
 
-`SELECT` statements
+## `SELECT` statements
 Retrieves data from SQL database 
 Often refered to as _queries_. [[query in sql explained]]
+
+Think of SQL table as a type of an entity (ie. Dogs), 
+    each row in SQL table as a specific _instance_ of that type (pug, bulldog, etc...) 
+    each columns represents common properties shared by all instances of that entity (ie. Color of fur, length of tail, etc).
+
+### SELECT ALL Columns
+`SELECT * FROM movies` 
+translates to 
+`SELECT "all_columns" FROM "the table named movies"`
+The `*` means all columns
+
+### SELECT specific columns
+`SELECT director, title FROM movies;`
+translates to
+`SELECT "director column and title column" FROM "table named MOVIES"`
+Result of this query will be\  
+A copy of table, but only with columns that we requested.
+
+
+
+
+If you had a table with a hundred million rows of data, reading through all the rows would be inefficient and perhaps even impossible.
