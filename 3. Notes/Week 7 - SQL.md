@@ -30,9 +30,7 @@ If the filename doesn't exist, it will automatically be created
 ```
 This will transfer any data from `.csv` to the created sql `.db` file
 
-```csv
-.schema
-```
+`.schema`
 To show the design of your database
 
 
@@ -56,10 +54,6 @@ We can also add more phrases to our command:
 -   `LIMIT`
 -   `GROUP BY`
 
-
-
-
-SQL  in Python
 Data types of SQL
 `BLOB`  Binary Large OBject
 `INTEGER`
@@ -78,7 +72,12 @@ https://sqlbolt.com/
 
 
 Many varying SQL Databases...
-...but all of them support the common SQL languange standard
 - SQLite, MySQL, Postgres
 - Oracle and Microsoft SQL server
+...but all support the common SQL languange standard
+...Differs in extra features and supported storage type
 
+
+`SELECT` statements
+Retrieves data from SQL database 
+Often refered to as _queries_. [[query in sql explained]]
