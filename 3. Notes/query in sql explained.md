@@ -6,9 +6,9 @@ Tags: #fleeting
 
 ---
 A query is just a statement which 
--> declares what data we are looking for, 
--> declares where to find data in the database, 
--> optionally, how to transform it before it is returned. 
+-> declares WHAT DATA we are looking for, 
+-> declares WHERE TO FIND DATA in the database, 
+-> optionally, HOW TO TRANSFORM DATA before it is returned. 
 It has a specific syntax though
 
 
