@@ -109,3 +109,15 @@ Math, stats, algo, data structures, architecture
 
 July 28, 2022
 It's been some time since I've transformed a note into literature or permanent. I have been stuffing in lots of information. Tho it's not becoming troublesome or a hindrance to my workflow. It's just that I have not been following the principle of fleeting, literature and permanent thing in my system. Like I said, not a bother, just a notice of my workflow. 
+
+
+
+
+
+
+
+
+
+
+
+
