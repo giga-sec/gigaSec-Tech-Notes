@@ -77,4 +77,8 @@ https://sqlbolt.com/
 
 
 
+Many varying SQL Databases...
+...but all of them support the common SQL languange standard
+- SQLite, MySQL, Postgres
+- Oracle and Microsoft SQL server
 
