@@ -282,6 +282,19 @@ I think dictionary is good but I am not familiar with it
 - [ ] Is it possible for the key to be a number?
 - [ ] How can we search values through dictionary?
 - [ ] How can we get that value through dictionary?
+```python
+# Dictionary Implementation
+symbol = dict(
+    1 = 'I',
+    5 = 'V',
+    10 = 'X',
+    50 = 'L',
+    100 = 'C',
+    500 = 'D',
+    1000 = 'M'
+)
+```
+
 
 Okay, let's say that I have coded the ting above
 Now how can we deal with `8`, `23`, `135`, `680`
@@ -346,6 +359,31 @@ We move on to the next number and repeat the process
 
 The Code:
 ```python
+def count_digits(num):
+    # Counting starts with 1, meaning 1000 means 4 digits
+    count = 0
+    while (num > 0):
+        num = num // 10
+        count += 1
+    return count
+
+
+num = 1909
+
+count = count_digits(num)
+while (count > 0):
+    # Get the individual digits and leave their number of digits
+    multiplier = 10 ** (count-1)
+    temp = (num // multiplier) * multiplier
+
+    # Reduce the original number to what the number of digits is
+    num -= temp
+
+    # I think this is where we convert the thing into roman numeral
+    
+
+    # Since we are going to the next digit, we reduce the count of digits
+    count -= 1
 
 ```
 
