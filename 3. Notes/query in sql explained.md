@@ -11,6 +11,8 @@ A query is just a statement which
 -> optionally, HOW TO TRANSFORM DATA before it is returned. 
 It has a specific syntax though
 
+It's basically the instructions we give to the thing but we communicate through SQL languange
+
 
 
 
