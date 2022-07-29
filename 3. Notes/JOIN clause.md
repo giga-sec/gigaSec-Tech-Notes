@@ -55,9 +55,15 @@ LIMIT num_limit OFFSET num_offset;
 ```
 Like the `INNER JOIN` 
 These three new joins have to specify which column to join the data on.  
-When joining table A to table B, 
+When joining table A to table B,
+```SQL
+FROM mytable LEFT JOIN another_table
+    ON mytable.column = another_table.matching_column
+```
 -> a `LEFT JOIN`  includes rows from `A` regardless of whether a matching row is found in `B`.
-My understanding tells me that it includes everything from `A` but also includes any matching data from `A` to `B`
+Basically, it includes everything about the table on the `LEFT`. 
+Since the table of the `LEFT` is `FROM mytable`, 
+    everything on `mytable` will be included regardless if it exist on another_table or not.
 
 -> The `RIGHT JOIN` keeps rows in `B` regardless of whether a match is found in `A`. 
 
