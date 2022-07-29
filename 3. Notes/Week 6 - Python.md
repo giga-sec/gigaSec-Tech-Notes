@@ -12,6 +12,8 @@ https://stackoverflow.com/questions/10712002/create-an-empty-list-with-certain-s
 
 [[Looping in Python]]
 
+[[LAB6 - World Cup]]
+[[Problem Set 6]]
 
 
 In Python2, `maketrans` is a function belongs to the `string` module. 

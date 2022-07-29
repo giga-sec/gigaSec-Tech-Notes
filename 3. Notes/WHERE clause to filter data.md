@@ -18,6 +18,7 @@ WHERE condition
     AND/OR …;
 ```
 
+## Conditions for `WHERE` clause 
 
 Standard numerical operators
 ```SQL
@@ -27,7 +28,7 @@ WHERE col_name = 4
 ```
 Means, if column name is equal to `4`
 
-#### `BETWEEN AND` Condition
+### `BETWEEN AND` Condition
 Number is within range of two values (inclusive)
 ```SQL
 BETWEEN … AND …
@@ -36,7 +37,7 @@ WHERE col_name BETWEEN 1.5 AND 10.5
 ```
 Where col_name's value is in between 1.5 and 10.5
 
-#### `IN` Condition
+### `IN` Condition
 Number exists in a list
 ```SQL
 IN (Numbers here)
@@ -46,18 +47,43 @@ WHERE col_name IN (2, 4, 6)
 Where col_name's value is in the numbers 2, 4, 6
 
 
-#### `LIKE` Condition
+### `LIKE` Condition
 Case insensitive exact string comparison
 ```SQL
 LIKE
 
-col_name LIKE "ABC"
+WHERE col_name LIKE "ABC"
 ```
 
+#### `%` 	Condition
+Used anywhere in a string to match a sequence of zero or more characters 
+(only with LIKE or NOT LIKE) 	
+```SQL
+LIKE "%AT%"
+
+WHERE col_name LIKE "%TOY STORY%"
+```
+Results -> matches "Toy Story 3", "Toy Story", "Toy Story asdkjaslkd"
 
 
+Full-text search is best left to libraries designed specifically to do full text search
+Apache Lucene or Sphinx. 
+As a result are 
+-> more efficient
+-> support a wider variety of search features 
+    including internationalization and advanced queries.
 
-####  `NOT` Condition  
+
+#### `_` Condition
+Used anywhere in a string to **match a single character** 
+(only with LIKE or NOT LIKE)
+```SQL
+col_name LIKE "AN_"  
+```
+Results -> matches "AND", but not "AN"
+
+
+###  `NOT` Condition  
 Number is not within range of two values (inclusive)
 ```SQL
 NOT BETWEEN … AND …
@@ -75,6 +101,12 @@ WHERE col_name NOT IN (1, 3, 5)
 ```
 
 
+Case insensitive exact string inequality comparison
+```SQL
+NOT LIKE
+
+col_name NOT LIKE "ABCD"
+```
 
 
 
@@ -83,9 +115,3 @@ WHERE col_name NOT IN (1, 3, 5)
 
 
 
-
-
-
-
-## References
-1. 

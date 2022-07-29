@@ -22,6 +22,51 @@ You can navigate the file explorer/tags & search with the arrow keys, to select 
 
 
 
+Admonition Plugin
+```ad-note
+asdsad
+```
+
+
+`````ad-note
+title: Nested Admonitions
+collapse: open
+
+Hello!
+
+````ad-note
+title: This admonition is nested.
+This is a nested admonition!
+
+```ad-warning
+title: This admonition is closed.
+collapse: close
+```
+
+````
+
+This is in the original admonition.
+`````
+
+
+````ad-info
+
+```ad-bug
+title: I'm Nested!
+~~~javascript
+throw new Error("Oops, I'm a bug.");
+~~~
+```
+
+```javascript
+console.log("Hello!");
+```
+
+````
+
+
+
+[[Admonition Cheat Sheet]]
 
 
 ### References

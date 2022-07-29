@@ -284,15 +284,15 @@ I think dictionary is good but I am not familiar with it
 - [ ] How can we get that value through dictionary?
 ```python
 # Dictionary Implementation
-symbol = dict(
-    1 = 'I',
-    5 = 'V',
-    10 = 'X',
-    50 = 'L',
-    100 = 'C',
-    500 = 'D',
-    1000 = 'M'
-)
+symbol = {
+    1: 'I',
+    5: 'V',
+    10: 'X',
+    50: 'L',
+    100: 'C',
+    500: 'D',
+    1000: 'M'
+}
 ```
 
 
@@ -345,7 +345,13 @@ Let's try summarizing my logic
 
 The translation of roman numeral
 - Okay so, we first find if the number exists in the dictionary. 
+    - [ ] How to know if a number exists in the key
+    Ans: The has_key() method is a built-in method in Python that returns true if the dict contains the given key, and returns false if it isn't.
+    Ans: `If key_name in dictionary` also works 
 - If it doesn't then, we subtract the number to its lowest number that is limited by the number of digits( Like 900, the lowest number of that same digits is 100)
+    - [ ] So let's first know the length of the digit
+        Ans: `10 ** (count-1)`
+    
 - After subtracting, we translate what number we use to subtract the orig number into roman_numeral, then we store it into a `second_roman` variable
 - we then find if the resulting subtracted number exists in dictionary, if it doesn't exist in dictionary, then we repeat the process until we found one.
 
@@ -368,44 +374,178 @@ def count_digits(num):
     return count
 
 
-num = 1909
+symbol = {
+    1: 'I',
+    5: 'V',
+    10: 'X',
+    50: 'L',
+    100: 'C',
+    500: 'D',
+    1000: 'M'
+}
 
-count = count_digits(num)
+def solution(num)
+
+    count = count_digits(num)
+    final_roman = ''
+    while (count > 0):
+        # Get the individual digits and leave their number of digits
+        multiplier = 10 ** (count-1)
+        chopped_number = (num // multiplier) * multiplier
+
+        # Reduce the original number to what the number of digits is
+        num -= chopped_number
+
+        # I think this is where we convert the thing into roman numeral
+        first_roman = ''
+        second_roman = ''
+        while ((chopped_number in symbol) != True):
+            lowest_num = 10 ** (count-1)
+            chopped_number = chopped_number - lowest_num
+            second_roman += symbol[lowest_num]
+        first_roman += symbol[chopped_number]
+        final_roman += first_roman + second_roman
+
+        # Since we are going to the next digit, we reduce the count of digits
+        count -= 1
+
+    return final_roman
+```
+Conclusion:
+What the fuck, the preparation and plan actually worked. 
+Wow, even tho the planning of my logic was so long, 
+I spent little time on debugging. Fucking great
+
+
+During Loop
+We could have a counter that counts how many repeated consecutive letters there are. 
+If it reaches more than three, 
+Then we're gonna teach the computer on what to do 
+    So for instance, `IIII` will translate to `I` and `V` 
+    because `I`'s nearest value that's greater than it is `V`
+
+So we're gonna teach python to 
+- Detect when the repeated consecutive letters are more than three
+- Know what the repeated consecutive letters are
+- Know what the nearest value that's greater than the consecutive ting are
+`XXX` -> nearest is `L`
+`XL` 
+
+We could let the computer know the repeated value
+We could transform the keys into list
+Then we are gonna scan that list
+If the 
+
+10: 'X',
+50: 'L',
+
+
+```python
+first_roman = ''
+second_roman = ''
+while ((chopped_number in symbol) != True):
+    lowest_num = 10 ** (count-1)
+    chopped_number = chopped_number - lowest_num
+    second_roman += symbol[lowest_num]
+first_roman += symbol[chopped_number]
+final_roman += first_roman + second_roman
+```
+
+
+I think I have confidence that my code doesn't repeat what doesn't need to be repeated like
+V, L, D
+5, 50 , 500
+
+
+
+Okay stuffs that I'm not sure about
+Numbers greater than 1000
+
+The code works, but my logic is so wrong
+Final Wrong Solution Code
+```python
+def count_digits(num):
+    # Counting starts with 1, meaning 1000 means 4 digits
+    count = 0
+    while (num > 0):
+        num = num // 10
+        count += 1
+    return count
+
+
+symbol = {
+    1: 'I',
+    5: 'V',
+    10: 'X',
+    50: 'L',
+    100: 'C',
+    500: 'D',
+    1000: 'M'
+}
+
+given_num = 49
+count = count_digits(given_num)
+
+final_roman = ''
 while (count > 0):
     # Get the individual digits and leave their number of digits
     multiplier = 10 ** (count-1)
-    temp = (num // multiplier) * multiplier
+    chopped_number = (given_num // multiplier) * multiplier
 
     # Reduce the original number to what the number of digits is
-    num -= temp
+    given_num -= chopped_number
 
     # I think this is where we convert the thing into roman numeral
-    
+    first_roman = ''
+    second_roman = ''
+    length_numeral = 0
+    while ((chopped_number in symbol) != True):
+        lowest_num = 10 ** (count-1)
+        chopped_number -= lowest_num
+        second_roman += symbol[lowest_num]
+        length_numeral += 1
+    first_roman += symbol[chopped_number]
+    if (length_numeral >= 3):
+        # This is where we translate more than 3 characters
+        keys_list = symbol.keys()
+        for num in keys_list:
+            if num > lowest_num:
+                second_roman = symbol[num]
+                break
+    final_roman += first_roman + second_roman
 
     # Since we are going to the next digit, we reduce the count of digits
     count -= 1
 
+print(final_roman)
 ```
 
 
-
-Problems:
-I actually haven't dealt with `IV` numbers like that
-
-
-
-
-
-
-
-
-
-
-Code to add roman_numeral tings
+This is the solution I saw
 ```python
-roman_numeral = ""
-roman_numeral += roman_letter
+def solution(n):
+    roman_numerals = {1000:'M',
+                      900: 'CM',
+                      500: 'D',
+                      400: 'CD',
+                      100: 'C',
+                      90: 'XC',
+                      50: 'L',
+                      40: 'XL',
+                      10: 'X',
+                      9: 'IX',
+                      5: 'V',
+                      4: 'IV',
+                      1: 'I'
+    }
 ```
+Listing each `IX` variation is actually much better ;-;
+Why the fuck did I go straight up, let the program go through a logical process to know the `IX` llike those kind of stuffs ;-;
+Teaching the program directly that `IX` is equal to `9` is actually much better. Fucking hell man
+My mistake was I didn't look for easier solution.
+
+
+
 
 
 
