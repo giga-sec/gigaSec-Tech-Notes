@@ -87,19 +87,38 @@ Think of SQL table as a type of an entity (ie. Dogs),
     each columns represents common properties shared by all instances of that entity (ie. Color of fur, length of tail, etc).
 
 ### SELECT ALL Columns
-`SELECT * FROM movies` 
+```SQL
+SELECT * 
+FROM movies; 
+```
 translates to 
-`SELECT "all_columns" FROM "the table named movies"`
+```SQL
+SELECT "all_columns" 
+FROM "the table named movies";
+```
 The `*` means all columns
 
 ### SELECT specific columns
-`SELECT director, title FROM movies;`
-translates to
-`SELECT "director column and title column" FROM "table named MOVIES"`
 Result of this query will be\  
 A copy of table, but only with columns that we requested.
+```SQL
+SELECT director, title 
+FROM movies;`
+```
+translates to
+```SQL
+SELECT "director column and title column" 
+FROM "the table named MOVIES"`
+```
+
+## [[WHERE clause]]
+Problem: If you had a table with a hundred million rows of data, 
+...reading through all rows to find the specific column you want to
+...would be inefficient and perhaps even impossible.
+Solution: We need to filter results -> [[WHERE clause]]
 
 
 
 
-If you had a table with a hundred million rows of data, reading through all the rows would be inefficient and perhaps even impossible.
+
+
