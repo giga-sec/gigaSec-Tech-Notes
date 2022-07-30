@@ -15,6 +15,20 @@ https://stackoverflow.com/questions/10712002/create-an-empty-list-with-certain-s
 [[LAB6 - World Cup]]
 [[Problem Set 6]]
 
+Weird things I discovered in python
+```python
+res = []  # An empty list!
+hello = res[-1]  # IndexError: List index out of range
+```
+
+```python
+res = []  # An empty list!
+if res and dict[i] == res[-1]:
+    pass
+```
+
+---
+
 
 In Python2, `maketrans` is a function belongs to the `string` module. 
 However in Python3, `maketrans` is a static method of the `str` type.

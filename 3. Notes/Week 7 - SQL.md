@@ -9,6 +9,7 @@ Tags: #fleeting
 [[CSV in Python]]
 
 [[Lab7 - Songs]]
+[[Manipulating Numbers in SQL]]
 
 
 SQL is a Relational Database, [[Relational Database explained]]
@@ -42,20 +43,6 @@ SELECT DISTINCT(UPPER(title)) FROM favorites;
 Forces every output to be in uppercase and remove redundancy of similar outputs
 
 
-
-```sql
-SELECT title FROM favorites LIMIT 10;
-```
-```sql
-SELECT title FROM favorites WHERE title LIKE "%friends"
-```
-We can also add more phrases to our command:
--   `WHERE`, adding a Boolean expression to filter our data
--   `LIKE`, filtering responses more loosely
--   `ORDER BY`
--   `LIMIT`
--   `GROUP BY`
-
 Data types of SQL
 `BLOB`  Binary Large OBject
 `INTEGER`
@@ -80,9 +67,6 @@ Many varying SQL Databases...
 ...Differs in extra features and supported storage type
 
 
-## [[SELECT statements]]
-
-
 
 **Problem:** If you had a table with a hundred million rows of data, 
 ...reading through all rows to find the specific column you want to
@@ -91,6 +75,10 @@ Many varying SQL Databases...
 [[WHERE clause to filter data]]
 [[LIMIT and OFFSET to reduce data output]]
 [[DISTINCT keyword to remove duplicates]]
+
+
+
+## [[SELECT statements]]
 
 
 ## [[WHERE clause to filter data]]
@@ -102,29 +90,90 @@ Many varying SQL Databases...
 ## [[DISTINCT keyword to remove duplicates]]
 
 
-ORDER BY clause to sort data
+## [[ORDER BY clause to sort data]]
+
+
+## [[JOIN clause to combine tables]] 
+
+
+
+
+
+## [[IS NULL to check if VALUE is EMPTY]]
 ```SQL
 SELECT column, another_column, … FROM mytable
-ORDER BY column ASC/DESC;
+WHERE column IS/IS NOT NULL
+    AND/OR another_condition
+    AND/OR …;
 ```
 
 
-Real world data is often 
-    -> broken down into pieces stored across multiple tables.
-    -> It's a process known as normalization, [[Database Normalization explained]]
+## [[AS keyword to give an alias]]
+Good Stuff: Expressions save time and extra post-processing of result data, 
+
+Problem: Expressions can make query harder to read, 
+Solution: [[AS keyword to give an alias]]
+
+
+## Expressions
+Expressions are what we call to queries with
+-> mathematical, string functions, or basic arithmetic  
+**Example query with expressions**
+```SQL
+SELECT particle_speed / 2.0 AS half_particle_speed
+FROM physics_data
+WHERE ABS(particle_position) * 10.0 > 500;
+```
+
+Good Stuff: Expressions save time and extra post-processing of result data, 
+
+Problem: Expressions can make query harder to read, 
+Solution: [[AS keyword to give an alias]]
+
+### Aggregate Expressions (Functions)
+Allows you to summarize information about a group of rows of data. 
+
+Select query with aggregate functions over all rows
+```SQL
+SELECT AGG_FUNC(column_or_expression) AS aggregate_description, …
+```
+
+
+`COUNT(*)` 
+Counts the number of rows in the group if no column name is specified. 
+
+`COUNT(column)`
+Count the number of rows in the group with non-NULL values in the specified column.
+
+`MIN(column)` 	
+Finds the mininum num value 
+-> in the specified column for all rows in the group.
+
+`MAX(column)` 	
+Finds the maximum num value 
+-> in the specified column for all rows in the group.
+
+`AVG(column)` 	
+Finds the average num value 
+-> in the specified column for all rows in the group.
+
+`SUM(column)` 	
+Finds the sum of all num values 
+-> in the specified column for the rows in the group.
+
+
+`GROUP BY` clause in aggregate expressions 
+Without a specified grouping, 
+    -> each aggregate function is going to run on the whole set of result rows and return a single value.
+
+You can use `GROUP BY` to select a specific data when using functions.
+Select query with aggregate functions over groups
+```SQL
+SELECT AGG_FUNC(column_or_expression) AS aggregate_description, …
+FROM mytable
+WHERE constraint_expression
+GROUP BY column;
+```
 
 
 
-Multi-table queries with JOINs
-
-**Primary Key**
-Sharing tables must have primary key that identifies an info uniquely across the database. 
-Primary key type examples 
--> auto-incrementing integer (which is space efficient), 
--> but can be a string, 
--> a hashed value, 
--> The important trait of primary key is it's unique
-
-
-## [[JOIN clause]] 
-To combine two separate tables into one temporary table 

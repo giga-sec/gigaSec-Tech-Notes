@@ -1,4 +1,4 @@
-[[JOIN clause]]
+[[JOIN clause to combine tables]]
 
 # Example SQL query that uses LEFT JOIN clause
 Created:  [[2022-07-29]]

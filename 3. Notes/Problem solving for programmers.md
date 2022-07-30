@@ -29,6 +29,36 @@ I would say to me it's more like physics
 - where there are rules that can bend but not break 
 - and you have to figure out how to do it within those constrains 
 - and when you do, it's pure just bliss.
+---
+Many think that becoming a better problem solver means beign able to solve more problems faster
+But no, it's about being able to find the best solutiont o aproblem and then put that solution in place.
+
+
+Programmers first understand how a human solves the problem.
+Then understand how to translate that into an algorithm that a computer can do
+And finally, how to write the specific syntax (or the languange we communicate to the computer)
+
+Encapsulation and Abstraction
+For example, if the professor asks you to "Get me a cup of coffee"
+We as humans uses encapsulation to instantly know how to do the steps.
+However, the actual real number of steps to get the coffee are
+- getting up, walking down the hall, getting in your car
+- driving to a coffee stand, paying for the coffee, 
+- getting the change if there is a change etc.. etc.. 
+
+Then we do an abstraction to ignore small unimportant details and only remember few important items
+However, if we take a way the abstraction, which computers do
+They will ask for 
+- Will it be a mug of coffee or in a styrofoam one?
+- Freshly Brewed, or concentrated?
+- Does it come from Africa or America?
+- and more seemingly unimportant questions
+
+It's basically like this, 
+Doing programming is basically
+thinking about the problem and solve it in an elegant manner
+or
+you could just lazily program and debug all the way. ``
 
 ---
 1. Understand the Problem

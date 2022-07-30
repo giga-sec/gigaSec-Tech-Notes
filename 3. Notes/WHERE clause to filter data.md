@@ -18,9 +18,9 @@ WHERE condition
     AND/OR …;
 ```
 
-## Conditions for `WHERE` clause 
+## Constraint for `WHERE` clause 
 
-Standard numerical operators
+### Standard numerical operators
 ```SQL
 =, !=, <, <=, >, >=
 
@@ -28,7 +28,7 @@ WHERE col_name = 4
 ```
 Means, if column name is equal to `4`
 
-### `BETWEEN AND` Condition
+### `BETWEEN AND` Constraint 
 Number is within range of two values (inclusive)
 ```SQL
 BETWEEN … AND …
@@ -37,7 +37,7 @@ WHERE col_name BETWEEN 1.5 AND 10.5
 ```
 Where col_name's value is in between 1.5 and 10.5
 
-### `IN` Condition
+### `IN` Constraint 
 Number exists in a list
 ```SQL
 IN (Numbers here)
@@ -47,7 +47,7 @@ WHERE col_name IN (2, 4, 6)
 Where col_name's value is in the numbers 2, 4, 6
 
 
-### `LIKE` Condition
+### `LIKE` Constraint 
 Case insensitive exact string comparison
 ```SQL
 LIKE
@@ -83,7 +83,7 @@ col_name LIKE "AN_"
 Results -> matches "AND", but not "AN"
 
 
-###  `NOT` Condition  
+###  `NOT`  Constraint
 Number is not within range of two values (inclusive)
 ```SQL
 NOT BETWEEN … AND …
@@ -110,6 +110,17 @@ col_name NOT LIKE "ABCD"
 
 
 
+## `IS NULL` constraint
+Test a column for NULL or empty values
+`IS NULL` or `IS NOT NULL` constraint.
+Select query with constraints on NULL values.
+```SQL
+SELECT column, another_column, … FROM mytable
+WHERE column IS/IS NOT NULL
+    AND/OR another_condition
+    AND/OR …;
+```
+[[IS NULL to check if VALUE is EMPTY]]
 
 
 

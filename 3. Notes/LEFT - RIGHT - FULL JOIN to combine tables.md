@@ -1,41 +1,12 @@
-[[Week 7 - SQL]]
+[[JOIN clause to combine tables]]
 
-# JOIN clause
-Created:  [[2022-07-29]]
+# LEFT - RIGHT - FULL JOIN to combine tables
+Created:  [[2022-07-30]]
 Tags: #fleeting 
 
 ---
-we can combine row data across two separate tables using this unique key. 
-The first of the joins that we will introduce is the INNER JOIN.
+[[Example SQL query that uses LEFT JOIN clause]]
 
-## Inner Join
-
-Select query with INNER JOIN on multiple tables
-```SQL
-SELECT column, another_table_column, …
-FROM mytable
-INNER JOIN another_table 
-    ON mytable.column = another_table.another_table_column;
-```
-With this, the tables are finally joined together. 
-
-Explanation of SQL query above
-`INNER JOIN `
--> matches rows from the first table and the second table...
--> ...which have the same key (as defined by the ON constraint) 
-to create a result row with the combined columns from both tables. 
-
-
-The overall idea of `JOIN` 
-is to create two separate tables and merge them together temporarily to do something with the data
-
-
-Did you know?
-You might see queries where 
--> INNER JOIN is written simply as a JOIN. 
-^ These two are equivalent. `INNER JOIN` is just use for readability especially to beginners
-
-## Other Joins (Left / Right / Full)
 If two tables have [[asymmetric]] data, 
 which can easily happen when data is entered in different stages, 
 then we would have to use a 
@@ -83,4 +54,14 @@ these queries are simply equivalent to `LEFT JOIN`, `RIGHT JOIN`,  and `FULL JOI
 
 
 
-[[Example SQL query that uses LEFT JOIN clause]]
+
+
+
+
+
+
+
+
+
+## References
+1. 

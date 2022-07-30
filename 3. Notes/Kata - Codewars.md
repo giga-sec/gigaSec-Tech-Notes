@@ -5,6 +5,155 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+## Directions Reduction
+1. Understand the Problem
+
+Give the 
+north +1
+south -1
+
+east +1 
+west -1
+
+### Examples
+In ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"], 
+"NORTH" and "SOUTH" are _not_ directly opposite 
+but they become directly opposite 
+    after the reduction of "EAST" and "WEST" 
+    -> so the whole path is reducible to ["WEST", "WEST"].
+
+In `["NORTH", "SOUTH", "EAST", "WEST"]`, 
+the direction `"NORTH" + "SOUTH"` is going north and coming back _right away_.
+The path becomes `["EAST", "WEST"]`, 
+now `"EAST"` and `"WEST"` annihilate each other, therefore, the final result is `[]` (nil in Clojure).
+
+Not all paths can be made simpler. 
+The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. 
+"NORTH" and "WEST", 
+"WEST" and "SOUTH", 
+"SOUTH" and "EAST" 
+are not _directly_ opposite of each other and can't become such. 
+Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].
+
+### Question: 
+Isn't ["WEST", "WEST"] reducecs to ["WEST"]???
+Okay, so I guess we're only going to reduce the list base on the original list???
+Wait no, because in here 
+Ans: Okay so it's actually right, WEST WEST since that doesn't make it return to what he was before
+
+
+Write a function `dirReduc` which 
+take an array of strings and 
+returns an array of strings with 
+    the needless directions removed (W<->E or S<->N _side by side_).
+
+
+### My understanding
+
+[NORTH, EAST, WEST, SOUTH, WEST, WEST] 6
+[NORTH, ~~EAST, WEST~~, SOUTH, WEST, WEST] 4
+[~~NORTH, SOUTH~~, WEST, WEST] 2
+So it must have a way to check if the left side makes the ting go zero
+So we have a dictionary to assign a specific numbers to each direction
+We 
+
+```python
+dictionary = {
+    "NORTH": 1
+    "SOUTH": -1
+    "WEST": 2
+    "EAST": -2 
+}
+
+map_list = ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"]
+
+j = 1  # Default to one because...
+length = len(map_list)
+for i in range(len(arr)):
+    direction = map_list[i]
+    next_direction = map_list[j]
+    if ((next_direction + dictionary[direction]) == 0):
+        # This means that two directions made us go back
+        map_list.remove(direction)
+        map_list.remove(next_direction)
+        continue
+    j += 1
+```
+- [x] Learn how to remove values in list
+
+Also 
+NORTH = 1
+WEST = 1
+SOUTH = -1
+EAST = -1
+[SOUTH, WEST] makes it `0`
+
+NORTH = 1
+SOUTH = -1
+WEST = 2
+EAST = -2
+So [SOUTH, WEST] makes -1 + 2 = `1` and it's not equal to `0` therefore no going back to circles.
+
+Okay, here's a new thing that I learned.
+The primary purpose is not to cut off the redundancy of directions
+but instead that is the result of making sure that the least path of action is taken.
+```python
+dictionary = {
+    "NORTH": 1,
+    "SOUTH": -1,
+    "WEST": 2,
+    "EAST": -2
+}
+
+
+def dirReduc(map_list):
+    i = 0
+    j = 1  # Default to one because...
+    length = len(map_list)
+    while (j < length):
+        direction = map_list[i]
+        next_direction = map_list[j]
+
+        if ((dictionary[next_direction] + dictionary[direction]) == 0):
+            # This means that two directions made us go back
+            map_list.remove(direction)
+            map_list.remove(next_direction)
+            if (i > 0):  # Assures that there is a previous index
+                try:
+                    previous_direction = map_list[i - 1]
+                    direction = map_list[i]  # Update new direction
+                    if ((dictionary[previous_direction] + dictionary[direction]) == 0):
+                        map_list.remove(previous_direction)
+                        map_list.remove(direction)
+                        i -= 1
+                        j -= 1
+                except IndexError:
+                    print("Oh No")
+            length = len(map_list)
+            continue
+        i += 1
+        j += 1
+    return map_list
+```
+
+I lacked information, 
+I didn't test more examples that's why I had a wrong algorithm 
+
+I found a solution online
+```python
+def dirReduc(arr):
+    dict = {"NORTH":"SOUTH","SOUTH":"NORTH","EAST":"WEST","WEST":"EAST"}
+    res = []
+    for i in arr:
+        if res and dict[i] == res[-1]:
+            res.pop()
+        else:
+            res.append(i)
+    return res
+```
+And what the fuck, that's just it?????????
+
+
 ## Roman Numerals Encoder
 1. Understand the Problem
 Function parameter -> positive integer 
