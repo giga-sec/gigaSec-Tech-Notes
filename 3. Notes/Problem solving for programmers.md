@@ -8,6 +8,12 @@ Tags: #fleeting
 [[Questions to ask when solving a problem]]
 
 ---
+Wasting Time on Problems: 
+Yes, I must say it is a waste of time if you are giving more than one hour to a medium level problem. It is OK for a beginner to see the solution and learn from it. And try to remember the approach.
+
+Learning language syntax only teaches you how to write - 
+it's like grammar. It doesn't teach you what to write, or why.
+
 ### When you look up the solution 
 -> don't think that you solved the problem without understanding it and move on.
 -> don't just read it, say “yeah, whatever” in your mind and skip.
@@ -46,7 +52,7 @@ However, the actual real number of steps to get the coffee are
 - driving to a coffee stand, paying for the coffee, 
 - getting the change if there is a change etc.. etc.. 
 
-Then we do an abstraction to ignore small unimportant details and only remember few important items
+Then we do an [[Abstraction in programming]] to ignore small unimportant details and only remember few important items
 However, if we take a way the abstraction, which computers do
 They will ask for 
 - Will it be a mug of coffee or in a styrofoam one?
@@ -58,7 +64,7 @@ It's basically like this,
 Doing programming is basically
 thinking about the problem and solve it in an elegant manner
 or
-you could just lazily program and debug all the way. ``
+you could just lazily program and debug all the way. 
 
 ---
 1. Understand the Problem

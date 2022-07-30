@@ -1,5 +1,7 @@
 [[+Home]]                   
 
+The computer will do exactly what you tell it to do and doesn't attempt to figure out what you actually mean
+
 # MOC Programming
 
 [[Problem solving for programmers]]
@@ -23,6 +25,11 @@
 
 [[Advice in programming that I found on reddit]]
 
+[[Teach yourself programming in TEN YEARS]]
+
+[[What is the best way to learn coding faster!]]
+
+[[What is your experience when you are new to a software development team]]
 
 ## [[Programming Books]]
 
@@ -86,3 +93,28 @@ I think this is where AI reigns over the humans, no matter how stupid or unknowl
 
 
 As what we are as a human now, we sit comfortably at the top of hierarchy of the land species. We are considerably the most brilliant if not one of the intelligient species on this planet. However, the ability for us to realize how dumb we are, or is it really a matter of how dumb we are? Because, I think it simply means a lack of information and understanding. Basically my initial point was to make an assertion. That is higher form of intelligience in species means the ability to recognize how dumb and stupid one's own specie can be. I say this because I read an article about social engineering and how easily people can be deceived by such things, but then again, they are easily deceived simply because of lack of information, that is not knowing that this kind of things exists. Or is it really a lack of information? Because we humans can be emotionally-driven. For instance, when our mental capacities are not in the best form (such as in stress, low energy or depression) our decisions often tilt towards making more emotionally-driven choices rather than intellectual rational ones. That's where social engineering exploits and take advantage of human nature.       
+
+
+
+
+
+
+Basics
+Trees
+Linked List
+Hashing
+Data Structures
+
+
+C for Memory things and just basically the basics of all
+
+
+C++ for Object Oriented Programming
+
+
+HTML, CSS, JAVASCRIPT
+
+
+
+Learning how to solve a problem
+	Learning how to create an algorithm
