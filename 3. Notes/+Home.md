@@ -118,6 +118,14 @@ It's been some time since I've transformed a note into literature or permanent. 
 
 
 
+When I was learning programming, learning fundamentals was the most important thing as having it makes any tutorial easy to learn and understand. 
+However, in hacking, does it also have some MUST KNOW fundamentals for a beginner to learn about? If so, what are those? 
 
+If you were to do it again, how would you start learning about hacking? What would be the roadmap you'd give to your old self?
+
+I'll ask some cliche questions 
+What made you got into cybersecurity/hacking?
+
+What made you keep going into learning cybersecurity? 
 
 

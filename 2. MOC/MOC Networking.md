@@ -16,7 +16,10 @@
 
 [[Port scanning with NMAP]]
 
+`nc`
 Netcat listener is just **a way to refer to one of Netcat's features: “listening in” on open ports**.
+
+
 
 
 ### Networking Models

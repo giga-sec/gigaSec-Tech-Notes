@@ -36,4 +36,5 @@ https://techviewleo.com/install-postgresql-on-arch-manjaro-garuda-linux/
 
 
 
-
+ASCII TABLE
+![[Pasted image 20220731181629.png]]

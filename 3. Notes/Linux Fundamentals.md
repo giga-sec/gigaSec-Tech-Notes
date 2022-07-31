@@ -8,6 +8,12 @@ Tags: #fleeting
 `/` is the root directory, [[Root Directory is the GOD of all folders]]
 `history` to view the previously used commands
 
+Give execute permisstion to a file
+```bash
+chmod +x /path/to/yourscript.sh
+```
+
+
 [[Shell 101]]
 
 [[Common Directories-Folders of Linux]]

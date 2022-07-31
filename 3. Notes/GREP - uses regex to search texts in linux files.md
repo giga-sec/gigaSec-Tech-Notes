@@ -14,7 +14,13 @@ regex means **REG**ular **EX**pression.
 A “regular expression” 
 - text string 
 - describes a specific search pattern.
-A regular expression or regex is **a pattern that matches a set of strings**. A pattern consists of operators, constructs literal characters, and meta-characters, which have special meaning. GNU grep supports three regular expression syntaxes, Basic, Extended, and Perl-compatible
+A regular expression or regex is **a pattern that matches a set of strings**. A pattern consists of operators, constructs literal characters, and meta-characters, which have special meaning. GNU grep supports 
+three regular expression syntaxes, 
+-> Basic, 
+-> Extended, 
+-> Perl-compatible
+
+
 
 
 
