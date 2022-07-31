@@ -5,6 +5,9 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+https://www.codewars.com/kata/57814d79a56c88e3e0000786/train/python
+
+
 ## Directions Reduction
 1. Understand the Problem
 
