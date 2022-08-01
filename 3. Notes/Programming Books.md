@@ -7,7 +7,7 @@ Tags: #fleeting
 ---
 [[Understanding and Using C Pointers]]
 
-
+[[The ANSI C Programming Languange]]i
 
 
 

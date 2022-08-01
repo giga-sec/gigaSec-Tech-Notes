@@ -12,13 +12,21 @@ C compilers, sees code top to bottom, left to right
 [[sizeof values in each data type of C]]
 
 
-[[Understanding and Using C Pointers]]
-
-
 [[File Handling in C]]
 
 
+Code Snippets
 [[C - Print Leading Zeros in C]]
+
+
+
+Books
+[[The ANSI C Programming Languange]]
+
+[[Understanding and Using C Pointers]]
+
+
+
 
 
 

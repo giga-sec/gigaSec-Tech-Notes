@@ -16,14 +16,21 @@ Read this post here
 https://www.bugbountyhunter.com/getting-started/
 
 
+https://portswigger.net/solutions/bug-bounty-hunting
+
+
+https://hackerone.com/hacktivity
+
+Reconnaissance
+https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_reconnaissance.htm
+Information Gathering and getting to know the target systems is the first process in ethical hacking. Reconnaissance is a set of processes and techniques (Footprinting, Scanning & Enumeration) used to covertly discover and collect information about a target system.
 
 
 
+CTF101
+https://ctf101.org/
 
-
-
-
-
+https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/
 
 ## References
 1. 

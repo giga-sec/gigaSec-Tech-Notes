@@ -12,6 +12,8 @@ Different ransomware gangs and their level of integrity
 https://www.csoonline.com/article/3607649/the-worst-and-most-notable-ransomware.html
 ---
 ## Uncategorized
+[[Ransomware - 1.5 Million People got their files back without paying ransomware]]
+
 [[Hacking Group revictimizes ransomware victim even if ransom was already paid]]
 
 

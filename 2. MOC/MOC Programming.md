@@ -31,7 +31,7 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[What is your experience when you are new to a software development team]]
 
-<Copy Pasted>
+!! Copy Pasted
 Do you know what a CDN is? Every time you've jacked off to porn on the internet, that single porn video was uploaded to a single data center endpoint, but then the CDN automatically replicates that porn video to data centers all around the world so when you pull up "Jennifer White gets boned" on your shitty handheld smartphone, you get a fast delivery response with little to no latency so you can jack off to your ~~dick's~~ content.
 
 Hell, Reddit uses a CDN. Check out [**Reddit's status page**](https://reddit.statuspage.io). You'll see they use Fastly. If you look at [**Reddit's Infrastructure AMA**](https://www.reddit.com/r/sysadmin/comments/9x577m/were_reddits_infrastructure_team_ask_us_anything/), you'll see they also use Akamai.
@@ -58,8 +58,7 @@ Boilerplate code
 Segmentation Fault = You touched a memory that you shouldn't
 
 
-Truncated = Ended abruptly at one spot. For instance 3.453 turns into 3.4  
-It's the same of rounding that it reduces digits but that's only it, truncating doesn't change digits, only removes them.
+
 
 
 Buffer in programming is a temporary placeholder. Used a lot in context of transferring data from something to another. 
