@@ -1,4 +1,4 @@
-[[RegEX - Regular Expressions]]
+[[RegEX - REGular EXpressions]]
 
 # Quantifiers or Repetition of Characters - RegEX
 Created:  [[2022-07-16]]

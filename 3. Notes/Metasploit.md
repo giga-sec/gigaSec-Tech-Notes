@@ -17,6 +17,7 @@ This `msfconsole` helps us to interact with different modules of Metasploit Fram
 [[Vulnerability]]: A logical, code, or design flaw in a program
 [[Payload]] - A code that helps us do what we want in a target system
 
+
 ## [[Exploit Modules and categories of Metasploit]]
 Each exploit module has a ranking system
 Look her efor always updated info -> https://docs.metasploit.com/docs/using-metasploit/intermediate/exploit-ranking.html
@@ -24,10 +25,11 @@ Look her efor always updated info -> https://docs.metasploit.com/docs/using-meta
 
 
 ## The MSFconsole
-- supports most Linux commands, `clear`, `ls`, `cd` 
-- supports tab completion
+Inside of the `MSFconsole`
+- it supports most Linux commands, `clear`, `ls`, `cd` 
+- it supports tab completion
 
-- DOES NOT support _output redirection_, as seen below.
+- **==DOES NOT==** support _output redirection_, as seen below.
 ```     
 msf6 > help > help.txt
 [-] No such command
@@ -37,15 +39,16 @@ msf6 >
 
 
 ### Msfconsole is managed by context; 
-Context is like what exploit module we're currently in.
+**Context is like what exploit module we're currently in.**
 this means that unless set as a global variable, 
 all parameter settings will be lost if you change the module you have decided to use. 
+Like this example below
 
-In the example below, we used `ms17_010_eternalblue exploit`, 
-and we set parameters such as `RHOSTS`. 
-If we were to switch to another module like `port scanner`,
-we would need to set the `RHOSTS` value again 
-as all changes we made remained in context of `ms17_010_eternalblue exploit`
+>In the example below, we used `ms17_010_eternalblue exploit`, 
+>and we set parameters such as `RHOSTS`. 
+>If we were to switch to another module like `port scanner`,
+>we would need to set the `RHOSTS` value again 
+>as all changes we made remained in context of `ms17_010_eternalblue exploit`
 
 Once you type the command
 -> `use exploit/windows/smb/ms17_010_eternalblue`  

@@ -12,7 +12,7 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[GIT Basics]]
 
-[[RegEX - Regular Expressions]]
+[[RegEX - REGular EXpressions]]
 
 [[Kata - Codewars]]
 

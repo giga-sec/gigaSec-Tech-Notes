@@ -36,6 +36,8 @@
 
 ## Uncategorized
 
+[[Different types of Data and Character Encoding]]
+
 [[VSCODE Keyboard Shortcuts]]
 
 

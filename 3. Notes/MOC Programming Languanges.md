@@ -10,6 +10,10 @@ This MOC is dedicated to things that relate to
 [[Javascript]]
 
 
+[[Rockstar]]
+Yes, there's a programming languange called Rockstar. 
+It's all in english
+
 
 Successor Languanges
 -   JavaScript → TypeScript

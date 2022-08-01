@@ -1,4 +1,4 @@
-[[RegEX - Regular Expressions]]
+[[RegEX - REGular EXpressions]]
 
 # Websites to learn Regex
 Created:  [[2022-07-24]]

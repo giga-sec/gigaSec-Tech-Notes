@@ -5,6 +5,15 @@ Created:  [[2022-07-20]]
 Tags: #fleeting 
 
 ---
+## 1_wanna_b3_a_r0ck5tar
+That's cool, you can actually translate a languange to python languange
+Just some languanges, sometimes its not accurate but it gives you a good glance
+
+## flag_shop
+Okay, so this uses buffer overflow
+Then, having the basic knowledge of the sizes of each data types
+
+
 ## Stonks (Binary Exploitation)
 I made a bot to automatically trade stonks for me using AI and machine learning.
 `nc mercury.picoctf.net 16439` to run the app

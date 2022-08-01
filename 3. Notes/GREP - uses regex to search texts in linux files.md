@@ -7,30 +7,28 @@ Tags: #fleeting
 ---
 ### `grep    "TEXT TO SEARCH"    filename.txt`
 
-
-### Lingo
 grep means **G**lobal **R**egular **E**xpression **P**rint
-regex means **REG**ular **EX**pression. 
-A “regular expression” 
-- text string 
-- describes a specific search pattern.
-A regular expression or regex is **a pattern that matches a set of strings**. A pattern consists of operators, constructs literal characters, and meta-characters, which have special meaning. GNU grep supports 
+grep uses [[RegEX - REGular EXpressions]] to search for text inside of files 
+
+GNU grep supports 
 three regular expression syntaxes, 
 -> Basic, 
 -> Extended, 
 -> Perl-compatible
 
+### Finding a File Containing a Particular Text String In Linux Server
+In this example, search for a string called ‘redeem reward’ in all text `*.txt` files located in /home/tom/ directory, use:  
+`grep "redeem reward" /home/tom/*.txt`
 
-
-
-
+You can search for all files in current directory and all of its subdirectories  
+`grep -r "redeem reward" .`
+https://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/
+^^^
 
 By default, "case" matters
 To ignore “case”, basically search for upper/lower-case,  
 `-i` or `--ignore-case` option.
 `grep -i "license" GPL-3`
-
-
 
 Search every line 
 DOES NOT CONTAIN THE WORD `the` in BSD file.
