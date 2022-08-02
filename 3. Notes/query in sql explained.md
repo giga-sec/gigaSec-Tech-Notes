@@ -5,14 +5,15 @@ Created:  [[2022-07-29]]
 Tags: #fleeting 
 
 ---
-A query is just a statement which 
--> declares WHAT DATA we are looking for, 
--> declares WHERE TO FIND DATA in the database, 
--> optionally, HOW TO TRANSFORM DATA before it is returned. 
-It has a specific syntax though
+It's just a syntax for SQL
+It's the instructions we give to SQL 
 
-It's basically the instructions we give to the thing but we communicate through SQL languange
-
+Like this
+```SQL
+SELECT *
+FROM your_mom
+```
+That's an SQL
 
 
 

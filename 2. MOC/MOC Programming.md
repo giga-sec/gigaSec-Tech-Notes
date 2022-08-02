@@ -1,6 +1,7 @@
 [[+Home]]                   
 
-The computer will do exactly what you tell it to do and doesn't attempt to figure out what you actually mean
+Programming in a nutshell
+The computer will do exactly what you tell it to do and doesn't attempt to figure out what you actually want to do, unless if it's github copilot ;-;
 
 # MOC Programming
 

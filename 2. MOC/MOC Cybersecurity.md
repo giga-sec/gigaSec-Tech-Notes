@@ -45,6 +45,20 @@ This MOC is dedicated to things that relate to defending an organization from at
 [[Metasploit]]
 
 
+## Capture The Flag
+[[PICOctf]]
+
+[[Hacker101]]
+
+https://infosecwriteups.com/beginners-guide-to-ctfs-c934a0d7f5f9
+
+CTFS for web vuln
+https://pentesterlab.com/
+https://ctf.hacker101.com/
+
+You want not try to google solutions or ask for flags online because it takes away the experience of working hard to finding solutions to yourself.
+
+
 
 ## Words taken in quara or reddit
 

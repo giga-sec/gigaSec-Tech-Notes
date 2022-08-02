@@ -30,6 +30,11 @@ there is no input or output defined in C itself.
 `printf` is just a useful function from `stdio.h` 
 The behaviour of printf is defined in the ANSI standard, however, so its properties should be the same with any compiler and library that conforms to the standard.
 
+The `printf` conversion specification 
+`%3i` prints an int with only `3 whole num digits`
+`%5.2f` prints a floating point with `5 whole num digits` and `2 decimal digits`
+
+
 Rules for when integers are automatically converted to floating point
 IF -> adding both integers,
 THEN -> result will be an integer
