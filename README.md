@@ -55,5 +55,5 @@ Fair enough! And that's a good thing to not trust strangers online :D
 
 -> You can choose `Do not trust`, but some minor features might not work, tho it doesn't spawn inconvience.
 
--> Or just skip downloading `.obsidian` directory. I believe the obsidian app itself will automatically create it for you at startup. 
+-> Or just delete the `.obsidian` directory after downloading it. I believe the obsidian app itself will automatically create it for you at startup. 
 
