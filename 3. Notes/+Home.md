@@ -115,19 +115,14 @@ It's been some time since I've transformed a note into literature or permanent. 
 
 
 
+August 03, 2022
+A problem
+It's making me having a decision freeze where I have to think about where I'll put what I learned in linux during my browsing time or whenever I'm fixing whatever broke in linux.
+
+A solution
+We could make a note specifically dedicated to the things I learned. No matter what category it is, it will be there.
+However, I am assigning responsibility to my future self to read and categorize my notes there. Therefore I am creating a time debt to my future self. 
+-> So probably make it easier for my future self, that would be assining some keywords like linux, ssh, shell, or etc... depending on the topic. Then whenever i get back reading that note, I can have an ease decision of where I'll put the note. 
 
 
-
-
-
-When I was learning programming, learning fundamentals was the most important thing as having it makes any tutorial easy to learn and understand. 
-However, in hacking, does it also have some MUST KNOW fundamentals for a beginner to learn about? If so, what are those? 
-
-If you were to do it again, how would you start learning about hacking? What would be the roadmap you'd give to your old self?
-
-I'll ask some cliche questions 
-What made you got into cybersecurity/hacking?
-
-What made you keep going into learning cybersecurity? 
-
-
+Okay so how are we going to go with having a note with all the quick knowledege learn

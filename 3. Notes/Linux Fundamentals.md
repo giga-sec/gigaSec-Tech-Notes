@@ -29,8 +29,14 @@ chmod +x /path/to/yourscript.sh
 
 Auto mount disk at boot
 `/dev/sb1`
-
 https://techhut.tv/auto-mount-drives-in-linux-fstab/
+
+
+Error
+libglib2.0-0:i386 depends on libc6 (>= 2.34); however:   Package libc6:i386 is not configured yet.
+`sudo dpkg --configure -a`
+then just have apt do a fix broken:  
+`sudo apt --fix-broken install`
 
 
 https://pbs.twimg.com/media/FYlMJaEWQAImvS6?format=jpg&name=4096x4096
