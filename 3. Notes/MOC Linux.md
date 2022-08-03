@@ -6,7 +6,7 @@ This MOC is dedicated to things that relate to
 
 [[Linux Fundamentals]]
 
-[[Linux Configuration]]
+[[Linux Configuration - Customization]]
 
 [[Arch Linux Installation]]
 

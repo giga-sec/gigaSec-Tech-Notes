@@ -17,6 +17,8 @@ needs a `3rd-party compositor`
 `compton`
 You can add fade effects when switching to workspaces or focused windows
 
+
+
 ## Status Bar on i3
 https://github.com/polybar/polybar
 you can add a third party editor of status bar

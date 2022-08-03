@@ -1,4 +1,4 @@
-[[MOC Linux]]
+[[Linux Configuration - Customization]]
 
 # Tile Manager in Linux
 Created:  [[2022-07-15]]
@@ -9,7 +9,7 @@ Tags: #fleeting
 Disable Clipboard History 
 `/etc/sway/config.d/99-autostart-applications.conf`
 
-**[[i3]]**
+[[i3 Tiling Manager]]
 
 rofi setup  
 Use `rofi -show drun` 
@@ -22,6 +22,8 @@ There are many things to consider when setting up i3
 
 2. The status bar
 -> polybar, **bumblebee**
+[[Bumblebee Status Bar]]
+
 
 3. The fonts
 -> Fonts to show icons
@@ -32,6 +34,8 @@ There are many things to consider when setting up i3
 5. The terminal
 -> Gnome Terminal, 
 
+6. i3 gaps
+https://github.com/Airblader/i3
 
 
 
