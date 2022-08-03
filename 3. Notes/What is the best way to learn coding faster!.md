@@ -1,4 +1,4 @@
-
+[[MOC Programming]]
 
 # What is the best way to learn coding faster!
 Created:  [[2022-07-30]]

@@ -17,6 +17,7 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[Kata - Codewars]]
 
+![[Pasted image 20220802203614.png]]
 
 ## Articles
 
