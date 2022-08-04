@@ -7,12 +7,11 @@ Tags: #fleeting
 ---
 [[Questions to ask when solving a problem]]
 
----
-Wasting Time on Problems: 
+### Wasting Time on Problems: 
 Yes, I must say it is a waste of time if you are giving more than one hour to a medium level problem. It is OK for a beginner to see the solution and learn from it. And try to remember the approach.
 
-Learning language syntax only teaches you how to write - 
-it's like grammar. It doesn't teach you what to write, or why.
+**Learning language syntax only teaches you how to write
+It's like grammar. It doesn't teach you what to write, or why.**
 
 ### When you look up the solution 
 -> don't think that you solved the problem without understanding it and move on.
@@ -39,20 +38,40 @@ I would say to me it's more like physics
 Many think that becoming a better problem solver means beign able to solve more problems faster
 But no, it's about being able to find the best solutiont o aproblem and then put that solution in place.
 
+It's basically like this, 
+Doing programming is basically
+thinking about the problem and solve it in an elegant manner
+or
+you could just lazily program and debug all the way. 
 
-Programmers first understand how a human solves the problem.
-Then understand how to translate that into an algorithm that a computer can do
-And finally, how to write the specific syntax (or the languange we communicate to the computer)
 
-Encapsulation and Abstraction
-For example, if the professor asks you to "Get me a cup of coffee"
-We as humans uses encapsulation to instantly know how to do the steps.
+Solving problems should be a logical thing and not an emotional one.
+Once you get frustrated 
+Getting frustrated will make you tend to 
+-> complicate things, 
+-> fail a solution 
+-> or pick a complex solution for the problem. 
+
+## In a Nutshell, Problem Solving in Programmig
+First -> we understand how a human solves the problem.
+Then -> understand how to translate that into an algorithm that a computer can do
+Finally -> writing the specific syntax (the languange we communicate to the computer)
+
+
+### Encapsulation 
+IF -> professor instructs a human to "Get me a cup of coffee"
+THEN -> humans uses encapsulation to instantly know how to do the steps.
 However, the actual real number of steps to get the coffee are
-- getting up, walking down the hall, getting in your car
+- getting up, walking down the hall, getting in your car, sitting down inside of your car, knowing the instructions to where the coffee stand is, knowing when to start the car, knowing when to stop the car, 
 - driving to a coffee stand, paying for the coffee, 
 - getting the change if there is a change etc.. etc.. 
+- then knowing when we got the coffee, then knowing the route back to the office, then driving their, then going back to your boss office, if boss is not there, then find him, if he is there, then hand the coffee to boss, and so on....
 
-Then we do an [[Abstraction in programming]] to ignore small unimportant details and only remember few important items
+### Abstraction
+Continuing the encapsulation of "Get me a cup of coffee"
+We then ask for the details of the coffee itself
+[[Abstraction in programming]] basically ignores small unimportant details of an object and only remember few important items
+
 However, if we take a way the abstraction, which computers do
 They will ask for 
 - Will it be a mug of coffee or in a styrofoam one?
@@ -60,76 +79,61 @@ They will ask for
 - Does it come from Africa or America?
 - and more seemingly unimportant questions
 
-It's basically like this, 
-Doing programming is basically
-thinking about the problem and solve it in an elegant manner
-or
-you could just lazily program and debug all the way. 
+
 
 ---
-1. Understand the Problem
-You solve problems with a good problem approach strategy 
-- by analyzing, studying, and planning solutions, sometimes multiple ones. 
-- It may take time and requires patience. So let’s break it down.
+## Problem Solving for Programmers 
+### 1. Understand the Problem
+IF -> you don't understand all the details.
+THEN -> a problem can appear complex
 
-A problem may appear to be complex if you don't understand all the details.
+A good problem approach strategy 
+- by analyzing, studying, and planning solutions 
+- Can take time and requires patience.
+    - So break the problem down into small pieces
 
-Once you have the details and understand the problem it is time to plan a solution.
-2. Then, plan a solution
-analyze the constraints and the rules, s
-strategize a step-by-step solution and 
-come up with testing data or hypotheses to test against it.
+### 2. Plan a solution
+Once you have details and understand the problem, its time for solution
+-> analyze the constraints and rules
+-> strategize a step-by-step solution and 
+-> come up with testing data or hypotheses to test against it.
 
-The idea that spending time on a plan that may be scratched later may seem like a waste of time, 
-but the simple step of planning for something gives you the idea of the whole thing and makes it much easier to adapt on the fly later on.
+As soon as you work on implementing solutions.
+-> Plans will change or get abandoned
+        because ONE plan isn't enough to predict the whole outcome
+    
+This may seem like a waste of time
+        Spending time on a plan that may be scratched later  
+but simple step of planning gives you the idea of the problem 
+    making it easier to adapt on the fly later on.
 
-It is impossible to predict the whole outcome in one plan and that's why plans may change or get abandoned as soon as you work on implementing them.
 
+#### Start with what you know
+If planed correctly, you should be able to identify many parts of the problem
+it is always best to solve for the things you are familiar with first.
 
-3.  Start with what you know
-If planed correctly, you should be able to identify many parts of the problem and it is always best to solve for the things you are familiar with first.
-
-
-4.  Divide the problem
+####  Divide the problem
 divide your problems into chunks, solve all the chunks then solve the whole thing.
 
-5. Simplify the problem
-Simplifying means changing the constraints or rules. In the tech world, it is often referred to as finding the MVP solution. You pretty much reduce the scope of the problem to make the problem simpler. Once you have a solution for the simpler version of the problem, it provides us with enough knowledge, experience, and research time to solve the bigger version of it later.
+####  Simplify the problem
+MVP (Mininum Viable Product)
 
+Simplifying means changing the constraints or rules. 
+You pretty much reduce the scope of the problem to make the problem simpler.
+Once you have a solution for the simpler version of the problem, it provides us with enough knowledge, experience, and research time to solve the bigger version of it later.
 
-6. **Backup and state the problem**
+#### Getting Frustrated - I still can't solve the problem!!!
 Sometimes, even when you collect all details, plan, and chunk the problem you cannot reach a solution. If you feel you are getting frustrated it is best to back up, calm down and re-state the problem. You should never spin your wheels on something that is affecting your mood.
 
-Once you get frustrated you tend to complicate things, fail or pick a complex solution for the problem. Walk away for the day or for hours, take a deep breath and explain the problem back to you out loud. Sketch what is going on to check your understanding of the problem. 
+Once you get frustrated 
+Getting frustrated will make you tend to 
+-> complicate things, 
+-> fail a solution 
+-> or pick a complex solution for the problem. 
+
+Walk away for the day or for hours, take a deep breath and explain the problem back to you out loud. Sketch what is going on to check your understanding of the problem. 
+
 Solving problems should be a logical thing and not an emotional one.
-
-
-
-We only want to code when we've thought about how we're gonna approach/solve the problem
-
-
-
-
-
-Worst thing you could do is
--> immediately start coding after you're presented with a problem
-
-
-> If I only had an hour to chop down a tree, 
-> I would spend the first 45 minutes shapening my axe
-> - Abraham Lincoln 
-
-
-A good way to significantly improve your ability to solve problems
--> Solving code problems 
--> Exposing yourself on different types of problems
-
-15-30 Minutes a day is already good
-
-
-To solve problems you need to slow down and gain control over the anxiety to reach the solution quickly.
-
-
 
 
 

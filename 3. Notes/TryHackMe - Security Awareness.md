@@ -1,4 +1,4 @@
-
+[[MOC Cybersecurity]]
 
 # TryHackMe - Security Awareness
 Created:  [[2022-07-27]]
@@ -8,8 +8,6 @@ Tags: #fleeting
 Based on a report from IBM, 
 **human errors were the main reason for 95% of successful cyber attacks**. 
 Being more security-aware will significantly help mitigate threats and risks to your organization
-
-
 
 
 Cyber threat actors are 

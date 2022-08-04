@@ -126,3 +126,12 @@ However, I am assigning responsibility to my future self to read and categorize 
 
 
 Okay so how are we going to go with having a note with all the quick knowledege learn
+I think I'm gonna name it as fleeting
+Let's try
+`Fleeting Linux`
+`Fleeting Cybersecurity`
+Nahh, I guess I'll just stuff it into MOC
+because the problem with making a dedicated separate note is I'd probably never visit that note again, where as if I put it in MOC or any note, then I'll stumble on it and probably will do something about it
+
+I think it could be really better to stuff everything inside of MOC because there's a chance you'll stumble upon an old note and you'd find it interesting and you'd view it
+But here can be a problem, it can get overwhelming as well as there could be a large of notes

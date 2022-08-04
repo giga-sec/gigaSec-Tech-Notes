@@ -1,4 +1,4 @@
-[[MOC Programming Languanges]]
+[[MOC Programming]]
 
 # C - Programming Languange
 
@@ -19,22 +19,9 @@ Code Snippets
 [[C - Print Leading Zeros in C]]
 
 
+C Book
+[[The ANSI C Programming Languange - Book]]
 
-Books
-[[The ANSI C Programming Languange]]
-
-[[Understanding and Using C Pointers]]
-
-
-
-
-
-
-
-
-
-
-
-
+[[Understanding and Using C Pointers - Book]]
 
 

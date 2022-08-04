@@ -14,6 +14,28 @@ chmod +x /path/to/yourscript.sh
 ```
 
 
+Make multiple directories at one command
+```shell
+mkdir -p lua/{settings, mappings}
+```
+
+```shell
+mkdir -p Music/{Jazz/Blues,Folk,Rock/{Gothic,Punk,Progressive},Classical}
+```
+Output
+```shell
+Music/
+|-- Classical
+|-- Folk
+|-- Jazz
+|   `-- Blues
+`-- Rock
+    |-- Gothic
+    |-- Progressive
+    `-- Punk
+```
+
+
 [[Shell 101]]
 
 [[Common Directories-Folders of Linux]]
@@ -38,7 +60,11 @@ libglib2.0-0:i386 depends on libc6 (>= 2.34); however:   Package libc6:i386 is n
 then just have apt do a fix broken:  
 `sudo apt --fix-broken install`
 
+Linux Terminal Shortcuts
+`Ctrl + c` ->
+`Ctrl + z` -> Suspend the current foreground process 
 
+`Ctrl + w`
 https://pbs.twimg.com/media/FYlMJaEWQAImvS6?format=jpg&name=4096x4096
 ![[Pasted image 20220727130121.png]]
 

@@ -26,11 +26,6 @@ Command: `amixer set Master 30%`
 `Pavucontrol` for gui
 
 
-Installing Metasploit in Manjaro
-https://techviewleo.com/install-metasploit-framework-on-arch-manjaro-garuda-linux/
-https://techviewleo.com/install-postgresql-on-arch-manjaro-garuda-linux/
-
-
 
 ASCII TABLE
 ![[Pasted image 20220731181629.png]]

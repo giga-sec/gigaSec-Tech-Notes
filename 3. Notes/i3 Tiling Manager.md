@@ -9,7 +9,8 @@ Tags: #fleeting
 `Mod + e` to put into tiling mode
 `Mod + w` to put into tab mode
 
-
+Screenshots on i3
+https://unix.stackexchange.com/questions/497897/print-screen-key-in-i3
 
 ## Transparency on i3
 `i3` by default doesn't support transparent windows
