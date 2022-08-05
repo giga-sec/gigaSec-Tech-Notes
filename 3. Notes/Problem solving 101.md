@@ -7,13 +7,30 @@ Tags: #fleeting
 ---
 [[Questions to ask when solving a problem]]
 
-### Wasting Time on Problems: 
-Yes, I must say it is a waste of time if you are giving more than one hour to a medium level problem. It is OK for a beginner to see the solution and learn from it. And try to remember the approach.
-
 **Learning language syntax only teaches you how to write
 It's like grammar. It doesn't teach you what to write, or why.**
 
-### When you look up the solution 
+
+Many think that becoming a better problem solver means beign able to solve more problems faster
+But no, it's about being able to find the best solutiont o aproblem and then put that solution in place.
+
+Doing programming is basically
+thinking about the problem and solve it in an elegant manner
+or
+you could just lazily program and debug all the way. 
+
+Solving problems should be a logical thing and not an emotional one.
+Once you get frustrated 
+Getting frustrated will make you tend to 
+-> complicate things, 
+-> fail a solution 
+-> or pick a complex solution for the problem. 
+
+### Wasting Time on Problems: 
+Yes, I must say it is a waste of time if you are giving more than one hour to a medium level problem. It is OK for a beginner to see the solution and learn from it. And try to remember the approach.
+
+
+#### When you look up the solution 
 -> don't think that you solved the problem without understanding it and move on.
 -> don't just read it, say “yeah, whatever” in your mind and skip.
 
@@ -35,22 +52,6 @@ I would say to me it's more like physics
 - and you have to figure out how to do it within those constrains 
 - and when you do, it's pure just bliss.
 ---
-Many think that becoming a better problem solver means beign able to solve more problems faster
-But no, it's about being able to find the best solutiont o aproblem and then put that solution in place.
-
-It's basically like this, 
-Doing programming is basically
-thinking about the problem and solve it in an elegant manner
-or
-you could just lazily program and debug all the way. 
-
-
-Solving problems should be a logical thing and not an emotional one.
-Once you get frustrated 
-Getting frustrated will make you tend to 
--> complicate things, 
--> fail a solution 
--> or pick a complex solution for the problem. 
 
 ## In a Nutshell, Problem Solving in Programmig
 First -> we understand how a human solves the problem.
@@ -85,7 +86,7 @@ Computers will ask for
 ## Problem Solving for Programmers 
 ### 1. Understand the Problem
 IF -> you don't understand all the details.
-THEN -> a problem can appear complex
+THEN -> a problem will definetly appear complex
 
 A good problem approach strategy 
 - by analyzing, studying, and planning solutions 

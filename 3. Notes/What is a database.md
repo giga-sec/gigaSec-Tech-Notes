@@ -1,4 +1,4 @@
-[[SQLi - SQL Injection]]
+[[Week 7 - SQL]]
 
 # What is a database
 Created:  [[2022-08-02]]
@@ -9,21 +9,13 @@ A database is a way of electronically storing collections of data in an organise
 
 A database is controlled by a 
 **DBMS - Database Management System**, 
-- Relational DBMS
-- Non-Relational DBMS 
+- [[Relational Database explained]]
+- [[Non-Relational Database explained]] 
 
-**Relational DBMS**  
-Stores information in tables  
--> MySQL, 
--> Microsoft SQL Server, Access, 
--> PostgreSQL 
--> SQLite. 
+**Relational Database**  
 
-**Non-relational DBMS** sometimes called **NoSQL**  
-Desn't use tables, columns and rows to store the data
--> MongoDB, 
--> Cassandra 
--> ElasticSearch.
+
+
 
 
 Within a DBMS, you can have multiple databases, each containing its own set of related data. 

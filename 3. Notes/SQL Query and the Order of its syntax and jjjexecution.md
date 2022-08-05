@@ -19,7 +19,7 @@ FROM mytable
     LIMIT count OFFSET COUNT;
 ```
 
-Order of Execution of Query
+
 ## 1. `FROM` and `JOIN`s
 
 The `FROM` clause, and subsequent `JOIN`s are first executed to determine the total working set of data that is being queried. This includes subqueries in this clause, and can cause temporary tables to be created under the hood containing all the columns and rows of the tables being joined.
@@ -67,9 +67,12 @@ Only the same values with `rating` will be sorted with `title`
 
 Finally, the rows that fall outside the range specified by the `LIMIT` and `OFFSET` are discarded, leaving the final set of rows to be returned from the query.
 
-## Conclusion
 
-Not every query needs to have all the parts we listed above, but a part of why SQL is so flexible is that it allows developers and data analysts to quickly manipulate data without having to write additional code, all just by using the above clauses.
+## Conclusion
+Not every query needs to have all the parts we listed above, 
+but a part of why SQL is so flexible is that 
+    it allows developers and data analysts to quickly manipulate data 
+    without having to write additional code, all just by using the above clauses.
 
 
 

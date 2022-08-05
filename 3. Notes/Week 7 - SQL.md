@@ -9,8 +9,10 @@ Tags: #fleeting
 [[CSV in Python]]
 
 [[Lab7 - Songs]]
+
 [[Manipulating Numbers in SQL]]
 
+[[What is a database]]
 
 SQL is a Relational Database, [[Relational Database explained]]
 It's basically much better than Flat-File Database but not that simple compared to it
@@ -51,20 +53,13 @@ Data types of SQL
 `TEXT`
 
 
-`CREATE INDEX name ON table (column, ...);`
-`INDEX` in SQL is a data structure that allow us to do better in searching than the default linear search
-
-
-Learn SQL here
-https://sqlbolt.com/
-
-
 
 Many varying SQL Databases...
 - SQLite, MySQL, Postgres
 - Oracle and Microsoft SQL server
 ...but all support the common SQL languange standard
 ...Differs in extra features and supported storage type
+
 
 Lingo of SQL
 Fields -> This is the column of table
@@ -137,7 +132,7 @@ Solution: [[AS keyword to give an alias]]
 ### [[Aggregate Expressions (Functions)]]
 
 
-## [[SQL Query and the Order of its syntax]]
+## [[SQL Query and the Order of its syntax and jjjexecution]]
 
 
 ## Insertion of new Data
