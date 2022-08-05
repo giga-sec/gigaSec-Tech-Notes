@@ -73,7 +73,7 @@ We then ask for the details of the coffee itself
 [[Abstraction in programming]] basically ignores small unimportant details of an object and only remember few important items
 
 However, if we take a way the abstraction, which computers do
-They will ask for 
+Computers will ask for 
 - Will it be a mug of coffee or in a styrofoam one?
 - Freshly Brewed, or concentrated?
 - Does it come from Africa or America?
@@ -112,15 +112,16 @@ but simple step of planning gives you the idea of the problem
 If planed correctly, you should be able to identify many parts of the problem
 it is always best to solve for the things you are familiar with first.
 
-####  Divide the problem
+#### Divide the problem
 divide your problems into chunks, solve all the chunks then solve the whole thing.
 
-####  Simplify the problem
+#### Simplify the problem
 MVP (Mininum Viable Product)
 
 Simplifying means changing the constraints or rules. 
-You pretty much reduce the scope of the problem to make the problem simpler.
-Once you have a solution for the simpler version of the problem, it provides us with enough knowledge, experience, and research time to solve the bigger version of it later.
+You reduce the scope of the problem to make the problem simpler.
+Once you have a solution for the simpler version of the problem, 
+-> Will provide us with enough knowledge, experience, and research time to solve the bigger version of it later.
 
 #### Getting Frustrated - I still can't solve the problem!!!
 Sometimes, even when you collect all details, plan, and chunk the problem you cannot reach a solution. If you feel you are getting frustrated it is best to back up, calm down and re-state the problem. You should never spin your wheels on something that is affecting your mood.

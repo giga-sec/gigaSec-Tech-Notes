@@ -8,7 +8,6 @@ Tags: #fleeting
 `LIMIT` will reduce the number of rows to return, 
 the optional `OFFSET` will specify where to begin counting the number rows from.
 ```SQL
-SELECT column, another_column, FROM mytable
 LIMIT num_limit OFFSET num_offset;
 ```
 > Websites like Reddit or Pinterest,  
@@ -18,7 +17,7 @@ LIMIT num_limit OFFSET num_offset;
  processing and returning only the requested content.
 
 
-
+Order: Limit will always be the last phrase in query
 
 
 

@@ -5,7 +5,7 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 # MOC Programming
 
-[[Problem solving for programmers]]
+[[Problem solving 101]]
 
 [[MOC Graph Theory]]
 

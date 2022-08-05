@@ -94,7 +94,7 @@ Fields -> This is the column of table
 ## [[DISTINCT keyword to remove duplicates]]
 
 
-## [[ORDER BY clause to sort data]]
+## [[ORDER BY clause to sort data in ascending or descending order]]
 
 
 ## [[JOIN clause to combine tables]] 
@@ -140,5 +140,63 @@ Solution: [[AS keyword to give an alias]]
 ## [[SQL Query and the Order of its syntax]]
 
 
-## Insertion of Data
+## Insertion of new Data
+Table in a database is a two-dimensional set of rows and columns, 
+columns = properties = columns 
+rows = instances of entity in  table 
+
+You can insert multiple rows at a time by just listing them sequentially.
+Insert statement with values for all columns
+```SQL
+INSERT INTO mytable
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+       …;
+```
+
+Insertion of Specific Columns
+```SQL
+INSERT INTO mytable
+(column, another_column, …)
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+```
+
+
+## Updating Rows
+**be extra careful when constructing update statements.**
+sql doesn't support undo so any mistakes are permanent
+
+**Tip when updating rows**
+-> Test the constraint (where clause) in SELECT query 
+-> Lastly, use the result of `select query` as a guide on making `update query statement`
+
+```SQL
+UPDATE mytable
+SET column = value_or_expr, 
+    other_column = another_value_or_expr, 
+    …
+WHERE condition;
+```
+
+## Deletion of Rows
+**be extra careful when constructing update statements.**
+sql doesn't support undo so any mistakes are permanent
+
+
+**Tip when updating rows**
+-> Test the constraint (where clause) in SELECT query 
+-> Lastly, use the result of `select query` as a guide on making `update query statement`
+
+Delete specific rows 
+```SQL
+DELETE FROM mytable
+WHERE condition;
+```
+
+Delete ALL ROWS
+```SQL
+DELETE FROM mytable
+```
+
 

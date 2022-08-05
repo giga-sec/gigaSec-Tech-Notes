@@ -45,7 +45,10 @@ IN (Numbers here)
 WHERE col_name IN (2, 4, 6)
 ```
 Where col_name's value is in the numbers 2, 4, 6
-
+Strings also works
+```SQL
+WHERE People.name in ("Johnny Depp", "Helena Bonham Carter");
+```
 
 ### `LIKE` Constraint 
 Case insensitive exact string comparison
