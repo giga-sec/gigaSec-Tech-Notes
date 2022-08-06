@@ -195,3 +195,36 @@ DELETE FROM mytable
 ```
 
 
+
+## Subqueries
+Inner queries or nested queries
+```SQL
+SELECT sub.*
+  FROM (
+        SELECT * FROM tutorial.sf_crime_incidents_2014_01
+        WHERE day_of_week = 'Friday'
+       ) sub  
+ WHERE sub.resolution = 'NONE'
+```
+Subqueries have names, which are added after parentheses 
+
+First, the database runs the Subquery, the part insided of parenthesis.
+```SQL
+(
+    SELECT * FROM tutorial.sf_crime_incidents_2014_01
+    WHERE day_of_week = 'Friday'
+) sub
+```
+
+The result would then be like this below
+```SQL
+SELECT sub.*
+  FROM (
+       <<results from inner query go here>>
+       ) sub
+ WHERE sub.resolution = 'NONE'
+```
+
+
+SQL Formal Style
+https://www.sqlstyle.guide/
