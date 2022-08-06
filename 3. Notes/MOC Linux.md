@@ -25,6 +25,8 @@ Command: `amixer set Master 30%`
 `-c` switch chooses the sound card
 `Pavucontrol` for gui
 
+[[Time difference of dual booting between Linux and Windows]]
+
 
 
 ASCII TABLE
