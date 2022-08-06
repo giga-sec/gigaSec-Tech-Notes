@@ -1,4 +1,4 @@
-[[MOC Programming]]
+[[+Home]]
 
 # GIT Basics
 Created:  [[2022-05-09]]
@@ -10,6 +10,8 @@ https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24ca
 
 [[HTTPS vs SSH, what to choose in github]]
 
+How can I remove a commit on GitHub?
+https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
 
 Create a new repository
 `git init`

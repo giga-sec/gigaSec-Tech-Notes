@@ -18,6 +18,7 @@ C compilers, sees code top to bottom, left to right
 Code Snippets
 [[C - Print Leading Zeros in C]]
 
+[[fseek() in C - Code Snippet]]
 
 C Book
 [[The ANSI C Programming Languange - Book]]

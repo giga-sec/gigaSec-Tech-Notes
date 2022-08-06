@@ -11,9 +11,9 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[MOC CS50]]
 
-[[GIT Basics]]
 
-[[RegEX - REGular EXpressions]]
+[[GIT and GITHUB]]
+
 
 [[Kata - Codewars]]
 

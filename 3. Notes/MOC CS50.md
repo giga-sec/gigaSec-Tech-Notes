@@ -18,8 +18,8 @@ This MOC is dedicated to things that relate to everything that I've learned when
 
 [[Week 7 - SQL]]
 
-## Exercises
 
+## Exercises
 
 [[PSET5 - Speller ]]
 

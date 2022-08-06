@@ -1,4 +1,5 @@
 
+
 # Different types of Data and Character Encoding
 Created:  [[2022-08-01]]
 Tags: #fleeting 

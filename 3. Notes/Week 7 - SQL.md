@@ -132,7 +132,7 @@ Solution: [[AS keyword to give an alias]]
 ### [[Aggregate Expressions (Functions)]]
 
 
-## [[SQL Query and the Order of its syntax and jjjexecution]]
+## [[SQL Query and the Order of its syntax and execution]]
 
 
 ## Insertion of new Data
@@ -195,6 +195,16 @@ DELETE FROM mytable
 ```
 
 
+## Finding Duplicates in SQL
+```SQL
+SELECT OrderID, COUNT(OrderID)
+FROM Orders
+GROUP BY OrderID
+HAVING COUNT(OrderID) > 1
+```
+https://learnsql.com/blog/how-to-find-duplicate-values-in-sql/
+
+
 
 ## Subqueries
 Inner queries or nested queries
@@ -228,3 +238,4 @@ SELECT sub.*
 
 SQL Formal Style
 https://www.sqlstyle.guide/
+

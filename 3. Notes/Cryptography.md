@@ -7,13 +7,9 @@ Tags: #fleeting
 ---
 **ROT13** (Rotate by 13 places)
 - is a [[substitution cipher]]
-- 
-
-
 
 
 [[Encryption 101]]
-
 
 
 **MD5** message digest algorithm

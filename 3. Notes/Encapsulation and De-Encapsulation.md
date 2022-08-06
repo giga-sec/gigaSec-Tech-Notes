@@ -17,25 +17,24 @@ Abstract:
 
 ## Encapsulation happens when sending a message
 **Current layer will be covered with headers of the next layer
-Repeats process above till Layer 1**. 
+Then next layer, then next layer 
+Process repeats till [[1 - Physical Layer]]**. 
 
-After data is processed in layer 1. 
+After data is encapsulated in [[1 - Physical Layer]]. 
 Then, it's READY TO BE SENT TO RECEIVING computer.
 
 
 
 ## De-encapsulation happens when receiving a message
 ==**When message is received**== by the second computer, 
-**==it reverses the process== -- starting at [[1 - Physical Layer]] & working up til it reaches [[7- Application Layer]], stripping off informations as it goes.** 
+It strips information off as each passes each layer
+starting at [[1 - Physical Layer]] 
+working up til it reaches [[7- Application Layer]], 
 
 
 
 
 
-## [[Why Encapsulation and De-encapsulation are important]]
-
-
-[[Each Layer often name their data differently]]
 
 
 

@@ -5,23 +5,28 @@ Created:  [[2022-07-01]]
 Tags: #fleeting 
 
 ---
-![[image.jpeg]]
 
-In layers 7, 6, 5, 
-The data is simply referred to as **==data==**. 
+Layers `7, 6, 5`, 
+Data is referred to as **==data==**. 
 
-In [[4 - Transport Layer]] the encapsulated data is referred to as a **==segment or a datagram==**. 
-
-
-At [[3 - Network Layer]] the data is referred to as a **==packet==**. 
+[[4 - Transport Layer]] 
+Data is referred to as a **==segment or a datagram==**. 
 
 
-When the packet gets passed down to the [[2 - Data Link Layer]]  it becomes a **==frame==**.
+[[3 - Network Layer]] 
+Data is referred to as a **==packet==**. 
 
 
-By the time it's transmitted across a network the frame has been broken down into **==bits==**.
+[[2 - Data Link Layer]]
+Data is referred to as **==frame==**
+
+[[1 - Physical Layer]]
+Data is now referred to as **==bits==**
 
 
+
+Now, that data has been broken down to `bits` 
+It is now ready for transmission
 
 
 

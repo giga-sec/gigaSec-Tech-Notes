@@ -6,9 +6,6 @@ This MOC is dedicated to things that relate to defending an organization from at
 [[Offensive Security vs Defensive Security]]
 
 
-[[Cybersecurity Lingo]]
-
-
 [[Cybersecurity news]]
 
 
@@ -21,16 +18,12 @@ This MOC is dedicated to things that relate to defending an organization from at
 [[Encryption 101]]
 
 
-[[PICOctf]]
-
-
 [[TryHackMe - Security Awareness]]
 
 
 ## Offensive Security Techniques
 
 [[Bug Bounty]]
-
 
 
 [[In Hacking, Knowledge is power]]

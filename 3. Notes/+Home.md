@@ -14,23 +14,22 @@
 [[MOC Cybersecurity]]
 
 
-[[MOC Linux]]
+[[MOC Operating System]]
 
-
-[[MOC Windows]]
-
-
-
-
-
-
-
-
-[[VIM 101]]
 
 [[MOC Browser]]
 
+
 [[MOC Obsidian]]
+
+
+
+
+[[RegEX - REGular EXpressions]]
+
+[[VIM 101]]
+
+[[GIT and GITHUB]]
 
 
 
@@ -39,7 +38,6 @@
 [[Different types of Data and Character Encoding]]
 
 [[VSCODE Keyboard Shortcuts]]
-
 
 
 [[Branding]]

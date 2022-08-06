@@ -15,7 +15,9 @@ More knowledge about a target system or network,
 More options you have available. 
 
 
-Conclusion: Proper enumeration must be carried out before any exploitation attempts are made, [[Intro To Research]]
+Conclusion: 
+Proper enumeration must be carried out before any exploitation attempts are made, 
+[[Intro To Research]]
 
 
 ### Example
