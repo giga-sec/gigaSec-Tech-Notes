@@ -339,7 +339,7 @@ ORDER BY hour ASC
 LIMIT 5;
 ```
 
-Result
+Result (This data below is wrong)
 ```SQL
 +-----+------+-------------------+------------------------+
 | day | hour | origin_airport_id | destination_airport_id |
@@ -351,6 +351,35 @@ Result
 | 29  | 16   | 0                 | 6                      |
 +-----+------+-------------------+------------------------+
 ```
+
+This is the result of flights table below
+```SQL
++----+-------------------+------------------------+
+| id | origin_airport_id | destination_airport_id |
++----+-------------------+------------------------+
+| 18 | 8                 | 6                      |
+| 36 | 8                 | 4                      |
+| 43 | 8                 | 1                      |
+| 23 | 8                 | 11                     |
+| 53 | 8                 | 9                      |
++----+-------------------+------------------------+
+```
+Also, the only flight logs we have is flight_id `18` 
+I concluded that they are in boston since destionation_airport_id is `4` and that's boston. 
+
+
+This are the resutls of passengers table below
+```SQL
++-----------+-----------------+------+
+| flight_id | passport_number | seat |
++-----------+-----------------+------+
+| 18        | 3592750733      | 4C   |
+| 24        | 3592750733      | 2C   |
+| 54        | 3592750733      | 6C   |
+| 36        | 8294398571      | 6C   |
++-----------+-----------------+------+
+```
+
 ### Analysis of Flights Table
 take earliest flight out of Fiftyville at June 29, 2021
 ```SQL
@@ -430,7 +459,164 @@ Results
 
 
 ## People Table
+People have license plate, passport number  and phone number
 
+Let's see 
 ```SQL
 
 ```
+
+## Passengers
+flight_id, passport_number, seat
+```SQL
++-----------+-----------------+------+
+| flight_id | passport_number | seat |
++-----------+-----------------+------+
+| 18        | 3592750733      | 4C   |
+| 24        | 3592750733      | 2C   |
+| 54        | 3592750733      | 6C   |
+| 36        | 8294398571      | 6C   |
++-----------+-----------------+------+
+```
+3 seats exactly for 3592750733, or for Diana
+
+
+## Airports
+```SQL
++----+--------------+-----------------------------------------+---------------+
+| id | abbreviation |                full_name                |     city      |
++----+--------------+-----------------------------------------+---------------+
+| 1  | ORD          | O'Hare International Airport            | Chicago       |
+| 2  | PEK          | Beijing Capital International Airport   | Beijing       |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   |
+| 4  | LGA          | LaGuardia Airport                       | New York City |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        |
+| 6  | BOS          | Logan International Airport             | Boston        |
+| 7  | DXB          | Dubai International Airport             | Dubai         |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    |
+| 9  | HND          | Tokyo International Airport             | Tokyo         |
+| 10 | CDG          | Charles de Gaulle Airport               | Paris         |
+| 11 | SFO          | San Francisco International Airport     | San Francisco |
+| 12 | DEL          | Indira Gandhi International Airport     | Delhi         |
++----+--------------+-----------------------------------------+---------------+
+```
+So assuming that the airport ID is related to the ID of flights table
+Then the earliest flight in flights table is 
+```SQL
+            Origiin | Destination
+20                | 4 
+```
+Okay, so there's no origin airport ID here,
+so we can assume that 
+```
+| id | abbreviation |    full_name                |     city      |
+| 4  | LGA  | LaGuardia Airport        | New York City |
+```
+New York City is where the thief escaped to
+
+So I think New York City is wrong, the earliest flight could be not the really earliest, maybe just the 2nd earlist or 3rd earliest. Like that
+
+
+
+
+## Bank Accounts
+```SQl
+account_number INTEGER,
+    person_id INTEGER,
+    creation_year INTEGER,
+```
+
+Let's combine the data of bank_accounts and ATM Transaction
+```SQL
++-----+----------------+----------------+------------------+---------------+-----------+
+| day | account_number |  atm_location  | transaction_type | creation_year | person_id |
++-----+----------------+----------------+------------------+---------------+-----------+
+| 28  | 28500762       | Leggett Street | withdraw         | 2014          | 467400    |
+| 28  | 28296815       | Leggett Street | withdraw         | 2014          | 395717    |
+| 28  | 76054385       | Leggett Street | withdraw         | 2015          | 449774    |
+| 28  | 49610011       | Leggett Street | withdraw         | 2010          | 686048    |
+| 28  | 16153065       | Leggett Street | withdraw         | 2012          | 458378    |
+| 28  | 25506511       | Leggett Street | withdraw         | 2014          | 396669    |
+| 28  | 81061156       | Leggett Street | withdraw         | 2018          | 438727    |
+| 28  | 26013199       | Leggett Street | withdraw         | 2012          | 514354    |
++-----+----------------+----------------+------------------+---------------+-----------+
+```
+
+```SQL
++-----------+---------+---------------+-----------------+----------------+
+| person_id |  name   | license_plate | passport_number |  phone_number  |
++-----------+---------+---------------+-----------------+----------------+
+| 686048    | Bruce   | 94KL13X       | 5773159633      | (367) 555-5533 |
+| 514354    | Diana   | 322W7JE       | 3592750733      | (770) 555-1861 |
+| 458378    | Brooke  | QX4YZN3       | 4408372428      | (122) 555-4581 |
+| 395717    | Kenny   | 30G67EN       | 9878712108      | (826) 555-1652 |
+| 396669    | Iman    | L93JTIZ       | 7049073643      | (829) 555-5269 |
+| 467400    | Luca    | 4328GD8       | 8496433585      | (389) 555-5198 |
+| 449774    | Taylor  | 1106N58       | 1988161715      | (286) 555-6063 |
+| 438727    | Benista | 8X428L0       | 9586786673      | (338) 555-6650 |
++-----------+---------+---------------+-----------------+----------------+
+```
+
+```
+| 6P58WS2       | 9    | 20     | entrance |
+| 6P58WS2       | 10   | 18     | exit     |
+| 94KL13X       | 8    | 23     | entrance |
+| 94KL13X       | 10   | 18     | exit     
+```
+
+```SQL
++--------+-------+----------------+-----------------+---------------+
+|   id   | name  |  phone_number  | passport_number | license_plate |
++--------+-------+----------------+-----------------+---------------+
+| 243696 | Barry | (301) 555-4174 | 7526138472      | 6P58WS2       |
++--------+-------+----------------+-----------------+---------------+
+```
+
+Okay we got a match!
+```SQL
+| 514354    | Diana   | 322W7JE       | 3592750733  | (770) 555-1861 |
+```
+
+With the data gained from Bakery_security_logs
+```SQL
+| 322W7JE       | 8    | 36     | entrance |
+| 322W7JE       | 10   | 23     | exit     |
+```
+She must be the thief
+Diana is the thief! Nope, It's bruce
+Kelsey is the accomplice!
+```SQL
++--------+--------+----------------+-----------------+---------------+
+|   id   |  name  |  phone_number  | passport_number | license_plate |
++--------+--------+----------------+-----------------+---------------+
+| 560886 | Kelsey | (499) 555-9472 | 8294398571      | 0NTHK55       |
++--------+--------+----------------+-----------------+---------------+
+```
+
+`0NTHK55` is the plate_number of the Accomplise
+
+
+Edit: I was wrong, many things that I didn't look out for.
+First, I ignored the evidence that the thief is going to take the earliest flight.
+When I saw that the flight of Diana wasn't scheduled for evening.
+Okay, so I actually got blinded by my own reasoning that I thought the accomplise was the only one who needs to take the earliest flight since my suspect accompliece was
+
+I could have actually kept it going and quesitoned myself, Where did I go wrong?
+
+I was under the impression that the thief and accomplice was together. So I looked for information where two cars leave the bakery together. It turns out, I was wrong. What I have no idea is, 
+Oh, i'm stupid, I was stupid, why would I think that there were together if they made a call to each other? 
+Also, what I didn't question is why did I not ask how the accomplice helped the thief, by escaping of course, but how. Oh, shit, basically he helped him buy a ticket. 
+
+Okay, so this is a detective thing. I was poised by the programming mindset where "Collect all information before executing any actions". I did so execute actions but my primary motivation was to collect more information.  
+
+Okay, so upon further investigation. I was directed by not a good info from the start, the interview details said that the thief got into the car after 10 minutes of the incident. Yet the thief already exited the bakery, 3 minutes after the incident. `10:15` was the reported accident. So either we can say that the information given by the interviewee was wrong, or either the reported time frame of the accident was wrong. Either way, we can say that using the timeframe of leaving the bakery was wrong place to begin with. 
+
+Oh, it's the languange illetirate!
+Look at this
+> **_within ten minutes_**.
+> 
+
+**==WITHIN==** ten minutes, it means **less than or equal** to ten minutes
+Then they are just saying any time _less than_ **or equal to** ten minutes.
+This is basically where I got it all wrong! One simple not understanding of an english languange made me lead to a different answer. 
+Basically, one simply mistake of an info can lead to a wrong logic.  

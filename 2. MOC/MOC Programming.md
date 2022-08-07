@@ -33,6 +33,8 @@ https://roadmap.sh/
 ## MOC Programming Languanges
 [[C - Programming Language]]
 
+[[Shell Scripting]]
+
 [[Javascript]]
 
 [[Rockstar]]
@@ -122,3 +124,5 @@ HTML, CSS, JAVASCRIPT
 
 Learning how to solve a problem
 	Learning how to create an algorithm
+	
+![[Pasted image 20220806230912.png]]
