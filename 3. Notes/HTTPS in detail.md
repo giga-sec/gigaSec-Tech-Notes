@@ -1,4 +1,4 @@
-
+[[HTTP in Detail]]
 
 # HTTPS in detail
 Created:  [[2022-07-20]]

@@ -27,6 +27,10 @@ Command: `amixer set Master 30%`
 
 [[Time difference of dual booting between Linux and Windows]]
 
+[[Linux Daemons]]
+Daemon is a program that runs in the background without requiring any user interaction. 
+File name usually ends in the letter `d`
+
 
 
 ASCII TABLE

@@ -5,7 +5,9 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
+
 ### Purpose
+Protocol for sending and receiving data
 Allows **two computers to remain in constant communication**.
 **==Any lost data is re-sent==**. 
 

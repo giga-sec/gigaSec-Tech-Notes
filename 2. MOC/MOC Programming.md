@@ -33,6 +33,8 @@ https://roadmap.sh/
 ## MOC Programming Languanges
 [[C - Programming Language]]
 
+[[Programming Languanges and their uses]]
+
 [[Shell Scripting]]
 
 [[Javascript]]

@@ -12,7 +12,6 @@ Tags: #literature
 [[How communication happens between webserver and client-user]]
 
 ---
-https://robertheaton.com/2014/03/27/how-does-https-actually-work/
 [[HTTPS in detail]]
 
 What is an HTTP  
@@ -36,6 +35,8 @@ If webserver's response `OK`,
 [[Why are cookies used in HTTP]]
 
 
+## Useful articles to read
+https://robertheaton.com/2014/03/27/how-does-https-actually-work/
 
 
 
@@ -43,6 +44,3 @@ If webserver's response `OK`,
 
 
 
-
-### References
-1. https://tryhackme.com/room/httpindetail

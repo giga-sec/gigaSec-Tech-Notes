@@ -18,6 +18,8 @@ This MOC is dedicated to things that relate to everything that I've learned when
 
 [[Week 7 - SQL]]
 
+[[Week 8 - HTML, CSS, Javascript]]
+
 
 ## Exercises
 

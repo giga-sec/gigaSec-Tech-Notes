@@ -100,7 +100,7 @@ simply use `cd ~/` and press `tab`. It will show you the directories
 
 ### Windows System Apps and their respective linux alternative
 
-[[Task Scheduler but on Linux]]
+[[CronJob - Task Scheduler but on Linux]]
 
 
 [[Task Manager in Linux, specifically ps command]]

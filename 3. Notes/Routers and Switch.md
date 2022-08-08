@@ -1,5 +1,5 @@
-[[Intro to Lan]]
 
+[[Intro to Lan]]
 # Routers and Switch
 Created:  [[2022-07-05]]
 Tags: #fleeting 

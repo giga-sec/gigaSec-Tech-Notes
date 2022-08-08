@@ -5,6 +5,10 @@ Created:  [[2022-08-07]]
 Tags: #fleeting 
 
 ---
+https://blog.wplauncher.com/what-is-in-linux/
+Command Subsitution
+`$()`
+
 ## Quick Facts about Shell
 File extension is `.sh`
 It's like [[Batch Scripting]] but for unix.
