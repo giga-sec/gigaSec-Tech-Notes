@@ -39,7 +39,6 @@ With this, it seems like a long hectic note taking method but here is where [Pro
 
 `#myquestion `
 - Exactly, that's it. My questions or confusion about a topic. 
-- I usually don't answer them
 
 
 

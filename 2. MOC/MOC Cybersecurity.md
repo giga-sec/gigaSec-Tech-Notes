@@ -76,3 +76,7 @@ as many security researchers keep a blog.
 
 
 I read the news and cyber security blogs for years, so knew about attacks, the types of attacks and cyber security lingo.
+
+
+a real commercial protector would make it so debugging would be pointless instead of trying to prevent debugging
+https://github.com/RadonCoding/radon-protector
