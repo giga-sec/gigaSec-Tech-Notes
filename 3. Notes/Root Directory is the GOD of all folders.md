@@ -22,7 +22,7 @@ Tags: #fleeting
 
 
 
-
+We could also imagine root directory as the earth. It does absolutely nothing but it's the place where every folders lives and stands on. The earth is the same, it does absolutely nothing other than being the home of species and such.
 
 
 

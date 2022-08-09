@@ -10,10 +10,10 @@ It's an instruction on how to access a resource on the internet.  Resources are 
 
 
 These are all the features of a url. Note that it doesn't need to use all of them for the url to work
-[[Scheme]] --- [[Host-Domain]] --- [[Path]] --- [[Fragment]]
+[[Scheme]] ---                              [[Host-Domain]] ---                                 [[Path]] ---                         [[Fragment]]
 
 ![[newurl.png]]
-[[User]] --- [[Port]] --- [[Query String]]
+                            [[User]] ---                                        [[Port]] ---                                   [[Query String]]
 
 
 

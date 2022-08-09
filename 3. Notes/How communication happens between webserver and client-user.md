@@ -10,10 +10,10 @@ Tags: #fleeting
 You, the client, give a [[example of HTTP reQUEST by CLIENT|request]] to the webserver  
 
 
-The webserver will give a [[example of HTTP reSPONSE from WEBSERVER|response]] to your computer, 
+The webserver will give a [[example of RESPONSE from WEBSERVER|response]] to your computer, 
 
 
-If webserver's [[example of HTTP reSPONSE from WEBSERVER|response]] is `OK`, 
+If webserver's [[example of RESPONSE from WEBSERVER|response]] is `OK`, 
 the, files required to display website will be sent to your computer. 
 
 
@@ -23,7 +23,7 @@ the, files required to display website will be sent to your computer.
 
 - [[example of HTTP reQUEST by CLIENT]]
 
-- [[example of HTTP reSPONSE from WEBSERVER]]
+- [[example of RESPONSE from WEBSERVER]]
 
 
 

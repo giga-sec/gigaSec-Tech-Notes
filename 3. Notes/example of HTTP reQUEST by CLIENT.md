@@ -5,7 +5,7 @@ Created:  [[2022-06-28]]
 Tags: #fleeting 
 
 ---
-[[Web server and different ways we make request to it|Requests]] is you basically sending data to the web server.  
+[[Ways we can send request to webserver - Get-Post-Put-Delete|Requests]] is you basically sending data to the web server.  
 
 ### Example of a request:
 ```http
@@ -27,7 +27,7 @@ Referer. It's the referer, that's it.
 Blank Line. Requests always leave a blank line in the end, kinda like a period in english where it signifies the end of the sentence. Here it signifies to the web server that the request has finished. 
 
 ### The web-server will then send a response to the client.  
-[[example of HTTP reSPONSE from WEBSERVER]]
+[[example of RESPONSE from WEBSERVER]]
 
 
 
@@ -35,7 +35,7 @@ Blank Line. Requests always leave a blank line in the end, kinda like a period i
 
 
 ## Different ways we can make request to a web server
-[[Web server and different ways we make request to it]]
+[[Ways we can send request to webserver - Get-Post-Put-Delete]]
 
 
 

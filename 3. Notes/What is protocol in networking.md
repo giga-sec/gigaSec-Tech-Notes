@@ -6,7 +6,7 @@ Tags: #permanent
 
 ---
 "**Protocol**" are sets of rules that define how an action is to be carried out
-It's like a law created by multiple people that agreed upon for how computers communicate to each other.
+Like law, created by multiple people that agreed upon for how computers should communicate to each other.
 
 
 [[TCP - Transmission Control Protocol]]

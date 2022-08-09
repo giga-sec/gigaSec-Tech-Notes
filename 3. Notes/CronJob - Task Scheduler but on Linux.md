@@ -17,8 +17,9 @@ Syntax of Crontab:
 Use https://crontab-generator.org for beginners to automatically create a syntax for you. 
 More -> https://crontab.guru
 
----
 
+---
+Cron is a [[Daemons in Linux]]
 
 
 

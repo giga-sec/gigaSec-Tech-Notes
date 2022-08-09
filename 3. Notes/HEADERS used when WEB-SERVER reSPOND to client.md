@@ -32,7 +32,7 @@ Abstract:
 - Method that is used to compress the data 
 
 
-[[example of HTTP reSPONSE from WEBSERVER]]
+[[example of RESPONSE from WEBSERVER]]
 
 
 
