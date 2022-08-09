@@ -1,33 +1,59 @@
 
 
+
 # Programming Languanges and their uses
 Created:  [[2022-08-07]]
 Tags: #fleeting 
 
 ---
- **![:C_Python:](https://cdn.discordapp.com/emojis/763439936803569724.webp?size=44&quality=lossless) Python** Python is an interpreted, high-level, general purpose programming language. It emphasizes code readability with it's use of indentation. 
- Its object oriented approach aims to help programmers write clear, logical code for all the types of projects. 
- Now, you've learnt the basics of the language, you could watch this video to see how to get some of the more advanced concepts down: [https://www.youtube.com/watch?v=p15xzjzR9j0](https://www.youtube.com/watch?v=p15xzjzR9j0 "https://www.youtube.com/watch?v=p15xzjzR9j0"). 
- An experts python tutorial: [https://www.youtube.com/watch?v=mclfteWlT2Q&list=PLzMcBGfZo4-kwmIcMDdXSuy_wSqtU-xDP](https://www.youtube.com/watch?v=mclfteWlT2Q&list=PLzMcBGfZo4-kwmIcMDdXSuy_wSqtU-xDP "https://www.youtube.com/watch?v=mclfteWlT2Q&list=PLzMcBGfZo4-kwmIcMDdXSuy_wSqtU-xDP") 
+ ## Python
+ *![:C_Python:](https://cdn.discordapp.com/emojis/763439936803569724.webp?size=44&quality=lossless) 
+ 
+ Python is interpreted, high-level, general purpose programming language. 
+ It emphasizes code readability with it's use of indentation. 
+ 
  **Where is python used?** 
  Python is a very diverse language, and can be used in many different situations. 
  Some popular ones are listed below 
- ▪︎ Backend development with Django: [https://www.youtube.com/watch?v=sm1mokevMWk](****https://www.youtube.com/watch?v=sm1mokevMWk "https://www.youtube.com/watch?v=sm1mokevMWk") ▪︎ Backend Development with FastAPI: [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/ "https://fastapi.tiangolo.com/") 
- ▪︎ Databases with python (mongoDB): [https://www.w3schools.com/python/python_mongodb_getstarted.asp](https://www.w3schools.com/python/python_mongodb_getstarted.asp "https://www.w3schools.com/python/python_mongodb_getstarted.asp") ▪︎ Data Science - Basics: [https://www.youtube.com/watch?v=JL_grPUnXzY&list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV](https://www.youtube.com/watch?v=JL_grPUnXzY&list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV "https://www.youtube.com/watch?v=JL_grPUnXzY&list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV") 
- ▪︎ Data Science - Machine Learning: [https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw](https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw "https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw") 
- ▪︎ Data Science - Deep Learning: [https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO](https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO "https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO")
+ ▪︎ Backend development with Django: 
+ ▪︎ Databases with python (mongoDB): 
+ ▪︎ Data Science - Basics: 
+ ▪︎ Data Science - Machine Learning: 
+ ▪︎ Data Science - Deep Learning: 
 
 
--    **![:C_JavaScript:](https://cdn.discordapp.com/emojis/903036002334048317.webp?size=44&quality=lossless) JavaScript** JavaScript is a programming language that conforms to the ECMAScript specification. It is high-level, often just-in-time compiled and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation and first-class functions. **How to learn JavaScript?** Firstly this depends on your ways. 
-- **Where is JavaScript used?** 
-    JavaScript is mainly used in APIs, Websites and Bots. ▪︎ Backend Development with expressJS: [https://www.youtube.com/watch?v=L72fhGm1tfE](https://www.youtube.com/watch?v=L72fhGm1tfE "https://www.youtube.com/watch?v=L72fhGm1tfE") ▪︎ Discord Bot Development: [https://www.youtube.com/watch?v=7rU_KyudGBY](https://www.youtube.com/watch?v=7rU_KyudGBY "https://www.youtube.com/watch?v=7rU_KyudGBY") ▪︎ Databases with javascript (mongoDB): [https://www.youtube.com/watch?v=-56x56UppqQ](https://www.youtube.com/watch?v=-56x56UppqQ "https://www.youtube.com/watch?v=-56x56UppqQ") ▪︎ Game Development (ThreeJS): [https://www.youtube.com/watch?v=YK1Sw_hnm58](https://www.youtube.com/watch?v=YK1Sw_hnm58 "https://www.youtube.com/watch?v=YK1Sw_hnm58")
-    
+## Javascript
+-    **![:C_JavaScript:](https://cdn.discordapp.com/emojis/903036002334048317.webp?size=44&quality=lossless) JavaScript** 
+JavaScript is a programming language that conforms to the ECMAScript specification. 
+It is high-level, often just-in-time compiled and multi-paradigm. 
+It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, first-class functions
 
--    **![:C_C:](https://cdn.discordapp.com/emojis/763438475922899005.webp?size=44&quality=lossless) C** C is a general purpose programming language, generally considered as a high level language, finds its place amongst other most frequently used programming languages like python, javascript and rust. Even though it's a high level language, its programming structure which is based on memory control operations makes it the perfect choice for OS developers, malware developers and forensics teams, and even in enterprise level applications such as scientific tools and avionics systems which require low level interaction with hardware and software code. **How to learn the language?** Many times C is learnt by programmers as a starting point to learning general purpose programming, clearing their basics about OOP and then moving on to alternative languages such as C++, C#, python etc, as realistically these languages have replaced the applications of C. to get started with C, you can follow the resources linked below> [https://www.javatpoint.com/c-programming-language-tutorial](https://www.javatpoint.com/c-programming-language-tutorial "https://www.javatpoint.com/c-programming-language-tutorial") [https://www.youtube.com/watch?v=KJgsSFOSQv0](https://www.youtube.com/watch?v=KJgsSFOSQv0 "https://www.youtube.com/watch?v=KJgsSFOSQv0") **Moving ahead:** It's best advised to learn other languages such as C++ and python from here onwards to complement your C knowledge. The different paths you can take on from here is OS development, malware development, database systems etc. you can utilise the resources listed below as a starting point OS development with C: [https://www.youtube.com/watch?v=F3XiH78erNM](https://www.youtube.com/watch?v=F3XiH78erNM "https://www.youtube.com/watch?v=F3XiH78erNM") Malware development with C: [https://www.youtube.com/watch?v=6Dc8i1NQhCM](https://www.youtube.com/watch?v=6Dc8i1NQhCM "https://www.youtube.com/watch?v=6Dc8i1NQhCM") Database management system with C: [https://itsourcecode.com/free-projects/c-projects/student-database-management-system-in-c-with-source-code/](https://itsourcecode.com/free-projects/c-projects/student-database-management-system-in-c-with-source-code/ "https://itsourcecode.com/free-projects/c-projects/student-database-management-system-in-c-with-source-code/") other C project ideas: [https://www.skyfilabs.com/blog/20-best-c-programming-projects-for-beginners](https://www.skyfilabs.com/blog/20-best-c-programming-projects-for-beginners "https://www.skyfilabs.com/blog/20-best-c-programming-projects-for-beginners")
-    
+JavaScript is mainly used in APIs, Websites and Bots. 
+▪︎ Backend Development with expressJS: 
+▪︎ Discord Bot Development: 
+▪︎ Databases with javascript (mongoDB):
+▪︎ Game Development (ThreeJS): 
+  
 
--    **![:C_Golang:](https://cdn.discordapp.com/emojis/763921597790289920.webp?size=44&quality=lossless) Golang** Go is a statically typed, compiled programming language, syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency. **How to learn Go?** Firstly this depends on your ways. If you like written tutorials, you should use this: [https://www.w3schools.com/go/index.php](https://www.w3schools.com/go/index.php "https://www.w3schools.com/go/index.php"). Though, if documentations are not your cup of tea, maybe try this 7 hours, one shot beginners tutorial: [https://www.youtube.com/watch?v=YS4e4q9oBaU](https://www.youtube.com/watch?v=YS4e4q9oBaU "https://www.youtube.com/watch?v=YS4e4q9oBaU"). (heres a speedrun video for you: [https://www.youtube.com/watch?v=C8LgvuEBraI](https://www.youtube.com/watch?v=C8LgvuEBraI "https://www.youtube.com/watch?v=C8LgvuEBraI")) **Where is Go used?** Go is mainly used in microservices, IPFS-telnet systems, backend development, cloud-systems engineering ▪︎ Microservices Development with Go: [https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_](https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_ "https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_") ▪︎ Backend Development with Go: [https://www.youtube.com/watch?v=SonwZ6MF5BE](https://www.youtube.com/watch?v=SonwZ6MF5BE "https://www.youtube.com/watch?v=SonwZ6MF5BE")
-    
+## C
+-    **![:C_C:](https://cdn.discordapp.com/emojis/763438475922899005.webp?size=44&quality=lossless) C** 
+C is a general purpose programming language
+Its programming structure which is based on memory control operations makes it the perfect choice for OS developers, malware developers and forensics teams, or scientific tools and avionics systems which require low level interaction with hardware and software code. 
+**Moving ahead:** It's best advised to learn other languages such as C++ and python from here onwards to complement your C knowledge. 
+The different paths you can take on from here is 
+Database systems etc. 
+Malware development with C: 
+Database management system with C: 
+
+
+## Go lang
+-    **![:C_Golang:](https://cdn.discordapp.com/emojis/763921597790289920.webp?size=44&quality=lossless) Golang** 
+Go is a statically typed, compiled programming language, syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
+**Where is Go used?** 
+Go is mainly used in microservices, IPFS-telnet systems, backend development, cloud-systems engineering 
+▪︎ Microservices Development with Go: 
+▪︎ Backend Development with Go: 
+   
 
 -    **![:C_Rust:](https://cdn.discordapp.com/emojis/763439711820709949.webp?size=44&quality=lossless) Rust** Rust is a multi-paradigm, high-level, general-purpose programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references. **How to learn Rust?** Firstly this depends on your ways. If you like written tutorials, you should use this: [https://doc.rust-lang.org/stable/book/title-page.html](https://doc.rust-lang.org/stable/book/title-page.html "https://doc.rust-lang.org/stable/book/title-page.html"). Though, if documentations are not your cup of tea, maybe try this 35 video playlist: [https://www.youtube.com/watch?v=PpWR6zungUk&list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x](https://www.youtube.com/watch?v=PpWR6zungUk&list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x "https://www.youtube.com/watch?v=PpWR6zungUk&list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x"). (heres a speedrun video for you: [https://www.youtube.com/watch?v=zF34dRivLOw](https://www.youtube.com/watch?v=zF34dRivLOw "https://www.youtube.com/watch?v=zF34dRivLOw")) **Where is Rust used?** Rust is mainly used in game engine development, OS development, microservices, Backend web services. ▪︎ Backend Development with Rocket (Web Framework in rust): [https://www.youtube.com/watch?v=nJWN0wrPHRo](https://www.youtube.com/watch?v=nJWN0wrPHRo "https://www.youtube.com/watch?v=nJWN0wrPHRo") ▪︎ Microservices Development: [http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/ "http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/")
     

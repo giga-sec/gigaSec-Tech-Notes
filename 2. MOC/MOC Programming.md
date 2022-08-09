@@ -19,15 +19,7 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 
 
-## Programming Tools
-Visualize your algorithms
-https://algoviz.io
 
-Translate your code to english
-https://denigma.app
-
-Roadmaps for devs on picking up the path and guide their learnings.
-https://roadmap.sh/
 
 
 ## MOC Programming Languanges

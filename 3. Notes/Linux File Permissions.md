@@ -34,6 +34,7 @@ Permission to Execute any file
 In depth explanation of first column in `ls -l` command
 First column of `ls -l` has four parts that contain 10 bits
 ```BASH
+  OWN GRP ALL/Others
 - --- --- ---
 `- rwx rw- -wx`
 ```
@@ -41,7 +42,7 @@ First part contains 1 bit
 -> indicates the **file ( `-` ) or folder ( `d` ) or symbolic link ( `l` )**
 
 The rest of the bits contains the [[#Permission Type]]
-2nd part contains 3bits
+2nd part [[#Owner u]]
 -> 3 bits indicating permissions of [[#Owner u]] 
 
 3rd part contains 3bits
