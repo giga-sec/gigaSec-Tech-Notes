@@ -99,7 +99,7 @@ Text input/output is dealt with as text streams or streams of characters.
 More Info which might be helpful
 It is the responsibility of the library to make each input or output stream confirm this model; The C programmer using the library need not worry about how lines are represented outside the program.
 
-```C++
+```C
 char	1 byte
 short	2 bytes
 int	    4 bytes
@@ -108,7 +108,7 @@ float	4 bytes
 double	8 bytes
 ```
 
-Some programming lingo 
+## Programming lingo 
 Expression
     Meaning a number of variables or constants, and operators and functions, 
     are put together in a single statement or a variable
@@ -130,3 +130,43 @@ But since `;` is there or the `null statement`, it satisfies the requirement
 Putting it on second line makes it `readable` and `visible`
 
 
+## Convert char into ASCII?
+A character surrounded by `''` like `'A'` is called **Character Constant** 
+A character constant makes it possible to convert character into ASCII
+```C
+int num = 'A';
+printf("%i", num);
+```
+
+If you surrounded `A` with `""` like `"A"`
+It will give you an error
+```C
+int num = "A";
+error: expected expression before 'int'
+```
+
+
+
+```C
+int c;
+c = getchar();
+printf("Pass\n");
+while(c != EOF) {
+    putchar(c);
+    c = getchar();
+    printf("Testing\n");
+}
+printf("Hello");
+```
+The while loop will print each character one by one that was inputted. 
+It will only stop inputting when it detected a newline
+However, inside the while loop is `getchar()`, 
+    I wonder why it doesn't stop and prompt us a character
+    Ans: Maybe because input/output is treated as stream of characters. Text Streams means any a collection of characters that ends with `\n`
+
+Also, the loop never ends when I press enter,
+Meaning enter doesn't mean it's `EOF`. 
+Ans: Yes, because to get an `EOF`, input `Ctrl+Z`  
+
+
+## Arrays

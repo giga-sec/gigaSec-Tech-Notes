@@ -5,10 +5,18 @@ Created:  [[2022-07-21]]
 Tags: #fleeting 
 
 ---
-`:set number` to show line numbers
-`:set expandtab` to turn tabs to spaces
-`:set tabstop=4` to have four spaces when pressing tab
-https://stackoverflow.com/questions/234564/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim
+
+```lua
+local set = vim.opt
+
+set.expandtab = true
+set.smarttab = true
+set.shiftwidth = 4
+set.tabstop = 4
+
+set number = true
+set relativenumber = true
+```
 
 
 In nvim
