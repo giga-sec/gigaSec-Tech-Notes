@@ -9,6 +9,10 @@ Tags: #fleeting
 It talks about the printing of values with printf and library stdio.h
 
 
+The `%s` format in printf expects the argument to be a characters that ends with `\0`.
+Meaning its possible to use `%s` with argument being `\0`.
+The result will be `(null)`
+
 ## `printf` is not part of the C language
 there is no input or output defined in C itself. 
 `printf` is just a useful function from `stdio.h` 
@@ -119,6 +123,12 @@ Assignment
     It **ASSIGNS** a VALUE to a variable
     That's why it's called **ASSIGN**ment
 
+Subscript
+    It represents the element in an array
+    Like `array[3]`, the subscript here is `[3]`
+
+Caller
+    Means the piece of code that called the function
 
 One Liner For loop Is Possible in C
 ```C
@@ -170,3 +180,17 @@ Ans: Yes, because to get an `EOF`, input `Ctrl+Z`
 
 
 ## Arrays
+When array is passed as argument in function
+The value passed to function is address of the beginning in the array. No copying of array elements is one
+
+
+## Functions 1.8
+When array is passed as argument in function
+The value passed to function is address of the beginning in the array. No copying of array elements is one
+
+Anything than that,
+The value passed to function will be copied and made into a temporary variable that only last until the function execution is done.
+
+
+Tip: Every text line has at least one character; 
+even a line containing only a newline has length 1
