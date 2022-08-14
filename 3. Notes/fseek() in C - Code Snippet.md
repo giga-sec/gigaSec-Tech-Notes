@@ -1,4 +1,4 @@
-[[File Handling in C]]
+[[C - File Handling]]
 
 # fseek() in C - Code Snippet
 Created:  [[2022-07-10]]

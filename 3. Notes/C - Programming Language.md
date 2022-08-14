@@ -2,27 +2,33 @@
 
 # C - Programming Languange
 
+[[C - command line arguments --argc and argv]]
 
-C compilers, sees code top to bottom, left to right
+[[C - Strings]]
 
-[[Week 1 - Data Types, Imprecision and Overflows]]
-[[Week 2 - Arrays, Compiling, Command Line Argument, Strings]]
+[[C - File Handling]]
 
+## Functions in Default Libraries
 
-[[sizeof values in each data type of C]]
-
-
-[[File Handling in C]]
+[[C - printf]]
 
 
-Code Snippets
+## Compiling
+
+[[Compiling explained--turning source code into `1's` and `0's`]]
+
+[[Compile C source code using command prompt]]
+
+## Code Snippets
+
+[[C - Code Snippets Strings]]
+
 [[C - Print Leading Zeros in C]]
 
 [[fseek() in C - Code Snippet]]
 
-C Book
+## C Book
+
 [[The ANSI C Programming Languange - Book]]
 
 [[Understanding and Using C Pointers - Book]]
-
-

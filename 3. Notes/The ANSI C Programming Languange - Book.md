@@ -5,103 +5,37 @@ Created:  [[2022-08-01]]
 Tags: #fleeting 
 
 ---
-# In Chapter 1.1  (printf)
-It talks about the printing of values with printf and library stdio.h
+## 1.1  (printf)
+[[C - printf]]
 
-
-The `%s` format in printf expects the argument to be a characters that ends with `\0`.
-Meaning its possible to use `%s` with argument being `\0`.
-The result will be `(null)`
-
-## `printf` is not part of the C language
-there is no input or output defined in C itself. 
-`printf` is just a useful function from `stdio.h` 
-The behaviour of printf is defined in the ANSI standard so its properties should be the same with any compiler and library that conforms to the standard.
-
-
-
-## The `printf` formatted output 
-`%3i` prints an int with `3 whole num digits`. 
-    Like `031`
-    This is also how you get leading zeros in numbers
-`%5.2f` prints a floating point with `5 whole num digits` and `2 decimal digits`
-    Like `01433.00`
-`%.0f` prints a floating number without decimals :D
-
-# In Chapter 1.2
+## 1.2 (division, integer to float)
 comments, declarations, variables, 
 arithmetic expressions, loops , formatted output.
 
-char -> a single byte
-short -> short integer
-long -> long integer
-double -> double-precision floating point
+How C does division in integers
+[[C truncates decimals when doing division on integers]]
 
-## How C does division in integers
-C truncates any integer division -> [[truncation]]: 
-Meaning any fractional part is discarded.
-Example:
--> `5/2` would result into `2.5`, 
--> but **C truncates any integer division** 
--> thus final answer is `2`
+Rules for when integers are automatically converted to floating point
+[[When does int values automatically converts to float]]
 
-
-
-
-    
-
-## Rules for when integers are automatically converted to floating point
-IF -> we have an `int` and we added a single `float`
-THEN -> result will always be `float` or 
--> More precisely, 
-    all `int` will be converted to `float` BEFORE ADDITION is done.
-
-Example:
-`1.0 + 1 + 3 + 5`  
-^ There's a single float in this arithmetic
-
-In result, this will convert all `int` to be `float` as seen on below
-`1.0 + 1` turns into  `1.0 + 1.0 + 3.0 + 5.0`
-Then, finally the addition will be done.
-
-
-# In Chapter 1.3 (Loops)
-Just talk about for loops
-
-# IN Chapter 1.4 (Symbolic Constants)
-Symbolic Constants, meaning using the  `#define NAME value`
-#myquestion Can we say that this is also global variables?
-
-## Symbolic Constants are not variables
+## 1.3 (One Liner For Loops)
+One Liner For loop Is Possible in C
 ```C
-#include <stdio.h>
-
-#define NAME "Jonan"
-#define AGE "69"
-
-int main()
-{
-	printf("Hello %s\n", NAME);
-    printf("Your age is %i", AGE);
-}
+for (nc = 0; getchar() != EOF; nc++)
+    ;
 ```
+A `for` loop must have a body
+But since `;` is there or the `null statement`, it satisfies the requirement
+Putting it on second line makes it `readable` and `visible`
 
-The defined `NAME`, `AGE` are `symbolic constants`, 
-They are not variables, so they do not appear in declarations. 
+## 1.4 (Symbolic Constants)
+[[Symbolic Constants are fixed values that never changes throughout the program]]
 
-# In Chapter 1.5 (Text Input/Output)
+## 1.5 (Text Input/Output)
+`getchar()` reads the next input character from a [[text stream]] 
+Then returns that as its value
 
-## Text Streams
-Text input/output is dealt with as text streams or streams of characters. 
-    A text stream is a sequence of characters divided into lines; 
-    Each line consists of zero or more characters followed by a newline character.
-    Like this
-    `123123123\n`   <- 1st Text stream  
-    `dflgkjdlfg\n` <- 2nd Text Stream
-    `\n`                      <- 3rd Text Stream
-
-More Info which might be helpful
-It is the responsibility of the library to make each input or output stream confirm this model; The C programmer using the library need not worry about how lines are represented outside the program.
+The function `putchar(char)` prints a character each time it is called
 
 ```C
 char	1 byte
@@ -112,9 +46,43 @@ float	4 bytes
 double	8 bytes
 ```
 
-## Programming lingo 
+
+
+
+
+[[Character Constant is used to convert char to int-ascii]]
+
+## 1.6 Arrays
+When array is passed as argument in function
+The value passed to function is address of the beginning in the array. 
+No copying of array elements is one
+
+
+## 1.7, 1.8 Functions 
+**When array is passed as argument in function**
+The value passed to function is address of the beginning in the array. No copying of array elements is one
+
+**The value passed to function (except array)** 
+Value will be copied and made into a temporary variable that only lasts until function execution is done.
+
+Tip: Every text line has at least one character; 
+even a line containing only a newline has length 1
+
+**1.9 Character Array**
+All character array ends with `\0`
+
+When array is passed as argument in function
+The value passed to function is address of the beginning in the array. No copying of array elements is one
+
+
+## 1.10 Extern Variables
+[[External Variables and use extern to access it ]] 
+
+
+# 2. Types, Operators, and Expressions
+## Programming Lingo
 Expression
-    Meaning a number of variables or constants, and operators and functions, 
+    Meaning the act of combining variables / constants, and operators / functions, 
     are put together in a single statement or a variable
     Like this `1 + 1` or `"Jonathan" + "Alexa"`
 
@@ -130,67 +98,15 @@ Subscript
 Caller
     Means the piece of code that called the function
 
-One Liner For loop Is Possible in C
-```C
-for (nc = 0; getchar() != EOF; nc++)
-    ;
-```
-A `for` loop must have a body
-But since `;` is there or the `null statement`, it satisfies the requirement
-Putting it on second line makes it `readable` and `visible`
+Automatic Variables
+    Often, variables declared inside of a function are called automatic variables. As the variable disappears when the function exited.
+    
+Definition 
+    refers to place where variable is created or assigned storage.
+
+Declaration 
+    refers to places where variable is stated but no storage is allocated.
+    it lists the variables to be used, and state what `type` they have and perhaps what their initial values are. 
+    Like saying, declare a variable with 5 value in it. The sentence itself is act of declaration
 
 
-## Convert char into ASCII?
-A character surrounded by `''` like `'A'` is called **Character Constant** 
-A character constant makes it possible to convert character into ASCII
-```C
-int num = 'A';
-printf("%i", num);
-```
-
-If you surrounded `A` with `""` like `"A"`
-It will give you an error
-```C
-int num = "A";
-error: expected expression before 'int'
-```
-
-
-
-```C
-int c;
-c = getchar();
-printf("Pass\n");
-while(c != EOF) {
-    putchar(c);
-    c = getchar();
-    printf("Testing\n");
-}
-printf("Hello");
-```
-The while loop will print each character one by one that was inputted. 
-It will only stop inputting when it detected a newline
-However, inside the while loop is `getchar()`, 
-    I wonder why it doesn't stop and prompt us a character
-    Ans: Maybe because input/output is treated as stream of characters. Text Streams means any a collection of characters that ends with `\n`
-
-Also, the loop never ends when I press enter,
-Meaning enter doesn't mean it's `EOF`. 
-Ans: Yes, because to get an `EOF`, input `Ctrl+Z`  
-
-
-## Arrays
-When array is passed as argument in function
-The value passed to function is address of the beginning in the array. No copying of array elements is one
-
-
-## Functions 1.8
-When array is passed as argument in function
-The value passed to function is address of the beginning in the array. No copying of array elements is one
-
-Anything than that,
-The value passed to function will be copied and made into a temporary variable that only last until the function execution is done.
-
-
-Tip: Every text line has at least one character; 
-even a line containing only a newline has length 1

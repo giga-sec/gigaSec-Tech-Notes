@@ -68,6 +68,12 @@
         "Mod"
       ],
       "key": "ArrowUp"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
     }
   ],
   "app:go-back": [
@@ -77,6 +83,12 @@
         "Mod"
       ],
       "key": "ArrowDown"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
     }
   ],
   "graph:open": []

@@ -1,4 +1,4 @@
-[[File Handling in C]]
+[[C - File Handling]]
 
 # C - modes in fopen()
 Created:  [[2022-07-10]]

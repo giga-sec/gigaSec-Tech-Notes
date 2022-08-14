@@ -7,6 +7,8 @@ Tags: #permanent
 ---
 The process of turning source code into `1's` and `0's` (binary)
 
+C compilers, sees code top to bottom, left to right
+
 **Preprocessing** = turns the headers into codes. Replaces the header with its own code.
 
 **Compiling** = turns the code into assembly languange. 

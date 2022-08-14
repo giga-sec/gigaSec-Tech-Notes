@@ -5,7 +5,7 @@ Created:  [[2022-07-16]]
 Tags: #permanent 
 
 ---
-[[C - Command line arguments --argc and argv]]
+[[C - command line arguments --argc and argv]]
 
 
 **Libraries needed below**
