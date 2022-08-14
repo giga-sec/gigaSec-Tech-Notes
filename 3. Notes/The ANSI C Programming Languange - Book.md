@@ -81,10 +81,7 @@ The value passed to function is address of the beginning in the array. No copyin
 
 # 2. Types, Operators, and Expressions
 ## Programming Lingo
-Expression
-    Meaning the act of combining variables / constants, and operators / functions, 
-    are put together in a single statement or a variable
-    Like this `1 + 1` or `"Jonathan" + "Alexa"`
+[[Expression]]
 
 Assignment
     It's indicated by a symbol `=`
@@ -109,4 +106,18 @@ Declaration
     it lists the variables to be used, and state what `type` they have and perhaps what their initial values are. 
     Like saying, declare a variable with 5 value in it. The sentence itself is act of declaration
 
+Operators 
+    It specifies what is to be done to the `declared` variables. 
 
+Type 
+    The `type` of an object determines the set of values it can have 
+    ... and what `operations` can be performed on that set of values.
+
+
+The ANSI standard made lots small changes/additions to basic types and [[expression]]. 
+There are now signed and unsigned forms of all integer types, 
+There are also notations for unsigned constants and hexadecimal character constants. Floating-point operations may be done in single precision; 
+there is also a long double type for extended precision. 
+String constants may be concatenated at compile time. 
+Enumerations have become part of the language, formalizing a feature of long standing. Objects may be declared const, which prevents them from being changed. 
+The rules for automatic coercions among arithmetic types have been augmented to handle the richer set of types.
