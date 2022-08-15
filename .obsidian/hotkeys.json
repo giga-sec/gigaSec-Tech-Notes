@@ -92,5 +92,21 @@
     }
   ],
   "graph:open": [],
-  "editor:insert-link": []
+  "editor:insert-link": [],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ]
 }

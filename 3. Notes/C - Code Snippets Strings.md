@@ -8,7 +8,7 @@ Tags: #fleeting
 [[Get size of string]]
 
 
-[[Check if string is uppercase]]
+[[Convert string to uppercase]]
 
 [[Check if string consists of ONLY letters]]
 

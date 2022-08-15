@@ -14,8 +14,8 @@ Equipped with the knowledge above. We can use it to get the size of string
 int str_length(char str[])
 {
     int len;
-    for (len = 0; str[len] != '\0'; len++)
-        ;
+    while (str[len] != '\0')
+        i++;
     return len;
 }
 ```

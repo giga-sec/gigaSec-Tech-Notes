@@ -112,6 +112,13 @@ Operators
 Type 
     The `type` of an object determines the set of values it can have 
     ... and what `operations` can be performed on that set of values.
+    Hmm, I think this is like the `int`, or `char` like that
+
+Operand
+    Like `10 + 2`
+    `+` is the operator
+    Both `10` and `2` are the operands
+    It is the numbers that are the objects of operators 
 
 
 The ANSI standard made lots small changes/additions to basic types and [[expression]]. 
@@ -121,3 +128,288 @@ there is also a long double type for extended precision.
 String constants may be concatenated at compile time. 
 Enumerations have become part of the language, formalizing a feature of long standing. Objects may be declared const, which prevents them from being changed. 
 The rules for automatic coercions among arithmetic types have been augmented to handle the richer set of types.
+
+## 2.1 Variable Names
+
+Rules of the names of variables & symbolic constants 
+- Names are made up of `LETTERS` or `DIGITS` or `_`
+- First character must be `LETTER` or `_`
+    - However, don't begin variable names with `_` since library routines often use such names.
+- UPPER and lower letters are distinct. 
+    - Meaning `hello` is different from `HELLO`
+
+ Readability and Formality of naming variables/symbolic constants
+- Traditional Practice is to use `UPPER` for symbolic constants, `lower` for variables
+- We tend to use 
+    - short names for local variables (especially loops)
+    - longer names for external variables
+
+
+Well, I don't really know what this means below but it might be helpful
+At least the first 31 characters of an internal name are significant. For function names and external variables, the number may be less than 31, because external names may be used by assemblers and loaders over which the language has no control. For external names, the standard guarantees uniqueness only for 6 characters and a single case. Keywords like if, else, int, float, etc., are reserved: you can't use them as variable names. They must be in lower case.
+
+
+## 2.2 Data Types
+
+This are the only basic data types in C:
+```C
+int
+char
+float
+double
+```
+
+
+This are qualifiers that can be applied to the basic data types
+
+```C
+short int var_name
+long int/double var_name
+```
+^ Often, `int` can be omitted 
+    Like this -> `short var_name` or `long var_name` 
+
+> Each compiler is free to choose appropriate sizes for its own hardware, subject only to the the restriction that shorts and ints are at least 16 bits. longs are at least 32 bits, and short is no longer than int, which is no longer than long.
+
+```C
+signed char/int var_name
+unsigned char/int var_name
+```
+[[Signed or Unsigned Data type, which one to choose]]
+Unsigned numbers are always positive or zero
+It also obeys the laws of arithmetic modulo 2n , where n is the number of bits in the type
+    So, for instance, if chars are 8 bits, unsigned char variables have values between 0 and 255. Because `2^8` is equals to `256`, we'd have to include the `0` so `255`.
+> Whether plain chars are signed or unsigned is machine-dependent, 
+> but printable characters are always positive
+
+## 2.3 Constants
+
+Int Constants -> `12345`
+
+Long Constants -> `234L` or `234l`
+    Long constants need to end with `L` or `l`
+
+Unsigned Constants -> `u` or `U`
+
+Floating Constants -> `13.4F`
+    Must have decimal point, and optionally end with `F` or `f`
+
+Octal Constants -> `036`
+    A leading zero on an `Int Constant` means Octal
+
+Hexadecimal Constants-> `0x37`
+    A leading `0x` means hexadecimal
+
+> Octal and hexadecimal constants may also be followed by L to make them long and U to make them unsigned
+`0xFUL`
+Means written in Hexadecimal `0x`  
+on Unsigned Long `UL` constant with value `F` on hexa but `15` on decimal
+
+Escape Sequences
+`\a`  alert (bell) character
+`\b`  backspace
+`\f`  formfeed
+`\v`  vertical tab
+`\000`  octal number  -> `'\013'` means vertical tab in ASCII
+`\xhh`  hexadecimal number -> `'\xb'` means vertical tab in ASCII 
+    `x` followed by number is the syntax for hexadecimal number in Character/String Constant
+
+
+`\n`  newline
+`\r`  carriage return -> basically enter key
+`\t`  horizontal tab
+ 
+
+String Constants
+Are characters surrounded in `""`
+String constants can be concatenated at compile time:
+` "hello, "  "world"`
+is equivalent to
+ `"hello, world"`
+Like this
+```C
+printf("Hello"
+       "Madam");
+```
+prints to -> `Hello Madam`
+
+String Constant vs Character Constant
+`'x'` is not the same as `"x"`
+Because `'x'`  is an integer that produces ASCII value
+`"x"` contains the letter `x` and `\0`
+
+Enumeration Constant
+is a list of constant integer values,
+It's an alternative for `#define` 
+
+`enum boolean { NO, YES };`
+The default value of `NO` is `0` 
+then increments it to next constant integer which is `YES` -> `1`
+
+`enum days { Sun=1, Mon, Tue, Wed, Thu, Fri, Sat };`
+We change the starting value to `1`
+it increments it to next constant integer which is `Mon` -> `2`, then repeats it till `Sat`
+
+
+More here below
+https://www.simplilearn.com/tutorials/c-tutorial/enum-in-c#
+
+Constant expression
+Is exactly the name itself, an expression that only invovles constants
+
+
+## 2.4 Declarations
+
+Declaration means creating a variable with its own data type into existence.
+
+All variables must be declared before use
+although certain declarations can be made implicitly by content
+
+A declaration specifies a type, and contains a list of one or more variables of that type, as in
+```C
+int lower, upper, step; 
+char c, line[1000];
+```
+
+**Initalize**
+A variable can be initalized in its declaration
+Like this
+```C
+int lower = 50;
+```
+Meaning, initalize is the act of assigning a value to a variable in its declaration.
+But I think that would fit the description of assignment
+
+```C
+void printNum() {
+    static int num = 0
+    printf("%i\n", num++);
+}
+
+int main() {
+    printNum();  // 1
+    printNum();  // 2
+    printNum();  // 3
+}
+```
+When calling a function, `static` variable makes the initialization of its value only once. 
+When printNum is called again, it will never initialize the value of `num` to `0` again ...
+... and will still have the same value as before, which is `1`
+
+```C
+void printNum() {
+    int num = 0
+    printf("%i\n", num++);
+}
+
+int main() {
+    printNum();  // 1
+    printNum();  // 1
+    printNum();  // 1
+}
+```
+Local Variables are by default -> Automatic Variables
+When calling the function, it will always initialize any variable to its expression.
+
+
+External and static variables are initialized to zero by default.
+Automatic variables for which is no explicit initializer have undefined (i.e., garbage) values.
+
+
+`const`
+The qualifier `const` can be applied to the declaration of any variable to specify that its value will not be changed. 
+For an array, the `const` qualifier says that the elements will not be altered
+`const char name[] = "Jonathan";`
+The `const` qualifier can also be used with array arguments, to indicate that the function does not change that array: `int strlen(const char[]);`
+The result is implementation-defined if an attempt is made to change a const.
+
+## 2.5 Arithmetic Operators
+The `%` operator cannot be applied to a float or double. 
+The direction of truncation for `/` and the sign of the result for `%` are machine-dependent for negative operands, as is the action taken on overflow or underflow.
+
+1. unary `+` and `-`
+2. same precedence of `*`, `/` and `%`, 
+3. The binary `+` and `-` operators have the same precedence, 
+
+## 2.6 Relational and Logical Operators
+
+1. `> >= < <=` This are Relational Operators and Have same precedence
+2. `== !=` This are Logical Operators and have same precedence
+3. `&&` still logical Operator
+4. `||` still logical Operator
+
+
+```C
+int i;
+for (i=0; i < lim-1 && (c=getchar()) != '\n' && c != EOF; ++i) 
+    s[i] = c;
+```
+
+Before reading a new character it is necessary to check that there is room to store it in the array s, so the test `i < lim-1` must be made first. Moreover, if this test fails, we must not go on and read another character. 
+Similarly, it would be unfortunate if c were tested against EOF before getchar is called; therefore the call and assignment must occur before the character in c is tested.
+
+Expressions connected by `&&` or `||` are evaluated left to right, 
+evaluation stops as soon as the truth or falsehood of the result is known.
+
+
+```C
+i < lim-1 && (c=getchar()) != '\n' && c != EOF
+true && (c=getchar()) != '\n' && c != EOF
+true && c != '\n' && c != EOF
+true && true && c!= EOF
+true && true && true
+true && true
+true
+```
+
+```C
+1 < 2 && 3 != 4 && 3 > 4
+true && 3 != 4 && true
+true && true && true
+```
+I think it reads all of the expression first as to evaluate what operator to priortize first
+Then it does the evaluation in that manner
+
+A loop equivalent to 
+```C
+for (i=0; i < lim-1 && (c=getchar()) != '\n' && c != EOF; ++i) 
+    s[i] = c;
+
+
+```
+
+
+Constructions like `!valid` read nicely (``if not valid''),
+
+## 2.7 Type Conversions
+
+When an operator has operands of different `types`, 
+they are converted to a common type according to a small number of rules.
+
+In general, the only automatic conversions are 
+those that convert a `narrower` operand into a `wider one` without losing information,
+    I think I understand it. Meaning like from `int` to `float`
+such as converting an `integer` into `floating point` in an expression like `f + i`.
+
+Expressions that don't make sense, like using a float as a subscript, are disallowed. Expressions that might lose information, 
+    like assigning a longer integer type to a shorter, or 
+    a floating-point type to an integer, 
+    may draw a warning, but they are not illegal.
+
+A `char` is just a small integer, so chars may be freely used in arithmetic expressions
+
+which converts a string of digits into its numeric equivalent
+```C
+int atoi(char s[])
+{
+    int i, n;
+    n = 0;
+    for (i = 0; s[i] >= '0' && s[i] <= '9'; ++i)
+        n = 10 * n + (s[i] - '0');
+    return n;
+} 
+```
+
+```C
+'c' - '0'
+```

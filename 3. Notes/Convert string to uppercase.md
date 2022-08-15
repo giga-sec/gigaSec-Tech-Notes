@@ -9,13 +9,10 @@ Tags: #fleeting
 // Make letters be UPPERCASE. Please put letters only
 const char* str_toUpper(char str_ltr[], int len)
 {
-    for (int i = 0; i < len; i++)
-    {
+    for (int i = 0; i < len; i++) {
         // Skips if already in uppercase
-        if ((str_ltr[i] >= 'A') && (str_ltr[i] <= 'Z'))
-        {
+        if (str_ltr[i] >= 'A' && str_ltr[i] <= 'Z')
             continue;
-        }
 
         // Convert lower to UPPER
         str_ltr[i] -= 32;
