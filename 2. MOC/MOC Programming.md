@@ -17,7 +17,7 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[Kata - Codewars]]
 
-
+[[Decimal to Hexadecimal]]
 
 
 
@@ -52,6 +52,13 @@ Successor Languanges
 [[What is the best way to learn coding faster!]]
 
 [[What is your experience when you are new to a software development team]]
+
+[[Why do programming languages constantly deprecate stuff]]
+How am I supposed to know every replacement when I go back to a piece of code 5 years later if everything is different now?
+
+
+[[The best thing we can do today to JavaScript is to retire it]]
+
 
 
 ## Uncategorized
