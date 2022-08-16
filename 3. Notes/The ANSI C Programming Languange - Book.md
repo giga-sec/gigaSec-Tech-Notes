@@ -5,6 +5,16 @@ Created:  [[2022-08-01]]
 Tags: #fleeting 
 
 ---
+One liner declaration of different variables
+One liner assignment of value in different variables
+```C
+int i, j, k;   // one liner declaration of different variables
+i = j = k = 0;  // One liner assignment
+
+```
+
+
+
 ## 1.1  (printf)
 [[C - printf]]
 
@@ -206,7 +216,7 @@ Hexadecimal Constants-> `0x37`
 Means written in Hexadecimal `0x`  
 on Unsigned Long `UL` constant with value `F` on hexa but `15` on decimal
 
-Escape Sequences
+### Escape Sequences
 `\a`  alert (bell) character
 `\b`  backspace
 `\f`  formfeed
@@ -449,5 +459,62 @@ int sum(int a, int b)
 ```
 
 
-Exercise 2-3. Write a function htoi(s), which converts a string of hexadecimal digits (including an optional 0x or 0X) into its equivalent integer value. The allowable digits are 0 through 9, a through f, and A through F.
+## 2.8 Increment and Decrement Operators 
 
+can only be applied to variables
+can be used as a subscript -> `s[j++]`
+
+[[Expression]]s aren't allowed to have Increment/Decrement Operators
+    Like -> `(i + j)++`
+
+There's a weird small detail about increment and decrement operators in C
+We can do either `++x` or `x++`, both increases 1 but the BTS is different
+
+postfix `n++`, increments `n` AFTER its value has been used.
+If `n = 5`, 
+then `x = n++;` sets `x` to `5`
+So, if I somehow used the variable `x` somewhere 
+    like `x + 0`, the increment now happens and turns into `6 + 0`  
+
+prefix `++n`, increments `n` BEFORE value is used
+If `n = 5;`
+then `x = ++n;` sets `x` to `6`
+
+This small little detail above affects the logic of a program
+Take a look at this practical example of taking advantage of this little detail
+```C
+int j = 0;
+while (True)
+    s[j++] = a; 
+
+// The code above is the same as below
+int j = 0;
+while (True) {
+    s[j] = a;
+    j++;
+} 
+```
+So, let me explain code above
+Compiler sees `j++`, the value of `j` remains at `0`
+The next loop, the `j++` is called again, this is where `j` increments thus `j`'s value now is `1`
+
+
+Code below shows obvious differences between `n++` and `++n`
+```C
+int n = 0;
+while (n < 5)
+    printf("%i", n++);
+```
+This will output `0, 1, 2, 3, 4`
+Here, incrementation only happens when `n` is used again.
+    That's why it was able to print `0` because incrementation didn't happen yet.
+
+```C
+int n = 0;
+while (n < 5)
+    printf("%i ", ++n);
+```
+This will output `1, 2, 3, 4, 5`
+The reason it was able to print `5` even tho condition `n < 5` doesn't permit it
+    Because in reality, it's actually `4 < 5`
+    When it got printed, the `++` incremented 4 thus making it print `5`
