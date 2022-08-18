@@ -39,6 +39,9 @@ Successor Languanges
 -   Java → Kotlin
 -   C++ → **_Carbon_**
 
+## Books
+[[Coded The Hidden Languange of Computers]]
+
 ## Articles
 
 [[Being a team player in software engineering]]
@@ -115,6 +118,8 @@ Python feeds you with precompiled C languange (sort of) then gives you an automa
 However, C/Assembly rarely hold your hands during the journey. Youd have to do the assigning of data type yourself, garbage collecting, assigning memory, creating your own functions.
 To do this, you'd need a really good understanding of C/Assembly. 
 
+
+The distinction between what is an anime and what makes something a hentai is slowly disappearing 
 
 
 

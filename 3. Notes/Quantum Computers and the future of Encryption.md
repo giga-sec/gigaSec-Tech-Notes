@@ -5,7 +5,7 @@ Created:  [[2022-07-15]]
 Tags: #fleeting 
 
 ---
-Quantum computers affect the future of encryption
+[[Quantum computers]] affect the future of encryption
 
 Once quantom computers exists
 - RSA and Elliptical Curve Cryptography will be VERY FAST TO BREAK

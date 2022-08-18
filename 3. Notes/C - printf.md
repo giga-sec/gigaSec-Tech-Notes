@@ -12,6 +12,7 @@ Meaning its possible to use `%s` with value being only `\0`.
 The result will be `(null)`
 
 
+https://cplusplus.com/reference/cstdio/printf/
 
 [[printf is not part of the C language]]
 
