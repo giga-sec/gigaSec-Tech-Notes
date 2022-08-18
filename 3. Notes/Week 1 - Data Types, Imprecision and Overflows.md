@@ -13,8 +13,6 @@ Abstract
 [[Integer Overflow or Underflow is dangerous]]
 
 ---
-
-
 Floating-point imprecision
 Working with decimals using float is tricky especially when computers can only understand binary digits. Most fractional decimals especially infinite decimals can't be represented precisely in binary. We can use double for more accuracy but it will still give you `errors` for certain calculations[^1]. 
 [[Decimals aren't precise in programming -- Floating Point Imprecision]]

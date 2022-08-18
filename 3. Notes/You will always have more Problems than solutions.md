@@ -19,7 +19,7 @@ Stuff like
 
 
 ## When you're overwhelmed with problems
--> Ordering them isn't the most important skill
+-> Ordering them ISN'T the most important skill
 -> Instead, FILTERING THEM IS
 -> Like, "No, I'm not going to solve that problem right now"
 Knowing what problems are valuable

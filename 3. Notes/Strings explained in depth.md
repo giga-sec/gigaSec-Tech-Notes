@@ -1,4 +1,4 @@
-[[Strings in C]]
+[[C - Strings]]
 
 # Strings are pointers
 Created:  [[2022-06-18]]
