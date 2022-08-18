@@ -7,6 +7,16 @@ Tags: #fleeting
 ---
 
 
+
+
+
+https://jsbin.com/?html,output
+
+Build fast, full-stack web apps in your browser for free
+https://glitch.com
+
+
+---
 CS50 Version Below
 HTML tags 
 Refers to the commands used in HTML
@@ -18,17 +28,156 @@ https://www.w3schools.com/TAgs/default.asp
 ```
 It tells us what standard the webpage is using
 
+## HTML Element
 Tags
 `<html>`    This is open tag
 `</html>`  This is close tag
 Anything that's in `<>` are tags
+Tags are also not case-sensitive
+Overall, we call both open tag and close tag an Element. It's like a sentence, we got a period indicating the end and a starting word but overall we call the structure as sentence.
 
-Attributes
+Often, people call the opening tags as an element
+This is justified as some element doesn't have a closing tag. Like a void element
+
+Also Element is part of [[DOM - Document Object Model]]
+![[Pasted image 20220811110138.png|450]]
+
+
+### Inline Element
+```HTML
+<em>first</em> <em>second</em> <em>third</em>
+```
+`<em>` is an inline element
+Creates an italic -> *first second third*
+Each element provided no newline when used 
+
+In Conclusion, both Inline Element and Block-Level Element are terms dropped in HTML5 because it creates a confusion with the CSS tings
+
+### Block-Level Element
+```HTML
+<p>fourth</p> <p>fifth</p> <p>sixth</p>
+```
+`<p>` is a block-level Element
+It creates newline at each element
+fourth
+fifth
+sixth
+
+In Conclusion, both Inline Element and Block-Level Element are terms dropped in HTML5 because it creates a confusion with the CSS tings
+
+
+
+### Empty or Void Element
+`<img>` element doesn't need a closing tag. 
+```HTML
+<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">
+```
+
+
+
+## Attributes 
+Attributes are always added in the opening tag
+The syntax of attribute
+
+A space opening tag and attribute
+A space between multiple attributes
+Values of attribute must always be  wrapped with `""`
+Like this -> `Attribute="Value_here"`
+Some websites don't use `""` in the value of attributes. 
+    Perfectly fine because the value doesn't have spaces
+```HTML
+<a href=https://www.mozilla.org/> favorite website </a>
+```
+But for the sake of readability and normalization, just put everything on `""`
+
+
 ```HTML
 <html lang="en">
 ```
 The `lang="en"` is an attribute here
 It's like a `key-value pair`, like dictionary in python. [[Python Dictionaries - Dictionary]]
+
+### Boolen Attributes
+Some attributes are written without values, Like the `disable` attribute
+Here's an example on Empty element `<input>` with Boolen Attribute
+```HTML
+<input type="text" disabled="disabled">
+```
+
+It's preferrable to just exclude the value here 
+as often, the value is just the attribute name itself.
+also, most boolean attributes only have 1 value
+```HTML
+<input type="text" disabled>
+```
+
+
+## Basic Anatomy of an HTML Document
+```HTML
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+```
+`<!DOCTYPE HTML>`
+`<html>`  -> sometimes called as root elemetn
+    `<head>`
+        ^--> acts as a place for everything you want to include in HTML...
+        ...such as
+        - keywords and a page description that would appear in search results
+        - character set declarations  `<meta charset="utf-8">`
+        - and more more [[Head in HTML]]
+            `<title>`
+                ^--> It's a text that appears on browser tabs
+                ... itle is also what the bookmark title gets
+            `</title>`
+    `</head>`
+    `<body>`
+        ^--> contains all content that displays on the page, including text, images, videos, games etc..
+    `</body>`
+`</html>`
+
+
+
+Okay so no matter the amount of whitespaces, HTML parser will always reduce it to 1 whitespace only
+For instance
+```HTML
+<p>Dogs are silly</p>
+```
+Is the same as this below
+```HTML
+<p>Dogs                  are
+                   silly</p>
+```
+
+## Special Characters in HTML
+Entity Rereferences
+`<  >  "  '  &`
+Are special characters, meaning they are part of the HTML syntax
+They interpret it as a code instead of a text
+To read it as a text, you can use Character Reference
+`<`  ->   `&lt;`
+`>`  ->   `&gt;`
+`"`  ->   `&quot;`
+`'`  ->   `&apos;`
+`&`  ->   `&amp;`
+
+Easy to remember 
+-> as `<` goes with `lt`, meaning less than
+-> all character reference starts with `&` and ends with `;`
+
+
+**Note:** 
+You don't need to use entity references for any other symbols, as modern browsers will handle the actual symbols just fine as long as your HTML's [character encoding is set to UTF-8](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#specifying_your_documents_character_encoding).
+
+
+
 
 The overall data structure of an HTML page is 
 like a tree, [[Trees in Programming]]
@@ -76,11 +225,3 @@ Take user input and direct it to other website
 
 
 
-
-
-
-
-
-
-### References
-1. 
