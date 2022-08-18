@@ -1,6 +1,6 @@
 {
   "tabEnabled": true,
-  "rowOverflow": true,
+  "rowOverflow": false,
   "horizontalToVertical": false,
   "hideButtons": true,
   "smallTitle": false,
