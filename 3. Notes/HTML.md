@@ -1,21 +1,14 @@
-
+[[MOC Web Development]]
 
 # HTML
 Created:  [[2022-07-12]]
 Tags: #fleeting 
 
 ---
-
-
-
-
-
 https://jsbin.com/?html,output
 
 Build fast, full-stack web apps in your browser for free
 https://glitch.com
-
-
 ---
 CS50 Version Below
 HTML tags 
@@ -32,7 +25,6 @@ It tells us what standard the webpage is using
 Tags
 `<html>`    This is open tag
 `</html>`  This is close tag
-Anything that's in `<>` are tags
 Tags are also not case-sensitive
 Overall, we call both open tag and close tag an Element. It's like a sentence, we got a period indicating the end and a starting word but overall we call the structure as sentence.
 

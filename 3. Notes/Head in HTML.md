@@ -1,4 +1,4 @@
-
+[[HTML]]
 
 # Head in HTML
 Created:  [[2022-08-11]]
@@ -13,7 +13,7 @@ The Job of Head is to have a place for
 
 Bookmarks in browsers grabs the `<title>` as to make it the name of the bookmark
 
-`<meta>`
+## `<meta>`
 There are many different attributes to `<meta>` tag
 ```HTML
 <meta charset="utf-8">
