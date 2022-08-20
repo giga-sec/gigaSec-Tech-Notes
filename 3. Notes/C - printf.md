@@ -14,8 +14,8 @@ The result will be `(null)`
 
 https://cplusplus.com/reference/cstdio/printf/
 
-[[printf is not part of the C language]]
 
+[[printf is not part of the C language]]
 
 [[printf and manipulating its outputs]]
 

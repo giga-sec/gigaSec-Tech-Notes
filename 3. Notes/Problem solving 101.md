@@ -55,7 +55,10 @@ Computers will ask for
 - Will it be a mug of coffee or in a styrofoam one?
 - Freshly Brewed, or concentrated?
 - Does it come from Africa or America?
-- and more seemingly unimportant questions
+- How sweet should the coffee be?
+- Should it be the coffee used sugar or sweetener?
+- Does the coffee need to be hot or cold?
+- and more more more questions
 
 ## [[Problem Solving for Programmers]] 
 

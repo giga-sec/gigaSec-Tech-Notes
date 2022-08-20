@@ -88,7 +88,7 @@ Do you know what a CDN is? Every time you've jacked off to porn on the internet,
 Hell, Reddit uses a CDN. Check out [**Reddit's status page**](https://reddit.statuspage.io). You'll see they use Fastly. If you look at [**Reddit's Infrastructure AMA**](https://www.reddit.com/r/sysadmin/comments/9x577m/were_reddits_infrastructure_team_ask_us_anything/), you'll see they also use Akamai.
 
 
-Random Thoughts:
+## Random Thoughts:
 It's like reading a tutorial about learning how to make music, but the problem is, its written in chinese, and if you absolutely don't know anything about chinese then you wouldn't understand anything.
 That's basically how every beginners start out. Some seek advices and get the "read the documentation, you will learn so much there". That's absolutely true but as a beginner, reading it... nothing ever makes sense. This creates a discouragement because documentations are written in English and they'd expect to just look up the definition and it will make sense. But no, some programming lingo requires hands-on exercise to fully understand it. 
 It's a long journey, you'd spend time learning about the lingo of programming. There's a reason why university students spend four years. 
@@ -108,13 +108,13 @@ However, Linux in general is designed for users who want more control of their s
 And to do this, you'd need a good understanding of linux
 
 We can say the same with languanges.
-Python feeds you with precompiled C languange (sort of) then gives you an automatic garbage collector. You'
+Python feeds you with precompiled C languange (sort of) then gives you an automatic garbage collector. 
 However, C/Assembly rarely hold your hands during the journey. Youd have to do the assigning of data type yourself, garbage collecting, assigning memory, creating your own functions.
 To do this, you'd need a really good understanding of C/Assembly. 
 
 
 You see, Coding is like Math. When you think of it this way, math is pretty useless, it's just numbers, numbers. What can numbers do? Nothing, but every great engineering inventions heavily used math. 
-When you're starting out, you'd often have a motivation to learn programming to make something useful for you
+When you're starting out, you'd often have a motivation to learn programming to make something useful for you but a lot of times, you'd be learning something that you'd feel like it's not useful at all. This sometimes is a failure to the teacher as he/she didn't highlight the importance of learning this particular topic. When I first started out, I was gi
 
 
 

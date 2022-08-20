@@ -36,5 +36,5 @@ File name usually ends in the letter `d`
 
 
 
-ASCII TABLE
-![[Pasted image 20220731181629.png]]
+Evince is a good pdf reader for linux
+It supports vim keybindings 

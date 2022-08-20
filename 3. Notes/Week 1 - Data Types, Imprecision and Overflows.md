@@ -8,7 +8,7 @@ Tags: #literature
 Abstract                                
 [[Decimals aren't precise in programming -- Floating Point Imprecision]]
 
-[[Signed or Unsigned Data type, which one to choose]]
+[[Signed or Unsigned, which one to choose]]
 
 [[Integer Overflow or Underflow is dangerous]]
 
@@ -25,7 +25,7 @@ Example:
 8-bit unsigned integer only accepts `0 to 255`
 8-bit signed integer accepts ``-128 to 127`
 
-[[Signed or Unsigned Data type, which one to choose]]
+[[Signed or Unsigned, which one to choose]]
 
 
 Integer Overflow/Underflow

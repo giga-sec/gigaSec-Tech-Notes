@@ -23,6 +23,7 @@
 [[MOC Obsidian]]
 
 
+
 [[Tools]]
 
 [[RegEX - REGular EXpressions]]
@@ -47,6 +48,7 @@
 
 
 ### Process of Note Taking
+
 Fleeting
 - This is where I type the snippets I find interesting from articles/videos. 
 - Then I read the notes to make sense of it. I remove what that doesn't make sense. 
@@ -133,3 +135,27 @@ because the problem with making a dedicated separate note is I'd probably never 
 
 I think it could be really better to stuff everything inside of MOC because there's a chance you'll stumble upon an old note and you'd find it interesting and you'd view it
 But here can be a problem, it can get overwhelming as well as there could be a large of notes
+
+
+Auguest 19, 2022
+A problem
+
+My system has been perfect for reading articles, short tutorials or storing info from courses. 
+However, a problem appears when I'm reading a book. Specifically, it is the abundancy of information that I needed to organize.
+This is the situation, I take notes with the whole chapter, then I reread the notes and hopefully I'll be able to make connections and lessen the words per note. 
+
+This is a problem to me since it can get overwhelming and repetitive. 
+Okay actually, it's how the notes aren't designed to be easily retrievable. 
+Like there would be a dense information in a single note and I'd have a harder time thinking how my future self can read and understood this format note.
+Okay, so its actually the format of my notes. 
+
+So I think I can say that the more words I accumulate in a single note, it can get harder to format my notes? Or maybe it's the many ideas bunch in a single note that aren't connected to each other?
+
+Okay, more precisely its the decision fatigue of where can I put this note to make a connection with it.
+And also the decision of how I can better format my notes to make the important details standout while also keeping the little details relevant
+
+So what solution do I expect?
+Hmmm... to expect a solution is I am not allowing myself to be flexible on other solutions that might be potentially better.
+
+
+We could perhaps start by reading a tutorial / article on how to take better notes while reading book

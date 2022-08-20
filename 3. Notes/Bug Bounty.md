@@ -5,7 +5,8 @@ Created:  [[2022-08-01]]
 Tags: #fleeting 
 
 ---
-And, for the companies who do say they allow responsible bug reporting, here a couple tips for your submissions from a guy who reads a lot of vuln submissions:
+For the companies who do say they allow responsible bug reporting, 
+here a couple tips for your submissions from a guy who reads a lot of vuln submissions:
 -   Don’t make any mention of reward until you’ve established rapport with them. Better yet, wait for them to bring it up.
 -   Give them enough clear detail to be able to recreate the problem themselves.
 -   Recognize they determine the severity, not you.

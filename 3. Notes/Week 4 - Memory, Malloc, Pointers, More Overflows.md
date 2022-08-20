@@ -6,7 +6,7 @@ Tags: #fleeting
 
 ---
 Header stdint.h
-- allows us to precisely define the size (in bits) and sign or unsigned ([[Signed or Unsigned Data type, which one to choose]]) of an INTEGER. 
+- allows us to precisely define the size (in bits) and sign or unsigned ([[Signed or Unsigned, which one to choose]]) of an INTEGER. 
 
 
 
