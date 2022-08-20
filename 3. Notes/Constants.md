@@ -54,6 +54,7 @@ Example: `0xFUL`
     on Unsigned Long `UL` constant with value `F` on hexa but `15` on decimal
 
 
-
+Constant Expression
+That's actually it, it's an expression filled with constants
 
 
