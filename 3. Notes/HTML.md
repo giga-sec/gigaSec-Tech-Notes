@@ -34,36 +34,7 @@ This is justified as some element doesn't have a closing tag. Like a void elemen
 Also Element is part of [[DOM - Document Object Model]]
 ![[Pasted image 20220811110138.png|450]]
 
-
-### Inline Element
-```HTML
-<em>first</em> <em>second</em> <em>third</em>
-```
-`<em>` is an inline element
-Creates an italic -> *first second third*
-Each element provided no newline when used 
-
-In Conclusion, both Inline Element and Block-Level Element are terms dropped in HTML5 because it creates a confusion with the CSS tings
-
-### Block-Level Element
-```HTML
-<p>fourth</p> <p>fifth</p> <p>sixth</p>
-```
-`<p>` is a block-level Element
-It creates newline at each element
-fourth
-fifth
-sixth
-
-In Conclusion, both Inline Element and Block-Level Element are terms dropped in HTML5 because it creates a confusion with the CSS tings
-
-
-
-### Empty or Void Element
-`<img>` element doesn't need a closing tag. 
-```HTML
-<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">
-```
+[[Elemenets in HTML - Inline vs Block Level vs Empty-Void]]
 
 
 
@@ -148,25 +119,7 @@ Is the same as this below
                    silly</p>
 ```
 
-## Special Characters in HTML
-Entity Rereferences
-`<  >  "  '  &`
-Are special characters, meaning they are part of the HTML syntax
-They interpret it as a code instead of a text
-To read it as a text, you can use Character Reference
-`<`  ->   `&lt;`
-`>`  ->   `&gt;`
-`"`  ->   `&quot;`
-`'`  ->   `&apos;`
-`&`  ->   `&amp;`
-
-Easy to remember 
--> as `<` goes with `lt`, meaning less than
--> all character reference starts with `&` and ends with `;`
-
-
-**Note:** 
-You don't need to use entity references for any other symbols, as modern browsers will handle the actual symbols just fine as long as your HTML's [character encoding is set to UTF-8](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#specifying_your_documents_character_encoding).
+## [[Special Characters or Entity References in HTML]]
 
 
 
@@ -214,6 +167,33 @@ Take user input and direct it to other website
         - First `<input>` is `name=q`  with `type=text` 
         - Second `<input>` `type=submit` is a button
         When second input is clicked, the `<form>` will add the `<input>` `<type=text>` to URL
+
+
+
+## Semantics
+This are tags that provides meaning to the html rather than just for the appearance
+For instance, we have `<h1></h1>` it means a top level heading of a page. 
+
+`<span>` has no mearning to html. It just gives its appearance by using css or give functionalities by using javascript. 
+
+## [[Unordered and Ordered Lists in HTML]]
+
+## `<em>` emphasis is not italic
+Browsers show `<em>` *italic* by default but that doesn't mean you should use it for italization
+`<em>` is a Semantic. The meaning is it gives *stress* to words.
+Screen readers detects `<em>` and reads it differently
+
+## `<strong>` strong importance is not bold
+Browsers show `<strong>` **BOLD** by default but that doesn't mean to use it for bolding words
+Screen readers detects `<strong>` and reads it differently
+
+
+## [[Creating Links in HTML]]
+
+
+
+## [[Document Fragments to link to a specific part of an HTML document]]
+
 
 
 

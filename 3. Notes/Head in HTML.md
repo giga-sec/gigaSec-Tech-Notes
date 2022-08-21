@@ -75,7 +75,24 @@ Better to have image with filename `.ico` as it supports all the way back to Int
 But it can accept `.gif` or `.png`  #myquestion Wonder if it can ask `.jpeg` too?
 
 
+## Applying CSS and Javascript
 
+To link CSS in `<head>` 
+`<link rel="stylesheet" href="filename.css">`
+
+
+To link JS in `<head>`
+`<script src="filename.js" defer></script>`
+defer instructs browser to load javascript after html is loaded
+How is it useful?
+- It makes sure that you don't get errors resulting from JS trying to access an HTML element that doesn't exist on the page yet.
+
+## You should set the primary languange of the page
+```HTML
+<html lang="en-US">
+```
+-> Your HTML document will be indexed more effectively by search engines if its language is set (allowing it to appear correctly in language-specific results, for example)
+-> it is useful to people with visual impairments using screen readers (for example, the word "six" exists in both French and English, but is pronounced differently.)
 
 
 
