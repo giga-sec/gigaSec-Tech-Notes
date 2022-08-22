@@ -7,13 +7,13 @@ Tags: #fleeting
 ---
 It's possible to link to a specific part of an HTML document, known as a **document fragment**, rather than just to the top of the document. To do this you first have to assign an [`id`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-id) attribute to the element you want to link to. It normally makes sense to link to a specific heading, so this would look something like the following:
 
-```
+```HTML
 <h2 id="Mailing_address">Mailing address</h2>
 ```
 
 Then to link to that specific `id`, you'd include it at the end of the URL, preceded by a hash/pound symbol (`#`), for example:
 
-```
+```HTML
 <p>Want to write us a letter? Use our <a href="contacts.html#Mailing_address">mailing address</a>.</p>
 ```
 

@@ -5,6 +5,12 @@ Created:  [[2022-08-02]]
 Tags: #fleeting 
 
 ---
+## Micro-SMS v2
+https://31baf7363e8d638ae949c8aea84f4cd6.ctf.hacker101.com/login
+Login page is vulnerable to sql injection
+
+
+
 ## Micro-SMS
 
 So there's an image link that's unavailable

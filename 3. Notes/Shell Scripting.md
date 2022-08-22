@@ -5,9 +5,11 @@ Created:  [[2022-08-07]]
 Tags: #fleeting 
 
 ---
+
 https://blog.wplauncher.com/what-is-in-linux/
 Command Subsitution
 `$()`
+also provides the ability to store the outputs of a command to a variable
 
 ## Quick Facts about Shell
 File extension is `.sh`
@@ -40,8 +42,13 @@ echo "Hello $name"  <-- Printing user input
 Variables do not have to be declared, as compared to programming languages like C, 
 but if you try to read from an _undeclared_ variable, then you will not get intended results.
 
+```SHELL
+var_name=10
+str="hello"
+```
+
 ### Naming Conventions of Variables
-**-> Spaces are all underscores**
+**-> Spaces must be underscores**
 **-> No spaces when declaring variables** `a=12`
 
 ONLY **==ALL CAPS==** `JOB_ID`, `PROCESS_NAME` 

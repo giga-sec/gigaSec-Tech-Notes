@@ -21,6 +21,9 @@ Set Volume Control in Terminal
 In arch
 `pamac install alsa-utils`
 
+Properly Running Apps in Terminal
+`(exec firefox &)`
+
 
 Setting Volume In Terminal
 Command: `amixer set Master 30%`

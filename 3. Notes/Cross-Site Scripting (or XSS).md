@@ -10,6 +10,15 @@ Tags: #fleeting
 Allows attacker to execute malicious Javascript on victim's machine.
 XSS is possible in Javascript, VBScript, Flash and CSS
 
+The risk of XSS is that the malicious code is usually injected directly into the vulnerable application and not a redirect site that the user might watch out for. 
+So if you often go to `example.com` and someone sends you a link of one of their articles like
+`example.com/this-article-is-good?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E` 
+you’ll probably click it because it’s something you’re really used to. 
+What you’re not aware of is that there was some code injected in the site without your or the site’s approval and that code might steal your session, take some screenshots, activate a keylogger, etc…
+
+XSS vulnerability can be dangerous where you don’t even have to click on a link to execute the code, You just browse to some page and an attackers comment containing malicious code that was saved in the database is displayed on the site. 
+Then suddenly you and everyone who visits that page is triggering something they really don’t want to trigger.
+
 
 ### Types of Cross-Site Scripting
 Stored XSS (MOST DANGEROUS)
@@ -30,7 +39,7 @@ DOM-Based XSS
 -> THE ROOM JUST EXPLAINED WHAT DOM IS!
 
 
-Common Payload Types used
+### Common Payload Types used
 - Popup
 - Override the website's HTML to add the malicious ting
 - XSS Keylogger

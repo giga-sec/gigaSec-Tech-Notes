@@ -17,7 +17,7 @@ Tags: #permanent
 
 ### Types of Injection Attacks
 Injection attacks depends on technologies used and how input is interpreted 
-- SQL Injection
+- [[SQL - SQL Injection]]
     -> Occurs when `user input` is passed to SQL queries. 
     -> Attacker can pass in SQL queries to manipulate outcome of queries.
 

@@ -178,6 +178,26 @@ For instance, we have `<h1></h1>` it means a top level heading of a page.
 
 ## [[Unordered and Ordered Lists in HTML]]
 
+Description Lists
+Purpose of this is to make such as terms and definitions, or questions and answers
+
+Like this below
+monologue
+    In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.
+
+Code
+It needs `<dl>` to wrap things (description list)
+    And `<dt>` description term
+    And `<dd>` description definition
+```HTML
+<dl>
+    <dt>Meme</dt>
+      <dd>A meme is like SPAGHET</dd>
+      <dd>Also, like uhh</dd>
+</dl>
+```
+
+
 ## `<em>` emphasis is not italic
 Browsers show `<em>` *italic* by default but that doesn't mean you should use it for italization
 `<em>` is a Semantic. The meaning is it gives *stress* to words.
@@ -196,4 +216,11 @@ Screen readers detects `<strong>` and reads it differently
 
 
 
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#abbreviations
+Quotations
+Abbreviations
+Making up Contact Details
+Superscript and subscript
+Representing Computer Code
+Marking up time and dates
 
