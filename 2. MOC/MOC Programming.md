@@ -116,6 +116,7 @@ To do this, you'd need a really good understanding of C/Assembly.
 You see, Coding is like Math. When you think of it this way, math is pretty useless, it's just numbers, numbers. What can numbers do? Nothing, but every great engineering inventions heavily used math. 
 When you're starting out, you'd often have a motivation to learn programming to make something useful for you but a lot of times, you'd be learning something that you'd feel like it's not useful at all. This sometimes is a failure to the teacher as he/she didn't highlight the importance of learning this particular topic. When I first started out, I was gi
 
+Python is good for beginners to get into but once you branch out to other languanges, you're gonna have a hard time adopting to it. 
 
 
 
