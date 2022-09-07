@@ -1,3 +1,5 @@
+Notes are no longer updated. I am still writing notes but I'll stop making them public.
+
 # Summary
 To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
