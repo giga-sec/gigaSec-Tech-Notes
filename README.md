@@ -34,11 +34,15 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 ### 3 Step Process of Installing Obsidian
 
-1-> Download this repository and Install the app -> https://obsidian.md
+0. Install the app -> https://obsidian.md
 
-2-> Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo
+2. Download this **repository (repo)** (Google "How to download github repository" Can't be bothered making a tutorial about it)
 
-3-> After doing the step above. You will be presented with two choices
+3. Unzip the downloaded repo file 
+
+4. Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo
+
+Why start at 0? [We often start counting at 0](https://skillcrush.com/blog/why-programmers-start-counting-at-zero/)
 
 ## Installation Warning (IMPORTANT TO READ)
 
