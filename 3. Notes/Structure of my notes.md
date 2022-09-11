@@ -1,5 +1,8 @@
 [[Introductio]] 
 
+**==Can't be bothered reading? 
+Scroll all the way to the bottom to skip==**
+
 # Structure of my notes 
 Created:  [[2022-07-16]]
 Tags: #literature 
@@ -30,6 +33,6 @@ I did not made this notes for the public, I made this notes for myself therefore
 3. Sometimes, I intentionally leave it blank
 
 
-Now, you're ready for the next read.
+**Now, you're ready for the next read.** or if u just want to skip
 Click this hyperlink -> [[Quick guide about using my Obsidian Vault]]
 
