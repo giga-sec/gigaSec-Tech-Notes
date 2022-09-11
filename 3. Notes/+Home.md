@@ -1,5 +1,6 @@
-# Home Directory
-## gigaSecure's Tech-Notes
+# Home Directory 
+## gigaSecure's Tech-Notes ![[gigasecure.jpg|50]] 
+
 
 
 [[MOC Programming]]

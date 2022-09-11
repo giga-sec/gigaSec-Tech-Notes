@@ -16,7 +16,8 @@ But first, remember this
 ^--> Always come back to your **+HOME** file located at -> `3. Notes/+Home`.
 
 
-# Proceed here -> [[+Home]]
+Done reading? 
+## Proceed here -> [[+Home]]
 
 
 
