@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/+Home.md",
+            "file": "3. Notes/Introductio.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/+Home.md",
+                "file": "3. Notes/Introductio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/+Home.md",
+                "file": "3. Notes/Introductio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Notes/+Home.md"
+                "file": "3. Notes/Introductio.md"
               }
             }
           }
@@ -156,16 +156,16 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "581e22457fc1188a",
+  "active": "c3718c8095c6e196",
   "lastOpenFiles": [
+    "3. Notes/Structure of my notes.md",
+    "3. Notes/+Home.md",
+    "3. Notes/Socials.md",
     "3. Notes/I'm ready! Now take me to your notes.md",
     "0. Files/Introduction.md",
     "3. Notes/Quick guide about using my Obsidian Vault.md",
-    "3. Notes/Structure of my notes.md",
     "3. Notes/Introductio.md",
     "3. Notes/How I take note.md",
-    "3. Notes/Socials.md",
-    "3. Notes/How I take notes.md",
-    "3. Notes/+Home.md"
+    "3. Notes/How I take notes.md"
   ]
 }
