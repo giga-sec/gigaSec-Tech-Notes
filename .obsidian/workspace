@@ -1,25 +1,17 @@
 {
   "main": {
-    "id": "ab8145fa9aaca820",
+    "id": "246525923696445f",
     "type": "split",
     "children": [
       {
-        "id": "35e7fe2e4bd65c0e",
+        "id": "053a34f9625ef84d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "3. Notes/Introductio.md",
-            "file": "3. Notes/The ANSI C Programming Languange - Book.md",
             "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "55680f5b8c8872e7",
-        "type": "leaf",
-            "mode": "source",
+            "backlinks": true,
             "source": false
           }
         }
@@ -28,15 +20,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5ed251791c764341",
+    "id": "b74676f7bcb331fe",
     "type": "split",
     "children": [
       {
-        "id": "d982f49ace36051e",
+        "id": "9df4bd991e66a453",
         "type": "tabs",
         "children": [
           {
-            "id": "a1608963eff28791",
+            "id": "c3718c8095c6e196",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,22 +36,7 @@
             }
           },
           {
-            "id": "7599fce1c06cc754",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "Programming",
-                "matchingCase": true,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "byModifiedTime"
-              }
-            }
-          },
-          {
-            "id": "4ba158fb1d83dd0e",
+            "id": "3ea8c1ff4cc3f143",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -70,30 +47,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234
+    "width": 300
   },
   "right": {
-    "id": "f353718dcb7505ad",
+    "id": "2e922a071d40d1f8",
     "type": "split",
     "children": [
       {
-        "id": "ce80cf4ce750ee9d",
+        "id": "1cc2dab59f394d99",
         "type": "tabs",
-        "dimension": 27.027027027027028,
+        "dimension": 71.83098591549296,
         "children": [
           {
-            "id": "d02565216a652358",
+            "id": "c9bbca3d17893d8d",
             "type": "leaf",
             "state": {
-              "type": "tag",
+              "type": "search",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
+                "query": "Introductio",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "ab91eb4bfd75d221",
+            "id": "43b17b81399c5592",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. Notes/Introductio.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ceb09c5d0e4afcad",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -105,7 +103,7 @@
             }
           },
           {
-            "id": "0610ba54ea7eb76d",
+            "id": "5b82fae0220f8284",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -117,43 +115,18 @@
         ]
       },
       {
-        "id": "554ee567e01883fe",
+        "id": "d89ea1aee5aa6b6a",
         "type": "tabs",
-        "dimension": 27.027027027027028,
+        "dimension": 28.169014084507044,
         "children": [
           {
-            "id": "b5f0a421b53dfa6c",
+            "id": "8a872e2bbe66e774",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "tag",
               "state": {
-                "file": "3. Notes/Socials.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2a9639312e863c1a",
-        "type": "tabs",
-        "dimension": 45.94594594594595,
-        "children": [
-          {
-            "id": "acd06db55cd1ea61",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "3. Notes/Introductio.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -161,19 +134,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 300
   },
-  "active": "35e7fe2e4bd65c0e",
+  "active": "053a34f9625ef84d",
   "lastOpenFiles": [
     "3. Notes/Structure of my notes.md",
-    "0. Files/Introduction.md",
-    "3. Notes/I'm ready! Now take me to your notes.md",
-    "3. Notes/Quick guide about using my Obsidian Vault.md",
-    "3. Notes/Introductio.md",
-    "3. Notes/How I take note.md",
-    "3. Notes/How I take notes.md",
-    "3. Notes/+Home.md",
-    "3. Notes/MOC Obsidian.md",
-    "3. Notes/Socials.md"
+    "3. Notes/+Home.md"
   ]
 }

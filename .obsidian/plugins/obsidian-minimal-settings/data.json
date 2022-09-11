@@ -6,10 +6,7 @@
   "darkStyle": "minimal-dark-tonal",
   "lightScheme": "minimal-gruvbox-light",
   "darkScheme": "minimal-dracula-dark",
-  "uiFont": "",
-  "textFont": "",
   "editorFont": "",
-  "monoFont": "Consolas",
   "lineHeight": 1.6,
   "lineWidth": 40,
   "lineWidthWide": 50,
@@ -22,6 +19,8 @@
   "imgWidth": "img-default-width",
   "tableWidth": "table-default-width",
   "iframeWidth": "iframe-default-width",
+  "mapWidth": "map-default-width",
+  "chartWidth": "chart-default-width",
   "colorfulHeadings": true,
   "minimalIcons": true,
   "colorfulActiveStates": true,
@@ -40,5 +39,8 @@
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": true,
-  "devBlockWidth": false
+  "devBlockWidth": false,
+  "uiFont": "",
+  "textFont": "",
+  "monoFont": "Consolas"
 }
