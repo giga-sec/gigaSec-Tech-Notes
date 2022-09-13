@@ -1,4 +1,4 @@
-[[Introductio]]  **<- Click here to go back** 
+[[Introduction]]  **<- Click here to go back** 
 
 # How I take notes
 Created:  [[2022-07-16]]

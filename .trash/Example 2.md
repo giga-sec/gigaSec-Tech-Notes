@@ -1,1 +1,0 @@
-[[example of HTTP reSPONSE from WEBSERVER]]

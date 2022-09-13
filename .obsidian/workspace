@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Introductio.md",
+            "file": "3. Notes/Introduction.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "introductio",
+                "query": "introduction",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Introductio.md",
+                "file": "3. Notes/Introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Introductio.md",
+                "file": "3. Notes/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Notes/Introductio.md"
+                "file": "3. Notes/Introduction.md"
               }
             }
           }
@@ -164,7 +164,7 @@
     "3. Notes/+Home.md",
     "3. Notes/I'm ready! Now take me to your notes.md",
     "3. Notes/Quick guide about using my Obsidian Vault.md",
-    "3. Notes/Introductio.md",
+    "3. Notes/Introduction.md",
     "3. Notes/Socials.md",
     "3. Notes/How I take note.md"
   ]

@@ -1,4 +1,4 @@
-[[Introductio]]   <- GO BACK HERE
+[[Introduction]]   <- GO BACK HERE
 
 # List of topics that I take notes with
 Created:  [[2022-07-27]]
