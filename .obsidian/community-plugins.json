@@ -1,5 +1,6 @@
 [
   "obsidian-style-settings",
   "obsidian-minimal-settings",
-  "obsidian-tabs"
+  "obsidian-vimrc-support",
+  "obsidian-relative-line-numbers"
 ]
