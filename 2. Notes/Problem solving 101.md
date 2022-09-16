@@ -56,7 +56,7 @@ Computers will ask for
 - Freshly Brewed, or concentrated?
 - Does it come from Africa or America?
 - How sweet should the coffee be?
-- Should it be the coffee used sugar or sweetener?
+- Should the coffee use sugar or sweetener?
 - Does the coffee need to be hot or cold?
 - and more more more questions
 

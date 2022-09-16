@@ -8,7 +8,6 @@ Tags: #fleeting
 #### Abstract:
 - Basically talks about physical defences on your home and offices
 - Also talks about CCTV
-
 ---
 Infosec professionals are well versed when it comes to digital security and their equipment. Some walk the extra mile and avoid sharing any personal information online. Others, like Smith, only post fake information on their social media profiles. "You need to make sure that you're taking whatever the proper precautions are to protect your house, your family," Liska says.
 

@@ -1,4 +1,4 @@
-[[+Home]]
+[[MOC Technology]]
 
 # MOC Cybersecurity
 This MOC is dedicated to things that relate to defending an organization from attacks, information about how to detect vulnerabilities in an app, cybersecurity news, etc..
@@ -68,7 +68,6 @@ You want not try to google solutions or ask for flags online because it takes aw
 
 Guides here
 https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
-
 
 
 Blogs are valuable for learning when it comes to information security, 

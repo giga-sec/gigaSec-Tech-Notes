@@ -5,7 +5,7 @@ Created:  [[2022-07-18]]
 Tags: #fleeting 
 
 ---
-[[Undo and Redo in Command Mode keyboard shortcuts- Vim]]
+[[Undo and Redo in Command Mode keyboard shortcuts - Vim]]
 
 [[Deletion in Command Mode keyboard shortcuts - VIM]]
 

@@ -9,7 +9,7 @@ Abstract:
 
 
 ---
-Theoretically, on input of size _n_, an algorithm with a running time of _n_ is “asymptotically equivalent,” in terms of _O_, to an algorithm with a running time of _2n_. 
+Theoretically, on input of size _n_, an algorithm with a running time of _n_ is “asymptotically equivalent,” in terms of _O_, to an algorithm with a running time of _3n_. 
 Indeed, when describing the running time of an algorithm, we typically focus on the most impactful term (i.e., _n_ in this case, since _n_ could be much larger than 2). 
 
 In the real world, though, the fact of the matter is that **_2n_ feels twice as slow as _n_**.

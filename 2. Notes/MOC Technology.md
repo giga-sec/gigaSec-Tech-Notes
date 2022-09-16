@@ -1,5 +1,5 @@
 [[+Home]]
-## gigaSecure's Tech-Notes
+## gigaSecure's Tech-Notes ![[gigasecure.jpg|50]]
 
 [[MOC Technical Writing]]
 
