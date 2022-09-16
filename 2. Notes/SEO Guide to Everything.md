@@ -1,4 +1,4 @@
-[[100 days with SEO]]
+[[MOC Search Engine Optimization]]
 
 # SEO Guide to Everything
 Created:  [[2022-09-05]]

@@ -1,4 +1,4 @@
-[[+Home]]
+[[MOC Windows]]
 
 # TryHackMe - WindowsFundamentals
 Created:  [[2022-04-24]]

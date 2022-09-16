@@ -32,9 +32,6 @@ https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/
 [[MOC Obsidian]]
 
 
-[[MOC Projects]]
-
-
 [[Tools in websites for specific tasks]]
 
 [[RegEX - REGular EXpressions]]

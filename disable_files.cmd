@@ -2,6 +2,7 @@
 git update-index --assume-unchanged .obsidian/community-plugins.json
 git update-index --assume-unchanged .obsidian/appearance.json
 git update-index --assume-unchanged .obsidian/workspace
+git update-index --assume-unchanged .obsidian/workspaces.json
 git update-index --assume-unchanged .obsidian/graph.json
 git update-index --assume-unchanged .obsidian/graph.json
 git update-index --assume-unchanged .obsidian/app.json

@@ -1,4 +1,4 @@
-[[100 days with SEO]]
+[[MOC Search Engine Optimization]]
 
 # How google search works
 Created:  [[2022-09-05]]

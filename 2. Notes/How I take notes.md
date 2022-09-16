@@ -16,7 +16,6 @@ Here, I devoted my time on learning how to take notes effectively in which I did
 
 
 ## Explanations of each tags
-
 My notes takes three stages of writing and I use tags to assign these. 
 Specifically these tags are `#fleeting` `#literature` and `#permanent`.
 

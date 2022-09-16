@@ -1,4 +1,4 @@
-[[+Home]]
+[[MOC Technology]]
 
 # MOC Obsidian
 Created:  [[2022-07-06]]

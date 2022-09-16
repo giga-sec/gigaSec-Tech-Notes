@@ -8,9 +8,8 @@ Tags: #fleeting
 But first, remember this 
 
 ==**Each note has a `hyperlink` at the top**== 
-^--> except for `+Home` file
 ^--> Purpose is go back from where the note came from. 
-Update: That's a lie, there are files that doesn't have hyperlink.
+Update: "*That's a lie, there are files that doesn't have hyperlink.*" Yeah, sometimes I forgot :P
 
 
 ==**Got Lost**?==
