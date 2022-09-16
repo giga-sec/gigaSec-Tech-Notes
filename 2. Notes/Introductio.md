@@ -1,4 +1,4 @@
-# Guide
+# Quick Guide
 ![[gigasecure.jpg|100]]
 **Welcome!** 
 This obsidian vault is made by **==gigasecure==** (that's me). 
@@ -10,8 +10,9 @@ This will be a guide on how to use my vault
 - [[List of topics that I take note with]]
 
 
+
 ---
-I create hiphop beats
+I also create hiphop beats
 https://www.bandlab.com/gigasecure
 
 
