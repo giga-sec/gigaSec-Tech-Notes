@@ -5,10 +5,6 @@ Created:  [[{{date}}]]
 Tags: #fleeting 
 
 ---
-#### Abstract:
-
-
----
 
 
 
@@ -21,6 +17,3 @@ Tags: #fleeting
 
 
 
-
-## References
-1. 

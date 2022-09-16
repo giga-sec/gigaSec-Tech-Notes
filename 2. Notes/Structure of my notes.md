@@ -11,6 +11,9 @@ Tags: #literature
 #### Abstract:
 - This is usually a mini summary of the contents of the notes 
 - It's not consistent as I might not put any `Abstract` at all 
+**Update: There are no longer abstract in my notes**
+Reason: I haven't been using it for my new notes. 
+
 ---
 
 This is where I put every details of the note

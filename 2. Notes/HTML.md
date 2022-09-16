@@ -5,10 +5,8 @@ Created:  [[2022-07-12]]
 Tags: #fleeting 
 
 ---
-https://jsbin.com/?html,output
+[[HTML Website Tools]]
 
-Build fast, full-stack web apps in your browser for free
-https://glitch.com
 ---
 ```HTML
 <!DOCTYPE html>
