@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3. Notes/Introductio.md",
+            "file": "2. Notes/Introductio.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "introductio",
+                "query": "Intro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Notes/Introductio.md",
+                "file": "2. Notes/Introductio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Notes/Introductio.md",
+                "file": "2. Notes/Introductio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Notes/Introductio.md"
+                "file": "2. Notes/Introductio.md"
               }
             }
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Notes/Socials.md",
+                "file": "2. Notes/Socials.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -158,14 +158,15 @@
   },
   "active": "581e22457fc1188a",
   "lastOpenFiles": [
-    "3. Notes/Structure of my notes.md",
+    "2. Notes/Socials.md",
+    "2. Notes/Introductio.md",
+    "2. Notes/Structure of my notes.md",
+    "2. Notes/Quick guide about using my Obsidian Vault.md",
     "0. Files/Introduction.md",
+    "2. Notes/List of topics that I take note with.md",
+    "3. Notes/Structure of my notes.md",
     "3. Notes/How I take notes.md",
     "3. Notes/+Home.md",
-    "3. Notes/I'm ready! Now take me to your notes.md",
-    "3. Notes/Quick guide about using my Obsidian Vault.md",
-    "3. Notes/Introductio.md",
-    "3. Notes/Socials.md",
-    "3. Notes/How I take note.md"
+    "3. Notes/I'm ready! Now take me to your notes.md"
   ]
 }
