@@ -1,3 +1,9 @@
+This repository will only be updated every month. Reasons are provided below:
+- To prevent any commit conflict issues  
+- To avoid the notification spam of those who enabled "watch" on this repo
+- Because the repo has now 1500+ commits and I regret commiting every single time because I have a slow internet and it increases the file size of this repo
+
+---
 # Summary
 To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
