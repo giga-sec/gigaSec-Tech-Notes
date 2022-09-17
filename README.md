@@ -1,3 +1,7 @@
+
+
+# Quick Note
+
 This repository will only be updated every month. Reasons are provided below:
 - To prevent any commit conflict issues  
 - To avoid the notification spam of those who enabled "watch" on this repo
