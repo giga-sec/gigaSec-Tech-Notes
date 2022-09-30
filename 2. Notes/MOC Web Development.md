@@ -14,6 +14,9 @@ This MOC is dedicated to things that relate to
 [[Web App Security Fundamentals]]
 
 
+[[Client vs Server Side Scripting Languanges]]
+
+[[Server Side Website Programming]]
 
 ### Extras:
 1. https://jsbin.com/?html,output

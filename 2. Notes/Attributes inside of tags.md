@@ -22,16 +22,7 @@ But **==for readability and normalization==, better to enclose values with `""`*
 
 
 
-### Boolen Attributes only gets 1 value 
-The only value of boolean attributes are their name itself
-```HTML
-<input type="text" disabled="disabled">
-```
-
-We can omit the values of boolean attributes for simplicity
-```HTML
-<input type="text" disabled>
-```
+[[Boolean Attributes]]
 
 
 

@@ -1,4 +1,4 @@
-[[HTTP in Detail]]
+[[HTTP - HyperText Transfer Protocol]]
 
 # HTTP Status Codes
 Created:  [[2022-06-10]]

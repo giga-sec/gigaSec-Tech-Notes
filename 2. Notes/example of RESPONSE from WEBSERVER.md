@@ -30,9 +30,11 @@ Content-Length: 98
 
 Before getting a response above, 
 Client must first request to webserver [[example of HTTP reQUEST by CLIENT]]
+
+
 ### Explanation of the RESPONSE code above
 Line 1: HTTP 1.1 is the version of the HTTP protocol the server is using
-Followed by the [[HTTP Status Codes]], "200 Ok" which tells us the request has completed successfully.
+Followed by the [[HTTP Response Status Codes]], "200 Ok" which tells us the request has completed successfully.
 
 
 Blank Line: HTTP response contains a blank line to confirm the end of the HTTP response.

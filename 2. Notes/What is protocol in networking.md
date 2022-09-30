@@ -5,23 +5,9 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
-"**Protocol**" are sets of rules that define how an action is to be carried out
-Like law, created by multiple people that agreed upon for how computers should communicate to each other.
+A Protocol is a set of rules for how two computers should communicate to each other. 
 
-
-[[TCP - Transmission Control Protocol]]
-
-
-[[UDP - User Datagram Protocol]]
-
-
-[[IP - Internet Protocol]]
-
-
-[[FTP - File Transfer Protocol]]
-
-
-[[ICMP - Internet Control Message Protocol]]
+[[Lists of Protocols]]
 
 
 

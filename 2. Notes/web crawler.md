@@ -1,1 +1,0 @@
-When a user enters a query, our machines search the index for matching pages and return the results we believe are the highest quality and most relevant to the user

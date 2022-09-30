@@ -66,6 +66,10 @@ You want not try to google solutions or ask for flags online because it takes aw
 
 ## Uncategorized
 
+I became a Chief Information Security Officer without having a college degree. Ask me anything!
+https://old.reddit.com/r/hacking/comments/xqgta2/i_became_a_chief_information_security_officer/
+
+
 Guides here
 https://old.reddit.com/r/HowToHack/comments/izgk3s/alternatives_of_tryhackme/
 
@@ -79,3 +83,12 @@ I read the news and cyber security blogs for years, so knew about attacks, the t
 
 a real commercial protector would make it so debugging would be pointless instead of trying to prevent debugging
 https://github.com/RadonCoding/radon-protector
+
+
+
+Secure but not private: unbreakable clear glass door
+Private but not secure: curtains
+Secure and private: unbreakable opaque door
+
+
+1.  [https://www.gnupg.org/](https://www.gnupg.org/ "https://www.gnupg.org/")

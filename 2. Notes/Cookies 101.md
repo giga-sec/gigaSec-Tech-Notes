@@ -16,7 +16,7 @@ Tags: #fleeting
 Additional Attributes of a Cookie
 Cookie Name -> 
 Cookie Value -> 
-Secure Only -> Cookie set for [[HTTP in Detail|HTTPS]] Connections
+Secure Only -> Cookie set for [[HTTP - HyperText Transfer Protocol|HTTPS]] Connections
 Expiry -> Uses TTL and functions the same as [[TTL (Time-to-live) in Networking]]
 Path -> Cookie will only be sent if specified URL is within the request
 Example: 

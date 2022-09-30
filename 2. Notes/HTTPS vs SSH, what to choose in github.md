@@ -6,7 +6,7 @@ Tags: #fleeting
 
 ---
 [[What is protocol in networking|Protocols]] such as
-[[HTTP in Detail|HTTP]], [[SSH - Remotely execute commands on another device|ssh]], [[FTP - File Transfer Protocol|FTP]]
+[[HTTP - HyperText Transfer Protocol|HTTP]], [[SSH - Remotely execute commands on another device|ssh]], [[FTP - File Transfer Protocol|FTP]]
 - Used for transferring data from client to server and vice cerse
 - Basically, this are communication protocols
 

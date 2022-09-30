@@ -14,7 +14,7 @@ Without Logging:
 - risk of further attacks as the attacker's presence will remain undetected
 
 Info stored logs should be
-- [[HTTP Status Codes]]
+- [[HTTP Response Status Codes]]
 - Time Stamps #myquestion  What is timestamps??
 - Usernames
 - API endpoints/page locations

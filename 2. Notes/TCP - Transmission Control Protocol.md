@@ -5,14 +5,13 @@ Created:  [[2022-07-01]]
 Tags: #permanent 
 
 ---
-
 ### Purpose
 Protocol for sending and receiving data
 Allows **two computers to remain in constant communication**.
 **==Any lost data is re-sent==**. 
 
 
-### But first
+#### But first
 A [[When is Three-way handshake used in networking|Three-Way Handshake]] must be done first before sending any data.
 
 

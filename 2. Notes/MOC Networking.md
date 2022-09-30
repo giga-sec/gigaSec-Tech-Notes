@@ -7,7 +7,7 @@
 
 [[DNS in detail]]
 
-[[HTTP in Detail]]
+[[HTTP - HyperText Transfer Protocol]]
 
 
 [[What is protocol in networking]]
@@ -19,7 +19,8 @@
 `nc`
 Netcat listener is just **a way to refer to one of Netcat's features: “listening in” on open ports**.
 
-
+### Etc...
+wan vs lan
 
 
 ### Networking Models

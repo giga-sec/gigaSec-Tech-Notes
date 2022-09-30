@@ -7,6 +7,8 @@ Tags: #fleeting
 ---
 [[HTML will reduce whitespaces to 1 only]]
 
+
+HTML Parser is more forviging than compiler because
 [[Wrong syntax will still run in HTML ]]
 
 

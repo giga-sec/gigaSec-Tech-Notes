@@ -10,7 +10,7 @@ Tags: #fleeting
 
 **Router handles communication of networks**, [[What is Networking]]
 
-
+    
 
 
 

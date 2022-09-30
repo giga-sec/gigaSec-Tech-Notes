@@ -19,7 +19,9 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[Decimal to Hexadecimal]]
 
+[[Programming Paradigms]]
 
+[[Software Development Life Cycle]]
 
 
 ## MOC Programming Languanges

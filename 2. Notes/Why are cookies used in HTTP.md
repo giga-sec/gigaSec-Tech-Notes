@@ -1,4 +1,4 @@
-[[HTTP in Detail]]
+[[HTTP - HyperText Transfer Protocol]]
 
 # Why are cookies in HTTP
 Created:  [[2022-06-30]]

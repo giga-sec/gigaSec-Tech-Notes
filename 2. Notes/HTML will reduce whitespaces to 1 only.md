@@ -1,4 +1,4 @@
-[[HTML Parser]]
+[[HTML Parser is sort of like compiler in programming but a more forgiving one]]
 
 # HTML will reduce whitespaces to 1 only
 Created:  [[2022-09-12]]

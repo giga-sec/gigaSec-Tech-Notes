@@ -13,7 +13,7 @@ https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24ca
 How can I remove a commit on GitHub?
 https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
 
-Create a new repository
+Create a new repository or initializes the directory with git.
 `git init`
 
 "Working Directory"     which holds the actual files
@@ -63,6 +63,8 @@ Doesn't work with folders so use files
 **Note:** This solution is actually independent on `.gitignore` as gitignore is only for untracked files.
 
 
+
+https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
 
 
 

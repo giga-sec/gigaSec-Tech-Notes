@@ -5,7 +5,7 @@ Created:  [[2022-06-28]]
 Tags: #fleeting 
 
 ---
-[[Ways we can send request to webserver - Get-Post-Put-Delete|Requests]] is you basically sending data to the web server.  
+[[Ways we(client) can send request to webserver - Get-Post-Put-Delete|Requests]] is the browser sending data to the [[web server]].  
 
 ### Example of a request:
 ```http
@@ -15,10 +15,10 @@ User-Agent: Mozilla/5.0 Firefox/87.0
 Referer: https://tryhackme.com/
 
 ```
-### Explanation of the REQUEST code above
-Line 1. This request is sending the Get Method, then telling the web server we are using HTTP Protocol version 1.1
+### Explanation of the REQUEST body above
+Line 1. This request is sending the Get Method, then telling the [[web server]] we are using HTTP Protocol version 1.1
 
-Host. We tell the web server we want the website tryhackme.com
+Host. We tell the [[web server]] we want the website tryhackme.com
 
 User-Agent. We are using Firefox version 87 browser
 
@@ -35,7 +35,7 @@ Blank Line. Requests always leave a blank line in the end, kinda like a period i
 
 
 ## Different ways we can make request to a web server
-[[Ways we can send request to webserver - Get-Post-Put-Delete]]
+[[Ways we(client) can send request to webserver - Get-Post-Put-Delete]]
 
 
 
