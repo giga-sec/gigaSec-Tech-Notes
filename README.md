@@ -24,6 +24,7 @@ Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkast
 
 --> PC-Hardware, Windows and Linux.
 
+--> SEO, Web Dev, Artificial Intelligence, basically everything in tech
 
 ---
 ## Screenshots (!Warning! Light Mode media below)
