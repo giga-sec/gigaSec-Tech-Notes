@@ -59,6 +59,11 @@ Use sudo in powershell
 https://linuxhint.com/run-sudo-command-windows/
 
 
+
+
+
+
+
 ### Process of Note Taking
 **Update after 2 months**
 

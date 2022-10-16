@@ -16,5 +16,6 @@
   "newFileFolderPath": "3. Notes",
   "showLineNumber": false,
   "vimMode": false,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "showInlineTitle": false
 }

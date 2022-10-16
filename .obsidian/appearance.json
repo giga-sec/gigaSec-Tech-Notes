@@ -1,10 +1,11 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 14,
   "theme": "obsidian",
   "translucency": false,
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Arial",
   "textFontFamily": "Arial",
   "monospaceFontFamily": "Consolas",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "accentColor": ""
 }

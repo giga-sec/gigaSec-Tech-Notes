@@ -1,4 +1,4 @@
-[[Introductio]]  **<- Click here to go back** 
+[[Guide on how to use my vault]]  **<- Click here to go back** 
 
 # How I take notes
 Created:  [[2022-07-16]]
@@ -13,6 +13,10 @@ Tags: #fleeting
 I knew I had to find the right note-taking system. I had a problem where I spent most of my time googling the same stuffs over and over again. Storing it in a bookmark was a pain at all as categorizing it turned into a job. I also realized that everything in technology seems to be connected to each other. If I learned a cybersecurity technique that uses python languange and the technique can also be used in networking, then where do I put my notes? Is it in cybersecurity folder, python folder or networking folder? That's where I realized that traditional note taking method will not do me any favor.
 
 Here, I devoted my time on learning how to take notes effectively in which I did so by exploring [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), and [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).
+
+
+
+
 
 
 ## Explanations of each tags

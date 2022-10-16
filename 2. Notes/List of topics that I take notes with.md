@@ -1,4 +1,4 @@
-[[Introduction]]   <- GO BACK HERE
+[[Guide on how to use my vault]]  **<- GO BACK HERE**
 
 # List of topics that I take notes with
 Created:  [[2022-07-27]]

@@ -1,4 +1,4 @@
-[[Introductio]] 
+[[Guide on how to use my vault]]
 
 **==Can't be bothered reading? 
 Scroll all the way to the bottom to skip==**
@@ -8,11 +8,11 @@ Created:  [[2022-07-16]]
 Tags: #literature 
 
 ---
-#### Abstract:
-- This is usually a mini summary of the contents of the notes 
-- It's not consistent as I might not put any `Abstract` at all 
-**Update: There are no longer abstract in my notes**
-Reason: I haven't been using it for my new notes. 
+~~#### Abstract:
+- ~~~This is usually a mini summary of the contents of the notes 
+- ~~~It's not consistent as I might not put any `Abstract` at all~~~
+==**Update: There are no longer abstract in my notes**==
+**Reason: I haven't been using these technique for my new notes.** 
 
 ---
 
@@ -36,6 +36,7 @@ I did not made this notes for the public, I made this notes for myself therefore
 3. Sometimes, I intentionally leave it blank
 
 
-**Now, you're ready for the next read.** or if u just want to skip
+
+==**Now, you're ready for the next read==.** or if u just want to skip
 Click this hyperlink -> [[Quick guide about using my Obsidian Vault]]
 
