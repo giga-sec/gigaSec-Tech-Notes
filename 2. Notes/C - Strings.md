@@ -12,6 +12,10 @@ Tags: #fleeting
 [[C - Code Snippets Strings]]
 
 
+Every string ends with `\0`
+`\0` is kinda like a period signifying the end point of a string. 
+
+
 ### Strings as an argument in functions
 ```C
 int check(const char *word);

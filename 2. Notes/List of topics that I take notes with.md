@@ -18,3 +18,6 @@ And many more
 - VIM, i3 Tiling Manager, Obsidian Configuration, 
 - Windows, Linux
 - Browser Configuration (Mainly Firefox CSS)
+
+Update:
+Technical Writing, Server-Side Programming, HTML, CSS

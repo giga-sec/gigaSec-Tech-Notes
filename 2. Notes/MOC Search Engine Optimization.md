@@ -11,6 +11,12 @@ In other words, SEO is basically knowing what is Google looking at when deciding
 
 
 
+Tip:
+When you see Quora or Youtube search results showing up on page one on Google. It tells us usually that there is not a lot of content written about our keyword. and the competition is not very high.
+
+
+
+
 
 
 

@@ -14,6 +14,10 @@ https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/
 [[MOC Web Development]]
 
 
+[[MOC Information System]]
+
+
+
 [[MOC Networking]]
 
 
@@ -34,6 +38,20 @@ https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/
 [[MOC Obsidian]]
 
 
+
+
+
+## Uncategorized
+
+[[Different types of Data and Character Encoding]]
+
+
+[[Branding]]
+
+
+[[The Internet]]
+
+
 [[Tools in websites for specific tasks]]
 
 [[RegEX - REGular EXpressions]]
@@ -44,19 +62,6 @@ https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/
 
 [[Quantum Computers]]
 
-
-## Uncategorized
-
-[[Different types of Data and Character Encoding]]
-
-
-[[Branding]]
-
-[[The Internet]]
-
-
-Use sudo in powershell
-https://linuxhint.com/run-sudo-command-windows/
 
 
 

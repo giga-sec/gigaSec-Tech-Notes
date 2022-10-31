@@ -1,7 +1,7 @@
 :: These are files that are disabled during my commit
 git update-index --assume-unchanged .obsidian/community-plugins.json
 git update-index --assume-unchanged .obsidian/appearance.json
-git update-index --assume-unchanged .obsidian/workspace
+git update-index --assume-unchanged .obsidian/workspace.json
 git update-index --assume-unchanged .obsidian/workspaces.json
 git update-index --assume-unchanged .obsidian/graph.json
 git update-index --assume-unchanged .obsidian/graph.json
@@ -24,4 +24,10 @@ git update-index --assume-unchanged .obsidian/plugins/obsidian-style-settings/ma
 git update-index --assume-unchanged .obsidian/plugins/obsidian-style-settings/styles.css
 
 git update-index --assume-unchanged .obsidian/plugins/obsidian-vimrc-support/data.json
+
+
+git update-index --assume-unchanged .obsidian\plugins\obsidian-minimal-settings\manifest.json
+
+git update-index .obsidian\themes\Minimal\manifest.json
+git update-index .obsidian\themes\Minimal\theme.css
 

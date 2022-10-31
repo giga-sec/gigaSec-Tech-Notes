@@ -5,3 +5,5 @@
 - [[PC - GPU]]
 - [[PC - CPU]]
 - [[PC - Motherboard]]
+
+

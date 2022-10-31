@@ -10,8 +10,8 @@ Sometimes you'll come across a situation where:
 - You want to group set of elements together to affect them as single entity with CSS and JS
 
 HTML provides the following elements to solve such issues above
-- [[div - BLOCK level non semantic element]] [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) 
-- [[span - INLINE level non semantic element]] [`<span>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span). 
+- [[div - BLOCK level non semantic element]]  
+- [[span - INLINE level non semantic element]]  
 Use these preferably with a `class` atribute. It provides a label for it so they can be easily targeted.
 
 

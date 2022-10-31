@@ -14,7 +14,6 @@
   "minimal-style@@bold-weight": 600,
   "minimal-style@@h3-weight": 700,
   "minimal-style@@ax2@@light": "#038DD1",
-  "minimal-style@@link-weight": 500,
   "minimal-style@@ax1@@light": "#31607A",
   "minimal-style@@tag-color@@light": "#0000007D",
   "minimal-style@@h1-font": "Serif Font",
@@ -34,5 +33,6 @@
   "minimal-style@@file-header-font-weight": 600,
   "minimal-style@@file-header-justify": "left",
   "minimal-style@@h1-size": "1.3em",
-  "minimal-style@@bold-color@@dark": "#E4D1FF"
+  "minimal-style@@bold-color@@dark": "#E4D1FF",
+  "minimal-style@@file-header-visibility": "minimal-tab-title-visible"
 }

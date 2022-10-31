@@ -10,6 +10,8 @@ This MOC is dedicated to things that relate to
 
 [[HTML]]
 
+[[Javascript]]
+
 
 [[Web App Security Fundamentals]]
 

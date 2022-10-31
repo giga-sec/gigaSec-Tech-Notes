@@ -1,4 +1,4 @@
-[[Intro to Lan]]
+    [[Intro to Lan]]
 
 # DHCP Protocol purpose in networking
 Created:  [[2022-04-23]]
@@ -22,6 +22,7 @@ The device accepts the offer
 
 
 4) DHCP ACK
+The DHCP acknowledges the reply thus finally giving the IP Address 
 
 
 
@@ -35,5 +36,6 @@ The device accepts the offer
 
 
 
-### References
+
+ ### References
 1. 

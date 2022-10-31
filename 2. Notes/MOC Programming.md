@@ -73,6 +73,8 @@ Segmentation Fault = You touched a memory that you shouldn't
 
 ![[Pasted image 20220802203614.png]]
 
+![[orstrich_algo.png]]
+
 Buffer in programming is a temporary placeholder. Used a lot in context of transferring data from something to another. 
 
 I know!, HTML is not a programming languange, just wait. I'll organize it
@@ -119,6 +121,10 @@ You see, Coding is like Math. When you think of it this way, math is pretty usel
 When you're starting out, you'd often have a motivation to learn programming to make something useful for you but a lot of times, you'd be learning something that you'd feel like it's not useful at all. This sometimes is a failure to the teacher as he/she didn't highlight the importance of learning this particular topic. When I first started out, I was gi
 
 Python is good for beginners to get into but once you branch out to other languanges, you're gonna have a hard time adopting to it. 
+
+
+
+It's important to learn the lingo so that you'll know what to google, you'll know how to get the answers asap.
 
 
 

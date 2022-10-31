@@ -15,6 +15,8 @@ Tags: #fleeting
 Roadmaps for devs on picking up the path and guide their learnings.
 https://roadmap.sh/
 
+Paint but in browser
+https://viliusle.github.io/miniPaint/
 
 ## Programming Tools
 Visualize your algorithms

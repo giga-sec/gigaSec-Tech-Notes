@@ -8,10 +8,6 @@ Tags: #fleeting
 [[HTML Website Tools]]
 
 ---
-```HTML
-<!DOCTYPE html>
-```
-
 ## Tags
 [[Tags in HTML]]
 
@@ -244,3 +240,11 @@ Videos and Audio can be implemented with the following:
 
 
 [[Tables in HTML]]
+
+
+Tabs in HTML
+Regular space: &nbsp;
+Two spaces gap: &ensp;
+Four spaces gap: &emsp;Container Element in HTML
+
+Tab Spaces in HTML

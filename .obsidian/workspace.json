@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notes/Introductio.md",
+                "file": "3. Introduction/Introductio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 210.5
   },
   "right": {
     "id": "2e922a071d40d1f8",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/Introductio.md",
+                "file": "3. Introduction/Introductio.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/Introductio.md",
+                "file": "3. Introduction/Introductio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/Introductio.md"
+                "file": "3. Introduction/Introductio.md"
               }
             }
           }
@@ -164,20 +164,17 @@
     "direction": "horizontal",
     "width": 271.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "581e22457fc1188a",
+  "active": "c3718c8095c6e196",
   "lastOpenFiles": [
-    "Guide on how to use my vault.md",
-    "2. Notes/Structure of my notes.md",
-    "2. Notes/Introductio.md",
-    "2. Notes/List of topics that I take notes with.md",
+    "2. Notes/2022-10-01.md",
+    "2. Notes/2022-10-05.md",
+    "2. Notes/MOC Technology.md",
+    "2. Notes/I'm ready! Now take me to your notes.md",
     "2. Notes/Introduction.md",
-    "2. Notes/List of topics that I take note with.md",
-    "2. Notes/How I take notes.md",
-    "2. Notes/How I take note.md",
     "2. Notes/Quick guide about using my Obsidian Vault.md",
-    "2. Notes/Socials.md"
+    "2. Notes/Structure of my notes.md",
+    "Guide on how to use my vault.md",
+    "2. Notes/Introductio.md",
+    "2. Notes/List of topics that I take notes with.md"
   ]
 }

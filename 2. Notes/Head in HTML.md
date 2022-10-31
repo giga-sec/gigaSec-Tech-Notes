@@ -17,7 +17,7 @@ Bookmarks in browsers grabs the `<title>` as to make it the name of the bookmark
  `<meta>`
 There are many different attributes to `<meta>` tag
 - [[charset  attribute (specifies character encoding)]]  
-- [[name, content attributes (adding info of html document)]]
+- [[Adding informations to html document - Name and content Attributes]]
 - [[property, content]] 
 
 ### Adding Custom Icons

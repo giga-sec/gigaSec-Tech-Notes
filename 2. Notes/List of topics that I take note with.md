@@ -23,3 +23,5 @@ And many more
 The things that I take note with isn't limited to the list above and I will not update this list that often.  
 
 
+Update:
+Technical Writing, Server-Side Programming, HTML, CSS
