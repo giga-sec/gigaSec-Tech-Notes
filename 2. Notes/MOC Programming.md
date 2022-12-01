@@ -17,9 +17,12 @@ The computer will do exactly what you tell it to do and doesn't attempt to figur
 
 [[Kata - Codewars]]
 
+
 [[Decimal to Hexadecimal]]
 
+
 [[Programming Paradigms]]
+
 
 [[Software Development Life Cycle]]
 
@@ -98,10 +101,6 @@ That's basically how every beginners start out. Some seek advices and get the "r
 It's a long journey, you'd spend time learning about the lingo of programming. There's a reason why university students spend four years. 
 
 
-
-The ability to quickly learn is the most powerful skill one can have than the amount of knowledge someone has. 
-As I was watching the OPEN-Ai vs OG Pro Players in Dota 2, the OpenAI in the first round of the match played stupidly and played noob moves, that surely made them lost the game. As the 2nd round, OpenAI now has a previous memory of how OG Pro players played and with that experience, they learned from it and even surpass the OG Team and that for sure made them win. What's even more amazing is they usually make decisions that otherwise wouldn't do if a human was playing it. For instance, the OpenAI frequently do a `buyback` where in not a pro player would usually do so.
-I think this is where AI reigns over the humans, no matter how stupid or unknowledgable the AI is, once it experiences something, it will quickly learn from it and they'll quickly understood what's happening.
 
 
 As what we are as a human now, we sit comfortably at the top of hierarchy of the land species. We are considerably the most brilliant if not one of the intelligient species on this planet. However, the ability for us to realize how dumb we are, or is it really a matter of how dumb we are? Because, I think it simply means a lack of information and understanding. Basically my initial point was to make an assertion. That is higher form of intelligience in species means the ability to recognize how dumb and stupid one's own specie can be. I say this because I read an article about social engineering and how easily people can be deceived by such things, but then again, they are easily deceived simply because of lack of information, that is not knowing that this kind of things exists. Or is it really a lack of information? Because we humans can be emotionally-driven. For instance, when our mental capacities are not in the best form (such as in stress, low energy or depression) our decisions often tilt towards making more emotionally-driven choices rather than intellectual rational ones. That's where social engineering exploits and take advantage of human nature.       

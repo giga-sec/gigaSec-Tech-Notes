@@ -31,9 +31,4 @@ This MOC is dedicated to things that relate to everything that I've learned when
 
 [[Problem Set 7]]
 
-
-
-
-### Extras:
-
-
+[[Problem Set 8]]

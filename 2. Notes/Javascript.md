@@ -1,4 +1,4 @@
-[[MOC Programming Languanges]]
+[[MOC Web Development]]
 
 # Javascript
 

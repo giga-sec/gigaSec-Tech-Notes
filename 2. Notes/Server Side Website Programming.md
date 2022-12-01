@@ -19,9 +19,13 @@ A Web Application's job is to receive HTTP requests and return HTTP responses.
 
 
 [[HEADERS used when CLIENT reQUESTS to web servers]]
+
 [[Ways we(client) can send request to webserver - Get-Post-Put-Delete]]
+
 [[example of HTTP reQUEST by CLIENT]]
+
 [[How communication happens between webserver and client-user]]
+
 
 [[Web Server]]
 [[Dynamic Web Server]]

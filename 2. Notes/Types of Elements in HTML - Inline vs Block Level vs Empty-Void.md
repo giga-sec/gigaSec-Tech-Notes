@@ -1,4 +1,4 @@
-
+[[Elements in HTML]]
 
 # Types of Elements in HTML - Inline vs Block Level vs Empty-Void
 Created:  [[2022-09-08]]

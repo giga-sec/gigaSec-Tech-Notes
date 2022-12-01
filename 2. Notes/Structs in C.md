@@ -8,7 +8,7 @@ Tags: #literature
 struct is a datatype
 - There's defining struct, the name of the struct must be capitalized first letter
 - Then we create variables from the defined struct (that variable doesn't have any value yet) 
-- Last is the members in which the created variables can inherit the members traits which gives the value of the variable
+    - Last is the members in which the created variables can inherit the members traits which gives the value of the variable
 
 ```C
 struct StructureName{
@@ -28,8 +28,29 @@ typedef struct StructureName{
 variableName  // This will be our variable for our structure
 ```
 
+## Creating an Instance
+Here's how we create structure variables:
+```C
+struct Person {
+  // code
+};
+
+int main() {
+  struct Person person1, person2, p[20];
+  return 0;
+}
+```
+
+Another way of creating a `struct` variable is:
+```C
+struct Person {
+   // code
+} person1, person2, p[20];
+```
 
 
+
+## Accessing a struct
 
 
 

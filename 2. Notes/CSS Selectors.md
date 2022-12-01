@@ -34,3 +34,10 @@ h1, ..special {
 [[Types of Selectors]]
 
 
+## `# :nth-child()`
+
+
+```CSS
+:nth-child(-n+3)
+Represents the first three elements. [=-0+3, -1+3, -2+3]
+```
