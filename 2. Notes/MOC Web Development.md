@@ -8,10 +8,11 @@ This MOC is dedicated to things that relate to
 
 [[CSS]]
 
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 [[Javascript]]
 
+[[Flask]]
 
 [[Web App Security Fundamentals]]
 

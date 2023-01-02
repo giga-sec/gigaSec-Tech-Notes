@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Tags in HTML
 Created:  [[2022-09-10]]

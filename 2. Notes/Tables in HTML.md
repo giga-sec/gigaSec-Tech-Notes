@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Tables in HTML
 Created:  [[2022-09-26]]

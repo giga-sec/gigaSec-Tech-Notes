@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Media Container Formats
 Created:  [[2022-09-18]]

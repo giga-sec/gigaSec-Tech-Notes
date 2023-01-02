@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Creating Links in HTML
 Created:  [[2022-08-21]]

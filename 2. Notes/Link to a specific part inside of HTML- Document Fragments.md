@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Document Fragments to link to a specific part of an HTML document
 Created:  [[2022-08-21]]

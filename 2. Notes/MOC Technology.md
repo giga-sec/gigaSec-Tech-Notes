@@ -18,9 +18,6 @@ https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/
 [[MOC Information System]]
 
 
-[[MOC Information Technology]]
-
-
 [[MOC Networking]]
 
 
@@ -73,8 +70,8 @@ https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/
 
 
 ----
-### Process of Note Taking
 **Update after 2 months**
+### Process of Note Taking
 
 It seems like some aspect of zettelkasten are doing nothing, specifically 
 - #fleeting 

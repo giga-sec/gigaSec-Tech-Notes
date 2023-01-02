@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # VIDEOS and AUDIO in HTML
 Created:  [[2022-09-19]]

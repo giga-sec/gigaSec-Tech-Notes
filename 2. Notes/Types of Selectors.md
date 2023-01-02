@@ -66,7 +66,6 @@ article > p {
 ```
 
 
-#myquestion I think the following below are combinators???
 #### **Descendant Combinator**
 To select only an `<em>` that is nested inside an `<li>` element, 
 You can use a selector called the 

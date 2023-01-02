@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Vector Graphics - svg files
 Created:  [[2022-09-22]]

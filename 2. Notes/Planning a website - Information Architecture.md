@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Planning a website - Information Architecture
 Created:  [[2022-09-12]]

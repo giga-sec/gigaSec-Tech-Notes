@@ -81,7 +81,7 @@ Segmentation Fault = You touched a memory that you shouldn't
 Buffer in programming is a temporary placeholder. Used a lot in context of transferring data from something to another. 
 
 I know!, HTML is not a programming languange, just wait. I'll organize it
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 
 [[Batch Scripting]]

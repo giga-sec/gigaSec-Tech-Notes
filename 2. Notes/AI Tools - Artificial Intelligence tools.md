@@ -24,8 +24,17 @@ AI Website Builder
 https://durable.co/ai-website-builder
 
 
+Generate a video with just a script 
+https://app.pictory.ai/
+
+Copywriting Tool AI
+It's like an essay generator not just limited to marketing
+BASICALLY ANY WRITING THINGS
+https://app.copy.ai/
 
 
+Holy shit, a fukin AI video editor
+https://app.runwayml.com/
 
 
 

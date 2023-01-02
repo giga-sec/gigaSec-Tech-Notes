@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Embedding other webpages - iframe, embed, object element
 Created:  [[2022-09-19]]

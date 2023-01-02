@@ -77,7 +77,7 @@ Fields -> This is the column of table
 
 
 
-## [[SELECT statements]]
+## [[SELECT statements retrieves data from SQL database]]
 
 
 ## [[WHERE clause to filter data]]
@@ -135,44 +135,9 @@ Solution: [[AS keyword to give an alias]]
 ## [[SQL Query and the Order of its syntax and execution]]
 
 
-## Insertion of new Data
-Table in a database is a two-dimensional set of rows and columns, 
-columns = properties = columns 
-rows = instances of entity in  table 
+## [[Insertion of new Data in SQL]]
 
-You can insert multiple rows at a time by just listing them sequentially.
-Insert statement with values for all columns
-```SQL
-INSERT INTO mytable
-VALUES (value_or_expr, another_value_or_expr, …),
-       (value_or_expr_2, another_value_or_expr_2, …),
-       …;
-```
-
-Insertion of Specific Columns
-```SQL
-INSERT INTO mytable
-(column, another_column, …)
-VALUES (value_or_expr, another_value_or_expr, …),
-       (value_or_expr_2, another_value_or_expr_2, …),
-```
-
-
-## Updating Rows
-**be extra careful when constructing update statements.**
-sql doesn't support undo so any mistakes are permanent
-
-**Tip when updating rows**
--> Test the constraint (where clause) in SELECT query 
--> Lastly, use the result of `select query` as a guide on making `update query statement`
-
-```SQL
-UPDATE mytable
-SET column = value_or_expr, 
-    other_column = another_value_or_expr, 
-    …
-WHERE condition;
-```
+## [[Updating Rows in SQL]]
 
 ## Deletion of Rows
 **be extra careful when constructing update statements.**

@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Special Characters in HTML
 Created:  [[2022-08-21]]

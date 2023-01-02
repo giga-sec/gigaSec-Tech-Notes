@@ -56,7 +56,7 @@ Designed for one dimension layout — either as a row or as a column.
 ## [[Grid Layout]]
 Designed for two dimensions — lining things up in rows and columns.
 
-## [[Float]]
+## [[Float in HTML]]
 Floating an element changes the 
 1. behavior of that element 
 2. the block level elements that follow it in normal flow. 

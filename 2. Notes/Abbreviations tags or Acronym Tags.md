@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Abbreviations tags or Acronym Tags
 Created:  [[2022-09-15]]

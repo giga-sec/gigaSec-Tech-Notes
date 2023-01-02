@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Attributes inside of tags
 Created:  [[2022-09-10]]

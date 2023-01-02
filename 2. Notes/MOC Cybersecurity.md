@@ -63,7 +63,7 @@ You want not try to google solutions or ask for flags online because it takes aw
 
 [[IP Address and can someone hack me if they have it]]
 
-
+[[An infosec worker got credit card OTP Scam]]
 
 
 ## Uncategorized

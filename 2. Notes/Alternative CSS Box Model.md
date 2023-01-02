@@ -1,4 +1,4 @@
-[[CSS]]
+[[The CSS Box Model]]
 
 # Alternative CSS Box Model
 Created:  [[2022-10-07]]

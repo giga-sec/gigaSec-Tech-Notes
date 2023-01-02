@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # name, content (adding info of html document)
 Created:  [[2022-09-14]]

@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # HTML Parser
 Created:  [[2022-09-12]]

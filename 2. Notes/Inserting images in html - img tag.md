@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Inserting images in html - img tag
 Created:  [[2022-09-20]]

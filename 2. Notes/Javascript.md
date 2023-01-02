@@ -72,9 +72,8 @@ Both the script and the HTML will load simultaneously and the code will work.
 An old-fashioned solution to this problem used to be to put your script element right at the bottom of the body (e.g. just before the `</body>` tag), so that it would load after all the HTML has been parsed. The problem with this solution is that loading/parsing of the script is completely blocked until the HTML DOM has been loaded. On larger sites with lots of JavaScript, this can cause a major performance issue, slowing down your site.
 
 
-### Async and Defer
+#### Async and Defer
 ![[Pasted image 20221015102459.png]]
-
 
 
 Multiple Scripts Behavior
@@ -132,4 +131,13 @@ _Use `const` when you can, and use `let` when you have to._
 
 
 ### [[Arrays in Javascript]]
+
+
+
+
+
+
+
+
+
 

@@ -38,6 +38,7 @@ Sometimes, data you can find in cookies are on
 Programming languanges are used to create cookies
 ![[Pasted image 20220713192432.png]]
 Python's Flask ^
+[[Flask]]
 
 
 

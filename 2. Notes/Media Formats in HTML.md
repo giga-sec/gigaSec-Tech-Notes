@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Media Formats in HTML
 Created:  [[2022-09-18]]

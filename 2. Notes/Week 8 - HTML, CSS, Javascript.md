@@ -23,7 +23,7 @@ Protocols are a set of rules or conventions that the world agreed upon for compu
 [[IP - Internet Protocol]]
 
 
-## [[HTML]]
+## [[HTML - Hypertext Markup Language]]
 
 
 

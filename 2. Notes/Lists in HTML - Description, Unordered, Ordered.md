@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Lists in HTML - Description, Unordered, Ordered
 Created:  [[2022-08-21]]

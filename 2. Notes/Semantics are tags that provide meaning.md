@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Semantics are tags that provide meaning
 Created:  [[2022-09-10]]

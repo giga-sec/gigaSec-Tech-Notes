@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Computers can't read human dates - Dates and Times tags in HTML
 Created:  [[2022-09-15]]

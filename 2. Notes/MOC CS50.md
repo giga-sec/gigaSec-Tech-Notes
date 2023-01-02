@@ -20,6 +20,8 @@ This MOC is dedicated to things that relate to everything that I've learned when
 
 [[Week 8 - HTML, CSS, Javascript]]
 
+[[Week 9 - Flask]]
+
 
 ## Exercises
 

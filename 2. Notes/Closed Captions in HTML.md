@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Closed Captions in HTML
 Created:  [[2022-09-18]]

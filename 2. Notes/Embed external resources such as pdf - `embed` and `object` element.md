@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Embed external resources such as pdf - embed, object element
 Created:  [[2022-09-19]]

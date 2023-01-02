@@ -1,4 +1,4 @@
-[[HTML]]
+[[HTML - Hypertext Markup Language]]
 
 # Citations in HTML
 Created:  [[2022-09-15]]

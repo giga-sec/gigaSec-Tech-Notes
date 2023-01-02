@@ -1,4 +1,4 @@
-[[CSS Layout]]
+[[CSS]]
 
 # Bootstrap
 Created:  [[2022-11-28]]
@@ -10,7 +10,7 @@ Created:  [[2022-11-28]]
 
 
 ## Navbar
-
+https://getbootstrap.com/docs/5.1/components/navbar/
 
 
 ## Cards
@@ -66,3 +66,5 @@ Download npm, then through npm, download bootstrap
 You must create a copy of the downloaded bootstrap CSS files
 
 
+
+# https://getbootstrap.com/docs/5.1/getting-started/introduction/
