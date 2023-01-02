@@ -5,7 +5,7 @@
 This repository will only be updated every month. Reasons are provided below:
 - To prevent any commit conflict issues  
 - To avoid the notification spam of those who enabled "watch" on this repo
-- Because the repo has now 1500+ commits and I regret commiting every single time because I have a slow internet and it increases the file size of this repo
+- To save time on my end
 
 ---
 # Summary
@@ -24,7 +24,7 @@ Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkast
 
 --> PC-Hardware, Windows and Linux.
 
---> SEO, Web Dev, Artificial Intelligence, basically everything in tech
+--> SEO, Web Dev, Artificial Intelligence, basically almost EVERYTHING in tech
 
 ---
 ## Screenshots (!Warning! Light Mode media below)
@@ -47,13 +47,12 @@ I recommend installing [Obsidian](https://obsidian.md) as that's where I write a
 
 0. Install the app -> https://obsidian.md
 
-2. Download this **repository (repo)** (Google "How to download github repository" Can't be bothered making a tutorial about it)
+1. Download this **repository (repo)**
 
-3. Unzip the downloaded repo file 
+2. Unzip the downloaded repo file
 
-4. Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo
+3. Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo
 
-Why start at 0? [We often start counting at 0](https://skillcrush.com/blog/why-programmers-start-counting-at-zero/)
 
 ## Installation Warning (IMPORTANT TO READ)
 
