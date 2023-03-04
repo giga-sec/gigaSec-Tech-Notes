@@ -5,7 +5,7 @@
 This repository will only be updated infrequently. Reasons are provided below:
 - To prevent any commit conflict issues  
 - To avoid the notification spam of those who enabled "watch" on this repo
-- I have moved to marketing sector (not sure if my marketing notes will be public but keep updated)
+- I have moved to marketing sector (Still deciding whether I should make my marketing notes public)
 
 ---
 # Summary
