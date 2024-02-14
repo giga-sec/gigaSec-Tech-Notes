@@ -1,0 +1,1 @@
+**Passphrase** -> used to PROTECT the `key` (like a password but for `key`)
