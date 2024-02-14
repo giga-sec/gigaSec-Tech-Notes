@@ -1,6 +1,6 @@
 # !!!! WEBSITE RELEASED !!!! 
 
-HELLO, YES! FINALLY A FCKN WEBSITE -> https://giga-sec.github.io/gigaSec-Tech-Notes/
+HELLO, YES! FINALLY A FCKN WEBSITE -> https://giga-sec.github.io/gigaSec-Tech-Notes/The%20Website/3-introduction/introductio.html
 
 There it is. You can see it live now without INSTALLING any APPS 
 
