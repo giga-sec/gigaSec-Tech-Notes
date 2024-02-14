@@ -1,3 +1,10 @@
+# !!!! WEBSITE RELEASED !!!! 
+
+HELLO, YES! FINALLY A FCKN WEBSITE -> https://giga-sec.github.io/gigaSec-Tech-Notes/
+
+There it is. You can see it live now without INSTALLING any APPS 
+
+BUGS BUGS BUGS, yes and I'm sorry... **just reload the page** please, thank you
 
 
 # Quick Note
