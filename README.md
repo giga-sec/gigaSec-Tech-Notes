@@ -23,7 +23,7 @@ This repository will only be updated infrequently. Reasons are provided below:
 Update: I'm now interested in both, marketing, tech and... life in general :)
 
 ---
-Update: Context here is from 2022, I don't bother updating this things below
+Update: Context here is from 2022, I don't bother updating these things below anymore...
 # Summary
 To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
