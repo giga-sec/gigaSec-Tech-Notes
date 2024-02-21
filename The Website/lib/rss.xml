@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[gigaSec-Tech-Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>gigaSec-Tech-Notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 21 Feb 2024 15:12:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 21 Feb 2024 15:12:51 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Guide on how to use my vault]]></title><description><![CDATA[ 
+ <br><a data-href="Introductio" href="\3.-introduction\introductio.html" class="internal-link" target="_self" rel="noopener">Introductio</a> &lt;- Click here to go back<br>==(Read this link to proceed)== -&gt;<a data-href="Structure of my notes" href="\3.-introduction\structure-of-my-notes.html" class="internal-link" target="_self" rel="noopener">Structure of my notes</a>** <br>More Information:<br>
+<br><a data-href="How I take notes" href="\2.-notes\how-i-take-notes.html" class="internal-link" target="_self" rel="noopener">How I take notes</a>
+<br><a data-href="List of topics that I take notes with" href="\2.-notes\list-of-topics-that-i-take-notes-with.html" class="internal-link" target="_self" rel="noopener">List of topics that I take notes with</a>
+]]></description><link>3.-introduction\guide-on-how-to-use-my-vault.html</link><guid isPermaLink="false">3. Introduction/Guide on how to use my vault.md</guid><pubDate>Wed, 14 Feb 2024 03:38:51 GMT</pubDate></item><item><title><![CDATA[I'm ready! Now take me to your notes]]></title><description><![CDATA[<a class="tag" href="?query=tag:fleeting" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fleeting</a> 
+ <br><a data-href="Introduction" href="\3.-introduction\introduction.html" class="internal-link" target="_self" rel="noopener">Introduction</a>  &lt;- This is a hyperlink<br><br>Created:  <a data-href="2022-07-16" href="\2022-07-16" class="internal-link" target="_self" rel="noopener">2022-07-16</a><br>
+Tags: <a href=".?query=tag:fleeting" class="tag" target="_blank" rel="noopener">#fleeting</a> <br><br><br>Each note has a hyperlink at the top<br>
+^--&gt; Purpose is go back from where the note came from.<br>
+Update: "That's a lie, there are files that doesn't have hyperlink." Yeah, sometimes I forgot :P<br>Done Reading?<br>]]></description><link>3.-introduction\i&apos;m-ready!-now-take-me-to-your-notes.html</link><guid isPermaLink="false">3. Introduction/I&apos;m ready! Now take me to your notes.md</guid><pubDate>Wed, 21 Feb 2024 15:12:51 GMT</pubDate></item><item><title><![CDATA[!! -- UPDATE -- !!]]></title><description><![CDATA[ 
+ <br><br>Whoa, this is what my past self was doing. Was a good move mine ha!.<br>
+Specifically the pandemic era 2021-2022 somethin. <br>Well, 2024 update. I haven't updated this repository as:<br>
+--&gt; I have combined my personal notes together with my tech notes<br>
+I don't want you creepin out on my deep layered complex insecured thoughts about what I've done and should've done. But... that's on me. So NO MORE UPDATES TO BE RELEASED HERE. Only bug fixes, some personal writings etc.. etc..
+<br><br>I've primarily used PARA now to categorize my notes.<br>
+Then a lil bit of zettelkasten <br>
+<br>I rarely use fleeting, literature, permanent notes (as I always edit my notes, so no permanent notes)
+<br>I still use the idea of ATOMIC notes (sometimes)
+<br>I then use "Google Keep" to store my quick ideas,<br>
+then refine them weeks or months later when I choose to have time for that.<br>!! MAJOR CHANGE !!<br>
+<br>I rarely copy paste and store codes now. ChatGPT made it easy to generate and look for one
+<br>Documentations are now easy to find exactly what you're looking for thanks to microsoft copilot, perplexity, etc.. etc...
+<br>Basically a quick google or bing search gives you the code that you want WITHOUT HAVING TO GO TO THE PROCESS OF note summarizing, note taking, note refining, etc.. etc...
+<br><br>Because I'm NOT A RESEARCHER! AN Academia nor a writer<br>
+I'm a fckn "Oh a useful info that I don't need today but might be useful for my future self" guy<br>
+I'm a collector G!<br>Also, Organizing takes time in Zettelkasten, as it prioritizes too much on summarizing, re summarizing, processing inbox, always living in your vault. It's useful if you're writer, IT'S NOT IF you just want to store your notes.<br>Zettelkasten, good for researchers and writers and academia lads<br>PARA, good for quick to go, save to read it later<br>Also, in PARA if I have a note that doesn't makse sense, I put it in my archive, BOOM IT'S NOW GONE IN MY RADAR. BUT PERHAPS PERHAPS.... it will still be useful in my future self, maybe 10 years later, who knows. <br><br>HIT ME UP -&gt; <a data-tooltip-position="top" aria-label="mailto:gigasec-music@protonmail.com" rel="noopener" class="external-link" href="mailto:gigasec-music@protonmail.com" target="_blank">gigasec-music@protonmail.com</a><br>==THIS REPOSITORY IS STILL USEFUL FOR:<br>
+<br>as a quick overview of what zettelkasten is
+<br>as a preview of someone who uses OBSIDIAN
+<br>*some own personal thoughts about the things, etc.. etc...
+<br><br><br><img alt="gigasecure.jpg" src="\lib\media\gigasecure.jpg" style="width: 100px; max-width: 100%;"><br>
+Welcome!<br>
+This obsidian vault is made by gigaSec<br>
+Delighted to share with y'all the things learned  <br>From here on, you can either do the following:<br>
+<br>Understand how I use my vault -&gt; <a data-href="Guide on how to use my vault" href="\3.-introduction\guide-on-how-to-use-my-vault.html" class="internal-link" target="_self" rel="noopener">Guide on how to use my vault</a>
+<br>Skip reading and immediately go to the vault  -&gt; <a data-href="MOC Technology" href="\3.-introduction\moc-technology.html" class="internal-link" target="_self" rel="noopener">MOC Technology</a>
+<br>UPDATE 2024: Fuck, this short guide is actually confusing but, not my problem :P<br>
+Please do understand that the notes target audience is ME,<br>
+therefore some things might not make sense TO YOU GOOD READER<br>
+and that's okay... some things in life are quite a mystery and full of coagulated complexity of thoughts. Ha! I like those words ]]></description><link>3.-introduction\introductio.html</link><guid isPermaLink="false">3. Introduction/Introductio.md</guid><pubDate>Wed, 21 Feb 2024 15:05:32 GMT</pubDate><enclosure url="lib\media\gigasecure.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\gigasecure.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Guide]]></title><description><![CDATA[ 
+ <br><br><img alt="gigasecure.jpg" src="\lib\media\gigasecure.jpg" style="width: 100px; max-width: 100%;"><br>
+Welcome Back! <br>]]></description><link>3.-introduction\introduction.html</link><guid isPermaLink="false">3. Introduction/Introduction.md</guid><pubDate>Wed, 21 Feb 2024 15:12:51 GMT</pubDate><enclosure url="lib\media\gigasecure.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\gigasecure.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MOC Technology]]></title><description><![CDATA[<a class="tag" href="?query=tag:fleeting" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fleeting</a> <a class="tag" href="?query=tag:literature" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#literature</a> <a class="tag" href="?query=tag:permanent" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#permanent</a> 
+ <br><a data-href="+Home" href="\+Home" class="internal-link" target="_self" rel="noopener">+Home</a><br><br><a data-href="MOC Technical Writing" href="\2.-notes\moc-technical-writing.html" class="internal-link" target="_self" rel="noopener">MOC Technical Writing</a><br><a data-href="MOC Artificial Intelligence" href="\2.-notes\moc-artificial-intelligence.html" class="internal-link" target="_self" rel="noopener">MOC Artificial Intelligence</a><br><a data-href="MOC Programming" href="\2.-notes\moc-programming.html" class="internal-link" target="_self" rel="noopener">MOC Programming</a><br>
+<a rel="noopener" class="external-link" href="https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/" target="_blank">https://www.devfright.com/what-is-top-down-design-and-stepwise-refinement/</a><br><a data-href="MOC Web Development" href="\2.-notes\moc-web-development.html" class="internal-link" target="_self" rel="noopener">MOC Web Development</a><br><a data-href="MOC Information System" href="\2.-notes\moc-information-system.html" class="internal-link" target="_self" rel="noopener">MOC Information System</a><br><a data-href="MOC Networking" href="\2.-notes\moc-networking.html" class="internal-link" target="_self" rel="noopener">MOC Networking</a><br><a data-href="MOC Search Engine Optimization" href="\2.-notes\moc-search-engine-optimization.html" class="internal-link" target="_self" rel="noopener">MOC Search Engine Optimization</a><br><a data-href="MOC PC-Hardware" href="\2.-notes\moc-pc-hardware.html" class="internal-link" target="_self" rel="noopener">MOC PC-Hardware</a><br><a data-href="MOC Cybersecurity" href="\2.-notes\moc-cybersecurity.html" class="internal-link" target="_self" rel="noopener">MOC Cybersecurity</a><br><a data-href="MOC Operating System" href="\2.-notes\moc-operating-system.html" class="internal-link" target="_self" rel="noopener">MOC Operating System</a><br><a data-href="MOC Obsidian" href="\2.-notes\moc-obsidian.html" class="internal-link" target="_self" rel="noopener">MOC Obsidian</a><br><br><a data-href="Different types of Data and Character Encoding" href="\2.-notes\different-types-of-data-and-character-encoding.html" class="internal-link" target="_self" rel="noopener">Different types of Data and Character Encoding</a><br><a data-href="Branding" href="\2.-notes\branding.html" class="internal-link" target="_self" rel="noopener">Branding</a><br><a data-href="The Internet" href="\2.-notes\the-internet.html" class="internal-link" target="_self" rel="noopener">The Internet</a><br><a data-href="Tools in websites for specific tasks" href="\2.-notes\tools-in-websites-for-specific-tasks.html" class="internal-link" target="_self" rel="noopener">Tools in websites for specific tasks</a><br><a data-href="RegEX - REGular EXpressions" href="\2.-notes\regex-regular-expressions.html" class="internal-link" target="_self" rel="noopener">RegEX - REGular EXpressions</a><br><a data-href="VIM 101" href="\2.-notes\vim-101.html" class="internal-link" target="_self" rel="noopener">VIM 101</a><br><a data-href="GIT and GITHUB" href="\2.-notes\git-and-github.html" class="internal-link" target="_self" rel="noopener">GIT and GITHUB</a><br><a data-href="Quantum Computers" href="\2.-notes\quantum-computers.html" class="internal-link" target="_self" rel="noopener">Quantum Computers</a><br><br>Update after 2 months<br>It seems like some aspect of zettelkasten are doing nothing, specifically <br>
+<br><a href=".?query=tag:fleeting" class="tag" target="_blank" rel="noopener">#fleeting</a> 
+<br><a href=".?query=tag:literature" class="tag" target="_blank" rel="noopener">#literature</a> 
+<br><a href=".?query=tag:permanent" class="tag" target="_blank" rel="noopener">#permanent</a><br>
+I am prioritizing adding information than organizing idea. Therefore I am constantly editing permanent notes and creating fleeting notes. I think I am going to abandon this tag.
+<br>My system has leaned more towards progressize sumarization and less on zettelkasten. Meaning I have been organizing ideas more by accident or when I am working/studying on that particular area.<br>
+For instance, if I have messy notes on SQL Injection and I am no longer studying about it, then I don't care how much of a mess it is, I will not organize it.<br>Benefits that stayed consistent<br>
+<br>All the things that I studied and that matters aren't forgetten or lost in the vault
+<br>Usually the act of summarizing or organizing my notes here helps me remember stuffs more. 
+<br>I understood things better and faster than writing it in a paper.
+<br>I have noticed my vault can act like a "read later" list. I'd say its better than pocket in firefox, or the integrated "reading list" in chromes. This apps often group the links in one place and sometimes, it could get hidden by the amount of newly added links. <br>What I do is if I found a golden info and I don't have time to read or make my own conclusion about, I just get the link, dump it into whatever file it's related to. <br>Either <br>
+<br>I'm not gonna be able to read 
+<br>or In a few days, weeks or years I'll stumble on that note where the link is and it'll probably caught my interest and that I have a free time to read it. Then I could just 
+<br>Since I put an effort into making the title of a note, I know the keywords well that I can look it up in search bar. <br><br><a data-href="Old way of taking notes" href="\2.-notes\old-way-of-taking-notes.html" class="internal-link" target="_self" rel="noopener">Old way of taking notes</a>]]></description><link>3.-introduction\moc-technology.html</link><guid isPermaLink="false">3. Introduction/MOC Technology.md</guid><pubDate>Wed, 21 Feb 2024 15:12:52 GMT</pubDate><enclosure url="lib\media\gigasecure.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\gigasecure.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Quick guide about using my Obsidian Vault]]></title><description><![CDATA[<a class="tag" href="?query=tag:fleeting" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#fleeting</a> 
+ <br><a data-href="Introduction" href="\3.-introduction\introduction.html" class="internal-link" target="_self" rel="noopener">Introduction</a> <br><br>Created:  <a data-href="2022-07-16" href="\2022-07-16" class="internal-link" target="_self" rel="noopener">2022-07-16</a><br>
+Tags: <a href=".?query=tag:fleeting" class="tag" target="_blank" rel="noopener">#fleeting</a> <br><br>
+<br>My vault matches with the theme of the system. 
+<br>
+<br>If windows is on dark mode, obsidian will be on dark mode
+<br>If windows is light mode, obsidian will be in light mode
+<br>
+<br>You can manually switch to dark mode or light mode
+<br>
+<br>Ctrl + Shift + D to Dark mode
+<br>Ctrl + Shift + L to Light mode
+<br>Or simply press Ctrl + Shift + P and type Dark Mode or Light Mode &nbsp;
+<br><br>You're done reading.<br>
+Now go back from the top and click Introduction]]></description><link>3.-introduction\quick-guide-about-using-my-obsidian-vault.html</link><guid isPermaLink="false">3. Introduction/Quick guide about using my Obsidian Vault.md</guid><pubDate>Wed, 21 Feb 2024 15:12:52 GMT</pubDate></item><item><title><![CDATA[Structure of my notes]]></title><description><![CDATA[<a class="tag" href="?query=tag:literature" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#literature</a> 
+ <br><a data-href="Guide on how to use my vault" href="\3.-introduction\guide-on-how-to-use-my-vault.html" class="internal-link" target="_self" rel="noopener">Guide on how to use my vault</a><br>Can't be bothered reading?<br>
+Scroll all the way to the bottom to skip<br><br>Created:  <a data-href="2022-07-16" href="\2022-07-16" class="internal-link" target="_self" rel="noopener">2022-07-16</a><br>
+Tags: <a href=".?query=tag:literature" class="tag" target="_blank" rel="noopener">#literature</a> <br><br>~~#### Abstract:<br>
+<br>
+Copy
+
+<br>
+==**Update: There are no longer abstract in my notes**==
+**Reason: I haven't been using these technique for my new notes.** 
+Copy
+
+<br><br>This is where I put every details of the note<br>
+bla bla bla<br>
+choo choo choo<br>
+tada!<br>Note:<br>
+As you navigate my system, you might see some slip-ups but the design of this system is meant to be flexible and doesn't demand strict categorization, labeling or note-scheduling thus it doesn't affect my workflow. <br>IMPORTANT TO READ:<br>
+I did not made this notes for the public, I made this notes for myself therefore the notes are made to be understood by me. Expect some messiness, confusing grammar or spelling mistakes.  <br><br>
+<br>Always is gonna be a link to where I took my notes
+<br>I sometimes get caught up in taking notes that I usually just forget putting sources 
+<br>Sometimes, I intentionally leave it blank
+<br>**Now, you're ready for the next read.** or if u just want to skip<br>
+Click this hyperlink -&gt; <a data-href="Quick guide about using my Obsidian Vault" href="\3.-introduction\quick-guide-about-using-my-obsidian-vault.html" class="internal-link" target="_self" rel="noopener">Quick guide about using my Obsidian Vault</a>]]></description><link>3.-introduction\structure-of-my-notes.html</link><guid isPermaLink="false">3. Introduction/Structure of my notes.md</guid><pubDate>Wed, 21 Feb 2024 14:55:42 GMT</pubDate></item><item><title><![CDATA[Quick Note]]></title><description><![CDATA[ 
+ <br><br>This repository will only be updated infrequently. Reasons are provided below:<br>
+<br>To prevent any commit conflict issues  
+<br>To avoid the notification spam of those who enabled "watch" on this repo
+<br>I have moved to marketing sector (Still deciding whether I should make my marketing notes public)
+<br><br><br>To fully take advantage of my notes. Use a markdown editor that supports hyperlink like <a data-tooltip-position="top" aria-label="https://obsidian.md" rel="noopener" class="external-link" href="https://obsidian.md" target="_blank">obsidian</a><br>Notes aren't CATEGORIZED into folders by complete intention and design. Categorization of each topics is possible by the file 2. Notes/MOC Technology.md<br>Note-Taking Method Used: <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Zettelkasten" rel="noopener" class="external-link" href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank">Zettelkasten</a>, <a data-tooltip-position="top" aria-label="https://fortelabs.co/blog/series/ps/" rel="noopener" class="external-link" href="https://fortelabs.co/blog/series/ps/" target="_blank">Progressive Summarization</a>, <a data-tooltip-position="top" aria-label="https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6" rel="noopener" class="external-link" href="https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6" target="_blank">MOC</a>, <a data-tooltip-position="top" aria-label="https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502" rel="noopener" class="external-link" href="https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502" target="_blank">How I Take Smart Notes</a>.<br>Topics of notes<br>--&gt; Programming, Coding Exercises, VIM, Git<br>--&gt; Cybersecurity, Networking, CTF Challenges,<br>--&gt; PC-Hardware, Windows and Linux.<br>--&gt; SEO, Web Dev, Artificial Intelligence, basically almost EVERYTHING in tech<br><br><br>Dark Mode<br><img alt="image" src="https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png" referrerpolicy="no-referrer"><br>Light Mode<br><a rel="noopener" class="external-link" href="https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570-80bb-fac11c154f99.mp4" target="_blank">https://user-images.githubusercontent.com/105108954/175758494-aa507a35-d91a-4570-80bb-fac11c154f99.mp4</a><br><br><br>I recommend installing <a data-tooltip-position="top" aria-label="https://obsidian.md" rel="noopener" class="external-link" href="https://obsidian.md" target="_blank">Obsidian</a> as that's where I write and personally, I think Obsidian is the best md editor. Otherwise, you can use any markdown editor that supports hyperlink feature.<br><br>
+<br>
+Install the app -&gt; <a rel="noopener" class="external-link" href="https://obsidian.md" target="_blank">https://obsidian.md</a>
+
+<br>
+Download this repository (repo)
+
+<br>
+Unzip the downloaded repo file
+
+<br>
+Launch the app and Click "Open Folder as vault". Choose the downloaded folder of this repo
+
+<br><br>It will show you a warning whether to trust author (that's me). <br>I assure you that no plugins causes harm. Plugins are not written by me and are written by the community therefore open source. <br>Check the installed plugins here<br>
+--&gt; Tech-Notes/.obsidian/plugins<br><br>Fair enough! And that's a good thing to not trust strangers online :D<br>-&gt; You can choose Do not trust, but some minor features might not work, tho it doesn't spawn inconvience.<br>-&gt; Or just delete the .obsidian directory after downloading it. I believe the obsidian app itself will automatically create it for you at startup. ]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Wed, 14 Feb 2024 03:32:34 GMT</pubDate><enclosure url="https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/105108954/175243737-ea656a29-7057-4a95-aff8-9feaa0b78d51.png&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
