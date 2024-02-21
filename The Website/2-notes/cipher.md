@@ -1,1 +1,0 @@
-**CIPHER** -> method of `encryption`/decryption data

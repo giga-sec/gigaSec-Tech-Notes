@@ -1,1 +1,0 @@
-**CIPHERTEXT** -> result of plaintext to encrypted data

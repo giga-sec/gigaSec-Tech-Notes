@@ -1,1 +1,0 @@
-**Cryptanalysis** -> Attacking cryptography by finding weaknesses in its math

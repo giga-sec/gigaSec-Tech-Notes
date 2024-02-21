@@ -1,0 +1,1164 @@
+<!DOCTYPE html> <html><head>
+		<title>Kata - Codewars</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="gigaSec-Tech-Notes - Kata - Codewars">
+		<meta property="og:title" content="Kata - Codewars">
+		<meta property="og:description" content="gigaSec-Tech-Notes - Kata - Codewars">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="2.-notes/kata-codewars.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="gigaSec-Tech-Notes">
+		<script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-light minimal-dracula-dark minimal-gruvbox-light borders-none colorful-headings colorful-active links-int-on full-width-media minimal-readable minimal-light-tonal minimal-dark-tonal trim-cols embed-strict styled-scrollbars"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading" id="Kata">Kata</h1><div><p><a data-href="MOC Programming" href="2.-notes/moc-programming.html" class="internal-link" target="_self" rel="noopener">MOC Programming</a></p></div><div class="heading-wrapper"><div class="heading-children"><div><p>Created:  <a data-href="2022-07-20" href="2022-07-20" class="internal-link" target="_self" rel="noopener">2022-07-20</a><br>
+Tags: <a href="?query=tag:fleeting" class="tag" target="_blank" rel="noopener">#fleeting</a> </p></div><div><hr></div><div><p><a rel="noopener" class="external-link" href="https://www.codewars.com/kata/57814d79a56c88e3e0000786/train/python" target="_blank">https://www.codewars.com/kata/57814d79a56c88e3e0000786/train/python</a></p></div><div class="heading-wrapper"><h2 data-heading="Directions Reduction" class="heading" id="Directions_Reduction"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Directions Reduction</h2><div class="heading-children"><div><ol>
+<li data-line="0">Understand the Problem</li>
+</ol></div><div><p>Give the<br>
+north +1<br>
+south -1</p></div><div><p>east +1<br>
+west -1</p></div><div class="heading-wrapper"><h3 data-heading="Examples" class="heading" id="Examples"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Examples</h3><div class="heading-children"><div><p>In ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"],<br>
+"NORTH" and "SOUTH" are <em>not</em> directly opposite<br>
+but they become directly opposite<br>
+after the reduction of "EAST" and "WEST"<br>
+-&gt; so the whole path is reducible to ["WEST", "WEST"].</p></div><div><p>In <code>["NORTH", "SOUTH", "EAST", "WEST"]</code>,<br>
+the direction <code>"NORTH" + "SOUTH"</code> is going north and coming back <em>right away</em>.<br>
+The path becomes <code>["EAST", "WEST"]</code>,<br>
+now <code>"EAST"</code> and <code>"WEST"</code> annihilate each other, therefore, the final result is <code>[]</code> (nil in Clojure).</p></div><div><p>Not all paths can be made simpler.<br>
+The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible.<br>
+"NORTH" and "WEST",<br>
+"WEST" and "SOUTH",<br>
+"SOUTH" and "EAST"<br>
+are not <em>directly</em> opposite of each other and can't become such.<br>
+Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].</p></div></div></div><div class="heading-wrapper"><h3 data-heading="Question:" class="heading" id="Question:"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Question:</h3><div class="heading-children"><div><p>Isn't ["WEST", "WEST"] reducecs to ["WEST"]???<br>
+Okay, so I guess we're only going to reduce the list base on the original list???<br>
+Wait no, because in here<br>
+Ans: Okay so it's actually right, WEST WEST since that doesn't make it return to what he was before</p></div><div><p>Write a function <code>dirReduc</code> which<br>
+take an array of strings and<br>
+returns an array of strings with<br>
+the needless directions removed (W&lt;-&gt;E or S&lt;-&gt;N <em>side by side</em>).</p></div></div></div><div class="heading-wrapper"><h3 data-heading="My understanding" class="heading" id="My_understanding"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>My understanding</h3><div class="heading-children"><div><p>[NORTH, EAST, WEST, SOUTH, WEST, WEST] 6<br>
+[NORTH, <del>EAST, WEST</del>, SOUTH, WEST, WEST] 4<br>
+[<del>NORTH, SOUTH</del>, WEST, WEST] 2<br>
+So it must have a way to check if the left side makes the ting go zero<br>
+So we have a dictionary to assign a specific numbers to each direction<br>
+We </p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">dictionary <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">"NORTH"</span><span class="token punctuation">:</span> <span class="token number">1</span>
+    <span class="token string">"SOUTH"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span>
+    <span class="token string">"WEST"</span><span class="token punctuation">:</span> <span class="token number">2</span>
+    <span class="token string">"EAST"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">2</span> 
+<span class="token punctuation">}</span>
+
+map_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"NORTH"</span><span class="token punctuation">,</span> <span class="token string">"EAST"</span><span class="token punctuation">,</span> <span class="token string">"WEST"</span><span class="token punctuation">,</span> <span class="token string">"SOUTH"</span><span class="token punctuation">,</span> <span class="token string">"WEST"</span><span class="token punctuation">,</span> <span class="token string">"WEST"</span><span class="token punctuation">]</span>
+
+j <span class="token operator">=</span> <span class="token number">1</span>  <span class="token comment"># Default to one because...</span>
+length <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>map_list<span class="token punctuation">)</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    direction <span class="token operator">=</span> map_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    next_direction <span class="token operator">=</span> map_list<span class="token punctuation">[</span>j<span class="token punctuation">]</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>next_direction <span class="token operator">+</span> dictionary<span class="token punctuation">[</span>direction<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># This means that two directions made us go back</span>
+        map_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>direction<span class="token punctuation">)</span>
+        map_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>next_direction<span class="token punctuation">)</span>
+        <span class="token keyword">continue</span>
+    j <span class="token operator">+=</span> <span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="x" class="task-list-item is-checked"><input data-line="0" checked="" type="checkbox" class="task-list-item-checkbox">Learn how to remove values in list</li>
+</ul></div><div><p>Also<br>
+NORTH = 1<br>
+WEST = 1<br>
+SOUTH = -1<br>
+EAST = -1<br>
+[SOUTH, WEST] makes it <code>0</code></p></div><div><p>NORTH = 1<br>
+SOUTH = -1<br>
+WEST = 2<br>
+EAST = -2<br>
+So [SOUTH, WEST] makes -1 + 2 = <code>1</code> and it's not equal to <code>0</code> therefore no going back to circles.</p></div><div><p>Okay, here's a new thing that I learned.<br>
+The primary purpose is not to cut off the redundancy of directions<br>
+but instead that is the result of making sure that the least path of action is taken.</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">dictionary <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">"NORTH"</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token string">"SOUTH"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token string">"WEST"</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token string">"EAST"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">2</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">def</span> <span class="token function">dirReduc</span><span class="token punctuation">(</span>map_list<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    i <span class="token operator">=</span> <span class="token number">0</span>
+    j <span class="token operator">=</span> <span class="token number">1</span>  <span class="token comment"># Default to one because...</span>
+    length <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>map_list<span class="token punctuation">)</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>j <span class="token operator">&lt;</span> length<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        direction <span class="token operator">=</span> map_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+        next_direction <span class="token operator">=</span> map_list<span class="token punctuation">[</span>j<span class="token punctuation">]</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>dictionary<span class="token punctuation">[</span>next_direction<span class="token punctuation">]</span> <span class="token operator">+</span> dictionary<span class="token punctuation">[</span>direction<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token comment"># This means that two directions made us go back</span>
+            map_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>direction<span class="token punctuation">)</span>
+            map_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>next_direction<span class="token punctuation">)</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment"># Assures that there is a previous index</span>
+                <span class="token keyword">try</span><span class="token punctuation">:</span>
+                    previous_direction <span class="token operator">=</span> map_list<span class="token punctuation">[</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span>
+                    direction <span class="token operator">=</span> map_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span>  <span class="token comment"># Update new direction</span>
+                    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>dictionary<span class="token punctuation">[</span>previous_direction<span class="token punctuation">]</span> <span class="token operator">+</span> dictionary<span class="token punctuation">[</span>direction<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                        map_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>previous_direction<span class="token punctuation">)</span>
+                        map_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>direction<span class="token punctuation">)</span>
+                        i <span class="token operator">-=</span> <span class="token number">1</span>
+                        j <span class="token operator">-=</span> <span class="token number">1</span>
+                <span class="token keyword">except</span> IndexError<span class="token punctuation">:</span>
+                    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Oh No"</span><span class="token punctuation">)</span>
+            length <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>map_list<span class="token punctuation">)</span>
+            <span class="token keyword">continue</span>
+        i <span class="token operator">+=</span> <span class="token number">1</span>
+        j <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> map_list
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>I lacked information,<br>
+I didn't test more examples that's why I had a wrong algorithm </p></div><div><p>I found a solution online</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">dirReduc</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">"NORTH"</span><span class="token punctuation">:</span><span class="token string">"SOUTH"</span><span class="token punctuation">,</span><span class="token string">"SOUTH"</span><span class="token punctuation">:</span><span class="token string">"NORTH"</span><span class="token punctuation">,</span><span class="token string">"EAST"</span><span class="token punctuation">:</span><span class="token string">"WEST"</span><span class="token punctuation">,</span><span class="token string">"WEST"</span><span class="token punctuation">:</span><span class="token string">"EAST"</span><span class="token punctuation">}</span>
+    res <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> arr<span class="token punctuation">:</span>
+        <span class="token keyword">if</span> res <span class="token keyword">and</span> <span class="token builtin">dict</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> res<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+            res<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            res<span class="token punctuation">.</span>append<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> res
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>And what the fuck, that's just it?????????</p></div></div></div></div></div><div class="heading-wrapper"><h2 data-heading="Roman Numerals Encoder" class="heading" id="Roman_Numerals_Encoder"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Roman Numerals Encoder</h2><div class="heading-children"><div><ol>
+<li data-line="0">Understand the Problem<br>
+Function parameter -&gt; positive integer<br>
+Function return -&gt; string containing Roman Numeral representation of that positive integer.</li>
+</ol></div><div><p>Okay, this seems easy</p></div><div><p>Information about Roman Numerals<br>
+Written by...<br>
+...expressing each digit separately<br>
+starting with the left most digit<br>
+skipping any digit with a value of zero. </p></div><div><p>Examples:<br>
+1990 is rendered:<br>
+1000=M,<br>
+900=CM,<br>
+90=XC;<br>
+resulting in MCMXC.</p></div><div><p>2008 is written as<br>
+2000=MM,<br>
+8=VIII;<br>
+resulting into MMVIII. </p></div><div><p>1666 uses each Roman symbol in descending order: MDCLXVI.<br>
+What the fuck does descending order,<br>
+why the fuck does it do it in descending order????<br>
+<strong>arranged in a series that begins with the greatest or largest and ends with the least or smallest</strong><br>
+Okay, that was unnecessary info :/<br>
+1666 = MDCLXVI<br>
+MDCLXVI = M + DC + LX + VI<br>
+MDCLXVI = 1000 + 600 + 60 + 6<br>
+MDCLXVI = 1666</p></div><div><p><strong>There can't be more than 3 identical symbols in a row.</strong></p></div><div><pre><code>Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>My understanding:<br>
+So the conversion from Number to Roman Numeral</p></div><div><ul>
+<li data-line="0">Skip any <code>0</code> from getting converted</li>
+</ul></div><div><p>Okay, let's do a conversion with number <code>seven</code><br>
+<code>V</code> then <code>II</code><br>
+<code>V</code> for 5 and <code>II</code> for 2 and <code>5 + 2 = 7</code><br>
+So we'd need some ways that we can recognize what symbol to use for a single digit</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">n <span class="token operator">=</span> <span class="token number">7</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    roman_numeral <span class="token operator">=</span> <span class="token string">'V'</span>
+<span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    roman_numeral <span class="token operator">=</span> <span class="token string">'I'</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay then how are we going to make it so that it chooses one <code>V</code> and two <code>I</code><br>
+We subtract it </p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">n <span class="token operator">=</span> <span class="token number">7</span>
+roman_numeral <span class="token operator">=</span> <span class="token string">""</span>
+
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">5</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'V'</span>  <span class="token comment"># Concantenate the ting</span>
+        
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">1</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'I'</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, this code above only works with numbers less than <code>10</code><br>
+Let's try having numbers up to <code>500</code></p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">n <span class="token operator">=</span> <span class="token number">91</span>
+roman_numeral <span class="token operator">=</span> <span class="token string">""</span>
+
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">100</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'C'</span>
+
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">50</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">50</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'L'</span>
+
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">10</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'X'</span>
+
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">5</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'V'</span>  <span class="token comment"># Concantenate the ting</span>
+        
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        n <span class="token operator">-=</span> <span class="token number">1</span>
+        roman_numeral <span class="token operator">+=</span> <span class="token string">'I'</span>
+
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, so the results of the code was<br>
+<code>LXXXXI</code> and the real answer is <code>XCI</code><br>
+So this is a logical error<br>
+So how we might go about translating <code>91</code> to roman numeral<br>
+<code>90</code><br>
+So how do we translate <code>90</code>?<br>
+It's <code>XC</code> but C is a number more than 100?, and <code>90</code> is less than <code>100</code><br>
+Okay, so I might have a wrong understanding here<br>
+Okay, so every number that is close to the new length of digit gets rule changed<br>
+like<br>
+<code>9</code>, nine is <code>5</code> + four <code>1</code> which is <code>V</code> and four <code>I</code><br>
+but no, it's <code>I</code> and <code>X</code> THERFORE <code>IX</code><br>
+bruhhh</p></div><div><p><code>1</code> = <code>I</code></p></div><div><p>Looking up online here's what I got<br>
+Rules to writing Roman Numerals<br>
+There are certain rules to be followed if we have to represent a number in roman numerals form. Please check the rules listed below.</p></div><div><ul>
+<li data-line="0">
+<p>The value of the symbol is added to itself, as many times as it is repeated. (Eg. II – 2, XX – 20 and XXX – 30).</p>
+</li>
+<li data-line="1">
+<p>A symbol can be repeated only for three times, for example XXX = 30, CC = 200, etc.<br>
+Thoughts: Okay, so four symbols like <code>IIII</code> is not allowed, therefore numbers like <code>9</code> have their ting into <code>IX</code> , also number four itself has <code>IV</code> </p>
+</li>
+<li data-line="3">
+<p>When a symbol of smaller value appears after a symbol of greater value, its values will be added. For Example- &nbsp;VI = V + I = 5 + 1 = 6.</p>
+</li>
+<li data-line="4">
+<p>When a symbol of a smaller value appears before a greater value symbol, it will be subtracted. For Example- &nbsp;IX = X – I = 10 – 1 = 9.</p>
+</li>
+<li data-line="5">
+<p>The symbol I can be subtracted from V and X only and symbol X can be subtracted from symbols L, M and C only.</p>
+</li>
+<li data-line="7">
+<p>Symbols V, L, and D are never repeated.<br>
+Thoughts: What??? Why??? Probably because it creates a long ting, idk man.</p>
+</li>
+</ul></div><div><pre><code>Symbol    Value
+I          1
+V          5   (Never Repeated)
+X          10   
+L          50  (Never Repeated)
+C          100
+D          500  (Never Repeated)
+M          1,000
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, so we're gonna do translate 1909, into individual tings<br>
+like<br>
+1000<br>
+900<br>
+skip because it's <code>0</code><br>
+<code>9</code></p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">num <span class="token operator">=</span> <span class="token number">1909</span>
+num <span class="token operator">=</span> <span class="token punctuation">(</span>num <span class="token operator">//</span> <span class="token number">1000</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">1000</span>
+<span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">1000</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>So I think</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token punctuation">(</span>num <span class="token operator">//</span> length_of_digits<span class="token punctuation">)</span> <span class="token operator">*</span> length_of_digits
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>We could just get the length_of_digits through</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">num <span class="token operator">//</span> <span class="token number">10</span>
+count <span class="token operator">+=</span> <span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Then we just subtract <code>length_of_digits</code> to 1 every iteration of digits</p></div><div><p>So basically here's the raw plan</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">num <span class="token operator">=</span> <span class="token number">1909</span>
+
+<span class="token comment"># Count Digits</span>
+temp <span class="token operator">=</span> num
+count <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>temp <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    temp <span class="token operator">=</span> temp <span class="token operator">//</span> <span class="token number">10</span>
+    count <span class="token operator">+=</span> <span class="token number">1</span>
+
+<span class="token comment"># Print each individual tings</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>count <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">(</span>num <span class="token operator">//</span> count<span class="token punctuation">)</span> <span class="token operator">*</span> count<span class="token punctuation">)</span>
+    count <span class="token operator">-=</span> <span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">count_digits</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Counting starts with 1, meaning 1000 means 4 digits</span>
+    count <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>num <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        num <span class="token operator">=</span> num <span class="token operator">//</span> <span class="token number">10</span>
+        count <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> count
+
+
+num <span class="token operator">=</span> <span class="token number">1909</span>
+count <span class="token operator">=</span> count_digits<span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>count <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Get the individual digits and leave their number of digits</span>
+    multiplier <span class="token operator">=</span> <span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+    temp <span class="token operator">=</span> <span class="token punctuation">(</span>num <span class="token operator">//</span> multiplier<span class="token punctuation">)</span> <span class="token operator">*</span> multiplier
+
+    <span class="token comment"># Reduce the original number to what the number of digits is</span>
+    num <span class="token operator">-=</span> temp
+
+    <span class="token comment"># I think this is where we convert the thing into roman numeral</span>
+    
+
+    <span class="token comment"># Since we are going to the next digit, we reduce the count of digits</span>
+    count <span class="token operator">-=</span> <span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>With this code above, we can now get the individual tings like<br>
+<code>1909</code> -&gt; <code>MCMIX</code><br>
+for<br>
+1000,<br>
+900<br>
+0<br>
+9</p></div><div><p>Convert <code>900</code> to roman numeral<br>
+Since its closer to <code>1000</code> then we just get the least number of <code>three digit</code> which is <code>100</code>.<br>
+Then we get the roman numeral of <code>100</code> so it's <code>C</code><br>
+Then we get the roman numeral of <code>1000</code>, <code>M</code><br>
+So, it's <code>CM</code></p></div><div><p>Convert <code>400</code> to roman numeral<br>
+Since it's closer to <code>500</code>, then we just get the least number of <code>three digits</code> which is <code>100</code><br>
+Then we get the roman numeral of <code>100</code>, so it's <code>C</code><br>
+Then we get the roman numeral of <code>500</code>, so its <code>D</code><br>
+So it's, <code>CD</code></p></div><div><p>Roman Numerals/Numbers that are never repeated<br>
+5, 50, 500<br>
+V, L, D</p></div><div><p>My Plan:<br>
+Okay, we could just have a temp variable that stores the translated numeral ting, if roman numerals are repeated,<br>
+I actually have no idea</p></div><div><p>We could say</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">num <span class="token operator">=</span> <span class="token number">9</span>
+list_things <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">]</span>
+count <span class="token operator">=</span> <span class="token keyword">is</span> how many things <span class="token keyword">in</span> the digit
+<span class="token keyword">if</span> num <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay so let's deal with this problem later<br>
+Let's first solve on how we can translate the basic stuffs like<br>
+The 1, 5, 10, 50, 100 ,500, 1000</p></div><div><pre><code>Symbol    Value
+I          1
+V          5   (Never Repeated)
+X          10   
+L          50  (Never Repeated)
+C          100
+D          500  (Never Repeated)
+M          1,000
+</code><button class="copy-code-button">Copy</button></pre></div><div><ul class="contains-task-list">
+<li data-line="0">We could use if, else but that's just inefficient</li>
+<li data-line="1">We could use a dictionary and assign key-valur pair with it<br>
+key being the number and value being the symbol<br>
+What else could we do?<br>
+I think dictionary is good but I am not familiar with it</li>
+<li data-line="5" data-task="" class="task-list-item"><input data-line="5" type="checkbox" class="task-list-item-checkbox">Is it possible for the key to be a number?</li>
+<li data-line="6" data-task="" class="task-list-item"><input data-line="6" type="checkbox" class="task-list-item-checkbox">How can we search values through dictionary?</li>
+<li data-line="7" data-task="" class="task-list-item"><input data-line="7" type="checkbox" class="task-list-item-checkbox">How can we get that value through dictionary?</li>
+</ul></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token comment"># Dictionary Implementation</span>
+symbol <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token number">1</span><span class="token punctuation">:</span> <span class="token string">'I'</span><span class="token punctuation">,</span>
+    <span class="token number">5</span><span class="token punctuation">:</span> <span class="token string">'V'</span><span class="token punctuation">,</span>
+    <span class="token number">10</span><span class="token punctuation">:</span> <span class="token string">'X'</span><span class="token punctuation">,</span>
+    <span class="token number">50</span><span class="token punctuation">:</span> <span class="token string">'L'</span><span class="token punctuation">,</span>
+    <span class="token number">100</span><span class="token punctuation">:</span> <span class="token string">'C'</span><span class="token punctuation">,</span>
+    <span class="token number">500</span><span class="token punctuation">:</span> <span class="token string">'D'</span><span class="token punctuation">,</span>
+    <span class="token number">1000</span><span class="token punctuation">:</span> <span class="token string">'M'</span>
+<span class="token punctuation">}</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, let's say that I have coded the ting above<br>
+Now how can we deal with <code>8</code>, <code>23</code>, <code>135</code>, <code>680</code></p></div><div><p>The only way we can detect numbers in dictionary is through <code>1, 5, 10, 50, 100, 500, 1000</code><br>
+So, the idea is to reduce the numbers that matches the numbers in the dictionary?<br>
+Then we'd use if-else to do that<br>
+<code>680</code> reduce to <code>600</code> which is already coded<br>
+but then <code>600</code> reduce to <code>500</code> and <code>100</code>, that means <code>V</code> AND <code>C</code><br>
+So basically we subtracted <code>600</code> with <code>100</code><br>
+Does that mean what we subtracted is also what our roman numeral will be?</p></div><div><p>Okay we could have a while loop that only stops subtracting when the number being reduced already exists in the <code>list</code> of <code>1, 5, 10, 50...</code></p></div><div><p>So that leaves us with how is the compiler gonna know how much the number is going to be used for subtraction?<br>
+Ans: Maybe we could use the length of the digit,<br>
+Like for instance, <code>80</code> means two digits, and the lowest number of two digits is <code>10</code> therefore<br>
+<code>80 - 10 = 70</code><br>
+<code>70 - 10 = 60</code><br>
+<code>60 - 10 = 50</code> and 50 is in <code>1, 5, 10, 50</code><br>
+so that's where we stop<br>
+Okay so how does it spit out the roman numeral?<br>
+Ah no, it spits out the numeral base what number we use to subtract the orig number<br>
+like <code>10</code>, that's <code>X</code><br>
+So we have <code>X</code> then <code>X</code> then <code>X</code><br>
+Since it detected it's on list <code>1, 5, 10, 50...</code> we stop<br>
+So we got <code>XXX</code> now what?<br>
+How are we going to spit it out that <code>50</code> is equal to <code>L</code><br>
+Ahh, the dictionary<br>
+okay, so the way my algo works<br>
+it's gonne be like this<br>
+<code>XXXL</code><br>
+So okay, how are we able to first make it so that <code>L</code> which is <code>50</code> is gonna be the first value<br>
+Either we're gonna have to find some way that it detects <code>50</code> first<br>
+Or probably we're going to separate it with two variables<br>
+the subtracting will be <code>second_roman = XXX</code><br>
+then <code>first_roman = L</code> is the numbers we detect on dictionary<br>
+so, <code>first_roman + second_roman</code>,<br>
+but then what if second_roman is empty<br>
+okay so we always default <code>second_roman = ""</code></p></div><div><p>This logic seems really long and I think is inefficient :/ but idk man<br>
+Let's try summarizing my logic</p></div><div><ul>
+<li data-line="0">We're gonna teach the program to understand what the corresponding value is equivalent to a roman numeral letter. We do this by using dictionary</li>
+<li data-line="1"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Then we start chopping the numbers into like <code>1909</code> to 100, 900, 00, 9
+<ul>
+<li data-line="2">With each chop of numbers, we translate that into roman numeral</li>
+</ul>
+</li>
+</ul></div><div><p>The translation of roman numeral</p></div><div><ul>
+<li data-line="0"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Okay so, we first find if the number exists in the dictionary. 
+<ul class="contains-task-list">
+<li data-line="1" data-task="" class="task-list-item"><input data-line="1" type="checkbox" class="task-list-item-checkbox">How to know if a number exists in the key<br>
+Ans: The has_key() method is a built-in method in Python that returns true if the dict contains the given key, and returns false if it isn't.<br>
+Ans: <code>If key_name in dictionary</code> also works </li>
+</ul>
+</li>
+<li data-line="4"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>If it doesn't then, we subtract the number to its lowest number that is limited by the number of digits( Like 900, the lowest number of that same digits is 100)
+<ul class="contains-task-list">
+<li data-line="5" data-task="" class="task-list-item"><input data-line="5" type="checkbox" class="task-list-item-checkbox">So let's first know the length of the digit<br>
+Ans: <code>10 ** (count-1)</code></li>
+</ul>
+</li>
+<li data-line="8">After subtracting, we translate what number we use to subtract the orig number into roman_numeral, then we store it into a <code>second_roman</code> variable</li>
+<li data-line="9">we then find if the resulting subtracted number exists in dictionary, if it doesn't exist in dictionary, then we repeat the process until we found one.</li>
+</ul></div><div><p>Finally, if we found the resulting subtracted number in dictionary<br>
+We get the value of that which is the letter and put it into <code>first_roman</code></p></div><div><p>At last, we add <code>first_roman</code> and <code>second_roman</code> and add it to <code>final_roman</code></p></div><div><p>We are now then done with our first number (from left)<br>
+We move on to the next number and repeat the process</p></div><div><p>The Code:</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">count_digits</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Counting starts with 1, meaning 1000 means 4 digits</span>
+    count <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>num <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        num <span class="token operator">=</span> num <span class="token operator">//</span> <span class="token number">10</span>
+        count <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> count
+
+
+symbol <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token number">1</span><span class="token punctuation">:</span> <span class="token string">'I'</span><span class="token punctuation">,</span>
+    <span class="token number">5</span><span class="token punctuation">:</span> <span class="token string">'V'</span><span class="token punctuation">,</span>
+    <span class="token number">10</span><span class="token punctuation">:</span> <span class="token string">'X'</span><span class="token punctuation">,</span>
+    <span class="token number">50</span><span class="token punctuation">:</span> <span class="token string">'L'</span><span class="token punctuation">,</span>
+    <span class="token number">100</span><span class="token punctuation">:</span> <span class="token string">'C'</span><span class="token punctuation">,</span>
+    <span class="token number">500</span><span class="token punctuation">:</span> <span class="token string">'D'</span><span class="token punctuation">,</span>
+    <span class="token number">1000</span><span class="token punctuation">:</span> <span class="token string">'M'</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">def</span> <span class="token function">solution</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+
+    count <span class="token operator">=</span> count_digits<span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    final_roman <span class="token operator">=</span> <span class="token string">''</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>count <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># Get the individual digits and leave their number of digits</span>
+        multiplier <span class="token operator">=</span> <span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+        chopped_number <span class="token operator">=</span> <span class="token punctuation">(</span>num <span class="token operator">//</span> multiplier<span class="token punctuation">)</span> <span class="token operator">*</span> multiplier
+
+        <span class="token comment"># Reduce the original number to what the number of digits is</span>
+        num <span class="token operator">-=</span> chopped_number
+
+        <span class="token comment"># I think this is where we convert the thing into roman numeral</span>
+        first_roman <span class="token operator">=</span> <span class="token string">''</span>
+        second_roman <span class="token operator">=</span> <span class="token string">''</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>chopped_number <span class="token keyword">in</span> symbol<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token boolean">True</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            lowest_num <span class="token operator">=</span> <span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+            chopped_number <span class="token operator">=</span> chopped_number <span class="token operator">-</span> lowest_num
+            second_roman <span class="token operator">+=</span> symbol<span class="token punctuation">[</span>lowest_num<span class="token punctuation">]</span>
+        first_roman <span class="token operator">+=</span> symbol<span class="token punctuation">[</span>chopped_number<span class="token punctuation">]</span>
+        final_roman <span class="token operator">+=</span> first_roman <span class="token operator">+</span> second_roman
+
+        <span class="token comment"># Since we are going to the next digit, we reduce the count of digits</span>
+        count <span class="token operator">-=</span> <span class="token number">1</span>
+
+    <span class="token keyword">return</span> final_roman
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Conclusion:<br>
+What the fuck, the preparation and plan actually worked.<br>
+Wow, even tho the planning of my logic was so long,<br>
+I spent little time on debugging. Fucking great</p></div><div><p>During Loop<br>
+We could have a counter that counts how many repeated consecutive letters there are.<br>
+If it reaches more than three,<br>
+Then we're gonna teach the computer on what to do<br>
+So for instance, <code>IIII</code> will translate to <code>I</code> and <code>V</code><br>
+because <code>I</code>'s nearest value that's greater than it is <code>V</code></p></div><div><p>So we're gonna teach python to </p></div><div><ul>
+<li data-line="0">Detect when the repeated consecutive letters are more than three</li>
+<li data-line="1">Know what the repeated consecutive letters are</li>
+<li data-line="2">Know what the nearest value that's greater than the consecutive ting are<br>
+<code>XXX</code> -&gt; nearest is <code>L</code><br>
+<code>XL</code> </li>
+</ul></div><div><p>We could let the computer know the repeated value<br>
+We could transform the keys into list<br>
+Then we are gonna scan that list<br>
+If the </p></div><div><p>10: 'X',<br>
+50: 'L',</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">first_roman <span class="token operator">=</span> <span class="token string">''</span>
+second_roman <span class="token operator">=</span> <span class="token string">''</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>chopped_number <span class="token keyword">in</span> symbol<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token boolean">True</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    lowest_num <span class="token operator">=</span> <span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+    chopped_number <span class="token operator">=</span> chopped_number <span class="token operator">-</span> lowest_num
+    second_roman <span class="token operator">+=</span> symbol<span class="token punctuation">[</span>lowest_num<span class="token punctuation">]</span>
+first_roman <span class="token operator">+=</span> symbol<span class="token punctuation">[</span>chopped_number<span class="token punctuation">]</span>
+final_roman <span class="token operator">+=</span> first_roman <span class="token operator">+</span> second_roman
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>I think I have confidence that my code doesn't repeat what doesn't need to be repeated like<br>
+V, L, D<br>
+5, 50 , 500</p></div><div><p>Okay stuffs that I'm not sure about<br>
+Numbers greater than 1000</p></div><div><p>The code works, but my logic is so wrong<br>
+Final Wrong Solution Code</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">count_digits</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Counting starts with 1, meaning 1000 means 4 digits</span>
+    count <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>num <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        num <span class="token operator">=</span> num <span class="token operator">//</span> <span class="token number">10</span>
+        count <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> count
+
+
+symbol <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token number">1</span><span class="token punctuation">:</span> <span class="token string">'I'</span><span class="token punctuation">,</span>
+    <span class="token number">5</span><span class="token punctuation">:</span> <span class="token string">'V'</span><span class="token punctuation">,</span>
+    <span class="token number">10</span><span class="token punctuation">:</span> <span class="token string">'X'</span><span class="token punctuation">,</span>
+    <span class="token number">50</span><span class="token punctuation">:</span> <span class="token string">'L'</span><span class="token punctuation">,</span>
+    <span class="token number">100</span><span class="token punctuation">:</span> <span class="token string">'C'</span><span class="token punctuation">,</span>
+    <span class="token number">500</span><span class="token punctuation">:</span> <span class="token string">'D'</span><span class="token punctuation">,</span>
+    <span class="token number">1000</span><span class="token punctuation">:</span> <span class="token string">'M'</span>
+<span class="token punctuation">}</span>
+
+given_num <span class="token operator">=</span> <span class="token number">49</span>
+count <span class="token operator">=</span> count_digits<span class="token punctuation">(</span>given_num<span class="token punctuation">)</span>
+
+final_roman <span class="token operator">=</span> <span class="token string">''</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>count <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># Get the individual digits and leave their number of digits</span>
+    multiplier <span class="token operator">=</span> <span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+    chopped_number <span class="token operator">=</span> <span class="token punctuation">(</span>given_num <span class="token operator">//</span> multiplier<span class="token punctuation">)</span> <span class="token operator">*</span> multiplier
+
+    <span class="token comment"># Reduce the original number to what the number of digits is</span>
+    given_num <span class="token operator">-=</span> chopped_number
+
+    <span class="token comment"># I think this is where we convert the thing into roman numeral</span>
+    first_roman <span class="token operator">=</span> <span class="token string">''</span>
+    second_roman <span class="token operator">=</span> <span class="token string">''</span>
+    length_numeral <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>chopped_number <span class="token keyword">in</span> symbol<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token boolean">True</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        lowest_num <span class="token operator">=</span> <span class="token number">10</span> <span class="token operator">**</span> <span class="token punctuation">(</span>count<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+        chopped_number <span class="token operator">-=</span> lowest_num
+        second_roman <span class="token operator">+=</span> symbol<span class="token punctuation">[</span>lowest_num<span class="token punctuation">]</span>
+        length_numeral <span class="token operator">+=</span> <span class="token number">1</span>
+    first_roman <span class="token operator">+=</span> symbol<span class="token punctuation">[</span>chopped_number<span class="token punctuation">]</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>length_numeral <span class="token operator">&gt;=</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># This is where we translate more than 3 characters</span>
+        keys_list <span class="token operator">=</span> symbol<span class="token punctuation">.</span>keys<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> num <span class="token keyword">in</span> keys_list<span class="token punctuation">:</span>
+            <span class="token keyword">if</span> num <span class="token operator">&gt;</span> lowest_num<span class="token punctuation">:</span>
+                second_roman <span class="token operator">=</span> symbol<span class="token punctuation">[</span>num<span class="token punctuation">]</span>
+                <span class="token keyword">break</span>
+    final_roman <span class="token operator">+=</span> first_roman <span class="token operator">+</span> second_roman
+
+    <span class="token comment"># Since we are going to the next digit, we reduce the count of digits</span>
+    count <span class="token operator">-=</span> <span class="token number">1</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>final_roman<span class="token punctuation">)</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>This is the solution I saw</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">solution</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    roman_numerals <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1000</span><span class="token punctuation">:</span><span class="token string">'M'</span><span class="token punctuation">,</span>
+                      <span class="token number">900</span><span class="token punctuation">:</span> <span class="token string">'CM'</span><span class="token punctuation">,</span>
+                      <span class="token number">500</span><span class="token punctuation">:</span> <span class="token string">'D'</span><span class="token punctuation">,</span>
+                      <span class="token number">400</span><span class="token punctuation">:</span> <span class="token string">'CD'</span><span class="token punctuation">,</span>
+                      <span class="token number">100</span><span class="token punctuation">:</span> <span class="token string">'C'</span><span class="token punctuation">,</span>
+                      <span class="token number">90</span><span class="token punctuation">:</span> <span class="token string">'XC'</span><span class="token punctuation">,</span>
+                      <span class="token number">50</span><span class="token punctuation">:</span> <span class="token string">'L'</span><span class="token punctuation">,</span>
+                      <span class="token number">40</span><span class="token punctuation">:</span> <span class="token string">'XL'</span><span class="token punctuation">,</span>
+                      <span class="token number">10</span><span class="token punctuation">:</span> <span class="token string">'X'</span><span class="token punctuation">,</span>
+                      <span class="token number">9</span><span class="token punctuation">:</span> <span class="token string">'IX'</span><span class="token punctuation">,</span>
+                      <span class="token number">5</span><span class="token punctuation">:</span> <span class="token string">'V'</span><span class="token punctuation">,</span>
+                      <span class="token number">4</span><span class="token punctuation">:</span> <span class="token string">'IV'</span><span class="token punctuation">,</span>
+                      <span class="token number">1</span><span class="token punctuation">:</span> <span class="token string">'I'</span>
+    <span class="token punctuation">}</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Listing each <code>IX</code> variation is actually much better ;-;<br>
+Why the fuck did I go straight up, let the program go through a logical process to know the <code>IX</code> llike those kind of stuffs ;-;<br>
+Teaching the program directly that <code>IX</code> is equal to <code>9</code> is actually much better. Fucking hell man<br>
+My mistake was I didn't look for easier solution.</p></div></div></div><div class="heading-wrapper"><h2 data-heading="Where my anagrams at?" class="heading" id="Where_my_anagrams_at?"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Where my anagrams at?</h2><div class="heading-children"><div><ol>
+<li data-line="0">Understand the Problem<br>
+What is an anagram?<br>
+IF -&gt; two words contain the same letters.<br>
+For example:</li>
+</ol></div><div><pre><code>'abba' &amp; 'baab' == true
+'abba' &amp; 'bbaa' == true
+
+'abba' &amp; 'abbba' == false
+'abba' &amp; 'abca' == false
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>How the function willl work<br>
+Given two inputs </p></div><div><ul>
+<li data-line="0">a word and </li>
+<li data-line="1">an array with words.<br>
+Return -&gt; an array of all the anagrams or an empty array if there are none. </li>
+</ul></div><div><p>Overall Goal: Write a function that will find all the anagrams of a word from a list. </p></div><div><p>Example:</p></div><div><pre class="language-javascript" tabindex="0"><code class="language-javascript is-loaded"><span class="token function">anagrams</span><span class="token punctuation">(</span><span class="token string">'abba'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'aabb'</span><span class="token punctuation">,</span> <span class="token string">'abcd'</span><span class="token punctuation">,</span> <span class="token string">'bbaa'</span><span class="token punctuation">,</span> <span class="token string">'dada'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
+<span class="token arrow operator">=&gt;</span> <span class="token punctuation">[</span><span class="token string">'aabb'</span><span class="token punctuation">,</span> <span class="token string">'bbaa'</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><pre class="language-javascript" tabindex="0"><code class="language-javascript is-loaded"><span class="token function">anagrams</span><span class="token punctuation">(</span><span class="token string">'laser'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'lazing'</span><span class="token punctuation">,</span> <span class="token string">'lazy'</span><span class="token punctuation">,</span>  <span class="token string">'lacer'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
+<span class="token arrow operator">=&gt;</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>My understanding:<br>
+So the arg1 is use to compare each element on the arg2, and we determine it if it has the same set of letters,<br>
+If it has the same set of letters, then we put it into a list and we repeat the process until we are at the end of the arg2 list.<br>
+Now we just return the whole list of words that we found.</p></div><div><p>My Algo:<br>
+Loop this until the end of the arg2 list<br>
+IF -&gt; arg1 has the same set of letters of the specific element on arg2<br>
+THEN -&gt; we put it into a separate list<br>
+When the loop ends, we just return the separate list</p></div><div><p>My Plan:<br>
+<code>baba</code> , <code>aabb</code></p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item"><input data-line="0" type="checkbox" class="task-list-item-checkbox">So, how do we teach python if it is an anagram to it?<br>
+Ans:<br>
+Well maybe we could count each specific letter of arg1<br>
+We're also gonna count the specifc element of each specific letter on arg2<br>
+We compare it, and if both have the same values, then its an anagram to it?</li>
+<li data-line="5" data-task="" class="task-list-item"><input data-line="5" type="checkbox" class="task-list-item-checkbox">Okay, that might work, but is there an efficient way of solving this problem?<br>
+Ans:<br>
+I can't think of anything. So we're going with plan A</li>
+</ul></div><div><p>Count each specific letter of arg1<br>
+We're also gonna count the specifc element of each specific letter on arg2<br>
+We compare it, and if both have the same values, then its an anagram to it?</p></div><div><p>The count is unique to each letter in the alphabet<br>
+So how are we gonna categorize the counts?<br>
+Also, we're gonna create two lists,<br>
+one is to track the arg1's counts of letters<br>
+the other one is the arg2's counts of letters</p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item"><input data-line="0" type="checkbox" class="task-list-item-checkbox">We can order them base on the position of the alphabet<br>
+Problem: It will leave us with lots of useless memory</li>
+<li data-line="2" data-task="" class="task-list-item"><input data-line="2" type="checkbox" class="task-list-item-checkbox">We could use a dictionary<br>
+Question: But then, for instance if a specific letter doesn't exist on the arg1's "key" cause we're gonna use the "key" to assign the letter. Okay, so will it give us an error if we do that? We could use a try:except block to do something with the error. </li>
+</ul></div><div><p>Okay, I got an idea<br>
+What if, we're just going to add this values as an ASCII.<br>
+I'm pretty sure it will all be just the same<br>
+Okay let's try lol<br>
+<code>baba</code>, <code>aabb</code></p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item"><input data-line="0" type="checkbox" class="task-list-item-checkbox">How do we transform a letter into an ascii in python<br>
+<a data-tooltip-position="top" aria-label="https://stackoverflow.com/questions/227459/how-to-get-the-ascii-value-of-a-character" rel="noopener" class="external-link" href="https://stackoverflow.com/questions/227459/how-to-get-the-ascii-value-of-a-character" target="_blank">How to get the ASCII value of a character</a></li>
+</ul></div><div><p>My Algo:<br>
+Scan each letter<br>
+Transform the letter into an ascii value<br>
+Make it so that its possible to add existing values</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">word <span class="token operator">=</span> <span class="token string">"baba"</span>
+ascii_sum <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">for</span> letter <span class="token keyword">in</span> word<span class="token punctuation">:</span>
+    val <span class="token operator">=</span> <span class="token builtin">ord</span><span class="token punctuation">(</span>letter<span class="token punctuation">)</span>
+    ascii_sum <span class="token operator">+=</span> val
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay so it works! :D </p></div><div><p>Loop this until the end of the arg2 list<br>
+IF -&gt; arg1 has the same set of letters of the specific element on arg2<br>
+THEN -&gt; we put it into a separate list<br>
+When the loop ends, we just return the separate list</p></div><div><p>My Algo:<br>
+We're also gonna initalize <code>anagram_words</code> list for the ting<br>
+First we're gonna determine the overall ascii sum of the arg1<br>
+Then we're gonna iterate over the arg2 list<br>
+Then we take the overall ascii sum of each element of arg2 list<br>
+Compare it to overall ascii sum of arg1<br>
+IF -&gt; the same<br>
+THEN -&gt; we append it to the <code>anagram_words</code> list<br>
+We return the <code>anagram_words</code> list </p></div><div><p>We're gonna make it so that it make sense with the current problem</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">ascii_sum</span><span class="token punctuation">(</span>word<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token builtin">list</span><span class="token punctuation">:</span>
+    ascii_sum <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">for</span> letter <span class="token keyword">in</span> word<span class="token punctuation">:</span>
+        val <span class="token operator">=</span> <span class="token builtin">ord</span><span class="token punctuation">(</span>letter<span class="token punctuation">)</span>  <span class="token comment"># Make it into an ascii ting</span>
+        ascii_sum <span class="token operator">+=</span> val
+
+<span class="token keyword">def</span> <span class="token function">anagrams</span><span class="token punctuation">(</span>word<span class="token punctuation">,</span> words<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    anagram_words <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    ascii_sum_one <span class="token operator">=</span> ascii_sum<span class="token punctuation">(</span>word<span class="token punctuation">)</span>
+    
+    <span class="token keyword">for</span> word <span class="token keyword">in</span> words<span class="token punctuation">:</span>
+        ascii_sum_two <span class="token operator">=</span> ascii_sum<span class="token punctuation">(</span>word<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>ascii_sum_one <span class="token operator">==</span> ascii_sum_two<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            anagram_words<span class="token punctuation">.</span>append<span class="token punctuation">(</span>word<span class="token punctuation">)</span>
+    
+    <span class="token keyword">return</span> anagram_words
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>That was easy</p></div></div></div><div class="heading-wrapper"><h2 data-heading="Is a number prime?" class="heading" id="Is_a_number_prime?"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Is a number prime?</h2><div class="heading-children"><div><ol>
+<li data-line="0">Understand the Problem<br>
+Takes in an intiger<br>
+returns <code>True</code> or <code>False</code></li>
+</ol></div><div><p>Prime number ( or a prime ) </p></div><div><ul>
+<li data-line="0">is a natural number greater than <code>1</code> </li>
+<li data-line="1">that has no positive divisors other than <code>1</code> and itself.<br>
+Basically, a number that can't be further reduced to a natural number when dividing it.<br>
+Like <code>7</code>, because the least number to get a natural number is <code>1</code> so <code>7/1</code><br>
+This is not a prime number, <code>8</code>, because we can still divide it further <code>8/2 = 4</code>  </li>
+</ul></div><div><p>Assumptions</p></div><div><ul>
+<li data-line="0">you will be given integer input.</li>
+<li data-line="1">You may be given negative numbers as well ( or <code>0</code> ).</li>
+<li data-line="2"><strong>NOTE on performance</strong>: There are no fancy optimizations required, but still <em>the</em> most trivial solutions might time out. Numbers go up to 2^31 ( or similar, depending on language ). Looping all the way up to <code>n</code>, or <code>n/2</code>, will be too slow.</li>
+</ul></div><div><p>First plan:<br>
+We divide the <code>num</code> with 2</p></div><div><p>Okay, this is not easy as it seems.<br>
+Numbers can go up to <code>2147483648</code>, so dividing it simply by 1 isn't sufficient, neither is going up to all prime numbers to 1,000.<br>
+But hmm, efficiency might not be the problem here</p></div><div><p>Okay, so let's try putting all values of prime numbers to 1000?<br>
+Then we use that to divide the <code>number</code> and see if its prime?<br>
+<a rel="noopener" class="external-link" href="https://www.factmonster.com/math-science/mathematics/prime-numbers-facts-examples-table-of-all-up-to-1000" target="_blank">https://www.factmonster.com/math-science/mathematics/prime-numbers-facts-examples-table-of-all-up-to-1000</a></p></div><div><p>Okay, so we can also do factors.<br>
+Like this<br>
+<code>36</code> can be written as 2 × 3 × 2 × 3.<br>
+So, the factors of 36 here are 1, 2, 3, 4, 6, 9, 12, 18, and 36.<br>
+Since the number of factors of 36 is more than 2, it is not a prime number but a <a data-tooltip-position="top" aria-label="https://byjus.com/maths/composite-numbers/" rel="noopener" class="external-link" href="https://byjus.com/maths/composite-numbers/" target="_blank">composite number</a>.</p></div><div><p>We could also set up rules,<br>
+We're gonna have to temporarily transform <code>int</code> to <code>str</code> so that we can use splices</p></div><div><ol>
+<li data-line="0"><strong>“</strong>Numbers ending with 0, 2, 4, 6 and 8 are never prime numbers.<strong>”</strong></li>
+<li data-line="1"><strong>“</strong>Numbers whose sum of digits are divisible by 3 are never prime numbers.<strong>”</strong><br>
+Transform the numbers into a list of digits<br>
+Turning it into a string is good (actually bad idea since I can't use sum with it because it's a char, not an int)<br>
+Then use sum on that list of digits<br>
+Then check if that sum is divisible by 3, hmm<br>
+Maybe go with <code>(sum % 3) != 0</code></li>
+<li data-line="7"><strong>If a large number is ending with 5, then it is always divisible by 5. Hence, it is not a prime number</strong></li>
+</ol></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    str_num <span class="token operator">=</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    len_num <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>str_num<span class="token punctuation">)</span>
+
+    not_prime_indicator <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>  <span class="token comment"># ends with</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len_num <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">in</span> not_prime_indicator<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes digit length is 1</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>num <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+         
+    <span class="token comment"># Turn each digit into list and sum all of digits</span>
+    sum_digits <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sum_digits <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Assumes integer is a prime</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Problem:<br>
+It can't handle negative numbers<br>
+<code>5</code> is a prime, my program detects the last number, however if there's only 1 digit, then it detects that as a last number. <code>5</code> is in not_prime_indicator. We could use len to check if it has more than 2 digits, if it's just a single digit, we just modulo it by 2</p></div><div><p>Second plan</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    str_num <span class="token operator">=</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    len_num <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>str_num<span class="token punctuation">)</span>
+
+    not_prime_indicator <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>  <span class="token comment"># ends with</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len_num <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">in</span> not_prime_indicator<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes digit length is 1</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>num <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+         
+    <span class="token comment"># Turn each digit into list and sum all of digits</span>
+    sum_digits <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sum_digits <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Assumes integer is a prime</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Problem of 2nd plan:<br>
+It doesn't detect 2 as prime number<br>
+It still doesn't detect if a number is negative</p></div><div><p>Third Plan</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    len_num <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    not_prime_indicator <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>  <span class="token comment"># ends with</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len_num <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">in</span> not_prime_indicator<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes digit length is 1</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>num <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+         
+    <span class="token comment"># Turn each digit into list and sum all of digits</span>
+    sum_digits <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sum_digits <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Assumes integer is a prime</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Maybe, let's try the factors.</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">print_factors</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span>
+   <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"The factors of"</span><span class="token punctuation">,</span>x<span class="token punctuation">,</span><span class="token string">"are:"</span><span class="token punctuation">)</span>
+   <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> x <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+       <span class="token keyword">if</span> x <span class="token operator">%</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+           <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+
+num <span class="token operator">=</span> <span class="token number">320</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>^ Problem of Third Plan:<br>
+So I'm assuming here that a prime has only two factors<br>
+Problem: The added thing with print_factors takes a very long time! This is because numbers can go up to millions and it scans every digit with <code>print_factors</code> function<br>
+Wait but I only made it so that only less than numbers will go through that </p></div><div><p>Fifth Plan:<br>
+Okay so I came back to third plan and revised it a lil bit.</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime_for_smallNumbers</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    temp <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> x <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> x <span class="token operator">%</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+            temp<span class="token punctuation">.</span>append<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token number">1</span> <span class="token keyword">in</span> temp<span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">True</span>
+    <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+
+<span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    str_num <span class="token operator">=</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    len_num <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>str_num<span class="token punctuation">)</span>
+
+    not_prime_indicator <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>  <span class="token comment"># ends with</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len_num <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">in</span> not_prime_indicator<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes digit length is 1</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>is_prime_for_smallNumbers<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+
+    <span class="token comment"># Turn each digit into list and sum all of digits</span>
+    sum_digits <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sum_digits <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Assumes integer is a prime</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span>
+
+
+is_prime<span class="token punctuation">(</span><span class="token number">234234</span><span class="token punctuation">)</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>The thing is, every number has a <code>1 * the number itself</code> factor</p></div><div><p>Sixth Plan<br>
+We're just going to remove the function and just tell the computer what single digits that's not a prime</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">not_prime_digit <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> num <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+    
+    str_num <span class="token operator">=</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    len_num <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>str_num<span class="token punctuation">)</span>
+
+    not_prime_indicator <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>  <span class="token comment"># ends with</span>
+    prime_digit <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">]</span>
+    not_prime_digit <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len_num <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        last_digit <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">in</span> not_prime_indicator<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes digit length is 1</span>
+        <span class="token keyword">if</span> num <span class="token keyword">in</span> prime_digit<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+        <span class="token keyword">elif</span> num <span class="token keyword">in</span> not_prime_digit<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Turn each digit into list and sum all of digits</span>
+    sum_digits <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sum_digits <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Assumes integer is a prime</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, so we have solve the first digits<br>
+Problems;<br>
+73 is prime: False should equal True<br>
+41 is prime: False should equal True<br>
+5099 is prime: False should equal True<br>
+And it doesn't recognize negative numbers</p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item"><input data-line="0" type="checkbox" class="task-list-item-checkbox">find more ways to recognize a prime</li>
+</ul></div><div><p>Seventh Plan<br>
+Okay, we're almost there! :D<br>
+We have solved, excluding negative numbers, the small numbers</p></div><div><p>Now big numbers are having inaccuracy.<br>
+such as this</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">Incorrect answer <span class="token keyword">for</span> n<span class="token operator">=</span><span class="token number">1760751331</span><span class="token punctuation">:</span> <span class="token boolean">True</span> should equal <span class="token boolean">False</span>
+Incorrect answer <span class="token keyword">for</span> n<span class="token operator">=</span><span class="token number">4670413</span><span class="token punctuation">:</span> <span class="token boolean">True</span> should equal <span class="token boolean">False</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>What's interesting is my code returns <code>True</code> for all big numbers. </p></div><div><p>Okay, so we're going to go get some scratch of our old plan</p></div><div><ul>
+<li data-line="0">take out the square root of the number.</li>
+<li data-line="1">List all the prime numbers below this square root value<br>
+How do we find the prime numbers below the square root value?<br>
+Will it be memory friendly? Since we're dealing with large numbers<br>
+I guess note, the square root number of the highest number I got is <code>41961</code>, that's a lot of prime numbers to compare and divide. <mark>NOT A GOOD IDEA PLAN</mark></li>
+<li data-line="5"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>divide the given number by all these listed prime numbers.
+<ul>
+<li data-line="6">Is the given number the original number and not the square root of the numbeR?</li>
+</ul>
+</li>
+<li data-line="7">If the number is divided by any of the prime numbers less than its square root value, then it is not a prime number; otherwise, it is prime.</li>
+</ul></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"></code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, this is where I view solutions. It seems like large numbers just doesn't work with my code.<br>
+Final Code:</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> num <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+    
+    str_num <span class="token operator">=</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    len_num <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>str_num<span class="token punctuation">)</span>
+
+    not_prime_indicator <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>  <span class="token comment"># ends with</span>
+    prime_digit <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">]</span>
+    not_prime_digit <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>len_num <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>str_num<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">in</span> not_prime_indicator<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes digit length is 1</span>
+        <span class="token keyword">if</span> num <span class="token keyword">in</span> prime_digit<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">True</span>
+        <span class="token keyword">elif</span> num <span class="token keyword">in</span> not_prime_digit<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Turn each digit into list and sum all of digits</span>
+    sum_digits <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token builtin">str</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sum_digits <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+
+    <span class="token comment"># Assumes integer is a prime</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>A code solution I view</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">from</span> math <span class="token keyword">import</span> sqrt
+
+<span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> num <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+    i <span class="token operator">=</span> <span class="token number">2</span>
+    <span class="token keyword">while</span> i <span class="token operator">&lt;=</span> sqrt<span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>    
+        <span class="token keyword">if</span> num<span class="token operator">%</span>i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token boolean">False</span>
+        i <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> <span class="token boolean">True</span> 
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Comments: This is much cleaner and shorter than my code wtf. Fuckin amazing<br>
+My analysis:</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">if</span> num <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> <span class="token boolean">False</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>^ Yeah definetly makes sense as 1, 0 and negative numbers are not prime.</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">i <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token keyword">while</span> i <span class="token operator">&lt;=</span> sqrt<span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    mod <span class="token operator">=</span> num <span class="token operator">%</span> i
+    <span class="token keyword">if</span> mod <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>  <span class="token comment"># Not Prime</span>
+    i <span class="token operator">+=</span> <span class="token number">1</span>
+<span class="token keyword">return</span> <span class="token boolean">True</span>  <span class="token comment"># Prime</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><ol>
+<li data-line="0">
+<p>He set the <code>i</code> with <code>2</code></p>
+</li>
+<li data-line="1">
+<p>The condition to end the loop is when <code>i</code> is greater than square rooted number  </p>
+</li>
+<li data-line="2">
+<p>Inside the loop, the original number is <code>moduled</code> by <code>i</code></p>
+</li>
+<li data-line="3">
+<p>If <code>mod</code> is equals to <code>0</code>, then return False</p>
+</li>
+<li data-line="4">
+<p>otherwise, increment <code>i</code> by 1</p>
+</li>
+<li data-line="6">
+<p>Why is the <code>i</code> set to <code>2</code>?<br>
+Ans: Probably because the first prime number is <code>2</code></p>
+</li>
+<li data-line="8">
+<p>No comment yet</p>
+</li>
+<li data-line="9">
+<p>Why do we <code>mod</code> the original num by <code>i</code>?<br>
+Ans: </p>
+</li>
+<li data-line="11">
+<p>Why is it that when <code>mod</code> is equal to <code>0</code>, it's not a prime?</p>
+</li>
+<li data-line="12">
+<p>Also why the hell do we increment <code>i</code> by 1?</p>
+</li>
+</ol></div><div><p>Maybe the purpose of the loop is to get the listed prime numbers, then check if any of those prime numbers is divisible by the given number. But then </p></div><div><p>Maybe it uses this </p></div><div><ul>
+<li data-line="0">take out the square root of the number.</li>
+<li data-line="1">List all the prime numbers below this square root value </li>
+<li data-line="2">divide the given number by all these listed prime numbers.</li>
+<li data-line="3">If the number is divided by any of the prime numbers less than its square root value, then it is not a prime number; otherwise, it is prime.</li>
+</ul></div><div><p>My understanding of the solution:<br>
+So it checks every number, then if its divisible by that number, then it's not a prime. If all numbers under the square rooted number isn't divisible by the original number, then it's a prime. So basically he skipped the finding of prime numbers less than the square root value and instead use all the numbers under the square rooted value. </p></div><div><p>Fourth Plan<br>
+Okay, let's go back to the basics. How do we know if a number is a prime?<br>
+There's numbers that ends with... and that is not a prime number</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>How do we know if a number is a prime</p></div><div><ul>
+<li data-line="0">Well, we got the factors. And the factors of a number compromises of two numbers<br>
+Not efficient so this is not a good method<br>
+Okay I read this online<br>
+"Have students take a calculator and key in the number to determine whether it is prime.<br>
+The number should divide into a whole number.<br>
+For example, take the number 57.<br>
+Have students divide the number by 2.<br>
+They will see that the quotient is 27.5, which is not an even number.<br>
+Now have them divide 57 by 3.<br>
+They will see that this quotient is a whole number: 19.<br>
+So, 19 and 3 are factors of 57, which is, then, not a prime number."</li>
+</ul></div><div><p>Let's try translating this into a code</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">is_prime</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    quotient <span class="token operator">=</span> num <span class="token operator">/</span> <span class="token number">2</span>
+
+    quotient <span class="token operator">=</span> num <span class="token operator">/</span> <span class="token number">3</span>
+
+    <span class="token comment"># If there's a single 1 number of factor, then that's prime</span>
+    <span class="token keyword">if</span> <span class="token number">1</span> <span class="token keyword">in</span> <span class="token punctuation">[</span>factor1<span class="token punctuation">,</span> factor2<span class="token punctuation">]</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">True</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, it didn't work. </p></div><div><ol start="4">
+<li data-line="0">find the square root of the given number.<br>
+Divide the given number by all the prime numbers below its square root value.<br>
+If the number is divisible by <strong>any of the prime numbers less than its square root</strong>, it is not a prime number; otherwise, it is prime.</li>
+</ol></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item"><input data-line="0" type="checkbox" class="task-list-item-checkbox">I want to test my understanding of 4</li>
+<li data-line="1" data-task="" class="task-list-item"><input data-line="1" type="checkbox" class="task-list-item-checkbox">Also how do we do square root in python?</li>
+<li data-line="2" data-task="" class="task-list-item"><input data-line="2" type="checkbox" class="task-list-item-checkbox">We'd also have to teach the code to identify the prime numbers less than its square root</li>
+<li data-line="3" data-task="" class="task-list-item"><input data-line="3" type="checkbox" class="task-list-item-checkbox">Hmmm, I think i'll skip this one, as its gonna complicate things.</li>
+</ul></div></div></div><div class="heading-wrapper"><h2 data-heading="Equal Sides Of An Array" class="heading" id="Equal_Sides_Of_An_Array"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Equal Sides Of An Array</h2><div class="heading-children"><div><ol>
+<li data-line="0">Understand the Problem<br>
+You are going to be given an array of integers.<br>
+The length of the array will be <code>0 &lt; arr &lt; 1000</code><br>
+Use that array and</li>
+</ol></div><div><ul>
+<li data-line="0">find an index N<br>
+- where the sum of the integers to the left of N<br>
+- is equal to the sum of the integers to the right of N.<br>
+- IF -&gt; no index that would make this happen<br>
+- THEN -&gt; <code>return -1</code><br>
+All in all, we want to return the index of where the scenario above can happen<br>
+Example: Index is at the <code>middle</code><br>
+array <code>{1,2,3,4,3,2,1}</code>:<br>
+function will return the index <code>3</code>,<br>
+because at the <code>3rd</code> position of the array,<br>
+sum of left side of the index (<code>{1,2,3}</code>)<br>
+and sum of the right side of the index (<code>{3,2,1}</code>)<br>
+both equal <code>6</code>.</li>
+</ul></div><div><p>More Example: Index is at <code>1</code><br>
+array <code>{1,100,50,-51,1,1}</code>:<br>
+function will return the index <code>1</code>,<br>
+because at the <code>1st</code> position of the array,<br>
+sum of left side of the index (<code>{1}</code>)<br>
+and the sum of the right side of the index (<code>{50,-51,1,1}</code>)<br>
+both equal <code>1</code>.</p></div><div><p>More Example: Index is at <code>0</code><br>
+You are given the array <code>{20,10,-80,10,10,15,35}</code><br>
+At index 0 the left side is <code>{}</code><br>
+The right side is <code>{10,-80,10,10,15,35}</code><br>
+They both are equal to <code>0</code> when added. (Empty arrays are equal to 0 in this problem)<br>
+Index 0 is the place where the left side and right side are equal.</p></div><div><p>My question:<br>
+is it possible to have multiple answers?<br>
+Ans: I think not, we'd scan the thing from left to right and if we found the correct index, then we just straight up exit the program. </p></div><div><p>Yeah confirmed<br>
+If you are given an array with multiple answers, return the lowest correct index.<br>
+Just stop the program to the correct index</p></div><div><ol start="2">
+<li data-line="0">My Plan:</li>
+</ol></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">for</span> i <span class="token keyword">in</span> array<span class="token punctuation">:</span>
+    
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Let's test the slicing feature of python first<br>
+Specifically, I want to find out what numbers will be included on a specific splice</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token builtin">list</span><span class="token punctuation">[</span>include<span class="token punctuation">:</span>exclude<span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Translate to, include this index value here till before the excluded index<br>
+When we want to include the last value also</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token builtin">list</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Start at <code>3 index</code> till the end<br>
+We just leave it empty to include the last index which is number <code>5</code></p></div><div><p>Rare Cases:<br>
+Sometimes, the index is at <code>0</code><br>
+because, when we sum one side, it's equal to <code>0</code> and the left side of <code>0</code> is <code>[]</code> meaning empty, therefore <code>zero</code></p></div><div><p>Global Variables:<br>
+This is to consider the empty variable may exist when index at first and last<br>
+<code>left_side = []</code><br>
+<code>right_side = []</code><br>
+<code>len_arr = len(arr)</code>  So that we wont have to len() again, making program faster </p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">find_even_index</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    left_side <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    right_side <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    len_arr <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
+
+    i <span class="token operator">=</span> <span class="token number">0</span>  <span class="token comment"># Also acts as an index</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> len_arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        left_side <span class="token operator">=</span> arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span>i<span class="token punctuation">]</span>
+        right_side <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span>  <span class="token comment"># +1 to skip the current_index</span>
+        left_sum <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span>left_side<span class="token punctuation">)</span>
+        right_sum <span class="token operator">=</span> <span class="token builtin">sum</span><span class="token punctuation">(</span>right_side<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>left_sum <span class="token operator">==</span> right_sum<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> i
+        i <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Better Solution in Kata</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">def</span> <span class="token function">find_even_index</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token builtin">sum</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token punctuation">:</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token builtin">sum</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> i
+    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Okay, so we're gonna use the splice feature<br>
+to help us make a list for each side<br>
+How do we detect the end point of list, and starting point of list for each side<br>
+<code>left_side[0:current_index]</code><br>
+<code>right_side[current_index+1:-1]</code> +1 to skip the current_index </p></div><div><p>We're gonna use sum() function to<br>
+to add all the list of each sides<br>
+Then we compare the sum,<br>
+IF -&gt; sum is the same<br>
+THEN -&gt; return <code>index</code></p></div><div><p>We're gonna use while loop so that we can have an <code>i</code> increment variable,<br>
+allows us to scan the current index of an array<br>
+allows us to return the <code>index</code> as well<br>
+the while loop ends with length of given_list</p></div><div><p>How are we gonna handle indices out of array?<br>
+I don't think there will be indices out of array</p></div><div><p>When no match is found, we just <code>return -1</code> at the end</p></div></div></div><div class="heading-wrapper"><h2 data-heading="Find the Parity Outlier" class="heading" id="Find_the_Parity_Outlier"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Find the Parity Outlier</h2><div class="heading-children"><div><p>Function gets <code>arg1</code> that's an array with size 3 or more, it contains integers<br>
+The array either  </p></div><div><ul>
+<li data-line="0">entirely comprised of odd integers  </li>
+<li data-line="1">entirely comprised of even integers </li>
+<li data-line="2">EXCEPT for a single integer <code>N</code>.<br>
+returns the "outlier" <code>N</code>.</li>
+</ul></div><div><p>My understanding:<br>
+outlier = The goal is to find this outcast of integer that doesn't belong to the comprised odd/even<br>
+It's like "What number that doesn't belong here?" </p></div><div><p>Assumptions:<br>
+There's only <code>one</code> outcast</p></div><div><p>My plan:</p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="x" class="task-list-item is-checked"><input data-line="0" checked="" type="checkbox" class="task-list-item-checkbox">How to detect if a number is odd or even<br>
+Ans: <code>n % 2</code> where in <code>n</code> is each numbers of the <code>array</code></li>
+</ul></div><div><p>Scan each every number in the array<br>
+We determine each number if its an odd or even<br>
+<code>1, 2</code> Still not determined<br>
+<code>2, 2</code> Even<br>
+<code>1, 1</code> Odd</p></div><div><p>Maybe have a variable that counts how many even or odd there are<br>
+IF -&gt; even are greater than 1<br>
+THEN -&gt;  scan each number<br>
+IF -&gt; number is an odd number<br>
+THEN -&gt; we return that odd number<br>
+ELIF -&gt; odd are greater than 1<br>
+THEN -&gt; scan each number<br>
+IF -&gt; number is an even number<br>
+THEN -&gt; we return that even number</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">count_odd <span class="token operator">=</span> <span class="token number">0</span>
+count_even <span class="token operator">=</span> <span class="token number">0</span>
+array <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token comment"># First determine which one is has more numbers, odd or even</span>
+
+i <span class="token operator">=</span> <span class="token number">0</span>
+array_len <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> array_len<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    odd_even <span class="token operator">=</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">%</span> <span class="token number">2</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>odd_even <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment"># if number is even</span>
+        count_even <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>odd_even <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        count_odd <span class="token operator">+=</span> <span class="token number">1</span>
+
+    i <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>count_even <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> array_len<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            odd_even <span class="token operator">=</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">%</span> <span class="token number">2</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>odd_even <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment"># number even</span>
+                <span class="token keyword">return</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span>count_odd <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> array_len<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            odd_even <span class="token operator">=</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">%</span> <span class="token number">2</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>odd_even <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment"># number odd</span>
+                <span class="token keyword">return</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Problem with my plan:<br>
+If the outlier value is at first, then it doesn't detect it because my algo detects only the not scanned values.</p></div><div><p>2nd Plan:</p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item"><input data-line="0" type="checkbox" class="task-list-item-checkbox">Determine what plans we will retain on 1st plan<br>
+<a rel="noopener" class="external-link" href="https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/python" target="_blank">https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/python</a><br>
+A variable that counts how many odds and even there are<br>
+We could store each number to different list which represents the number of odds/even</li>
+</ul></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">list_even <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span>
+list_odd <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Then, which ever list has a length of 1, that will be returned</p></div><div><p>Scan all the digits<br>
+Make a decision to whether to store it in even list or odd list<br>
+After scanning all digits<br>
+Compare the length of each two lists<br>
+The smallest number will return the number of that list</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">list_even <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+list_odd <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> numbers<span class="token punctuation">:</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment"># Even</span>
+        list_even<span class="token punctuation">.</span>append<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>  <span class="token comment"># Odd</span>
+        list_odd<span class="token punctuation">.</span>append<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>list_even<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token builtin">len</span><span class="token punctuation">(</span>list_odd<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> list_odd<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>  <span class="token comment"># There's an odd outlier</span>
+<span class="token keyword">else</span><span class="token punctuation">:</span>  <span class="token comment"># Assumes there's an even outlier</span>
+    <span class="token keyword">return</span> list_even<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>We managed to easily solve that in 2nd try. That works! :D</p></div></div></div><div class="heading-wrapper"><h2 data-heading="Array Diff" class="heading" id="Array_Diff"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Array Diff</h2><div class="heading-children"><div><p>implement a difference function,<br>
+which subtracts one list from another and returns the result.</p></div><div><p>It should remove all values from list <code>a</code>,<br>
+which are present in list <code>b</code> keeping their order.</p></div><div><p>IF -&gt; value is present in <code>b</code>,<br>
+THEN -&gt; all of its occurrences must be removed from the other:</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">array_diff<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>My understanding:<br>
+So, arg2 decides which numbers to remove in the arg1</p></div><div><p>My questions:<br>
+Do we expect that arg2 will only be a single number?<br>
+Ans: Nope, arg2 can have many numbers as it want</p></div><div><p>Does deleting the <code>i</code> in for loop remove its value in the original list?<br>
+Ans: Nope, </p></div><div><p>Do we return anything?<br>
+Ans: Nope<br>
+Actually, we return the list a or the arg1</p></div><div><p>My Plan:<br>
+Scan each vlaues of arg1</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">arg2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> arg1<span class="token punctuation">:</span>
+    <span class="token keyword">if</span> i <span class="token keyword">in</span> arg2<span class="token punctuation">:</span>
+        delete the <span class="token punctuation">(</span>i<span class="token punctuation">)</span>number <span class="token keyword">in</span> arg1 
+</code><button class="copy-code-button">Copy</button></pre></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">len_arg2 <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arg2<span class="token punctuation">)</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> len_arg2<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>arg1<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token keyword">in</span> arg2<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">del</span> arg1<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    i <span class="token operator">+=</span> <span class="token number">1</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Since deletion of values affects the length of the index<br>
+Let's make a copy of the list to be deleted<br>
+Then the final result of that copy</p></div><div><p>Okay, so the problem is the navigation of </p></div></div></div><div class="heading-wrapper"><h2 data-heading="Multiples of 3 or 5" class="heading" id="Multiples_of_3_or_5"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Multiples of 3 or 5</h2><div class="heading-children"><div><p>list all the natural numbers below 10 that are multiples of 3 or 5,<br>
+we get 3, 5, 6 and 9.<br>
+The sum of these multiples is 23.</p></div><div><p>Returns the sum of all the multiples of 3 or 5</p></div><div><p>Constraint:<br>
+If the number is a multiple of <strong>both</strong> 3 and 5, only count it <em>once</em>.</p></div><div><p>My Understanding:<br>
+It takes an input of any number<br>
+That input will be a limit to how much numbers the multiples will be<br>
+The multiples must not exceed the user input<br>
+We add this multiples</p></div><div><p><strong>It returns the sum of all multiples of 3 or 5<br>
+where in the multiples are lower than or equal to the  the user_input</strong></p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="x" class="task-list-item is-checked"><input data-line="0" checked="" type="checkbox" class="task-list-item-checkbox"><mark>If the number is a multiple of <strong>both</strong> 3 and 5, only count it <em>once</em></mark>.</li>
+</ul></div><div><p>My Plan:<br>
+We put the user input into a variable<br>
+? We don't know how to reduce the user_input to 0 or something</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token builtin">sum</span> <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>user_input <span class="token operator">&gt;</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># if number is a multiple of 3</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>user_input <span class="token operator">%</span> <span class="token number">3</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">or</span> user_input <span class="token operator">%</span> <span class="token number">7</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment">#add the number to the sum</span>
+        <span class="token builtin">sum</span> <span class="token operator">=</span> user_input <span class="token operator">+</span> <span class="token builtin">sum</span> 
+    user_input <span class="token operator">-=</span> <span class="token number">1</span>    
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>? We don't know how to reduce the user_input to 0 or something</p></div><div><ul class="contains-task-list">
+<li data-line="0" data-task="x" class="task-list-item is-checked"><input data-line="0" checked="" type="checkbox" class="task-list-item-checkbox">Let's first understand how to get the multiples of 3 and 5 by code</li>
+</ul></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded">i <span class="token operator">=</span> <span class="token number">9</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">3</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">or</span> i <span class="token operator">%</span> <span class="token number">7</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Multiples of 3 or 7"</span><span class="token punctuation">)</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>We also must find a way that if multiples exists on 3 and 5, we'll only count it once</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">if</span> number <span class="token keyword">is</span> a multiple of <span class="token number">3</span><span class="token punctuation">:</span>
+    add the number to the <span class="token builtin">sum</span>
+<span class="token keyword">elif</span> number <span class="token keyword">is</span> a multiple of <span class="token number">5</span><span class="token punctuation">:</span>
+    add the number to the <span class="token builtin">sum</span>
+<span class="token keyword">else</span><span class="token punctuation">:</span>
+    <span class="token keyword">pass</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>We are going to add all the multiples</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token builtin">sum</span> <span class="token operator">=</span> <span class="token number">0</span>
+multiple_num <span class="token operator">=</span> <span class="token keyword">is</span> the multiple number of <span class="token number">3</span> <span class="token keyword">or</span> <span class="token number">5</span>
+<span class="token builtin">sum</span> <span class="token operator">+=</span> multiple_num <span class="token operator">+</span> <span class="token builtin">sum</span>
+</code><button class="copy-code-button">Copy</button></pre></div><div><p>Lastly, we are going to return the sum</p></div></div></div><div class="heading-wrapper"><h2 data-heading="References" class="heading" id="References"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>References</h2><div class="heading-children"><div><ol>
+<li data-line="0"></li>
+</ol></div><div class="mod-footer"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item mod-collapsible is-collapsed" data-depth="1"><a class="tree-link" href="2.-notes\kata-codewars.html#Kata"><div class="tree-item-contents heading-link" heading-name="Kata"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Kata</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Directions_Reduction"><div class="tree-item-contents heading-link" heading-name="Directions Reduction"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Directions Reduction</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="2.-notes\kata-codewars.html#Examples"><div class="tree-item-contents heading-link" heading-name="Examples"><span class="tree-item-title">Examples</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="2.-notes\kata-codewars.html#Question:"><div class="tree-item-contents heading-link" heading-name="Question:"><span class="tree-item-title">Question:</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="2.-notes\kata-codewars.html#My_understanding"><div class="tree-item-contents heading-link" heading-name="My understanding"><span class="tree-item-title">My understanding</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Roman_Numerals_Encoder"><div class="tree-item-contents heading-link" heading-name="Roman Numerals Encoder"><span class="tree-item-title">Roman Numerals Encoder</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Where_my_anagrams_at?"><div class="tree-item-contents heading-link" heading-name="Where my anagrams at?"><span class="tree-item-title">Where my anagrams at?</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Is_a_number_prime?"><div class="tree-item-contents heading-link" heading-name="Is a number prime?"><span class="tree-item-title">Is a number prime?</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Equal_Sides_Of_An_Array"><div class="tree-item-contents heading-link" heading-name="Equal Sides Of An Array"><span class="tree-item-title">Equal Sides Of An Array</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Find_the_Parity_Outlier"><div class="tree-item-contents heading-link" heading-name="Find the Parity Outlier"><span class="tree-item-title">Find the Parity Outlier</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Array_Diff"><div class="tree-item-contents heading-link" heading-name="Array Diff"><span class="tree-item-title">Array Diff</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#Multiples_of_3_or_5"><div class="tree-item-contents heading-link" heading-name="Multiples of 3 or 5"><span class="tree-item-title">Multiples of 3 or 5</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="2.-notes\kata-codewars.html#References"><div class="tree-item-contents heading-link" heading-name="References"><span class="tree-item-title">References</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
