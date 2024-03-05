@@ -1,36 +1,27 @@
-# Quick Guide
-![[gigasecure.jpg|100]]
-**Welcome!** 
-This obsidian vault is made by **==gigaSec==**
-Delighted to share with y'all the things learned  
+# !! -- UPDATE -- !!
 
-From here on, you can either do the following:
-1. Understand how I use my vault -> [[Guide on how to use my vault]]
-2. Skip reading and immediately go to the vault  -> [[MOC Technology]]
+Whoa, this is what my past self was doing. Was a good move mine ha!. 
+Specifically the pandemic era 2021-2022 somethin. 
 
+Well, 2024 update. I haven't updated this repository as: 
+--> **==I have combined my `personal notes` together with my `tech notes`==**
+> I don't want you creepin out on my deep layered complex insecured thoughts about what I've done and should've done. But... that's on me. So NO MORE UPDATES TO BE RELEASED HERE. Only bug fixes, some personal writings etc.. etc..
 
-You **can still go back in this guide** by doing the following:
-1. Press `ctrl + shift + f`
-2. Type `file: introductio`
+## ?! WHAT CHANGED !?
 
+I've primarily used **PARA now to categorize my notes**. 
+Then **a lil bit of zettelkasten** 
+- I rarely use fleeting, literature, permanent notes (as I always edit my notes, so no permanent notes)
+- I still use the idea of ATOMIC notes (sometimes)
 
-**Quick Guide Below :**
-`Ctrl + MWheel Up` to zoom out
-`Ctrl + MWheel down` to zoom in 
+I then use **"`Google Keep`" to store my quick ideas,** 
+then refine them weeks or months later when I choose to have time for that.
 
-`Ctrl + Shift + L` for light mode
-`Ctrl + Shift + D` for dark mode
+!! MAJOR CHANGE !!
+- I rarely copy paste and store codes now. ChatGPT made it easy to generate and look for one
+- Documentations are now easy to find exactly what you're looking for thanks to microsoft copilot, perplexity, etc.. etc...
+- Basically a quick `google` or `bing search` gives you the code that you want WITHOUT HAVING TO GO TO THE PROCESS OF note summarizing, note taking, note refining, etc.. etc...
 
----
-**==I also create music==**
-https://soundcloud.com/gigasec-music
-
-
-
-
-
-
-
-
-
-**==^-- Scroll Up==** (For some reason, Obsidian defaults my view of vault here)
+==Please do understand that the notes target audience is== **==ME==**, 
+therefore some things might not make sense TO YOU GOOD READER 
+and that's okay... some things in life are quite a mystery and full of coagulated complexity of thoughts. Ha! I like those words 
