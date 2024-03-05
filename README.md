@@ -4,7 +4,7 @@ HELLO, YES! FINALLY A FCKN WEBSITE -> [My Life During the Pandemic Era](https://
 
 There it is. You can see it live now without INSTALLING any APPS 
 
-## ?! WTF WHG ARE THERE Bugs ?! 
+## ?! WTF WHY ARE THERE Bugs ?! 
 
 Yes please, i'm sorry. Okay, tech support 101
 
