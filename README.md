@@ -1,7 +1,7 @@
 # Summary
 To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
-**Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`2. Notes/MOC Technology.md`**
+**Notes aren't CATEGORIZED into folders** by complete intention and design. **Categorization of each topics** is possible by the file **`3. Introduction/MOC Technology.md`**
 
 Note-Taking Method Used: [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [Progressive Summarization](https://fortelabs.co/blog/series/ps/), [MOC](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6), [How I Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502).
 
