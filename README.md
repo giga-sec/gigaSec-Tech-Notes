@@ -1,29 +1,3 @@
-# !!!! 2024 : WEBSITE RELEASED !!!! 
-
-HELLO, YES! FINALLY A FCKN WEBSITE -> [My Life During the Pandemic Era](https://giga-sec.github.io/gigaSec-Tech-Notes/The%20Website/3.-introduction/introductio.html)
-
-There it is. You can see it live now without INSTALLING any APPS 
-
-## ?! WTF WHY ARE THERE Bugs ?! 
-
-Yes please, i'm sorry. Okay, tech support 101
-
-Bug: Specifically, the table of contents. Clicking the hyperlinks will often give you "PAGE NOT FOUND"
-
-Solution: Reload the webpage or go back to the homepage
-
-
-
-# 2022: Quick Note
-
-This repository will only be updated infrequently. Reasons are provided below:
-- To prevent any commit conflict issues  
-- To avoid the notification spam of those who enabled "watch" on this repo
-- I have moved to marketing sector (Still deciding whether I should make my marketing notes public)
-Update: I'm now interested in both, marketing, tech and... life in general :)
-
----
-Update: Context here is from 2022, I don't bother updating these things below anymore...
 # Summary
 To fully take advantage of my notes. **Use a markdown editor that supports hyperlink** like [obsidian](https://obsidian.md)
 
