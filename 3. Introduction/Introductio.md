@@ -5,7 +5,6 @@ Specifically the pandemic era 2021-2022 somethin.
 
 Well, 2024 update. I haven't updated this repository as: 
 --> **==I have combined my `personal notes` together with my `tech notes`==**
-> I don't want you creepin out on my deep layered complex insecured thoughts about what I've done and should've done. But... that's on me. So NO MORE UPDATES TO BE RELEASED HERE. Only bug fixes, some personal writings etc.. etc..
 
 ## ?! WHAT CHANGED !?
 
