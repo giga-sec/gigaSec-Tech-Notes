@@ -1,9 +1,6 @@
 # !! -- UPDATE -- !!
 
-Whoa, this is what my past self was doing. Was a good move mine ha!. 
-Specifically the pandemic era 2021-2022 somethin. 
-
-Well, 2024 update. I haven't updated this repository as: 
+2024 update. I haven't updated this repository as: 
 --> **==I have combined my `personal notes` together with my `tech notes`==**
 
 ## ?! WHAT CHANGED !?
