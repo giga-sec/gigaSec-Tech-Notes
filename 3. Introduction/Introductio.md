@@ -2,6 +2,7 @@
 
 2024 update. I haven't updated this repository as: 
 --> **==I have combined my `personal notes` together with my `tech notes`==**
+--> This repo is already outdated but you might find value w/ it, that's why I still kept it public
 
 ## ?! WHAT CHANGED !?
 
